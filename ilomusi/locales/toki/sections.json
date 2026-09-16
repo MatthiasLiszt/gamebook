@@ -1,0 +1,639 @@
+{
+  "1": {
+    "text": "󱥫 󱥮󱤅󱤚 󱤰 󱤔 󱥩 󱤰 󱥭 󱥧 󱤰 󱤤 󱤰 Barrakeesh...\n'󱤄 󱥬 󱥞 Lone Wolf 󱤴 󱥂 Maouk...'\n󱤤 󱥬 󱥐 󱥧 󱥻 󱥧 Maouk 󱤎 󱤷...",
+    "choices": {
+      "choice_1_fight": "󱥈 󱤊 󱥱 󱥩 󱤼 󱥵",
+      "choice_1_surrender": "󱥌 󱥛 󱥩 Maouk 󱤊 󱤟",
+      "choice_1_run": "󱥩 󱤸 󱥩 󱤔"
+    }
+  },
+  "6": {
+    "text": "󱥪 󱥗 󱤗 larnuma. 󱥔 󱥎 󱥩 󱥘.",
+    "choices": {
+      "choice_6_rub": "󱥉 󱥪 larnuma 󱥩 󱥘 󱥞",
+      "choice_6_skip": "󱤂 󱥙 󱥪"
+    }
+  },
+  "8": {
+    "text": "󱥞 󱥙 󱥡 󱤤 Kai 󱥩 󱤮 󱤽 󱥁 󱥇 󱤯... 󱤅 󱥮 󱥛 󱤽.",
+    "choices": {
+      "choice_8_67": "󱤮 󱤼󱤄󱤅",
+      "choice_8_76": "󱤮 󱤄󱤼󱤅"
+    }
+  },
+  "14": {
+    "text": "󱥞 󱥩 󱥭 󱥜... 󱥞 󱤮 󱤎 󱥞.",
+    "choices": {
+      "choice_14_leave": "󱥶 󱥧 󱥭",
+      "choice_14_search": "󱤃 󱤰 󱤎 󱥔"
+    }
+  },
+  "16": {
+    "text": "󱥞 󱥩 󱤅 󱥭 󱤊 󱤈 󱤯...",
+    "choices": {
+      "choice_16_grille": "󱥶 󱥧 󱤅 󱥭 kepeken 󱤯",
+      "choice_16_fight": "󱤈 󱤬 󱤅 󱥭 󱤊 󱥱"
+    }
+  },
+  "17": {
+    "text": "󱥫 󱥣 󱥩 󱥎 󱤍 weka...",
+    "choices": {
+      "choice_17_west": "󱥩 󱥩 󱤰 󱤅󱤰",
+      "choice_17_north": "󱥩 󱥚 󱥩 󱤰 󱥝",
+      "choice_17_south": "󱥩 󱤅 󱥩 󱤰 󱥝"
+    }
+  },
+  "19": {
+    "text": "󱥞 󱥚 󱤥 Kai 󱥩 󱤥 󱥟 󱥩 󱤮 󱤑 󱤈...",
+    "choices": {
+      "choice_19_bribe": "󱥌 󱥩 󱤑 󱤈 󱥮 󱤎 󱤥",
+      "choice_19_leave": "󱥶 󱥧 󱤯 󱤊 󱤃 󱤯 󱥝"
+    }
+  },
+  "26": {
+    "text": "󱤮 󱤙 󱤯 󱤽, 󱥞 󱤮 󱤯 󱤍 󱤆...",
+    "choices": {
+      "choice_26_break": "󱥈 󱤯",
+      "choice_26_leave": "󱥶 󱥧 󱤯 󱤊 󱥩 󱥃"
+    }
+  },
+  "30": {
+    "text": "󱥞 󱥩 󱤼 󱤯 󱥚 󱤰 󱥟...",
+    "choices": {
+      "choice_30_ledge": "󱤥 󱤬 󱥘 󱥭",
+      "choice_30_attack": "󱥱 󱥩 󱤑 󱤈"
+    }
+  },
+  "33": {
+    "text": "󱥞 󱥻 󱤰 󱤊 󱤮 󱥜 󱤛...",
+    "choices": {
+      "choice_33_jump": "󱥩 󱤅 󱥩 󱤯",
+      "choice_33_fight": "󱥱 󱥩 Sharnazim"
+    }
+  },
+  "34": {
+    "text": "󱤂 󱤘 󱥎 󱤎... 󱤅 󱥳 󱥛 󱤽.",
+    "choices": {
+      "choice_34_break": "󱥈 󱤯",
+      "choice_34_leave": "󱥶 󱥧 󱤯 󱤊 󱥩 󱥃"
+    }
+  },
+  "39": {
+    "text": "󱤑 󱥬 󱤍. 󱥆 󱥡 󱤑 󱤈 󱤼 󱥖 󱤖...",
+    "choices": {
+      "choice_39_question": "󱥬 󱤊 󱥠 󱥩 󱥆",
+      "choice_39_kill": "󱥷 󱤷 󱥩 󱥆"
+    }
+  },
+  "41": {
+    "text": "󱥞 󱥓 󱥪 󱥗 󱤬 󱥰, 󱥨 󱤂 󱤘 󱥶 󱥆. 󱥪 󱤍 󱥎 󱤍. 󱥞 󱥰 󱥆 󱥶 󱤊 󱥰 󱥪 󱥔."
+  },
+  "42": {
+    "text": "Kai 󱥡 󱥌 󱥎: 󱤰 󱤨 󱥁 󱤂 󱤯. 󱥞 󱥩 󱥁 󱤰, 󱥞 󱤬 󱤅. 󱤅 󱥮 󱤯: 󱤯 󱥚 󱤬 󱤅󱤰, an 󱤰 󱥟."
+  },
+  "43": {
+    "text": "󱥞 󱥩 󱥭 󱤨 󱥚 󱤰. 󱤬 󱥁, 󱥆 󱤈 󱥘, 󱥨 󱤝 󱤍 󱤬. 󱥞 󱥩 󱥩 󱤰, 󱤆 󱥩 󱤅󱤰, 󱤆 󱥩 󱤅, 󱥨 󱥎 󱥞 󱤅 󱤮 󱤰 󱤂."
+  },
+  "44": {
+    "text": "󱥞 󱥩 󱤯 󱤅󱤰, 󱥩 󱥭 󱤦 󱥔. 󱤎 󱥣 󱤬 󱤯 󱥌 󱥎 󱤮; 󱥞 󱤈 󱥆. 󱤬 󱥐 󱥭 󱤬 󱥭 󱤎 󱥱. 󱤎 󱥱 󱤼 󱤬 󱤰 󱥟, supa 󱥣 󱤬 󱤰. 󱥁 󱥭 󱤎 palace. 󱤬 󱤏 󱤎 󱤬 supa, 󱤬 󱤪 󱥏 󱥣."
+  },
+  "45": {
+    "text": "󱥞 󱥩 Kai 󱥵 󱥩 󱤭 󱤑 󱤈. 󱥆 󱥰 󱤊 󱤭 󱥆 󱥇. 󱥆 󱤂 󱤓 󱤎 󱥱."
+  },
+  "46": {
+    "text": "󱥫 󱤑 󱥱 󱤅 󱥩 󱤰, 󱤑 󱤈 󱤆 󱥱 kepeken Trident. 󱥞 󱤂 󱤘 󱥶, 󱥞 󱥷 󱥱 󱥩 󱤷."
+  },
+  "47": {
+    "text": "󱥎 󱥞 󱥬 󱤼 Kwaraz 󱤬 󱤰 󱥚. 󱥞 󱥎 󱥭. 󱥩 󱥁 󱤰 󱤧 󱤷, 1 󱥞 󱥷 󱥩 󱤰 󱤆."
+  },
+  "48": {
+    "text": "󱥞 󱤮 󱥩 󱤯 󱤊 󱥩 󱤄 Kai 󱥵 󱥩 󱥇 󱥆. 󱥪 󱥗 󱤅 󱥩 󱥟."
+  },
+  "49": {
+    "text": "󱤰 󱥟 Palace 󱤧 󱥣, 󱤂 󱤘 󱥚. 󱥞 󱤅 󱤬 󱥏 󱤯... 󱤑 󱤈 󱤼 󱤖 󱥧 󱤰 󱥚. 󱥞 󱥎 󱥉 󱤿... 󱤑 󱤈 black-robed 󱤖, 󱥞 󱤘 󱤥 󱥛 kepeken 󱤥 󱥆..."
+  },
+  "50": {
+    "text": "󱥘 󱥛 󱥞 󱤂 󱤈 󱤬 󱤗 󱥪. 󱥞 󱤅 󱤊 󱥈 󱤤 󱤬 󱤎. 󱤅 󱥮 󱥛 󱤽. Sharnazim 󱤭 󱥞 󱥧 󱥪 󱥩 Maouk. 󱥆 󱤮 󱥞: '󱥞 󱥵, Kai. 󱥨 󱥞 󱥷 󱤼 󱥵 󱥩 󱥔.'"
+  },
+  "51": {
+    "text": "󱤎 󱤅 󱥩 󱥏 󱤰. 󱥞 󱤅 󱤊 󱤈 󱤯. 󱤬 󱤅, 󱥞 󱥎 󱤍... Baga-darooz, 󱤰 󱥪 󱤍. Sharnazim 󱥈 󱤯. 󱤛 󱤅 󱥩 󱥟, 󱤅 󱥳 󱥛 󱤽... 󱥞 󱥷 󱥙 󱤰 󱤅 󱥮 wan."
+  },
+  "52": {
+    "text": "󱥞 󱤆 󱥛 󱤑 kepeken 󱥃, 󱤮 󱤥, 󱤓 󱤴 󱤲 Gold Crowns, 󱤎 󱤯, 󱤎 󱤷 (Dagger), 󱤎 󱤷 (Sword)."
+  },
+  "53": {
+    "text": "󱥞 󱥡 󱥠 󱤔. 󱥆 󱤧 󱥠 󱥧 'The Redeemers', 󱤟 󱤑 󱥬 󱤂, 󱥉 󱥩 󱥔 󱥛."
+  },
+  "54": {
+    "text": "󱥞 󱤅 󱥩 'Saadi-tas-Ouda': 󱤰 󱤷... 󱤛 󱥏 󱤼... 󱤤 󱤑 󱤷 󱤬 󱥚 󱤛... 󱤑 󱥧 Vassagonian 󱤬 󱥚... 󱥟 󱥂 TRAITOR... 󱥞 󱥩 Mikarum... 󱤰 󱤗 HERB-MISTRESS."
+  },
+  "55": {
+    "text": "󱥗 󱥚, 󱤝 󱥗 󱤬 󱤰. 󱤰 󱤜 󱥗 'tar-sorkh'... 󱥞 󱥷 󱥚 kepeken 󱤰 󱤯 󱥚."
+  },
+  "56": {
+    "text": "󱤃 󱤬 󱤔 󱤯 󱥌 Jakan (󱤎 󱤔), 󱥨 󱤓 󱥳 󱥊 Arrow... 󱥞 󱤮 󱥓 󱤣 󱤬 󱥭. 󱥞 󱤮 󱥩 󱥆."
+  },
+  "57": {
+    "text": "󱤯 󱤂 󱤈. 󱥞 󱥩 󱤏. 󱤗 Oede 󱤬 󱥙? 󱤗 󱤼 󱤬. 󱥢 󱤍 󱤈 󱤏, 󱤮 󱥞 kepeken 󱤞 󱤣."
+  },
+  "58": {
+    "text": "󱥞 󱥩 󱤰 󱤞, 󱤯 󱤛 󱥣 󱤬. 󱤯 󱤽 Cloeasian 󱤬 󱤏 (1 󱥩 200)."
+  },
+  "59": {
+    "text": "󱥞 󱥱 󱤑 󱤈, 󱥆 󱤅 󱥩 󱤰, 󱤎 󱥱 󱥆 󱤅 󱥩 󱥃."
+  },
+  "60": {
+    "text": "󱥞 󱥱 󱤑 󱥳, 󱥆 󱤅 󱥩 󱥪 󱤍. 󱤑 󱤆 󱤈. Maouk 󱤖 󱥧 󱥏: '󱥌 󱥆 󱥩 󱤴!' 󱥆 󱥌 󱤎 󱤷 󱥩 󱥟 󱥞."
+  },
+  "61": {
+    "text": "󱤯 󱥇 󱥵, Sharnazim 󱤖 󱤏. 󱥆 󱤭 󱥞 󱥩 󱤰. 󱤑 󱤆 󱤓 󱤲 󱤩."
+  },
+  "62": {
+    "text": "󱥡 󱥎: 󱤂 󱥱 󱤑 󱤈 󱤬 󱥭 󱤶. 󱥞 󱥷 󱤥 󱤬 󱥘 󱥭."
+  },
+  "63": {
+    "text": "󱥞 󱥻 󱤥 Kai 󱤊 󱤈 󱥛 󱥈. 󱥪 weka, 󱥨 󱥛 󱤍."
+  },
+  "64": {
+    "text": "󱥞 󱥩 󱤰 󱤨, 󱥎 󱤕 󱥢 󱤍 Kwaraz. 󱥆 󱥱 󱥞 󱤬 󱥫 󱤨."
+  },
+  "65": {
+    "text": "󱤑 󱤈 󱤷, 󱤑 󱤈 󱤆 󱥩 󱤎 󱥱 󱥆."
+  },
+  "66": {
+    "text": "󱤑 󱤈 󱤎 󱥱 󱤬 󱤯 󱥭 󱤶. 󱥞 󱤂 󱥷 󱤮 󱥆, 󱥞 󱥩 󱤯 󱤨. 󱥨 󱤑 󱤈 󱥮 󱤬 󱤏, 󱥆 󱤘 󱤮 󱥞."
+  },
+  "67": {
+    "text": "󱤯 󱤛 󱥇. 󱥞 󱥩 󱥭 󱥚 palace. 󱤰 󱥔, 󱤗 󱤄 󱤰... 󱤗 Sommlending 󱤬! 󱥞 󱤓 Quarterstaff. 󱥞 󱤮 󱥱 󱤍 󱤬 󱤅..."
+  },
+  "68": {
+    "text": "󱥞 󱥩 󱤏. 󱤭 󱤍 (Limbdeath). 󱤳 󱤞 󱤣 󱤖: '󱤴 󱤂 󱤘 󱥔 󱥞. Oede 󱤧 󱤗 󱥣. Zakhan 󱤓 󱥆 󱤬 Grand Palace.'"
+  },
+  "69": {
+    "text": "󱥞 󱤢 lape 󱤍 󱤬 󱥭 󱤛. 󱤑 󱤈 󱥮 󱥬 󱤬 󱥟 󱤯: 'Sefrou! Hadj!' 󱥆 󱥬 󱥧 󱤎 󱥞 󱤬 palace. 󱤑 󱤈 󱤮 󱤯: '󱥆 󱥶!' 󱥞 󱤂 󱤘 󱤮 󱤬 󱥟 󱤯. 󱤎 󱤯 󱤕: 󱥁 󱤧 󱤘 󱥶!"
+  },
+  "70": {
+    "text": "󱤛 󱥣 󱤯 󱤰 󱤅. 󱤔 󱥣 󱤷 󱤬 󱤛. 󱥞 󱤂 󱤘 󱥩. 󱤕 Maouk 󱤖. 󱥆 󱥬 󱥩 Sharnazim."
+  },
+  "71": {
+    "text": "󱥞 󱥪 󱥛, 󱥩 󱥭 󱥪 Barrakeesh (Public Baths). 󱤑 󱤼 󱥬 󱥧 Zakhan 󱥝. 󱥞 󱤥 󱥞 kepeken Towel 󱥣, 󱥩 󱤯 󱥣."
+  },
+  "72": {
+    "text": "󱤳 󱥭: '󱥶! 󱤴 󱤂 󱥔 󱥩 󱥞!' 󱤑 󱥮 󱥌 󱥞 󱥩 󱤰. 󱤅 󱥳 󱥛. Maouk 󱤊 󱤟 󱤖, 󱥜 󱥞."
+  },
+  "73": {
+    "text": "󱥪 󱤍 weka. 󱤕 Maouk weka. 󱥃 󱥞 󱤭 󱤎 󱥱 󱤛 󱤬 󱤅 󱥪."
+  },
+  "74": {
+    "text": "Kai 󱥡: 󱤯 󱤅󱤰 󱥩 󱤎 󱥱 palace."
+  },
+  "75": {
+    "text": "󱤯 󱤛 󱤈. 󱤯 󱥇 󱥵: 󱤑 󱤬 󱤯. '󱥩 󱤏! 󱤴 󱤥 󱥞!'"
+  },
+  "76": {
+    "text": "󱥞 󱥌 󱤽 󱤄󱤼󱤅. 󱤕 󱤍! 󱤽 󱤍. 󱤯 󱤂 󱥇."
+  },
+  "77": {
+    "text": "󱤭 󱤍 󱤧 󱥞 󱤂 󱤘 󱥚. 󱥞 󱤅 󱥩 󱥪 󱥗 tar-sorkh. 󱥞 󱤷."
+  },
+  "78": {
+    "text": "󱥞 󱥱 󱥵. 󱤑 󱤈 󱤷 󱤬 󱥫 󱤨."
+  },
+  "79": {
+    "text": "󱤗 toa 󱤥 󱥞. 󱤯 󱤛 󱤅. 󱤑 󱥮 󱤈. 󱤯 󱥚. 󱤑 󱥩 󱤅󱤰 kepeken soweli. 󱤯 󱥇, 󱤂 󱤑 󱤈."
+  },
+  "80": {
+    "text": "󱥎 󱤯 󱤬 󱥛 󱥞. 󱥞 kepeken 󱥵 Kai, 󱤯 󱥇! 󱤕 󱥔."
+  },
+  "81": {
+    "text": "Limbdeath! 󱤗 Oede 󱥔 󱥩 󱥁 󱥛 󱤍. 󱤬 󱥫 24, 󱤭 󱤷. 󱤗 Oede 󱤂 󱤬 Baga-darooz! 󱥞 󱥷 󱥶!"
+  },
+  "82": {
+    "text": "󱥞 󱥱 kepeken 󱥵, 󱥨 󱤟 󱥏 󱤧 󱤼. 󱥆 󱤭 󱥞 󱥩 Maouk. '󱥞 󱥵, Kai. 󱥨 󱥞 󱥷 󱥵 󱥣!'"
+  },
+  "83": {
+    "text": "󱤪 󱤎 󱥱. 󱤪 󱥌 󱤽 󱤯 󱤛: 67. 󱥠 󱤽 67 󱤬 󱤪 Action Chart. 󱥞 󱤃 󱤎 󱥞."
+  },
+  "84": {
+    "text": "󱥞 󱤔 󱥩 󱥪 󱤍. 󱥪 󱤍 󱤬 󱥰 󱤊 󱤏. 󱥞 󱤬 󱤰 󱤨. 󱤭 󱥞 󱤂 󱥉. 󱤭 󱤍! 󱥎 󱤍 󱥣!"
+  },
+  "85": {
+    "text": "󱤑 󱤈 󱥇 󱤯, 󱤓 󱤎 󱥱. 󱥆 󱤍 󱥩 󱥞. '󱥞 󱤑 󱤆, Sefrou!'"
+  },
+  "86": {
+    "text": "󱥞 󱥩 󱤰 󱥭. 󱥃 󱥞 󱥈 󱤛, 󱤅 󱥳 󱥛. 󱥨 󱥞 󱤏 Grand Palace 󱤂 󱤮."
+  },
+  "87": {
+    "text": "󱤰 󱥭 󱤨, 󱤰 󱤬 󱤅 󱤯 󱥚. 󱤛 󱤍 󱥧 󱤝 󱥪. 󱤯 󱤛 󱤂 󱤈. 󱥞 󱤅 󱥩 󱥭 󱤅󱤰, 󱤮 󱥠 Zakhan 󱤼."
+  },
+  "88": {
+    "text": "󱤪 󱥠 Vassagonian: Zakhan Moudalla 󱤷. Zakhan Kimah 󱥝 󱤤! ... Sharnazim 󱥱 󱤑, 󱥻 󱤤 󱤑! 󱥞 󱥩 󱤸 kepeken 󱥃 󱥵."
+  },
+  "89": {
+    "text": "󱤎 󱤨 󱥱 󱥩 󱥟. 󱤏 󱤧 󱥏. 󱥞 󱤢 󱤬 󱥭 󱤛 󱤨 󱥝. 󱤎 󱤄 weka. 󱥞 󱤈 󱥩 Zakhan."
+  },
+  "90": {
+    "text": "󱥭 󱤛 󱤞. 󱤑 󱤥 󱤞 walo 󱤮 󱤪. 'Majhan! 󱥞 󱤍 󱥎!' 󱥆 󱥌 Towel. 󱥞 󱤔 󱥩 󱥪 󱤦 kepeken 󱤥. 󱥓 󱤛 󱥪 󱤞 󱤬 󱥒."
+  },
+  "91": {
+    "text": "󱤑 󱤈 kepeken 󱤎 warhammer. 󱥞 󱤅 󱥵, 󱤎 󱥱 󱤛."
+  },
+  "92": {
+    "text": "󱥩 󱤛, 󱥨 󱤑 󱤈 soweli 󱤖. Maouk 󱤕 󱤍. 󱥆 󱥌 󱤎 󱤷 󱥩 󱤝."
+  },
+  "93": {
+    "text": "󱤅 󱥩 󱥃, 󱥩 󱤰 󱥟. 󱤯 󱥚 󱤓 󱤥 󱥟. supa 󱤓 󱥪. 󱥞 󱥰 󱥪. 󱥝 󱥳 󱥛."
+  },
+  "94": {
+    "text": "󱥞 󱤅 󱥩 󱥪 󱤍. 󱥪 󱤍 󱤬 󱥰 󱤊 󱤏. 󱤭 󱤂 󱥉! 󱤭 󱤍 󱤬 󱤯! 󱥎 󱤍!"
+  },
+  "95": {
+    "text": "󱥞 󱤔 󱤬 󱤔 󱥭. 󱤥 󱤬 󱥭. Sharnazim 󱤃 󱥞 󱤬 󱥪 Barrakeesh. 󱥞 󱥷 󱤆 󱥎 󱤑 󱤈."
+  },
+  "96": {
+    "text": "󱥪 󱤞 󱤍 󱤊 󱥏. 󱤝 󱤍 󱤖. 󱥞 󱤥 󱥰 kepeken Kai 󱤥. Maouk 󱤟 󱤖! 󱥃 󱤭 󱤛 󱤷 󱤑... 󱤰 󱤅󱤰 󱤊 󱤰 󱤅."
+  },
+  "97": {
+    "text": "󱥓 󱤛. 󱤂 󱤯. 󱥞 kepeken 󱤎 󱤗 󱥇 󱥓. 󱥢 Yas (lizard/snake) 󱤬 󱤏! 󱥢 󱥗 󱥇 󱥰."
+  },
+  "98": {
+    "text": "󱤕 󱥃 󱤑. 󱥞 󱥜 󱥱! 󱤎 󱤨 󱤷 (needle) weka. 󱤑 󱥮 󱤓 Trident 󱤛. 󱤑 󱤼󱤅 󱤯."
+  },
+  "99": {
+    "text": "󱥞 󱥩 󱥤, Maouk 󱤕: '󱥆 󱤬 󱥁!' Sharnazim 󱤓 󱤎 󱤷. '󱥌 󱥛, Lone Wolf!'"
+  },
+  "100": {
+    "text": "󱤯 󱤛 󱥇 󱥩 󱥏. 󱤪 󱤼 󱤬 supa 󱤛. 󱤪 󱥠 󱤎 Grand Palace. supa 󱤓 󱤎 Copper Key 󱤊 Prism. 󱥞 󱤯 󱤯 󱤛 󱥩 󱥟, 󱤮 Sharnazim 󱥚 󱥃, 󱥞 󱥩 󱤯 󱥟."
+  },
+  "101": {
+    "text": "󱤑 󱤕 󱤊 󱤷. 󱤑 󱤆 󱥩 󱥃 weka. 󱥞 󱥌 Trident, 󱥌 󱥩 󱤸 󱤑! 󱥆 󱤷.\n󱤎: 󱤲 Gold Crowns 4, 󱤎 Dagger, 󱤎 Sword, 󱥪 Alether (+2 COMBAT SKILL).\n󱤪 󱥌 󱤽 67! 󱥞 󱤆 󱤯 󱤽!"
+  },
+  "102": {
+    "text": "󱤃 󱤑 󱥮:\n• 1 Sword\n• 1 Dagger\n• 1 Warhammer\n• 6 Gold Crowns\n• Gaoler’s Keys (Special Item)\n󱥞 󱤓 󱤎. 󱤯 󱤛 󱤈."
+  },
+  "103": {
+    "text": "󱥛 󱥔. 󱥪 󱥔 󱥩 󱥘. 󱥝 󱥮 󱥛 󱤽 (ENDURANCE)."
+  },
+  "104": {
+    "text": "Maouk 󱤕: '󱥌 󱥆! 󱥨 󱥆 󱤬 lawa!' 󱥞 󱥩 󱤔. 󱤑 soweli 󱤯 󱤰."
+  },
+  "105": {
+    "text": "󱥠 󱤛 󱤬 󱥟. 󱤤 󱤆 󱥩 󱤸, 󱤮 󱤎 󱤨."
+  },
+  "106": {
+    "text": "󱥞 󱤅 󱥩 󱤑 soweli, 󱤅 󱤍. 󱤑 󱥚, 󱤓 󱤎 󱤷, 󱥱 󱥞."
+  },
+  "107": {
+    "text": "󱥞 kepeken Kai 󱥔 󱥛 󱥩 󱤏. 󱥎 󱤍 weka. 󱥛 󱥔 󱥩 󱤭 󱤊 󱥃. Kai 󱥔 󱥆, 󱥨 󱥛 󱤨."
+  },
+  "108": {
+    "text": "󱤰 󱥝 󱤓 󱥪 󱤞. 󱤝 󱤍 󱥱 󱥰 󱤊 󱤏. 󱤅 󱥮 󱥛 󱤽 (ENDURANCE)."
+  },
+  "109": {
+    "text": "󱥞 󱤅 󱥩 󱤛, 󱥩 󱤰 󱤋. 󱥭 󱤼 󱤑 󱤢. 󱤰 󱤅󱤰 󱤬 󱥒. 󱤰 󱤅 󱥩 󱥪."
+  },
+  "110": {
+    "text": "󱥢 Kwaraz 󱥣 󱤬 󱥚 󱤰. 󱥢 󱤮 󱥞 kepeken 󱤮 󱥗. 󱥆 󱥱, 󱥞 󱤂 󱤘 󱥶."
+  },
+  "111": {
+    "text": "󱥛 󱤨, 󱥨 󱥎 󱥔 󱥧 󱥱 󱥔. 󱤃 󱤑 󱥱, 󱤓 󱤲 Gold Crowns 3, 󱤎 Copper Key."
+  },
+  "112": {
+    "text": "󱤰 󱥚 󱤬 󱤰. 󱤰 󱤛 󱤬 󱥒. 󱥞 󱥚 󱥩 󱤰 󱤛, 󱥪 weka 󱥪 󱤍 󱤬 󱥃."
+  },
+  "113": {
+    "text": "󱤰 󱥩 󱤗. 󱤥 󱥞: 󱥘 walo, 󱤥 Kai 󱥠. 󱥒 󱤅󱤰: 󱥭 󱤗, 󱥠 󱤔. 󱥒 󱤅󱤰: 󱥭 󱥪. 󱥂: THE HUNTED LORD."
+  },
+  "114": {
+    "text": "󱤰 󱥚 󱥩 󱤰 󱤅. 󱤝 󱥗 weka. 󱥎 󱤍 󱤬 󱥛. 󱥔 󱤂 󱥬 󱥩 Zakhan; 󱥷 󱥶 󱥩 Sommerlund. 󱤮 󱤯 󱥜 󱤬 󱥚. 󱥞 kepeken 󱥃 󱥇. 󱥔! 󱥩 󱥭 󱥪 Barrakeesh."
+  },
+  "115": {
+    "text": "󱤠 󱤬 󱤯 󱤽: 󱤕 󱤍, 󱤑 󱤕 󱤍, 󱥱 󱤍! 󱥭 󱥱 󱤍 󱤬 󱤏! 󱥞 󱥎 󱤍, 󱥩 weka 󱥩 󱤯 󱥚."
+  },
+  "116": {
+    "text": "󱥚 󱥩 󱥭 󱤨. 󱤈 󱥘, 󱥨 󱤝 󱤍 󱤬. 󱤰 󱤨, 󱤅󱤰, 󱤆 󱤅. 󱥎 󱤅: 󱤰 󱤂 󱤬 󱥟."
+  },
+  "117": {
+    "text": "󱤰 󱤨 󱥩 󱤗. 󱥭 󱥚 󱤓 󱤯 󱤛. 󱤬 󱤗 󱤛, Maouk 󱤟 󱤖 kepeken 󱤎 crossbow. '󱥌 󱥛, Lone Wolf!' 󱥞 󱤅 󱥩 󱥃 Maouk. '󱥞 󱥵, Kai!'"
+  },
+  "118": {
+    "text": "󱤑 󱤈 󱥚 blowpipe 󱥩 󱥰. 󱤝 󱥣, 󱤕 󱤷: 󱤎 󱤷 󱤨 󱥩 󱤤."
+  },
+  "119": {
+    "text": "󱤑 󱥮 󱤂 󱤮 󱥞. 󱤂 󱤅 󱥛 󱤽 󱤬 󱤽 3 󱥱, 󱥧 󱥱 󱥵 󱤊 wawa. 󱥱 󱤑 󱥮 󱥖 󱤑 wan."
+  },
+  "120": {
+    "text": "󱤎 󱤷 (dagger) 󱥩 󱥟. 󱥎 󱤍! 󱤭 󱤈 󱤎 󱤷. 󱤑 󱥚 󱤖 kepeken 󱤮 󱥔. 󱥞 󱥌 󱤎 󱤷 󱥩 󱥎 󱤑. 󱤎 󱤷 󱤏 󱥎!"
+  },
+  "121": {
+    "text": "󱥏 󱥌 󱤑 󱤼󱤅 Sharnazim. 󱤎 󱤷 󱥗 󱤬 󱥏; 󱤎 󱥷 󱥪 󱥛 󱥞."
+  },
+  "122": {
+    "text": "󱤯 󱤛 󱥣 󱤓 󱤛 󱥏. 󱥞 󱤆 󱤎 󱤤, 󱤯 󱤛 󱤈."
+  },
+  "123": {
+    "text": "󱤕 󱥣! 󱤯 󱤛 󱥈! 󱤎 axe 󱥻 󱤯. Sharnazim 󱤖 󱤏. 󱥞 󱥱 󱤅󱤰 󱤊 󱤅. 󱤑 󱤤 soweli 󱥱. 󱥞 󱥱 󱥇, 󱤎 󱤷 󱤅. 󱥆 󱥱 󱤆 kepeken Dagger 󱥣."
+  },
+  "124": {
+    "text": "󱥞 󱤅 󱥧 󱤯 󱥚 󱥩 󱤑 󱤈. 󱥱 󱥵, 󱤷 󱤑 󱤼󱤅. 󱥨 󱤑 󱤼 󱤖 󱥧 󱥭 󱤶. 󱤑 󱤼 󱤭 󱥞. 󱥌 󱥞 󱥩 󱥭 󱤛, 󱤈 󱥩 Zakhan."
+  },
+  "125": {
+    "text": "soweli 󱤊 󱤑 󱤷 󱤅 󱥩 󱥪. 󱤑 󱤔 weka 󱤰. 󱥞 󱤅 󱥩 󱤎 󱤔 󱥒. 󱤗 󱥪 󱥘, 󱤈 󱥛 󱤍."
+  },
+  "126": {
+    "text": "󱤥 󱤬 󱥏 󱤰. 󱥩 󱤯 󱥚. 󱤑 󱥮 󱤈. 󱤯 󱥇, 󱤑 soweli 󱤖. 󱥌 󱤪 󱥩 󱤑 󱤈. 󱤑 󱤈 󱤮 󱤪, 󱤂 󱥡 󱤯 󱥇."
+  },
+  "127": {
+    "text": "󱥞 󱥩 󱤸 󱥩 󱤯 󱤽, 󱥷 󱥩 󱥱 󱥵 󱥩 󱤯—󱥡 󱥌 󱥱 󱥔 󱥻 󱤯 weka 󱤰."
+  },
+  "128": {
+    "text": "󱥩 󱥭 󱤜 󱤰 󱤅. 󱥪 󱤍 󱤬 󱤅. 󱤶 󱤍 󱤔 󱤬 󱤅, 󱥎 󱤍! 󱥞 󱤈! 󱤰 󱤅 20 feet 󱥪 󱤍 󱤬 󱥒. Sharnazim 󱤖. 󱥞 󱤓 Rope, kepeken 󱤛 󱤎 󱥩 󱤔 󱥩 󱤯 󱤆."
+  },
+  "129": {
+    "text": "󱤥 󱤬 󱥏, 󱤮 󱤔. 󱤰 󱤋 󱤼 Sharnazim. 󱤍 󱤬 󱤔; 󱤃 󱤰 󱤥 󱤆. 󱤑 󱤈 󱤃 󱥭. 󱥞 󱥩 󱤰 󱤋, 󱥱 󱥩 Maouk 󱤊 Sharnazim 󱤼󱤅."
+  },
+  "130": {
+    "text": "󱥞 󱥌 Herb Pad 󱥧 󱤑 󱤷 (Special Item). 󱤥 󱥰 kepeken 󱥓 󱤗 󱥔. 󱤗 󱥔 󱥔 󱤝 󱤍. 󱥝 󱥳 󱥛 (ENDURANCE). 󱤑 󱤷 󱤅, Sharnazim 󱤖. 󱤂 󱤘 󱥶—󱥷 󱤥."
+  },
+  "131": {
+    "text": "󱤃 󱤎 󱤼 󱤬 supa:\n• Silver Comb\n• Hourglass\n• Dagger\n• Healing Potion of Laumspur (+4 ENDURANCE)\n• Prism\n• 󱤶 󱤼󱤅 Meals (1 Meal = 1 Backpack Item)\n󱥠 󱤪 Action Chart."
+  },
+  "132": {
+    "text": "󱥩 󱤰 󱥚, 󱥩 󱤰 󱤅󱤰. 󱥗 󱥣 󱤬 󱤰. 󱤕 󱤛 󱤊 󱥪, 󱤎 󱥱 󱤛 (blacksmithy)."
+  },
+  "133": {
+    "text": "󱥡 󱥢 Kwaraz (󱥢 󱤍 󱥣). 󱤟 󱥢 󱤬 󱤰. 󱤍 󱥩 󱥩 󱥁. 󱥚 󱥩 󱥭 󱤨. 󱤈 󱥘. 󱥩 󱤅󱤰, 󱤆 󱥩 󱤅. 󱥎 󱤍: 󱤰 󱤂."
+  },
+  "134": {
+    "text": "Kai 󱥵 󱥶 󱥢. Bloodlug 󱤆 󱤰, 󱥩 󱥢 squid 󱤬 󱥓 󱤛. 󱥞 󱤔, 󱤮 󱥢 Bloodlug 󱤶 󱥢 squid."
+  },
+  "135": {
+    "text": "󱤝 󱤰 󱥝 󱥗 󱤊 󱥪. 󱤝 󱤍 󱥎 󱤍 󱥩 󱥛. 󱤈—󱤝 󱥗 󱥈 󱥰 󱤊 󱥛. 󱤕! 󱤑 Maouk 󱤖 󱥧 󱥏, 󱥰 󱤥 󱤗."
+  },
+  "136": {
+    "text": "󱤯 󱤛 󱥇, 󱤮 󱥃 󱤅 󱥩 󱥭 󱤨. 󱤑 󱤥 󱥏 󱤈 󱤯 󱤛. 󱤮 󱤎 󱥱 󱤼. 󱥠: GRAND PALACE ARMOURY."
+  },
+  "137": {
+    "text": "󱥎 󱤶 󱤍. 󱥷 󱤶 󱤎 󱤊 󱤅 󱤳 󱥛 (ENDURANCE). 󱥩 󱤗 󱤞. 󱤰 󱤗 󱤞 󱤣 󱥩 󱥪 󱥔 󱤞 󱤼. 󱤮 palace 󱥚 󱥩 󱤝. 󱥮 󱤯: 󱥭 󱤶 anu 󱥭 Vizu-diar (trophy hall). wan 󱤯 󱥩 Imperial Apothecary (󱤗 Oede)."
+  },
+  "138": {
+    "text": "󱤑 󱤈 󱥇 󱤯. 󱥞 󱥱 󱤭 󱥩 󱤤 󱤑 󱥳, 󱥆 󱤅. 󱤎 󱤷 󱥆 󱤅 󱥩 󱥃 󱥞."
+  },
+  "139": {
+    "text": "󱥑 󱤼 󱤬 󱥘. 󱤂 󱤮 󱤛 󱤍 󱤬 󱥪. 󱥃 󱤛, 󱤅 󱤅. 󱤭 󱤛, 󱥨 󱥪 󱤍, 󱤦 󱥖 Kalte."
+  },
+  "140": {
+    "text": "󱤯 󱤛 armoury 󱤂 󱤛. 󱥇 󱤯. 󱤕 󱤯 󱤍. 󱤏, supa 󱥉 󱤓 󱤎 󱥱. 󱤏 󱤎, 󱤪 󱥏 󱥣."
+  },
+  "141": {
+    "text": "󱥞 󱥩 󱥒, 󱤷 󱤨 weka. Maouk 󱤕: '󱥌 󱥆! 󱤂 󱥌 󱥆 󱥶!' 󱥞 󱤬 󱤰 󱥒 󱤯 󱤅."
+  },
+  "142": {
+    "text": "󱤅 󱥩 󱥪, 󱤔 󱤏 󱥪. Sharnazim 󱥩 󱤄 󱤰, 󱥜 󱥪. 󱤔 󱥩 󱤔 󱤨 󱥮󱤅󱤚 󱤰. 󱥪 󱤣 󱥔, 󱤮 󱤎 󱤬 󱤅 󱥪. 󱥢 Bloodlug (󱥢 󱥪 󱤍) 󱤖 󱥩 󱥞, 󱤶 󱥛!"
+  },
+  "143": {
+    "text": "󱥞 󱥗 torch 󱥩 󱤯 󱥪. 󱥗 󱥣! 󱥪 󱤍 󱥗 󱥚 󱥩 󱤝! 󱤑 󱤼 󱥶 󱤊 󱤕 󱤍. Sewer gas 󱥗! 󱤄 󱤰 󱤍. 󱥩 󱤰 󱤋 󱥔. 󱥠: BARRAKEESH PUBLIC BATHS. 󱥇 󱤯, 󱥩 󱤏."
+  },
+  "144": {
+    "text": "󱥎 󱤍 󱤏 󱥡. Kai 󱥡: 󱤍 󱥣 󱤬 󱥁 󱥭 󱤛. 󱥞 󱥱!"
+  },
+  "145": {
+    "text": "󱥩 󱥪 󱤍, 󱤂 󱤝 kepeken 󱥰. 󱥪 󱤞 󱤍, 󱤝 󱤍. 󱤥 󱥰 kepeken Kai 󱤥. Maouk 󱤟 󱤖 󱤸. 󱤯 󱥚 󱥌 󱥪 󱤞. Baga-darooz 󱤬 󱤅 Linen Quarter. 󱤔 󱥪 󱤏 󱤰. 󱥢 󱥪 󱤍! 󱤥 󱥟 󱤛, 󱤮 󱥢 󱥪 weka. 󱤕 󱤍 󱤏 󱥏: Sharnazim 󱤷! 󱥞 󱥩 󱤰 󱤅󱤰."
+  },
+  "146": {
+    "text": "󱤮 󱤑 󱤎 󱥱. 󱥆 󱥉 󱤬 󱤛. 󱥗 󱥣. 󱥩 󱤯 󱤅󱤰, 󱤥 󱤬 󱤛 󱤼."
+  },
+  "147": {
+    "text": "Kai 󱥡: 󱤑 󱥔 󱥁 󱤂 󱥔. 󱥆 󱥷 󱤲 Silver."
+  },
+  "148": {
+    "text": "󱥩 󱤏, 󱤯 󱤛 󱤈. 󱥏! 󱥩 󱥟 kepeken 󱤭. 󱥃 󱤬 supa 󱤛, 󱤯 󱤛 󱤆 󱥇 󱥩 󱥭 󱤨."
+  },
+  "149": {
+    "text": "󱥩 󱤯 Vizu-diar, 󱤯 󱤛 󱤈 󱤏. 󱥞 󱥚 󱤯 kepeken 󱤭, 󱤅 󱥩 󱥭 󱤤 󱤷. 󱤤 󱤷 󱥢 󱤊 󱤑 󱤷! 󱥶 󱥩 󱤰 󱤞 󱤛. Palace 󱤑 󱤊 󱤑 󱤤 󱤔. 󱤥 󱤬 󱥠 󱤛, 󱥚 󱥩 󱥃 󱥚 󱥩 󱤯 󱥚 󱤊 󱤯 󱤅󱤰. 󱥠 󱥚 󱤯 󱥚: mortar/pestle (󱤗). 󱥠 󱥚 󱤯 󱤅󱤰: 󱤪 󱥇."
+  },
+  "150": {
+    "text": "󱤰 󱥚, 󱥨 󱤰 󱥚 󱤊 󱤅󱤰. 󱤮, 󱤂 󱤑 󱤈. 󱥚 󱤯 󱤅󱤰: 󱥃 󱤅; 󱤅󱤰: 󱤯 󱤛."
+  },
+  "151": {
+    "text": "󱤮 󱤯 󱤨 󱤬 󱤰. 󱤥 󱤏, 󱥪 󱤍 󱥩 󱥰. Sharnazim 󱥩 󱥒. 󱥰 󱤍 󱤏 󱥪! '󱥆 󱥩 󱤰 󱤅!' 󱤕 Maouk 󱤍. Sharnazim weka. 󱥶, 󱥨 󱥃 󱤭 󱤛 󱤍, 󱤅."
+  },
+  "152": {
+    "text": "󱤥 󱤬 󱤛. 󱤂 󱤮 󱤅 󱥩 󱥭, 󱤼󱤄 󱤰 󱤅. 󱤈 󱥩 Sharnazim. 󱥤 󱤅, 󱤯 󱤛 󱤈. 󱤯 󱤛 󱤕! 󱤯 󱤛 󱤈! 󱥞 󱤬 󱤅󱤰. 󱥒: 󱤰 󱥜 󱥭 󱤶. 󱥞 󱤘 󱤃 󱤯 󱥇 󱤬 󱤰 󱤆."
+  },
+  "153": {
+    "text": "Maouk 󱥬 󱥩 Sharnazim: 󱤃! 󱤷 󱥞! 󱤔 󱥩 󱤔, 󱥚 󱥩 󱥃 󱤛. 󱤰 󱤨, 󱤰 󱤍 Thieves' Quarter. 󱤕: '󱥆 󱤬 󱥁!' 󱥩 󱤰, 󱥚 󱥩 󱤰 󱥟. 󱥮󱤅 󱤯: 󱤯 󱥚 (󱥒), 󱤰 (󱤅󱤰), 󱤰 󱥟 (󱥟)."
+  },
+  "154": {
+    "text": "󱤏 󱤗 󱤊 󱥪 󱤞. 󱥏, 󱤗 󱤼.  󱤞 󱤣 󱤖. '󱤴 󱥎 󱥞 󱤑 󱥱.' 󱥌 󱤪 󱤞 (Sommlending):\n• Potion of Alether (+2 COMBAT SKILL)—4 Gold Crowns\n• Potion of Gallowbrush (lape 1-2 hours)—2 Gold Crowns\n• Potion of Laumspur (+4 ENDURANCE)—5 Gold Crowns\n• Vial of Larnuma Oil (+2 ENDURANCE)—3 Gold Crowns\n• Tincture of Graveweed (󱥛 󱤍, -2 ENDURANCE)—1 Gold Crown\n• Tincture of Calacena ( hallucination 1-2 hours)—2 Gold Crowns\n󱥞 󱤘 󱥌 󱤄, 󱥶 󱥩 󱤰."
+  },
+  "155": {
+    "text": "󱤮 󱥩 󱤯 󱥚 󱤰 󱤅 Grand Palace. 󱤅: Barrakeesh 󱤨, Lake Inrahim, Chula, Dahir Mountains, Dry Main. 󱤛 󱤯 󱤍. 󱤂 󱤘 󱤅 󱥩 󱤰. 󱤅 󱥧 supa, 󱥩 󱤰."
+  },
+  "156": {
+    "text": "Kai 󱥡: 󱤯 󱤽 󱤓 󱤎 󱤕. 󱤽 󱤍 -> 󱤕 󱥣 󱥩 󱤄 palace guard!"
+  },
+  "157": {
+    "text": "󱥭 󱤓 󱥗 󱤝. 󱥩 󱤏, 󱤮 󱥪 󱤞 󱥮. 󱤑 󱥏 󱤖 󱥧 󱤛. Maouk 󱤖 󱥩 󱤰. 󱤑 󱥏 󱥌 󱥃 󱥩 󱤯 󱤅 󱥭."
+  },
+  "158": {
+    "text": "󱥭 󱥠 󱤛 (mosaic). 󱤲 󱤛 󱤞 󱤬 󱥤. 󱤟 palace 󱤔 󱥩 󱥭. 󱤥 󱤬 󱤛. 󱥔 󱤂 󱥬; 󱥷 󱥶 󱥩 Sommerlund. 󱥩 󱤰 󱤅󱤰, 󱤆 󱥩 󱥚."
+  },
+  "159": {
+    "text": "󱥱 󱤯 󱥔, 󱥨 󱤅 󱥩 󱥃 󱥩 󱤰 󱤛. (-2 ENDURANCE). 󱤑 󱤎 󱥱 󱤮 󱥞. 󱥆 󱥱!\nArmoury Guard: COMBAT SKILL 16 ENDURANCE 22\n-2 COMBAT SKILL 󱥧 󱤽 3 󱥱. 󱥱 󱥩 󱤷!"
+  },
+  "160": {
+    "text": "󱥎 󱥷 󱥶 < 󱥎 󱤍 󱤭! 󱥷 󱥌 󱤗 Oede 󱤬 Grand Palace! 󱤰 Mikarum -> 'Horm-tas-Lallaim': Tomb of the Princesses. Grand Palace walo 󱥣.\nKai 󱥡 󱥠: 'Nemesis of the Black Zakhan'... Zakhan 󱤍 󱤷 󱤑 󱤼. 󱥆 󱤷 󱤳 󱥆 Kebilla/Sousse. 󱤷 󱤬 󱤯 Tomb of the Princesses. 󱤯 󱥚 (gate) 󱤊 󱤯 󱤅󱤰 (arch)."
+  },
+  "161": {
+    "text": "󱥔! 󱤑 󱥱 󱥷 󱤢 󱥞 tas. 󱤓 󱤅 󱥛 (ENDURANCE) wawa."
+  },
+  "162": {
+    "text": "󱥩 󱤯 󱤅󱤰 (chimney). 󱤝 󱥗 󱤍 󱥩 󱥰. 󱤭 󱤊 󱥃 󱤍. -1 ENDURANCE. 󱥎 󱤍: 󱥑 󱤼 (arachnids) 󱤖 󱥩 󱤭!"
+  },
+  "163": {
+    "text": "󱤈 󱥩 󱤑 󱤈. 󱥆 󱥬 󱥱 󱤍. 󱤑 󱤆 󱤖: 'Zakhan 󱤂 󱥷 󱥈 Northlander.' 󱤑 󱥮 󱤸 󱥩 󱥞.",
+    "choices": {
+      "attack_guards": "󱥷 󱥱 󱤑 󱤈",
+      "remain_as_you_are": "󱤈 󱥖 󱥞"
+    }
+  },
+  "164": {
+    "text": "󱥪 󱤞 󱤍, 󱤝 󱤍 󱤖. 󱥑 󱤨 󱤼 󱤬 󱤝! 󱥰 󱤏 󱥑! -1 ENDURANCE. 󱤎 󱤅 (ladder) 󱤛 󱤬 󱤰, 󱥩 󱤯 󱥜 󱤛.",
+    "choices": {
+      "climb_ladder": "󱥚 󱥩 󱤎 󱤅",
+      "ignore_ladder": "󱤂 󱥩 󱤎 󱤅, 󱥩 󱥟 󱤬 󱤰 󱥑"
+    }
+  },
+  "165": {
+    "text": "󱤑 󱤈 󱤷 󱤅 󱥩 󱤰. 󱤑 󱤆 󱥚 󱤭 󱥩 󱤯 󱤛.",
+    "choices": {
+      "attack_guard": "󱥱 󱤑 󱥁",
+      "overpower_guard": "󱤭 󱥆, 󱤂 󱤷 󱥆"
+    }
+  },
+  "166": {
+    "text": "󱤭 󱤍! 󱤭 󱤂 󱥉. 󱤂 󱤘 kepeken 󱤎 󱤥 (shield). -3 COMBAT SKILL. 󱤰 󱤅 󱥜 󱥖 󱥢. 󱤝 󱥗 󱤊 󱥪 󱤍. 󱤑 weka, 󱥨 󱤭 󱤍."
+  },
+  "167": {
+    "text": "󱥩 󱤯, 󱥩 󱥭 󱤦. 󱤎 󱤯 󱥣 󱤬 󱥁, 󱤈 󱥆. 󱤥 󱤬 supa. 󱤥 armourer. 󱤕 󱤏 󱤰 󱤅󱤰. 󱥚 󱥩 󱥃 󱥚, 󱥩 󱤰 󱤅󱤰, 󱥠 󱤛 󱤼 Zakhan."
+  },
+  "168": {
+    "text": "󱥞 󱤅 󱥖 soweli 󱥩 󱤑 󱤈! 󱥱 󱥃 󱥩 󱤑 blowpipe, 󱥆 󱤅, 󱤤 󱤛! Trident 󱥱 󱥩 󱥟, 󱥞 󱥌 Trident kepeken 󱤭, 󱤑 󱤅! 󱤆 󱥩 󱤑 󱤽 3—Trident 󱥱 󱥞!"
+  },
+  "169": {
+    "text": "󱤰 󱥣, 󱤑 󱤼 󱤬 󱤰 󱤋. 󱤥 󱥏 󱤬 󱤑 (Zakhan 󱤷). 󱤥 󱥏 = 2 Gold Crowns. 󱤪 󱥠 󱤬 󱥭 󱥪: THE ZAKHAN IS DEAD—LONG LIVE THE ZAKHAN.",
+    "choices": {
+      "read_poster": "󱤢 󱤪 󱥠",
+      "continue_along_passage": "󱥩 󱥟 󱤬 󱤰"
+    }
+  },
+  "170": {
+    "text": "Kai 󱥵 󱤼 󱤥 󱥞. 󱤑 󱤈 󱤂 󱤮 󱥞. 󱥞 󱥔 󱥩 󱤗 palace."
+  },
+  "171": {
+    "text": "󱥠 󱤛 󱤆 󱥩 󱥒: 󱤰 󱤨 󱤏, 󱥏, 󱤨! 󱥃 󱥮 󱤬 󱤰.",
+    "choices": {
+      "enter_secret_passage": "󱥩 󱤏 󱤰 󱤨",
+      "avoid_passage": "󱤂 󱥩 󱤰, 󱤛 󱥠, 󱥩 󱥟 󱤬 󱤰"
+    }
+  },
+  "172": {
+    "text": "'󱤏, 󱤑! 󱥔 󱥩 󱥭 󱥪!' 󱤳 󱥭. Maouk 󱤟 󱤖 󱥩 󱤰. 󱤳 󱥌 󱥃 󱥩 󱤅 󱥭. '󱤥! 󱤴 󱥎 󱤍 󱥩 Zakhan 󱥝. 󱤥!'"
+  },
+  "173": {
+    "text": "󱤰 󱤅󱤰 (󱥚) -> Chiras (󱤔 󱤰). 󱤰 󱥒 (󱤅) -> Barrakeesh 󱤰. 󱤰 󱥟 (󱤅󱤰) -> Grand Madani (󱥪 󱥔 󱤰 River Da).",
+    "choices": {
+      "north_channel": "󱥩 󱤰 󱥚",
+      "south_channel": "󱥩 󱤰 󱤅",
+      "west_channel": "󱥩 󱤰 󱤅󱤰"
+    }
+  },
+  "174": {
+    "text": "󱥞 󱥱 󱤑 󱥚, 󱤭 󱥩 󱤤 󱥆. 󱥆 󱤅. 󱤎 󱤷 (Sword) 󱤅 󱥩 󱥃.",
+    "choices": {
+      "pick_up_sword": "󱥌 󱤎 󱤷",
+      "attack_bare_handed": "󱤂 󱥌 󱤎, 󱥱 󱤑 󱤆 kepeken 󱤭"
+    }
+  },
+  "175": {
+    "text": "󱤑 󱤼󱤅 Sharnazim 󱤖. '󱥌 󱥆 󱥩 󱤴!' 󱤕 Maouk. 󱥆 󱤓 󱤎 󱤷 (dart) 󱥚, 󱥌 󱥩 󱥟 󱥞."
+  },
+  "176": {
+    "text": "󱤎 󱤄 weka: Backpack, Weapons, Gold Crowns, Special Items. 󱤭 󱤛 󱤸. 󱥩 soweli 󱥭. Maouk 󱤕: '󱥩 palace! Zakhan 󱤈.' Maouk 󱥌 󱤎 󱤷 󱤨 󱥩 󱥘 󱥞. 󱤢 lape 󱤖."
+  },
+  "177": {
+    "text": "󱥞 󱥱 Kwaraz 󱤷, Sharnazim 󱤼󱤅 󱤖. 󱤥 󱤂. 󱥠 󱤔 󱤬 󱥟. 󱤎 󱤷 (scimitars) 󱥗!",
+    "choices": {
+      "attack_sharnazim": "󱥱 Sharnazim",
+      "climb_stairs": "󱥚 󱥩 󱥃 󱤛"
+    }
+  },
+  "178": {
+    "text": "󱤅 󱥩 󱥃, 󱤑 󱤈 󱤮 󱥞. 󱥆 󱥚, 󱤓 󱤎 󱤷. 󱥱 󱥩 󱤷!",
+    "choices": {
+      "search_body": "󱤃 󱥛 󱤑 󱤷",
+      "enter_armoury": "󱤂 󱤃, 󱥩 Armoury"
+    }
+  },
+  "179": {
+    "text": "󱤗 󱤼, 󱥪 󱤼 󱤬 󱥭. Maouk 󱤖! 󱥛 󱥪, 󱤥 󱥻. 'Zakhan 󱤈, 󱤴 󱤂 󱥱 󱤷 󱥞,' 󱤕 Maouk. 󱥞 󱥎 󱥱 󱤍, 󱥨 󱤑 󱤼 󱤮 󱥞 󱤬 󱤯 󱤼.",
+    "choices": {
+      "attack_maouk": "󱥱 Maouk",
+      "run_back": "󱤆 󱤊 󱥩 󱤸 󱥩 󱤰"
+    }
+  },
+  "180": {
+    "text": "󱤑 󱤷 󱤅. 󱤑 󱤆 󱥚, 󱥌 󱤎 󱤷 󱥧 󱥃, 󱥷 󱥌 󱥩 󱥞."
+  },
+  "181": {
+    "text": "󱥞 󱤃 󱤄 supa 󱤏 󱤎 󱥱. 󱤎 󱤄 weka 󱤂 󱤬! 󱥔 󱤂 󱥩 Zakhan; 󱥷 󱤃 󱤎, 󱥶 󱥧 Grand Palace. 󱥩 󱥭 󱤨. 󱥃 󱤛 󱥚 󱥩 󱤯 󱥇. 󱥓 󱤗 󱤈 󱥒.",
+    "choices": {
+      "climb_steps": "󱥚 󱥩 󱥃, 󱥩 󱤯",
+      "investigate_chest": "󱤃 󱥓 󱤗"
+    }
+  },
+  "182": {
+    "text": "󱥭 󱤛. 󱤯 󱤛 󱥣 󱤬 󱤅. 󱤎 Spear 󱤊 Broadsword 󱤬 supa 󱥒. 󱥞 󱤘 󱥌 wan/󱥮. 󱥚: 󱤯 󱥠 󱤞 -> 󱤰 󱤆.",
+    "choices": {
+      "enter_passage": "󱥩 󱤰 󱤆",
+      "listen_at_door": "󱤠 󱤬 󱤯 󱤛"
+    }
+  },
+  "183": {
+    "text": "󱤑 󱥱 󱤖 󱥧 󱤯 󱥪. 󱥆 󱥻 󱥃 󱥞. -2 ENDURANCE. 󱥞 󱥱 󱥃 󱤑 kepeken 󱥃! 󱥆 󱤕 󱤊 󱤅 󱥩 󱥪! 󱥞 󱤈 󱤯 󱤛, 󱥩 󱤰 󱤋. BARRAKEESH PUBLIC BATHS. 󱥞 󱥇 󱤯, 󱥩 󱤏."
+  },
+  "184": {
+    "text": "󱤮 󱥩 󱤔, 󱥭 󱤞 walo. 󱥓 󱤗 󱥣 (tun) 󱤬 supa 󱥚. Kai 󱥵: 󱤎 󱥓 󱥩 󱤔! 󱤕 󱥣! 󱥓 󱤅 󱤊 󱥻 󱤬 󱤔!"
+  },
+  "185": {
+    "text": "󱤕 󱥃 󱤖, 󱤈. Maouk 󱤖. '󱤥 Lone Wolf 󱤬 󱤎 󱥱,' 󱥆 󱤕. 󱥆 󱤓 󱤎 󱤷 󱥚, 󱥌 󱥩 󱥟 󱥞."
+  },
+  "186": {
+    "text": "Kai 󱥡 󱥬: '󱤖! 󱥔 󱤴! Northlander 󱥶!' 󱤑 󱤈 󱥚 󱥩 󱥃. 󱥞 󱥱 󱥃! 󱤑 󱤈 󱤅 󱥩 󱤅, 󱤤 󱥻, 󱤷!",
+    "choices": {
+      "search_body": "󱤃 󱥛 󱤑 󱤷",
+      "enter_armoury": "󱤂 󱤃, 󱥩 Armoury"
+    }
+  },
+  "187": {
+    "text": "󱥢 Kwaraz (󱥢 󱤍 󱥣). 󱤬 Baga-darooz. Kwaraz 󱤅 󱥩 Kai 󱥵 (Animal Kinship). 󱥞 󱥬 󱥩 󱥢: '󱤴 󱤂 󱤶!' 󱥢 weka. Maouk 󱤷 󱤑 wan. 󱥞 󱥩 󱥟."
+  },
+  "188": {
+    "text": "󱥭 󱤶 󱤓 󱤑 󱤼. supa 󱤛. 󱥓 󱤗 󱤓 󱤶 󱥗. 󱤳 󱤋 󱥌 󱤶 󱥩 󱤑."
+  },
+  "189": {
+    "text": "󱤑 soweli 󱤕 󱤊 󱤷. 󱥞 󱤭 󱥆 󱥩 󱥏. 󱥞 󱤥 󱤥 󱥆, 󱤥 󱥟. 󱤏 󱤥 󱤓 󱤪 (pass Grand Palace). 󱤑 󱤈 󱤮 󱤪, 󱥌 󱥞 󱥩 󱤗 palace."
+  },
+  "190": {
+    "text": "󱤑 󱤎 󱥱 󱥣 󱤮 󱥞! 󱥆 󱥌 󱤎 hammer 󱥣. 󱤭 󱤆 󱤧 󱤎 hammer 󱤛! 󱤑 󱤕 󱥱, 󱤎 hammer 󱥱 󱤛 󱥒 󱤤 󱥞!"
+  },
+  "191": {
+    "text": "󱥞 󱤔 󱥩 󱤔, 󱤑 󱤔 󱥌 󱤥 󱥞 󱥩 󱥔. Maouk 󱤕: '󱥌 Kai Lord 󱥩 󱤴! Zakhan 󱤕! 󱤑 󱥞 󱤷!' 󱤑 󱤔 󱥎 󱤍. 󱥞 󱤂 󱥷 󱤑 󱤷 󱥧 󱥞.",
+    "choices": {
+      "surrender": "󱥌 󱥛 󱥩 Maouk",
+      "dive_overboard": "󱤔 󱥩 󱥪, 󱥶"
+    }
+  },
+  "192": {
+    "text": "󱥗 󱤍! 󱤅 󱥮 󱤽 󱤬 tar-sorkh. 󱥚 20 feet 󱤬 󱤯 󱤅󱤰, 󱥨 󱤭 󱤊 󱥃 󱥻. -2 ENDURANCE."
+  },
+  "193": {
+    "text": "󱥞 󱥜 󱥩 󱥒, 󱤎 󱤷 weka 󱤨 󱥧 󱥰. 󱤑 󱤈 󱥎 󱤍. 󱥆 󱤂 󱤓 󱤎 󱥱.",
+    "choices": {
+      "attack_guard": "󱥱 󱤑 󱤈",
+      "overpower_guard": "󱤭 󱥆, 󱤂 󱤷 󱥆"
+    }
+  },
+  "194": {
+    "text": "󱥢 Yas 󱥱 kepeken 󱥛. 󱥢 󱤮 󱥞 kepeken 󱤮 hypnotize. 󱤂 󱤓 Kai Mindshield -> -3 COMBAT SKILL 󱥧 󱥱 󱥁."
+  },
+  "195": {
+    "text": "󱤎 󱥗 󱤬 󱥭 󱥜. 󱥗 󱥣 󱥖 󱥗 󱤍! 󱤑 󱥮 󱤬 󱤎 bellows. 󱤑 󱤎 󱥱 󱤛 kepeken 󱤎 hammer 󱤬 󱤛. 󱥆 󱥣 󱤊 󱥵!\n󱤑 󱥮 󱥶 (󱤯 󱥚, 󱤯 󱤅󱤰). 󱤑 󱥣 󱤬 󱤛.",
+    "choices": {
+      "follow_north_door": "󱥩 󱤸 󱤑 󱤯 󱥚",
+      "follow_west_door": "󱥩 󱤸 󱤑 󱤯 󱤅󱤰",
+      "attack_armourer": "󱥱 󱤑 󱤎 󱥱 󱤬 󱤛",
+      "retrace_steps": "󱥶 󱥧 󱥭, 󱥩 󱤰 󱤆"
+    }
+  },
+  "196": {
+    "text": "supa 󱥣 󱤬 󱥭; 󱤓 󱥪 󱤊 󱤶 󱤊 󱥋.",
+    "choices": {
+      "eat_food": "󱤶 󱤶 󱥔",
+      "leave_by_window": "󱥶 kepeken 󱤯 󱥜"
+    }
+  },
+  "197": {
+    "text": "Maouk 󱥌 󱤎 󱤷 (dart) 󱥧 󱤥, 󱥌 󱥩 󱥟 󱥞. 󱥎 󱤍! 󱤂 󱤘 󱥜."
+  },
+  "198": {
+    "text": "󱤑 󱤤 󱤷 󱤅, Sharnazim weka. Maouk 󱤖 󱥩 󱤯, 󱤓 󱤎 󱤷. '󱤴 󱤓 󱥞!' 󱥆 󱥌 󱤎 󱤷 󱥩 󱥟 󱥞."
+  },
+  "199": {
+    "text": "󱥞 󱤭 󱤤 󱤑 󱤈, 󱤕 󱥷 󱤷 󱤤 󱤂 󱥬. 󱥆 󱥬 󱤄: Zakhan 󱥝 󱥎 󱥞 󱤧 󱤑 󱤷. 󱥆 󱥎 󱤂 󱤎 󱤆."
+  },
+  "200": {
+    "text": "supa 󱥚, Zakhan Kimah (Vassagonian Emperor) 󱤬. 󱤥 󱤲, 󱤓 󱤎 󱥏 󱥜. 󱤮 󱥎 󱤍! 󱤑 󱤆 󱤬 󱥟 󱥆: 󱤥 󱥏 󱤷, 󱤕 󱤷, Darklord of Helgedad! '󱥌 Lone Wolf 󱥩 󱤴!' 󱤕 Darklord. Zakhan: '󱥆 󱤖 󱥩 󱥞 󱤬 󱥤 󱤅 󱥩 Orb of Death.' Darklord Haakon: '󱤴 󱥷 Lone Wolf! 󱤴 󱤃 Book of the Magnakai 󱤬 Tomb of the Majhan!' ... 󱤪 Magnakai! 󱤪 󱥣! 󱥞 Kai Lord, 󱥷 󱤃 󱤪 Magnakai, 󱥷 󱤖 󱥩 Kai Grand Master! ... Part Two of Shadow on the Sand. 󱥇 󱤬 201."
+  }
+}

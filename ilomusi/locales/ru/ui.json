@@ -1,0 +1,12 @@
+{
+  "promptChoice": "Выбор: ",
+  "invalidChoice": "Неверный выбор. Пожалуйста, попробуйте снова.",
+  "combatTitle": "=== БОЙ ===",
+  "combatRatio": "Боевое соотношение: ",
+  "combatPrompt": "Вы победили в бою?",
+  "combatWon": "1. Да",
+  "combatLost": "2. Нет",
+  "combatEvaded": "3. Уклониться",
+  "gameOver": "Ваша жизнь и ваша миссия оканчиваются здесь.",
+  "sectionHeader": "--- Раздел {number} ---"
+}

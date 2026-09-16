@@ -1,0 +1,17 @@
+{
+  "gold_key": { "category": "special" },
+  "copper_key": { "category": "special" },
+  "jewelled_mace": { "category": "special" },
+  "blowpipe": { "category": "special" },
+  "sleep_dart": { "category": "special" },
+  "coil_of_rope": { "category": "special" },
+  "tinderbox": { "category": "special" },
+  "kalte_firesphere": { "category": "special" },
+  "oede_herb": { "category": "backpack" },
+  "potion_of_alether": { "category": "backpack" },
+  "larnuma_oil": { "category": "backpack" },
+  "laumspur": { "category": "backpack" },
+  "rendalims_elixir": { "category": "backpack" },
+  "dagger": { "category": "weapon" },
+  "sword": { "category": "weapon" }
+}

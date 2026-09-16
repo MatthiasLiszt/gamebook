@@ -1,0 +1,13 @@
+{
+  "name": "shadow-on-the-sand",
+  "version": "1.0.0",
+  "description": "Lone Wolf: Shadow on the Sand CLI Game Interpreter",
+  "type": "module",
+  "main": "src/cli/cli.js",
+  "scripts": {
+    "start": "node src/cli/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

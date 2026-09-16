@@ -1,0 +1,16 @@
+{
+  "palace_gaoler": {
+    "combatSkill": 14,
+    "endurance": 21
+  },
+  "bloodlug": {
+    "combatSkill": 17,
+    "endurance": 11,
+    "immuneTo": ["mindblast"],
+    "playerCombatSkillModifier": -2
+  },
+  "horseman": {
+    "combatSkill": 21,
+    "endurance": 28
+  }
+}

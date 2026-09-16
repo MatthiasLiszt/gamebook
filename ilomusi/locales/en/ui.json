@@ -1,0 +1,12 @@
+{
+  "promptChoice": "Choice: ",
+  "invalidChoice": "Invalid selection. Please try again.",
+  "combatTitle": "=== COMBAT ===",
+  "combatRatio": "Combat Ratio: ",
+  "combatPrompt": "Did you win the fight?",
+  "combatWon": "1. Yes",
+  "combatLost": "2. No",
+  "combatEvaded": "3. Evade",
+  "gameOver": "Your life and your mission end here.",
+  "sectionHeader": "--- Section {number} ---"
+}

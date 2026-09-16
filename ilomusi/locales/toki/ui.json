@@ -1,0 +1,12 @@
+{
+  "promptChoice": "󱥄󱤃󱥁󱦝 ",
+  "invalidChoice": "󱥁󱤧󱤍󱥞󱥄󱥉󱥝󱥁",
+  "combatTitle": "=== 󱥱 ===",
+  "combatRatio": "󱤼󱥱󱦝 ",
+  "combatPrompt": "󱥞󱤧󱤎󱥔󱤉󱥱󱥙",
+  "combatWon": "󱥳󱦜 󱥔",
+  "combatLost": "󱥮󱦜 󱤂",
+  "combatEvaded": "󱦞󱦜 󱥩󱥶",
+  "gameOver": "󱥫󱥞n󱥉󱥞󱤧󱥐󱤬󱥁",
+  "sectionHeader": "--- 󱤪 {number} ---"
+}
