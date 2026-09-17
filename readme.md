@@ -19,10 +19,10 @@ You might need Node.js or NVM with the version 23 or higher.
 
 This game supports a lot scripts for Toki Pona like 
 
-   UCSUR (make sure you have it installed and running)
-   Akesi (that's basically ASCII substitutes for the Sitelen Pona)
-   Junikoto (unicode substitutes for the Sitelen Pona)
-   CJK (asian alternatives Sitelen Pona)
+   - UCSUR (make sure you have it installed and running)
+   - Akesi (that's basically ASCII substitutes for the Sitelen Pona)
+   - Junikoto (unicode substitutes for the Sitelen Pona)
+   - Sijeka (asian alternatives to Sitelen Pona)
       take a look at https://telegra.ph/Sitelen-Ma-Pi-Suno-Kama-08-11
 
 # further notes
