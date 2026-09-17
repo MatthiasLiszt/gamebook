@@ -65,6 +65,6 @@ export function loadLocalesData(localesBaseDir = "./locales") {
 
         locales[lang] = { ui, cliText, items, enemies, disciplines, sections };
     }
-
+    
     return locales;
 }

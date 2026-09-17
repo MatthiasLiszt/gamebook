@@ -12,12 +12,14 @@
   "rollResult": "\n[ Roll: {base} | Mod: {mod} | Total: {total} ]",
   "proceedingToSection": "→ Proceeding to Section {next}...",
   "controlsHeader": "---------------------------------",
-  "controls": "[S] Stats | [SAVE] Save Game | [LOAD] Load Game | [L] Change Language | [Q] Quit",
+  "controls": "[S] Stats | [SAVE] Save Game | [LOAD] Load Game | [L] Change Language | [F] script | [Q] Quit",
   "saveSuccess": "\nGame state saved to save.json!",
   "loadSuccess": "\nGame loaded successfully!",
   "loadError": "\nFailed to load save file.",
-  "langPrompt": "Enter language code (e.g., en): ",
+  "langPrompt": "Enter language code (e.g., toki or ru): ",
+  "scriptPrompt": "Enter script code (e.g. ucsur, akesi, lasina)",
   "langSuccess": "\nLanguage changed to {lang}",
+  "scriptSuccess": "\nScript changed to {script}",
   "quitMessage": "\nThank you for playing! Farewell.\n",
   "invalidChoice": "\nInvalid command or choice number."
 }

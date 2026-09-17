@@ -3,6 +3,10 @@ import { stdin as input, stdout as output } from "node:process";
 import { readFile, writeFile } from "node:fs/promises";
 import { Game } from "../engine/game.js";
 import { loadGameData, loadLocalesData } from "./loader.js";
+import { convertScript } from "../engine/script.js";
+import ucsur from "./ucsur.json" with { type: "json" };
+import akesi from "./akesi.json" with { type: "json" };
+import junikoto from "./junikoto.json" with { type: "json" };
 
 const gameData = loadGameData(new URL("../data", import.meta.url).pathname);
 const localesData = loadLocalesData(new URL("../../locales", import.meta.url).pathname);
@@ -23,11 +27,14 @@ game.start();
 
 while (true) {
     console.clear();
-    const sectionData = game.getCurrentSectionData(); //[cite: 4]
-    const { number, text, interpreted, choices } = sectionData; //[cite: 4]
+    const sectionData = game.getCurrentSectionData(); 
+    const { number, text, interpreted, choices } = sectionData; 
 
-    console.log(`\n${t("sectionHeader", { number, lang: game.currentLang.toUpperCase() })}\n`); //[cite: 4]
-    if (text) console.log(text); //[cite: 4]
+    console.log(`\n${t("sectionHeader", { number, lang: game.currentLang.toUpperCase() })}\n`); 
+    if (text && game.getScript() === "lasina") console.log(text);
+    if (text && game.getScript() === "ucsur") console.log(convertScript(text, ucsur));
+    if (text && game.getScript() === "akesi") console.log(convertScript(text, akesi));
+    if (text && game.getScript() === "junikoto") console.log(convertScript(text, junikoto));
 
     if (interpreted.type === "death") {
         console.log(t("deathMessage"));
@@ -37,12 +44,12 @@ while (true) {
     if (interpreted.type === "goto") {
         console.log(t("movingToSection", { next: interpreted.next }));
         await rl.question(t("pressEnter"));
-        game.state.currentSection = interpreted.next; //[cite: 4]
+        game.state.currentSection = interpreted.next; 
         continue;
     }
 
     if (interpreted.type === "combat") {
-        const { combat } = interpreted; //[cite: 4]
+        const { combat } = interpreted; 
         console.log("\n=================================");
         console.log(t("combatHeader", { enemy: combat.enemy.toUpperCase() }));
         console.log(t("combatEnemyStats", { enemyCS: combat.enemyCombatSkill, enemyEndurance: combat.enemyEndurance }));
@@ -61,16 +68,16 @@ while (true) {
 
         const resolved = gameData.sections[number].combat;
         const next = result === "win" ? resolved.on_win : (result === "evade" ? resolved.on_evade : resolved.on_lose);
-        game.state.currentSection = next; //[cite: 4]
+        game.state.currentSection = next; 
         continue;
     }
 
     if (interpreted.type === "random_test") {
-        const { result } = interpreted; //[cite: 4]
+        const { result } = interpreted; 
         console.log(t("rollResult", { base: result.baseRoll, mod: result.modifier, total: result.result }));
         console.log(t("proceedingToSection", { next: result.outcome.next }));
         await rl.question(t("pressEnter"));
-        game.state.currentSection = result.outcome.next; //[cite: 4]
+        game.state.currentSection = result.outcome.next; 
         continue;
     }
 
@@ -89,13 +96,13 @@ while (true) {
 
     // Command Handlers
     if (inputCmd === "s") {
-        console.log(`\n${game.getStats()}`); //[cite: 4]
+        console.log(`\n${game.getStats()}`); 
         await rl.question(t("pressEnterReturn"));
         continue;
     }
 
     if (inputCmd === "save") {
-        await writeFile(new URL("../save.json", import.meta.url), game.saveState(), "utf8"); //[cite: 4]
+        await writeFile(new URL("../save.json", import.meta.url), game.saveState(), "utf8"); 
         console.log(t("saveSuccess"));
         await rl.question(t("pressEnter"));
         continue;
@@ -104,7 +111,7 @@ while (true) {
     if (inputCmd === "load") {
         try {
             const fileData = await readFile(new URL("../save.json", import.meta.url), "utf8");
-            game.loadState(fileData); //[cite: 4]
+            game.loadState(fileData); 
             console.log(t("loadSuccess"));
         } catch {
             console.log(t("loadError"));
@@ -116,8 +123,20 @@ while (true) {
     if (inputCmd === "l") {
         const targetLang = await rl.question(t("langPrompt"));
         try {
-            game.setLanguage(targetLang.trim().toLowerCase()); //[cite: 4]
+            game.setLanguage(targetLang.trim().toLowerCase()); 
             console.log(t("langSuccess", { lang: targetLang.toUpperCase() }));
+        } catch (err) {
+            console.log(`\n${err.message}`);
+        }
+        await rl.question(t("pressEnter"));
+        continue;
+    }
+
+    if (inputCmd === "f"){
+        const targetScript = await rl.question(t("scriptPrompt"));
+        try {
+            game.setScript(targetScript.trim().toLowerCase()); 
+            console.log(t("scriptSuccess", { script: targetScript.toUpperCase() }));
         } catch (err) {
             console.log(`\n${err.message}`);
         }
@@ -139,7 +158,7 @@ while (true) {
     }
 
     try {
-        game.choose(choiceIndex); //[cite: 4]
+        game.choose(choiceIndex); 
     } catch (error) {
         console.log(`\n${error.message}`);
         await rl.question(t("pressEnter"));

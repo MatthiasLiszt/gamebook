@@ -13,8 +13,17 @@ Just clone the repo, go to the **ilomusi** directory and start the whole thing w
 This has currently only a cli or command line version.
 
 ## requirements
-
 You might need Node.js or NVM with the version 23 or higher. 
+
+## supported scripts
+
+This game supports a lot scripts for Toki Pona like 
+
+   UCSUR (make sure you have it installed and running)
+   Akesi (that's basically ASCII substitutes for the Sitelen Pona)
+   Junikoto (unicode substitutes for the Sitelen Pona)
+   CJK (planned but not yet there)
+      take a look at https://telegra.ph/Sitelen-Ma-Pi-Suno-Kama-08-11
 
 # further notes
 

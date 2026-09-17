@@ -12,12 +12,14 @@
   "rollResult": "\n[ Roll: {base} | Mod: {mod} | Total: {total} ]",
   "proceedingToSection": "→ o tawa kipisi {next}...",
   "controlsHeader": "---------------------------------",
-  "controls": "[S] pilin | [SAVE] pana tawa lawa | [LOAD] weka tan lawa | [L] ante toki | [Q] o tawa weka",
+  "controls": "[S] pilin | [SAVE] pana tawa lawa | [LOAD] weka tan lawa | [L] ante toki | [F] sitelen | [Q] o tawa weka",
   "saveSuccess": "\nmusi sina lon save.json!",
   "loadSuccess": "\nmusi majuna sina li lon sin!",
   "loadError": "\nmi ken ala weka e musi majuna sina tan lawa",
   "langPrompt": "o pana e sitelen pi toki wile sina (en = English, toki = toki pona, ru = toki Losi",
+  "scriptPrompt": "o pana e sitelen pi sitelen wile sina (ucsur, akesi, lasina)",
   "langSuccess": "\nmi ante e toki tawa toki {lang}",
+  "scriptSuccess": "\nmi ante e sitelen tawa sitelen {script}",
   "quitMessage": "\npona tawa sina tan musi ! o lukin sin e mi tu !\n",
   "invalidChoice": "\nsina toki e ijo powe. mi ken pali ala e ni."
 }

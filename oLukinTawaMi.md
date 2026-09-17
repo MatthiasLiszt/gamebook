@@ -14,6 +14,14 @@ ike la sina ken ilo musi taso lon ilo sitelen (terminal).
 
 ona li wile e Node.js anu NVM kepeken nasin 23 anu nasin lili. 
 
+## nasin sitelen
+
+ilo ni li jo e sitelen mute ante. sina ken kepeken 
+
+  e sitelen UCSUR (sina jo e ona pali lon ilo sona sina la)
+  e sitelen Akesi 
+  e sitelen Junikoto
+
 # a ... awen sona 
 
 ilo ante li lukin e ni: ilo ni li pali pona. 

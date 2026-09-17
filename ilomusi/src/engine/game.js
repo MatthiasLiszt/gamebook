@@ -7,6 +7,7 @@ export class Game {
         this.currentLang = currentLang;
         this.locale = localesData[currentLang] ?? localesData["en"];
         this.random = randomProvider;
+        this.currentScript = "lasina";
 
         this.state = {
             currentSection: 1,
@@ -36,6 +37,17 @@ export class Game {
         }
         this.currentLang = langCode;
         this.locale = this.locales[langCode];
+    }
+
+    // Dynamic Script Switcher
+    setScript(scriptCode) {
+        this.currentScript = scriptCode;
+        this.currentLang = "toki";
+        this.locale = this.locales["toki"];
+    }
+
+    getScript(){
+        return this.currentScript;
     }
 
     // State Persistence
