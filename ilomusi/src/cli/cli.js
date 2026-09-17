@@ -7,6 +7,7 @@ import { convertScript } from "../engine/script.js";
 import ucsur from "./ucsur.json" with { type: "json" };
 import akesi from "./akesi.json" with { type: "json" };
 import junikoto from "./junikoto.json" with { type: "json" };
+import sijeka from "./cjk.json" with { type: "json" };
 
 const gameData = loadGameData(new URL("../data", import.meta.url).pathname);
 const localesData = loadLocalesData(new URL("../../locales", import.meta.url).pathname);
@@ -35,6 +36,7 @@ while (true) {
     if (text && game.getScript() === "ucsur") console.log(convertScript(text, ucsur));
     if (text && game.getScript() === "akesi") console.log(convertScript(text, akesi));
     if (text && game.getScript() === "junikoto") console.log(convertScript(text, junikoto));
+    if (text && game.getScript() === "sijeka") console.log(convertScript(text, sijeka));
 
     if (interpreted.type === "death") {
         console.log(t("deathMessage"));

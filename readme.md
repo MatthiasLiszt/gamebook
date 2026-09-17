@@ -22,7 +22,7 @@ This game supports a lot scripts for Toki Pona like
    UCSUR (make sure you have it installed and running)
    Akesi (that's basically ASCII substitutes for the Sitelen Pona)
    Junikoto (unicode substitutes for the Sitelen Pona)
-   CJK (planned but not yet there)
+   CJK (asian alternatives Sitelen Pona)
       take a look at https://telegra.ph/Sitelen-Ma-Pi-Suno-Kama-08-11
 
 # further notes

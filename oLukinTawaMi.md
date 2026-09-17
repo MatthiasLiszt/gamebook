@@ -18,9 +18,10 @@ ona li wile e Node.js anu NVM kepeken nasin 23 anu nasin lili.
 
 ilo ni li jo e sitelen mute ante. sina ken kepeken 
 
-  e sitelen UCSUR (sina jo e ona pali lon ilo sona sina la)
-  e sitelen Akesi 
-  e sitelen Junikoto
+  - e sitelen UCSUR (sina jo e ona pali lon ilo sona sina la)
+  - e sitelen Akesi 
+  - e sitelen Junikoto
+  - e sitelen Sijeka (o lukin tawa https://telegra.ph/Sitelen-Ma-Pi-Suno-Kama-08-11)
 
 # a ... awen sona 
 
