@@ -1,0 +1,223 @@
+{
+  "81": {},
+  "82": {},
+  "83": {},
+  "84": {},
+  "85": {
+    "choices": {
+      "choice_85_attack_the_guard_who": "Make an attack on the guard who has the long blade",
+      "choice_85_do_not_attack": "Do not make an attack"
+    }
+  },
+  "86": {},
+  "87": {},
+  "88": {},
+  "89": {},
+  "90": {
+    "choices": {
+      "choice_90_swallow_some_of_the_": "Take some of the purple oil into your mouth",
+      "choice_90_rub_some_into_your_s": "Rub some oil into your skin",
+      "choice_90_ignore_the_oil": "Take no note of the oil"
+    }
+  },
+  "91": {},
+  "92": {},
+  "93": {
+    "choices": {
+      "choice_93_climb_onto_the_table": "Go up onto the table and look through the window",
+      "choice_93_press_on_along_the_c": "Go on along the long room"
+    }
+  },
+  "94": {},
+  "95": {},
+  "96": {
+    "choices": {
+      "choice_96_head_west": "Go west",
+      "choice_96_continue_south": "Go on south"
+    }
+  },
+  "97": {
+    "choices": {
+      "choice_97_attack_the_yas": "Make an attack on the Yasi",
+      "choice_97_flick_shut_the_lid_a": "Put down the top quickly and go away by the north door"
+    }
+  },
+  "98": {
+    "choices": {
+      "choice_98_attack_them_before_t": "Make an attack on them before the firer puts in another stick",
+      "choice_98_attempt_to_dodge_the": "Make an attempt to get out of the way of the second stick"
+    }
+  },
+  "99": {
+    "choices": {
+      "choice_99_fight": "Fight",
+      "choice_99_surrender": "Give yourself up"
+    }
+  },
+  "100": {},
+  "101": {},
+  "102": {},
+  "103": {},
+  "104": {
+    "choices": {
+      "choice_104_attack_the_horseman": "Make an attack on the horseman",
+      "choice_104_evade_combat_by_divi": "Keep away from fight by jumping into the sea",
+      "choice_104_surrender": "Give yourself up"
+    }
+  },
+  "105": {
+    "choices": {
+      "choice_105_pull_the_lever": "Pull the handle",
+      "choice_105_close_the_head_and_c": "Close the head and go on along the long room"
+    }
+  },
+  "106": {},
+  "107": {
+    "choices": {
+      "choice_107_search_the_guards_bo": "Look through the bodies of the guards",
+      "choice_107_ignore_the_bodies_an": "Take no note of the bodies and get away along the long room"
+    }
+  },
+  "108": {},
+  "109": {
+    "text": "You go down to the street and run across the market place to the great hall. The building is full of men and women on their knees in prayer. You see a road going off to the right, which ends at an archway too narrow for more than one horse to go through. To your left, another narrow street goes down to the harbour.",
+    "choices": {
+      "choice_109_enter_the_hall": "Go into the hall",
+      "choice_109_turn_right_and_head_": "Turn right and go to the archway",
+      "choice_109_double_back_to_the_h": "Go back to the harbour"
+    }
+  },
+  "110": {
+    "text": "A giant crawling beast hangs from the top of the room, holding the stone with its long, curved hooks. Its huge round eyes move with desire as it gets the smell of living skin—your skin! It is ready to make an attack, and you cannot keep away from it."
+  },
+  "111": {
+    "text": "You are feeling feeble because of the heat and the work of fight, but your mind is happy after conquering such a strong enemy. You look through the bodies of the iron-worker and find 3 Gold Crowns and a Copper Key. If it is your desire to keep the key, put it in your bag and write it on your Action Chart as a Special Thing.",
+    "choices": {
+      "choice_111_leave_the_forge_room": "Go away from the fire room by the north door",
+      "choice_111_leave_by_the_west_do": "Go away by the west door"
+    }
+  },
+  "112": {
+    "text": "You soon come to a part of the underground way where the roof is much higher. A stone walk goes along the left wall, with steps at regular spaces. You pull yourself up onto the walk and start to take off the worst of the mud on your legs.",
+    "choices": {
+      "choice_112_continue_along_the_w": "Go on along the walk",
+      "choice_112_climb_a_narrow_stair": "Go up the narrow steps in the left wall"
+    }
+  },
+  "113": {
+    "text": "The way comes to an end at an open place set with trees. You must find a secret place to keep hidden; your white skin, Kai coat, and vest make you easy to see in the town crowd.\nTo your left is a small house with a strange wood sign over the door, made in the form of a fish. To your right is a drink-house. The sign over the drink-house door seems fitting:\nTHE HUNTED LORD",
+    "choices": {
+      "choice_113_enter_the_dwelling": "Go into the house",
+      "choice_113_enter_the_tavern": "Go into the drink-house"
+    }
+  },
+  "114": {
+    "text": "You come to a point where the smoke-pipe is no longer a straight vertical hole, but curves into an even pipe going south. Though the heat is strong, the water smoke has gone. Every part of your body feels full of pain, and you go along the narrow hole with hard work.\nAll hope of making a peace agreement with the new Sakan has gone; your only thought now is to get away from this bad waste water pipe and get back to Somelan as fast as possible.\nYou see a square cover in the roof less than ten feet ahead. It is badly damaged by age, and you have to lie on your back and kick with two feet to force it open. The work takes all your remaining strength, but you get a good result.\nBy simple chance you have come into the one place in Palakesi you most had need to see—the public baths."
+  },
+  "115": {
+    "text": "Putting your ear close to the key-hole, you hear quiet but terrible noises. Cries of great pain mixed with foolish laughter and sad sounds. The noise of a whip and the sound of a pain-machine give proof to your thoughts that a room of pain lies past this door. The terrible sounds make you shake, and you waste no time in running away from the room by the north door."
+  },
+  "116": {
+    "text": "You go up the stone steps to a small room higher than the underground way. Here, at least, it is dry, even if the bad waste air goes through everything. You go after a narrow way, first to the west, and then to the south as it makes a sudden left turn. Your heart goes down as you see a wall blocking the way ahead.",
+    "choices": {
+      "choice_116_search_for_a_hidden_": "Look for a secret way out",
+      "choice_116_turn_around_and_go_b": "Turn round and go back to the walk"
+    }
+  },
+  "117": {
+    "text": "The twisting narrow street comes to an end in a small garden square with tall round-roofed houses on three sides, all with first-floor high walks. Iron bars give strength to every window and door.\nYou are near the top of a heavy wood frame that hangs under a high walk when Mawu’s men come quickly into the square. Many are armed with heavy bronze bow-weapons.\n‘Give yourself up, Lon Wupu!’ shouts Mawu. ‘Or my men will put sharp sticks through you to the wall!’ The position is without hope; at such short range, the Sanasim will not fail to hit you. Crying out against your bad chance, you jump to the earth, coming down at the feet of Mawu. ‘You have heart, Kai Lord,’ he says with an angry growl. ‘But you will have need of more than heart to keep you safe now!’"
+  },
+  "118": {
+    "text": "The guard takes the blow-pipe to his mouth. His face grows big, and then a sharp noise gives warning that another bad needle is coming fast to your head."
+  },
+  "119": {
+    "text": "You take both guards completely by surprise. Do not take off any ENDURANCE points you lose in the first 3 turns of fight, because of the surprise and force of your attack. You must fight both guards as one enemy."
+  },
+  "120": {
+    "text": "The small knife goes through the air with a sharp noise and hits your chest. You catch your breath at the sudden pain, pulling at the handle of the knife with shaking hands in your rush to take out the deadly blade. As you fall back, the guard comes forward, a smile of win on his bad face. You pull the blade free and turn it on the guard as he jumps at you. He sees the danger but far too late—the blade has gone into his heart."
+  },
+  "121": {
+    "text": "Out from the dark, three Sanasim men of war suddenly come into view. The sharp edges of their long blades shine in the dark; dry blades desiring your blood."
+  },
+  "122": {
+    "text": "The heavy wood door is given strength with bands of black iron, held in place by giant bronze nails. You turn the handle, only to find the door is locked."
+  },
+  "123": {
+    "text": "The noise becomes louder. Suddenly the door catch makes a noise and a low voice growls out over the noise: ‘Break it down!’\nBits of wood and twisted iron are sent across the lower room as the sharp blade of a two-handed axe comes through the door. The door-joins break from the wall and in run those coming after you, slipping on the mass of broken wood.\nYou jump forward, hitting left and right, and sending two men down before they see you. The leader, a strong man of war with a flat nose, pushes the others to the side and makes an attack. You hit first, knocking the curved blade from his hand with a good hit to his arm. He gives a loud shout like a farm beast but makes an attack again, a long knife held tight in his good hand."
+  },
+  "124": {
+    "text": "You jump from the window shelf and come down feet-first on the guards, knocking them over with the surprise of your attack. You fight with speed and art, killing three men of war before they get their balance. But the noise of fight gives warning to the room of food, and twelve more soldiers of the Sakan come into the fight. You are quickly overcome by the great number of men, and it is only their respect for your heart and fight skills that keeps them from killing you on the spot.\nYour arms are taken away and you are taken with force to a prison room, where you are left to wait for the Sakan."
+  },
+  "125": {
+    "text": "The horse and its dead rider fall from the wall into the sea. The ship-men have pulled up the walking board, forcing you to jump across the open space. You come short and land on the line of oars coming out from the ship’s side.\nThe wood is wet and slippery, and you have to work hard to keep your balance."
+  },
+  "126": {
+    "text": "Keeping in the dark shadow of the stone house of the dead, you move forward to the north gate. Only two men of war stand guard where there would generally be twenty. Suddenly, the gate opens to let a horseman come in. He gives a paper roll to the guards before riding fast through the open gate. The guards read the paper, seemingly without knowledge that the gate is still open."
+  },
+  "127": {
+    "text": "You walk back along the long room to the junction to get a long run at the door—you know that if you hit the door in the right place, you will break the lock from the wall."
+  },
+  "128": {
+    "text": "You come to a round roof space where the underground way becomes wider. A drop-pipe comes down from the middle of the room, ending a few feet over the oily top of the water; a mass of food bits floats under the pipe, and the smell of bad meat is very strong.\nYou are about to step into the space when you see that the floor goes down deep. You stop just in time to keep from stepping straight into deep water. The underground way goes on past the room, but much bad waste water lies between you and the other side.\nThe noise of a far-off splash gives warning that the Sanasim are still coming after you. If you have a Cord, you can try to catch it on a long metal rod that comes out from the side of the drop-pipe to pull yourself out of the water and swing across to the opposite way."
+  },
+  "129": {
+    "text": "From the dark shadow of a door-space, you look out across the harbour. The square is full of Mawu’s men of war. It will be far too dangerous to go into the harbour; you must find another place to keep hidden till it is safer.\nGroups of men of war are looking through the houses by the square, and you are forced to leave the door-space and run back along the narrow street. As you go back into the market place, you run straight into twelve Sanasim led by Mawu himself."
+  },
+  "130": {
+    "text": "You take the Herb Cover from the dead warrior’s face (write this as a Special Thing on your Action Chart) and put this sweet-smelling bag over your own mouth. The plants inside make the bad air clean, making it easier to take breath. Give back 1 ENDURANCE point.\nThe dead body goes down out of view, and you hear the sound of more Sanasim walking through the water in the tunnel. You cannot get far ahead of them—you must find a secret place."
+  },
+  "131": {
+    "text": "You look through the great number of things on the high floor, separating the following things, which may or may not be of use:\n• Silver Tooth-brush / Comb\n• Glass Time-keeper\n• Small Knife\n• Healing Drink of Lonsupa (gives back 4 ENDURANCE points if taken into the mouth after a fight)\n• Prism\n• Food for 3 Meals (every Meal counts as 1 Bag Thing)\nKeep in mind to make the necessary changes to your Action Chart before leaving the room."
+  },
+  "132": {
+    "text": "You move quickly and quietly along the north room and soon come to another arched way that goes off to the west. A strong red light can be seen far off, and you hear the sound of hot metal as it is put into water and the hit of hammer on iron—the clear sounds of a metal-working shop."
+  },
+  "133": {
+    "text": "You see the marks of a Walasi in the sticky mud of the walk. Walasi are giant meat-eating reptiles. The number and different sizes of the feet-marks show that a group of these bad beasts live in the underground way. You make a decision that it is far too dangerous to go on in this direction, and go up narrow steps to a room higher than the underground way. Here at least it is dry, even if the bad waste air goes through everything. You go after a narrow way, first to the west and then south, but your heart goes down as you see a wall blocking the way ahead."
+  },
+  "134": {
+    "text": "You use your Kai power to force the beast away. The Palalu changes direction and swims fast to a water-beast that has taken cover in a copper pot. You go on swimming but keep a watching eye on the Palalu as it covers and eats the helpless water-beast."
+  },
+  "135": {
+    "text": "The air of the new underground way is hot and wet, and as you go on, the bad gas makes you feel ill. You are forced to stop—the air is burning your throat and causing pain in your stomach. Suddenly a noise makes you put out of mind your pain; you turn to see that one of Mawu’s men has come up to you. He comes out of the dark, his face covered by a bag of plants."
+  },
+  "136": {
+    "text": "When you have opened the lock of the door, you turn the handle and open it a few inches. You see steps going down to a small room where a black-clothed man of war is guarding two iron gates. Through the bars you can see lines of weapons and war-coats put on long frames. A sign fixed to the bars says:\nGREAT PALACE ROOM OF ARMS"
+  },
+  "137": {
+    "text": "Suddenly you see how much you have need of food. You must now eat a Meal or lose 3 ENDURANCE points. You pass unseen through the strange plants that grow everywhere in great numbers. The small stone path divides a field of strange, dark purple grass and leads to a great water-fountain. A stream of clear blue water catches the sun, giving a bright rainbow of color. You look past the fountain to where the tall towers of the palace go up into the sky, and carefully make note of the positions of the doors and windows.\nThere are two ways into the Great Palace from the gardens; you can either go through the palace food-rooms or through the Pisu-tiya—the Sakan’s hall of wins. However, only one of these ways will lead to the Sakan’s Medical Store, and to the valuable Ete plant kept there."
+  },
+  "138": {
+    "text": "The guards pull open the door, and you jump into action. Your closed hand hits the first man under his bearded jaw, lifting him from the floor with the power of the hit. His blade falls from his hand and makes a sharp noise on the floor close to your feet."
+  },
+  "139": {
+    "text": "You are so troubled by the mask of crawling small insects covering your skin that you fail to see the rusty metal post coming out of the water ahead. You walk straight into it and lose your balance. Instinctively, you take hold of the post, but like everything else it is covered with waste, as slippery as ice."
+  },
+  "140": {
+    "text": "The iron gates of the room of arms are unlocked. You push open the left gate and make a face as the sharp noise of a dry join sends a cold feeling down your back.\nInside, at the end of a long way, is a work table, covered with spearheads, blade handles, and all kinds of iron-worker tools. In the middle of these mixed things is a large, black, skin-bound book."
+  },
+  "141": {
+    "text": "You throw yourself to one side, only just keeping safe from the small stick as it goes past your chest.\n‘Take him!’ shouts Mawu, kicking his men of war forward through the broken bits. ‘Do not let him get away this time!’ You are now lying on the floor less than two feet away from the floor-door."
+  },
+  "142": {
+    "text": "You hit the water and swim under the top until the pain in your lungs forces you to come up for air. Sanasim are running in every direction, trying to surround the wall to keep you from getting away. Taking another breath, you go under again and swim to a group of small boats less than fifty yards away.\nThrough the clear blue water, it is easy to see the waste on the floor of the harbour; things from all the trade ships that have come to the wall. Fixed to one old sea-hook is a strange, jelly-like beast. A mass of short pipes comes out from all its sides, and a long curved spoon hangs under its soft body. Without warning, the beast suddenly swims fast to you, pushed by water from its breathing pipes. It is a Palalu, and it is hungry for your flesh!"
+  },
+  "143": {
+    "text": "You give light to a wood stick covered in black oil and send it down into the waste water hole. There is a great light and noise; suddenly, all along the narrow street, fires of burning waste explode into the air. The narrow street is changed into a rush of shocked and crying people, all running to keep away from the rain of burning dirt falling on their heads. The light has started a fire-reaction in the Paka-Talu; the burning gas has caught fire—everywhere is fear and noise.\nYou run with the crowd through the dirty narrow streets until you come to a busy market square, clean from the blast. Your eye is taken by a sign hanging over the side door of a large hall:\nPALAKESI FREE BATHS\nYou push open the door and go inside."
+  },
+  "144": {
+    "text": "A terrible sense of fear fills your mind. Your Kai power gives warning that a bad end comes for you if you stay in this room. You go after your inner feelings and make an attack."
+  },
+  "145": {
+    "text": "You walk into the water, thick with dirt, and try not to take air through your nose. The thick mud is full of green and black dirt, and with your every movement the top skin breaks, giving out a bad gas. You cover your mouth with your Kai coat, but the terrible smell makes you ill. A loud water noise behind you gives warning that Mawu’s men are not far away, and you walk faster. At regular spaces, round drop-pipes go into the roof. Many are marked with bright yellow, white, or red-brown colors. This part of the Paka-Talu goes under the Linan Kuwata of Palakesi, where the Guild of Cloth-makers work. The pipes send waste colors straight into the waste water, making the oily water even more brightly colored.\nYou see a movement in the water ahead. It comes nearer, the mark of an underwater waste beast. Instinctively, you put yourself flat against the colored wall as you feel the movement of water against your waist, and watch in fear and wonder as the water movement goes away into the underground way. Suddenly, a terrible cry comes out of the dark; Mawu has lost one of his men. The terrible cries of the Sanasim man of war make you cold, but your inner feelings say to go on while you have the good chance. The water channel soon comes to a junction where another underground way goes off to the west."
+  },
+  "146": {
+    "text": "For a short time, you watch the man working at his iron-anvil, in case he, too, should make a decision to leave the room. However, he goes on working, seemingly not troubled by the great heat.\nTo get to the west door without being seen, you must make your way with care across the room, moving from one pillar to the next."
+  },
+  "147": {
+    "text": "Your Kai power says to take care regarding the man who helped you. He has a desire to give you up for a bag of silver money."
+  },
+  "148": {
+    "text": "As soon as you go in, the wall-door moves shut, and you are in the dark. You go forward with care, your hand held before your face to push away spider-threads hanging in lines from the low roof. You are a few feet away from a wall blocking the way when you step on a floor-plate, which makes another wall-door move back to show a small room."
+  }
+}

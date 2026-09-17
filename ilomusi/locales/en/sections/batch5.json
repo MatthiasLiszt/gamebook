@@ -1,0 +1,155 @@
+{
+  "161": {},
+  "162": {},
+  "163": {
+    "choices": {
+      "choice_163_attack_guards": "If it is your desire to make an attack on the guards",
+      "choice_163_remain_as_you_are": "If it is your desire to keep as you are"
+    }
+  },
+  "164": {
+    "choices": {
+      "choice_164_climb_ladder": "If it is your desire to go up the ladder",
+      "choice_164_ignore_ladder": "If it is your desire to take no note of the ladder and go on through the insect-filled way"
+    }
+  },
+  "165": {
+    "choices": {
+      "choice_165_attack_guard": "If it is your desire to make an attack on this guard",
+      "choice_165_overpower_guard": "If it is your desire to overcome him and take him living"
+    }
+  },
+  "166": {},
+  "167": {},
+  "168": {},
+  "169": {
+    "choices": {
+      "choice_169_read_poster": "If it is your desire to stop to read the paper",
+      "choice_169_continue_along_passa": "If it is your desire to go on along the way"
+    }
+  },
+  "170": {},
+  "171": {
+    "choices": {
+      "choice_171_enter_secret_passage": "If it is your desire to go into the secret way",
+      "choice_171_avoid_passage": "If you decide to keep away from the way, close the wall-board and go on along the long room"
+    }
+  },
+  "172": {},
+  "173": {
+    "choices": {
+      "choice_173_north_channel": "If it is your desire to take the north way",
+      "choice_173_south_channel": "If it is your desire to take the south way",
+      "choice_173_west_channel": "If it is your desire to take the west way"
+    }
+  },
+  "174": {
+    "choices": {
+      "choice_174_pick_up_sword": "If it is your desire to take up the blade",
+      "choice_174_attack_bare_handed": "If it is your desire to take no note of the blade and make an attack on the second guard with open hands"
+    }
+  },
+  "175": {},
+  "176": {},
+  "177": {
+    "choices": {
+      "choice_177_attack_sharnazim": "If it is your desire to make an attack on the Sanasim",
+      "choice_177_climb_stairs": "If it is your desire to keep away from them by going up the narrow stone steps"
+    }
+  },
+  "178": {},
+  "179": {
+    "choices": {
+      "choice_179_attack_maouk": "If it is your desire to make an attack on Mawu",
+      "choice_179_run_back": "If it is your desire to turn and run back along the street"
+    }
+  },
+  "180": {},
+  "181": {
+    "choices": {
+      "choice_181_climb_steps": "If it is your desire to go up the steps and enter the door",
+      "choice_181_investigate_chest": "If it is your desire to look at the wood box"
+    }
+  },
+  "182": {
+    "choices": {
+      "choice_182_enter_passage": "If it is your desire to go into the way",
+      "choice_182_listen_at_door": "If it is your desire to listen at the door"
+    }
+  },
+  "183": {},
+  "184": {},
+  "185": {},
+  "186": {
+    "choices": {
+      "choice_186_search_body": "If it is your desire to look through his body",
+      "choice_186_enter_armoury": "If it is your desire to take no note of the body and go into the arms room"
+    }
+  },
+  "187": {},
+  "188": {},
+  "189": {
+    "text": "The message-man shouts as he falls, but is dead before his head hits the round stones. You waste little time pulling his body into the shadows. You put on his loose coat and lift the head-cover, hiding your inner coat and your face. In the coat-pocket you find a paper roll: the pass needed to go into the Mawani Suli Palace.\nThe dead message-man's horse has run away, but your coming to the gate on foot does not seem to make any doubt. The guards look at the paper roll with simple tiredness and let you pass through the gate into the palace gardens past it."
+  },
+  "190": {
+    "text": "You have taken only twelve steps before you are seen. The giant iron-worker lifts a heavy hammer and steps forward, a blood-seeking angry noise coming from between his closed teeth. You make ready to keep yourself safe, but you are shocked for a second when you see that the hammer is part of his right arm: it is, in fact, a giant iron fist.\nThe iron-worker gives a war-cry and you move just in time. The hammer takes a bit of stone from the wall, very close over your head."
+  },
+  "191": {
+    "text": "You get your way slowly along the line of oars till you reach the ship's side, where eager hands take hold of your coat and pull you to safety. Mawu's voice comes loud across the water. 'Give up the Kai Master to me. The Sakan gives command for it! Your lives and the lives of all your family will be lost if you do not do this order!'\nThe ship-men look at one another in sadness—they know that Mawu's words are a true threat. You cannot let these men give up their families for you, so you must quickly make a decision on another plan.",
+    "choices": {
+      "surrender": "If you decide to give yourself up to Mawu",
+      "dive_overboard": "If you wish to jump into the water and try to get away",
+      "choice_191_surrender": "Give yourself up to Mawu",
+      "choice_191_dive_overboard": "Jump into the water and try to get away"
+    }
+  },
+  "192": {
+    "text": "The great heat is too much. Three times you nearly slip and fall, and are saved only by your quick mind and natural powers from a terrible end in the Ta-Soka. You pull yourself up twenty feet of the smoke-pipe, but the price is high. Your fingers and knees are without skin and bleeding, and your legs are painful with tiredness. Lose 2 ENDURANCE points."
+  },
+  "193": {
+    "text": "You jump to one side as the small knife comes through the air to you, missing your throat by very little. The guard looks with an open mouth in surprise. He is now without a weapon.",
+    "choices": {
+      "attack_guard": "If you wish to make an attack on the guard",
+      "overpower_guard": "If you wish to overcome him and take him living",
+      "choice_193_attack_guard": "Make an attack on the guard",
+      "choice_193_overpower_guard": "Overcome him and take him living"
+    }
+  },
+  "194": {
+    "text": "The Yasi is a crushing snake: it kills its food by crushing them to death with the rings of its strong body. Its sleeping eyes are now open and the red-marked narrow eyes keep a fixed look on you. You suddenly see that the Yasi is trying to put a spell on your mind. If you do not have the Kai Art of Mindshield, take off 3 points from your COMBAT SKILL for the time of this fight."
+  },
+  "195": {
+    "text": "A fire-place has been made in the middle of a giant round room, its pipe-like top going up to the roof. The heat had become very bad long before, but now you feel as if you have walked straight into a burning fire.\nTwo men, naked but for small body-cloths, work the air-machine that feeds the fire. Water comes from their bodies, and they frequently stop to drink large spoons of water from a box in the stone floor. An iron-worker hits a line of red-hot iron at an iron block near the flames. He is giant; his large, strong shoulders and powerful chest are as wide as the other two men put together.\nThe air-machine men stop work and leave the room; one by the door in the north wall, the other by the door in the west wall. The big man goes on hitting the iron on the block.",
+    "choices": {
+      "follow_north_door": "If you wish to go after the man who left by the north door",
+      "follow_west_door": "If you wish to go after the man who left by the west door",
+      "attack_armourer": "If you wish to make an attack on the iron-worker at the block",
+      "retrace_steps": "If you wish to leave the room and go back along the hallway to take the other way",
+      "choice_195_follow_north_door": "Go after the man who left by the north door",
+      "choice_195_follow_west_door": "Go after the man who left by the west door",
+      "choice_195_attack_armourer": "Make an attack on the iron-worker at the block",
+      "choice_195_retrace_steps": "Leave the room and go back along the hallway to take the other way"
+    }
+  },
+  "196": {
+    "text": "You see that a large table is in the middle of the room; it is set with wine and meat, and newly cooked bread.",
+    "choices": {
+      "eat_food": "If you wish to eat some of this good food",
+      "leave_by_window": "If you wish to leave the room by the window",
+      "choice_196_eat_food": "Eat some of this good food",
+      "choice_196_leave_by_window": "Leave the room by the window"
+    }
+  },
+  "197": {
+    "text": "Mawu pulls his hand from his coat, a needle held tightly in his thin fist. He gives a bad curse and throws the weapon at your chest. You catch your breath in surprise as the weapon hits you—you are too close to keep away from being hit."
+  },
+  "198": {
+    "text": "As the leader's body falls dead across the broken cellar door, the Sanasim step back and move to the side. Mawu himself comes out in the doorway, a needle held high in his hand. 'I have you now!' he says with a hiss, and throws the weapon at your chest."
+  },
+  "199": {
+    "text": "You hold the frightened guard in a tight neck-lock and say you will break his neck if he does not give answers to your questions. He at once promises to tell you all he knows. He says that the new Sakan fears that you are a killer, sent by his enemies in the west. He says he hates the new Sakan himself. He is only a simple prison-keeper, he says, and knows nothing more."
+  },
+  "200": {
+    "text": "On a high floor, covered with red fur, sits the Pasakoni Ruler, Sakan Kima. He is clothed in gold but without any jewels. In his hand is a ball of black iron, and in his eye a cold cruelty that makes you cold. The Sakan is a man of great face, but he becomes small in the shadow of the one beside him.\nBefore him stands the cause of your fear. A head-cover as black as death itself hides the face, but the smell of rot and a terrible death-voice show who he is.\n'Give me Lon Wupu!'\nIt is the bad voice of an old enemy—a Dark Ruler of Eleketa. As the Sakan gets to his feet, you see a small look of doubt, or maybe of fear, in his cruel eyes, but he is quick to hide it. 'He will be brought to you at sunset in change for the Ball of Death. It is agreed.'\n'You have the Ball,' says the cold voice again. 'Give me Lon Wupu!'\nThe Sakan hides his fear well, but time is not with him. The game he plays is deadly. Still, the fact that he has not been found out is proof of his strong mind, for you sense the Dark Ruler is constantly touching and probing at his mind.\n'You will get your Northland man, Ruler Aken,' says the Sakan, his voice short with anger, 'when you tell me why your servants make dirty the Tomb of the Majan. You say you have no need for gold and jewels—why then do you take from the resting places of our past fathers?'\nA deathly quiet fills the hall; only the unnatural breath of the Dark Ruler breaks the quiet. 'This land, this small bit of sand, holds two small points that hurt our skin. We seek to take away them both—forever. The young Kai, Lon Wupu, is the point that stops us from taking Somelan. The Tomb of the Majan hides the other point that threatens us—the bad-marked Book of the Maman-Kai.'\nYour heart hits fast as the words sound in your head. The Book of the Maman-Kai! Suddenly, the reason why you have been led into a deadly trap becomes clear, and the bad truth is shown.\nThe Book of the Maman-Kai is one of the oldest stories of Somelan. With the wisdom of the Maman-Kai, Waso Suno, the first Kai Leader, put the Arts into the men of war of the Tomo Suli Ula, the family line of your king, that were to keep your land safe from destruction by the Dark Rulers. The Book of the Maman-Kai was lost hundreds of years ago, but its wisdom was kept living, given down through generations of Somelen men of war so that they could share the power to stand against their long-time enemies, the Dark Rulers of Eleketa.\nIf the Dark Rulers find and destroy the Book of the Maman-Kai, the secrets will be lost forever, and when you die, the Kai will be no more. However, if you find the Book of the Maman-Kai first and keep the Dark Rulers from their prize, all the wisdom of the Maman-Kai will be shown to you. Through its wisdom you will become strong, strong enough to reach the highest place for a Somelen man of war—to become a Kai Leader.\nHowever, the danger and the great place of the search that lies ahead are taking your mind away from closer danger. To find this danger and to start the search for the Book of the Maman-Kai, go to Part Two of Shadow on the Sand.\nStart your adventure at 201."
+  }
+}

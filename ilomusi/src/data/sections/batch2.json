@@ -1,0 +1,484 @@
+{
+  "41": {
+    "effects": [
+      {
+        "text": "Fail to swallow oil; bad taste."
+      }
+    ],
+    "choice": [
+      {
+        "text": "choice_41_rub_oil_into_skin",
+        "next": 103
+      },
+      {
+        "text": "choice_41_forget_the_oil_compl",
+        "next": 71
+      }
+    ]
+  },
+  "42": {
+    "choice": [
+      {
+        "text": "choice_42_go_through_the_gate",
+        "next": 75
+      },
+      {
+        "text": "choice_42_take_the_path",
+        "next": 169
+      }
+    ]
+  },
+  "43": {
+    "choice": [
+      {
+        "text": "choice_43_search_for_a_hidden_",
+        "next": 33
+      },
+      {
+        "text": "choice_43_prepare_yourself_for",
+        "next": 185
+      }
+    ]
+  },
+  "44": {
+    "choice": [
+      {
+        "text": "choice_44_examine_the_leather_",
+        "next": 83
+      },
+      {
+        "text": "choice_44_ignore_the_book_and_",
+        "next": 181
+      }
+    ]
+  },
+  "45": {
+    "choice": [
+      {
+        "text": "choice_45_attack_the_guard",
+        "next": 78
+      },
+      {
+        "text": "choice_45_overpower_and_captur",
+        "next": 199
+      }
+    ]
+  },
+  "46": {
+    "combat": {
+      "enemy": "vestibule_guard_2",
+      "on_win": 3,
+      "on_lose": null
+    }
+  },
+  "47": {
+    "choice": [
+      {
+        "text": "choice_47_continue_along_the_w",
+        "next": 73
+      },
+      {
+        "text": "choice_47_go_south_along_the_n",
+        "next": 128
+      }
+    ]
+  },
+  "48": {
+    "random_test": {
+      "roll": "random_0_9",
+      "modifiers": [
+        {
+          "require": {
+            "rank_at_least": "guardian"
+          },
+          "add": 3
+        }
+      ],
+      "outcomes": [
+        {
+          "min": 0,
+          "max": 4,
+          "next": 34
+        },
+        {
+          "min": 5,
+          "max": 12,
+          "next": 80
+        }
+      ]
+    }
+  },
+  "49": {
+    "random_test": {
+      "roll": "random_0_9",
+      "modifiers": [
+        {
+          "require": {
+            "discipline": "hunting"
+          },
+          "add": 1
+        },
+        {
+          "require": {
+            "rank_at_least": "savant"
+          },
+          "add": 3
+        }
+      ],
+      "outcomes": [
+        {
+          "min": 0,
+          "max": 5,
+          "next": 106
+        },
+        {
+          "min": 6,
+          "max": 13,
+          "next": 189
+        }
+      ]
+    }
+  },
+  "50": {
+    "effect": [
+      {
+        "stat": "endurance",
+        "change": -2
+      }
+    ],
+    "next": 176
+  },
+  "51": {
+    "effect": [
+      {
+        "stat": "endurance",
+        "change": -1
+      }
+    ],
+    "require": {
+      "if_true": 173,
+      "discipline": "tracking"
+    },
+    "choice": [
+      {
+        "text": "choice_51_enter_the_left_chann",
+        "next": 96
+      },
+      {
+        "text": "choice_51_enter_the_right_chan",
+        "next": 145
+      },
+      {
+        "text": "choice_51_enter_the_channel_st",
+        "next": 13
+      }
+    ]
+  },
+  "52": {
+    "effect": [
+      {
+        "gold": 4
+      },
+      {
+        "add_item": "gaolers_keys"
+      }
+    ],
+    "next": 140
+  },
+  "53": {
+    "choice": [
+      {
+        "text": "choice_53_enter_the_dwelling",
+        "next": 157
+      },
+      {
+        "text": "choice_53_enter_the_tavern_ins",
+        "next": 188
+      }
+    ]
+  },
+  "54": {
+    "choice": [
+      {
+        "text": "choice_54_if_you_need_the_oede",
+        "next": 68
+      },
+      {
+        "text": "choice_54_enter_the_shop_even_",
+        "next": 154
+      },
+      {
+        "text": "choice_54_continue_along_the_n",
+        "next": 179
+      }
+    ]
+  },
+  "55": {
+    "choice": [
+      {
+        "text": "choice_55_climb_the_left_chimn",
+        "next": 162
+      },
+      {
+        "text": "choice_55_climb_the_right_chim",
+        "next": 23
+      }
+    ]
+  },
+  "56": {
+    "effect": [
+      {
+        "add_item": "jakan"
+      },
+      {
+        "add_item": "arrow"
+      }
+    ],
+    "random_test": {
+      "roll": "random_0_9",
+      "modifiers": [
+        {
+          "require": {
+            "discipline": "weaponskill"
+          },
+          "add": 2
+        }
+      ],
+      "outcomes": [
+        {
+          "min": 0,
+          "max": 3,
+          "next": 7
+        },
+        {
+          "min": 4,
+          "max": 11,
+          "next": 28
+        }
+      ]
+    }
+  },
+  "57": {
+    "combat": {
+      "enemy": "elix",
+      "on_win": 2,
+      "on_lose": null
+    }
+  },
+  "58": {
+    "choice": [
+      {
+        "text": "choice_58_attempt_to_dial_the_",
+        "next": 67
+      },
+      {
+        "text": "choice_58_do_not_attempt_to_op",
+        "next": 156
+      }
+    ]
+  },
+  "59": {
+    "choice": [
+      {
+        "text": "choice_59_pick_up_the_dropped_",
+        "next": 4
+      },
+      {
+        "text": "choice_59_attack_the_second_gu",
+        "next": 91
+      }
+    ]
+  },
+  "60": {
+    "next": 25
+  },
+  "61": {
+    "next": 176
+  },
+  "62": {
+    "next": 152
+  },
+  "63": {
+    "choice": [
+      {
+        "text": "choice_63_search_the_bodies_of",
+        "next": 102
+      },
+      {
+        "text": "choice_63_ignore_the_bodies_an",
+        "next": 150
+      }
+    ]
+  },
+  "64": {
+    "combat": {
+      "enemy": "kwaraz",
+      "on_win": 177,
+      "on_lose": null
+    }
+  },
+  "65": {
+    "choice": [
+      {
+        "text": "choice_65_attack_the_guard",
+        "next": 78
+      },
+      {
+        "text": "choice_65_overpower_him_and_ca",
+        "next": 199
+      }
+    ]
+  },
+  "66": {
+    "choice": [
+      {
+        "text": "choice_66_jump_back_into_garde",
+        "next": 149
+      },
+      {
+        "text": "choice_66_launch_surprise_atta",
+        "next": 124
+      }
+    ]
+  },
+  "67": {
+    "next": 200
+  },
+  "68": {
+    "choice": [
+      {
+        "text": "choice_68_examine_the_potions",
+        "next": 27
+      },
+      {
+        "text": "choice_68_ignore_them_and_leav",
+        "next": 160
+      }
+    ]
+  },
+  "69": {
+    "effect": [
+      {
+        "confiscate_all": true
+      }
+    ],
+    "choice": [
+      {
+        "text": "choice_69_attack_the_guards_as",
+        "next": 138
+      },
+      {
+        "text": "choice_69_stand_in_the_middle_",
+        "next": 85
+      }
+    ]
+  },
+  "70": {
+    "choice": [
+      {
+        "text": "choice_70_climb_the_steps",
+        "next": 43
+      },
+      {
+        "text": "choice_70_wait_here_and_fight_",
+        "next": 60
+      }
+    ]
+  },
+  "71": {
+    "next": 54
+  },
+  "72": {
+    "effect": [
+      {
+        "stat": "endurance",
+        "change": -1
+      }
+    ],
+    "choice": [
+      {
+        "text": "choice_72_fight_them",
+        "next": 36
+      },
+      {
+        "text": "choice_72_surrender",
+        "next": 176
+      }
+    ]
+  },
+  "73": {
+    "next": 94
+  },
+  "74": {
+    "choice": [
+      {
+        "text": "choice_74_go_through_the_west_",
+        "next": 44
+      },
+      {
+        "text": "choice_74_leave_the_chamber_by",
+        "next": 167
+      }
+    ]
+  },
+  "75": {
+    "choice": [
+      {
+        "text": "choice_75_enter_with_the_man",
+        "next": 24
+      },
+      {
+        "text": "choice_75_refuse_and_climb_the",
+        "next": 169
+      },
+      {
+        "text": "choice_75_enter_the_alley",
+        "next": 117
+      }
+    ]
+  },
+  "76": {
+    "next": 98
+  },
+  "77": {
+    "death": true
+  },
+  "78": {
+    "choice": [
+      {
+        "text": "choice_78_leave_the_bodies_and",
+        "next": 150
+      },
+      {
+        "text": "choice_78_search_the_bodies",
+        "next": 102
+      }
+    ]
+  },
+  "79": {
+    "require": {
+      "if_true": 170,
+      "all": [
+        {
+          "discipline": "camouflage"
+        },
+        {
+          "discipline": "hunting"
+        }
+      ]
+    },
+    "choice": [
+      {
+        "text": "choice_79_sneak_past_the_drink",
+        "next": 86
+      },
+      {
+        "text": "choice_79_attack_them_while_th",
+        "next": 119
+      }
+    ]
+  },
+  "80": {
+    "next": 136
+  }
+}

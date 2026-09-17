@@ -1,0 +1,172 @@
+{
+  "1": {
+    "text": "For twenty-five days, the Vassagonian galley sails on a steady course for its home port of Barrakeesh...\n'A thousand greetings, Lone Wolf, I am Maouk...'\nHis warning is cut short by the blade of Maouk's dagger...",
+    "choices": {
+      "choice_1_fight": "Stand and fight against these overwhelming odds",
+      "choice_1_surrender": "Surrender to Maouk and his warriors",
+      "choice_1_run": "Run back to the galley"
+    }
+  },
+  "6": {
+    "text": "The oil is made from the fruit of the larnuma tree. It has a soothing and relaxing effect when rubbed into the skin.",
+    "choices": {
+      "choice_6_rub": "Rub the larnuma oil into your skin",
+      "choice_6_skip": "Decide not to use the oil"
+    }
+  },
+  "8": {
+    "text": "You channel all your Kai skill into detecting the number that will open the door... Deduct 2 ENDURANCE points from your total.",
+    "choices": {
+      "choice_8_67": "Choose sixty-seven",
+      "choice_8_76": "Choose seventy-six"
+    }
+  },
+  "14": {
+    "text": "You step into a perfect hemisphere... You have found your confiscated equipment.",
+    "choices": {
+      "choice_14_leave": "Leave the chamber",
+      "choice_14_search": "Search the chamber for useful items"
+    }
+  },
+  "16": {
+    "text": "You rush into the cellar and bolt the door...",
+    "choices": {
+      "choice_16_grille": "Leave the cellar by the grille",
+      "choice_16_fight": "Stay in the cellar and prepare for combat"
+    }
+  },
+  "17": {
+    "text": "It takes a long time for the fear and nausea to subside...",
+    "choices": {
+      "choice_17_west": "Continue along the west channel",
+      "choice_17_north": "Turn north into the new tunnel",
+      "choice_17_south": "Go south along the new tunnel"
+    }
+  },
+  "19": {
+    "text": "You raise the hood of your Kai cloak in order to keep your face in shadow as you approach the guards...",
+    "choices": {
+      "choice_19_bribe": "Give the guards two Backpack Items",
+      "choice_19_leave": "Leave the gate and search for another entrance"
+    }
+  },
+  "26": {
+    "text": "Peering through the keyhole, you can see that the lock is unusual...",
+    "choices": {
+      "choice_26_break": "Try to break down the door",
+      "choice_26_leave": "Leave the door and head towards the stairs"
+    }
+  },
+  "30": {
+    "text": "You pass several high-arched portals overlooking the east city wall...",
+    "choices": {
+      "choice_30_ledge": "Hide outside on the narrow ledge",
+      "choice_30_attack": "Attack the guards as they march past"
+    }
+  },
+  "33": {
+    "text": "You hack the dirt-encrusted floor and uncover a large metal ring...",
+    "choices": {
+      "choice_33_jump": "Jump down the shaft",
+      "choice_33_fight": "Stand and fight the Sharnazim"
+    }
+  },
+  "34": {
+    "text": "No matter how hard you try to picture the mechanism... Deduct 1 ENDURANCE point.",
+    "choices": {
+      "choice_34_break": "Try to break down the door",
+      "choice_34_leave": "Leave the door and head towards the stairs"
+    }
+  },
+  "39": {
+    "text": "The man is lying. He knows that other guards are sure to turn up...",
+    "choices": {
+      "choice_39_question": "Continue questioning him",
+      "choice_39_kill": "Decide to kill him"
+    }
+  },
+  "41": {
+    "text": "You fill your mouth with oil but cannot bring yourself to swallow it—the foul tasting liquid makes you feel sick. You spit it out, and gulp mouthfuls of water to rid yourself of the disgusting taste."
+  },
+  "42": {
+    "text": "Your Kai sense warns you that the alley is a dead end. If you take that exit from the square, you will certainly be trapped. Only two other choices remain: the high, nail-studded gate to your left, or the path directly ahead."
+  },
+  "43": {
+    "text": "You reach a small chamber set above the tunnel. Here, at least, it is dry, although the foul sewer gas permeates everything. You hurry along a narrow passage, which turns first to the west and then to the south, but your heart sinks as you see a dead end looming out of the inky blackness."
+  },
+  "44": {
+    "text": "You hurry through the west door and into the welcoming cool of the corridor beyond. A large drawbar on the inside of the door catches your eye; you lock it to delay any would-be pursuers.\nAt the end of the corridor lies a hall full of weapons. Racks of spears and swords line the chamber walls, and a massive workbench covers the floor. It is the palace armoury. In the midst of the tools which litter the workbench, there is a large, black, leather-bound book."
+  },
+  "45": {
+    "text": "You concentrate your Mindblast on the guard’s hand. He screams and his fingers spring open as his hand is robbed of all feeling and control. He is now unarmed."
+  },
+  "46": {
+    "text": "As your adversary falls to the ground, the other guard stabs at you with his Trident. You cannot evade combat and must fight him to the death."
+  },
+  "47": {
+    "text": "You have a strong feeling that more Kwaraz occupy the north tunnel. You sense a lair. It would be almost suicide to go that way, so you must take one of the remaining routes."
+  },
+  "48": {
+    "text": "You focus on the lock and concentrate all of your Kai skill on opening it. Sweat begins to trickle down your face."
+  },
+  "49": {
+    "text": "The outer wall of the Grand Palace is far too high to climb, and even if you had a rope long enough, your green Kai cloak would be seen for miles, set against the white, sun-bleached marble wall.\nYou crouch in the shadow of a doorway while you concentrate on working out a plan. There is a constant traffic of mounted scouts and couriers from the north gate. Those arriving hand a scroll of parchment to two of the guards before they enter. Slowly, a bold plan begins to take shape in your mind. If you could overpower one of the couriers before he reaches the palace gate, you could disguise yourself in his clothes and use his scroll to gain entrance.\nMany of the couriers approach the Grand Palace from the harbour, and although it is infested with troops, you discover the ideal place to ambush a rider. There is a broad avenue where a bridge of gnarled old wood and metal curves over the street, and here, beneath the wooden arch, you lie in wait for your prey.\nYour chance soon arrives; a black-robed rider enters the avenue and spurs his horse along the street. He will have to pass beneath the arch. You prepare to pounce."
+  },
+  "50": {
+    "text": "The smooth leather soles of your boots do not grip on the wet wood. You slip, and as you fall you gash your head on the row of oars. You lose 2 ENDURANCE points.\nYou are fished from the water by the Sharnazim; they drag you by your cloak across the sun-bleached flagstones of the harbour square and deposit you at Maouk’s feet. He looks at you mockingly. ‘You are brave, Kai Lord. But you will need more than bravery to save you now.’"
+  },
+  "51": {
+    "text": "A slippery ladder disappears into the dark, stench-filled shaft. You gulp a lungful of air and climb down, locking the trapdoor behind you. When you finally reach the bottom of the shaft, your worst fears are confirmed.\nYou have entered the Baga-darooz, the main drainage sewer of Barrakeesh. You recall one of the crewmen aboard the galley, an old man nicknamed ‘The Stink’ because he smelled so much, having been sentenced to one year’s imprisonment in the Baga-darooz for a crime he did not commit. Peering along the gloomy tunnels, you wonder how he survived for so long in this dank, filthy sewer.\nSuddenly your thoughts are disturbed by the sound of splintering wood. Chunks of shattered timber rain down upon you as the Sharnazim force open the trapdoor. The heavy iron grille glances off your shoulder as it falls; you stifle a cry of pain, but you lose 1 ENDURANCE point due to the wound.\nThis section of the Baga-darooz is a junction where three channels meet. You must quickly decide which channel to take, for Maouk’s men are now descending the ladder."
+  },
+  "52": {
+    "text": "You turn the body over with the toe of your boot and search the robes, discovering 4 Gold Crowns, Gaoler’s Keys, a Dagger, and a Sword."
+  },
+  "53": {
+    "text": "You recognize the sign of the fish. It is the symbol of an order of monks known as ‘The Redeemers’, a silent order who are devoted to a lifetime of prayer, pilgrimage, and the study of the healing arts."
+  },
+  "54": {
+    "text": "Hurrying down the steps and away from the Bath Hall, you enter the ‘Saadi-tas-Ouda’: the Square of the Dead. Jet-black flagstones cover the square, each with a long iron spike set deep into its centre. From the Bath Hall steps, the square resembles the back of a massive iron porcupine, but when you reach the base of the steps, you realize that the Saadi-tas-Ouda is in fact far more sinister.\nStuck on top of each spike is a human skull—all that remains of pirates, murderers, traitors, and thieves who have been sentenced to death. The grisly display serves as a warning to others never to defy the law of the Zakhan.\nAs you reach the far side of the square, you brush against a spike. Fresh blood is smeared across the arm of your tunic, staining it dark red. You raise your eyes, cursing at your misfortune, but you are shocked into silence by the sight before you.\nImpaled upon the sharp iron pole is the head of the Vassagonian envoy. To either side are the heads of all the galley crew. On each of their foreheads is freshly branded one word—TRAITOR. Fear wells up inside you; turning your face away from the sightless eyes, you run into the crowded streets of the Mikarum, the district where the spice and herb merchants live.\nAt the end of a narrow, winding street, you reach a junction. Opposite is a shop with a bright red sign above the door:\nBir Dar Masoun—HERB-MISTRESS"
+  },
+  "55": {
+    "text": "The temperature rises steadily until you are bathed in sweat. Ahead, you see a chamber filled with steam that rises from its bubbling floor. You are about to enter the chamber when you catch a glimpse of the danger awaiting you; the stone walkway ends abruptly, only a few yards into the chamber. Ten feet below, lying before you like the surface of a huge bubbling cauldron, is a tar-sorkh: a mud geyser.\nThese geysers are common in Vassagonia. Much of the desert empire is unstable, but although it is subject to constant earth tremors, it rarely results in great destruction. The Vassagonians call these tremors: ‘Tasa-Dophiem’, which means ‘The Wrestling Gods’.\nThis particular mud geyser has been put to practical use. It provides a constant source of heat for the dwellings built over the chamber. The steam from the tar-sorkh rises into a pair of huge, circular chimneys in the domed ceiling, which in turn feed heat to the buildings above. Your only way out of this chamber is by climbing one of these chimneys. Although there are no ladders, the rock-hewn chamber wall offers many footholds."
+  },
+  "56": {
+    "text": "A search of the baskets crowding the little boat uncovers a beautifully hand-tooled leather case. You flick open the brass catch and discover that the case contains a Jakan—a hunting bow used by the coastal fishermen of Vassagonia. You are elated by your find but disappointed to discover that the case contains only one Arrow.\nAcross the harbour square, close to Maouk’s carriage, you notice a small, white-walled shop where a row of green glass flagons line a balcony on the first floor. You draw the bowstring to your lips and take careful aim; it is a difficult shot, and you have only one chance."
+  },
+  "57": {
+    "text": "The door is unlocked, and for a moment your heart sinks; if this room is the Imperial Apothecary where the Oede herb is kept, why is the door not locked and guarded? Anxiously you slip inside and survey the interior.\nIt seems to be an apothecary. Glass retorts bubble and steam over jets of blue flame, and strange fluids pass back and forth through a crazy maze of tubes and tunnels. Hundreds of herb jars line the far wall, and ten large copper urns, each full of rainbow-coloured powder, hang suspended from the soot-blackened ceiling. You begin searching through the herb jars, and suddenly you discover why the door was left unlocked. Creeping slowly towards you is the cat-like creature that guards the apothecary. Its eyes glow with a vivid green luminescence as it prepares to strike."
+  },
+  "58": {
+    "text": "You follow a straight passage of pale, rose-coloured stone, which soon ends at an empty vestibule. In its north wall is set a great wooden door, covered with engraved bronze plaques and studded with bronze nails. There is a curious lock set into the middle of this door, encircled by a beautiful carving of a long-tailed scorpion. A closer look at the lock reveals a series of Vassagonian numerals, numbered 1 to 200, engraved in the lock. You recognize the design: it is a Cloeasian combination lock."
+  },
+  "59": {
+    "text": "You spring forward and slam your fist into the guard’s face; he grunts and falls, clutching a bleeding nose. His sword drops to the ground close by your feet."
+  },
+  "60": {
+    "text": "You leap towards the first warrior, feigning a blow that makes him dodge to the left. You anticipate his move and catch him in mid-step. He doubles up and then crumples into the slimy water, clutching his wound. The others hesitate and then back away.\nSuddenly a voice echoes along the tunnel. ‘Leave him to me, you fools!’ Maouk appears from the shadows, a dart held high in his hand. He hisses a curse and flings the missile at your chest."
+  },
+  "61": {
+    "text": "Suddenly, the door bursts open, and in rush the Sharnazim. You make a dash for the open window but are grabbed from behind and pulled to the ground. Lashing out with your feet and fists you free yourself, only to be overpowered by more of the dark-skinned warriors. As they drag you out into the courtyard, you catch a glimpse of the man who opened the gate; he smiles at you as he slips a pouch of silver into his pocket."
+  },
+  "62": {
+    "text": "Instinct and experience warn you that it would be rash to attack the guards so close to a crowded mess hall; any noise of combat would immediately be heard by the soldiers inside. There’s now only one course of action for you to take—you must hide outside on the ledge running around a palace wall."
+  },
+  "63": {
+    "text": "You tear strips of cloth from your Kai cloak and bandage the wound as best you can. You manage to staunch the flow, but you have lost a lot of blood and fear the wound is infected."
+  },
+  "64": {
+    "text": "You have barely taken a dozen steps along the walkway when you hear a low, inhuman growl. Then, the noise suddenly changes to an abominable and high-pitched sputter, as the huge bulk of a Kwaraz emerges from out of the dark. It is upon you before you can take any evasive action."
+  },
+  "65": {
+    "text": "The guard slumps to the ground, his neck broken by the blow from the edge of your hand, but as you turn you see that the other man has recovered from your punch and is crawling across the floor, his hand stretched out to retrieve his sword."
+  },
+  "66": {
+    "text": "A sour-faced guard with a whip stands at the great doors to the kitchen. He delights in bullying the slaves that pass to and fro, lashing them with his whip and cursing them foully. You decide it is far too risky to confront the guard and instead focus your attention on the kitchen windows. The guard is too engrossed in beating an unfortunate slave who has dropped a basket of fruit to notice you sprint across the gardens and leap into the shadow of a tall, arched kitchen window. Then, to your horror, you notice that two guards are seated inside the kitchen, just below the window ledge on which you now stand. If they should so much as turn their heads, you will be seen."
+  },
+  "67": {
+    "text": "You hear a faint click followed by a soft whirring sound; the bronze door slides open. As you hurry through, the door clicks shut behind your back, as softly as it had opened.\nInstinct tells you that you have entered the chambers of the upper palace, the sumptuous private enclave of the Zakhan. You walk upon glistening tiles of opal and platinum, past sculptures and statues of pure gold. The door of solid amethyst ahead seems plain in comparison to the breathtaking splendour of this private world. Beyond the door lies another unique and startlingly beautiful world: the arboretum. A circular, cathedral-like arena spreads out below you, the green velvet canopy alive with the sound of bird song. Trees of every colour, shape, and size flourish in the deep, dark soil of the floor. The Zakhan’s arboretum houses a specimen of every tree that grows in Magnamund, and many species that are now extinct elsewhere. As you walk the wrought iron balcony which encircles the arboretum, you recognize the leaves of a Sommlending oak. You feel a sudden wave of homesickness, but it does not make you despair; rather it renews your determination to escape from this hostile, sun-bleached land.\nAt one of the exits from the arboretum, you discover a Quarterstaff propped against the wall. The desire to escape urges you on as you leave the arboretum and hurry through a network of lavish corridors and empty, deserted vestibules. You reach a landing where a broad staircase descends to a massive room that occupies most of the lower palace.\nFrom the top of the staircase, hidden by the shadow of a pilaster, you stare down on a sight that freezes your blood with terror."
+  },
+  "68": {
+    "text": "You part the curtain of beads hanging in the doorway and enter the cool interior. The lifeless arm that hangs limply by your side has taken on a bluish hue. Fear returns; you must find the Oede herb to cure the disease, or you will lose the whole limb and possibly your life.\nA woman appears from the shadows of the counter. She has piercing green eyes and her red hair is raised, bound round with rings of jadin. ‘Welcome, Northlander,’ she says, in a voice both soft and clear. ‘How may I serve you?’\nYou hesitate before replying, ‘Oede.’\nShe narrows her eyes and casts a glance at your injured arm. ‘I cannot help you,’ she says sorrowfully. ‘Oede is now a very rare and precious herb. I would have to sell my shop and all my possessions in order to buy just one small pouch of Oede. There is only one man in Barrakeesh rich enough to possess this herb—the Zakhan.’\nSweat breaks out upon your brow as your fear grows. ‘What little Oede there is,’ she continues, ‘is kept in the Grand Palace under lock and key.’\nYou ask if there is any other herb that can cure your arm. She shakes her head from side to side. ‘Only Oede will cure Limbdeath—and you can only find that in the strongroom of the Imperial Apothecary.’ She reaches behind the counter and brings forward three glass bottles, each containing a coloured liquid. ‘They will not cure you, but they will dull the pain in the last few hours.’"
+  }
+}

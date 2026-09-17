@@ -1,0 +1,503 @@
+{
+  "1": {
+    "choice": [
+      {
+        "text": "choice_1_fight",
+        "next": 36
+      },
+      {
+        "text": "choice_1_surrender",
+        "next": 176
+      },
+      {
+        "text": "choice_1_run",
+        "next": 104
+      }
+    ]
+  },
+  "2": {
+    "effect": [
+      {
+        "add_item": "oede_herb"
+      },
+      {
+        "restore_combat_skill": true
+      }
+    ],
+    "next": 67
+  },
+  "3": {
+    "effect": [
+      {
+        "gold": 4
+      },
+      {
+        "add_item": "dagger"
+      },
+      {
+        "add_item": "sword"
+      },
+      {
+        "add_item": "potion_of_alether"
+      },
+      {
+        "add_item": "blowpipe"
+      },
+      {
+        "add_item": "sleep_dart"
+      }
+    ],
+    "next": 67
+  },
+  "4": {
+    "combat": {
+      "enemy": "palace_gaoler",
+      "specialRules": {
+        "ignoreFirstRoundEnemyDamage": true
+      },
+      "roundOutcomes": [
+        {
+          "maxRounds": 4,
+          "on_win": 165
+        },
+        {
+          "minRounds": 5,
+          "on_win": 180
+        }
+      ]
+    }
+  },
+  "5": {
+    "death": true
+  },
+  "6": {
+    "choice": [
+      {
+        "text": "choice_6_rub",
+        "next": 103
+      },
+      {
+        "text": "choice_6_skip",
+        "next": 71
+      }
+    ]
+  },
+  "7": {
+    "next": 176
+  },
+  "8": {
+    "effect": [
+      {
+        "stat": "endurance",
+        "change": -2
+      }
+    ],
+    "choice": [
+      {
+        "text": "choice_8_67",
+        "next": 67
+      },
+      {
+        "text": "choice_8_76",
+        "next": 76
+      }
+    ]
+  },
+  "9": {
+    "next": 78
+  },
+  "10": {
+    "effect": [
+      {
+        "confiscate_all": true
+      }
+    ],
+    "next": 69
+  },
+  "11": {
+    "random_test": {
+      "modifiers": [
+        {
+          "require": {
+            "discipline": "camouflage"
+          },
+          "add": -2
+        },
+        {
+          "require": {
+            "discipline": "hunting"
+          },
+          "add": -2
+        }
+      ],
+      "outcomes": [
+        {
+          "min": -2,
+          "max": 2,
+          "next": 167
+        },
+        {
+          "min": 3,
+          "max": 9,
+          "next": 190
+        }
+      ]
+    }
+  },
+  "12": {
+    "combat": {
+      "enemy": "bloodlug",
+      "on_win": 95,
+      "on_lose": null
+    }
+  },
+  "13": {
+    "require": {
+      "discipline": "animal_kinship",
+      "if_true": 187,
+      "if_false": 110
+    }
+  },
+  "14": {
+    "effect": [
+      {
+        "restore_confiscated": true
+      }
+    ],
+    "choice": [
+      {
+        "text": "choice_14_leave",
+        "next": 58
+      },
+      {
+        "text": "choice_14_search",
+        "next": 131
+      }
+    ]
+  },
+  "15": {
+    "random_test": {
+      "modifiers": [
+        {
+          "require": {
+            "rank_at_least": "guardian"
+          },
+          "add": -1
+        }
+      ],
+      "outcomes": [
+        {
+          "min": -1,
+          "max": 7,
+          "next": 151
+        },
+        {
+          "min": 8,
+          "max": 9,
+          "next": 175
+        }
+      ]
+    }
+  },
+  "16": {
+    "choice": [
+      {
+        "text": "choice_16_grille",
+        "next": 51
+      },
+      {
+        "text": "choice_16_fight",
+        "next": 123
+      }
+    ]
+  },
+  "17": {
+    "require": {
+      "discipline": "sixth_sense",
+      "if_true": 47,
+      "if_false": null
+    },
+    "choice": [
+      {
+        "text": "choice_17_west",
+        "next": 73
+      },
+      {
+        "text": "choice_17_north",
+        "next": 112
+      },
+      {
+        "text": "choice_17_south",
+        "next": 128
+      }
+    ]
+  },
+  "18": {
+    "death": true
+  },
+  "19": {
+    "choice": [
+      {
+        "text": "choice_19_bribe",
+        "require": {
+          "backpack_count": 2
+        },
+        "effect": [
+          {
+            "remove_backpack_items": 2
+          }
+        ],
+        "next": 137
+      },
+      {
+        "text": "choice_19_leave",
+        "next": 49
+      }
+    ]
+  },
+  "20": {
+    "combat": {
+      "enemy": "horseman",
+      "on_evade": 142,
+      "on_surrender": 176,
+      "on_lose": null,
+      "roundOutcomes": [
+        {
+          "maxRounds": 3,
+          "on_win": 125
+        },
+        {
+          "minRounds": 4,
+          "on_win": 82
+        }
+      ]
+    }
+  },
+  "21": {
+    "next": 168
+  },
+  "22": {
+    "effect": [
+      {
+        "stat": "endurance",
+        "change": -8
+      }
+    ],
+    "require": {
+      "discipline": "healing",
+      "if_true": 107,
+      "if_false": 63
+    }
+  },
+  "23": {
+    "effect": [
+      {
+        "stat": "endurance",
+        "change": -1
+      }
+    ],
+    "random_test": {
+      "modifiers": [
+        {
+          "require": {
+            "flag": "lost_one_arm"
+          },
+          "add": -3
+        },
+        {
+          "require": {
+            "discipline": "hunting"
+          },
+          "add": 2
+        }
+      ],
+      "outcomes": [
+        {
+          "min": -3,
+          "max": -1,
+          "next": 77
+        },
+        {
+          "min": 0,
+          "max": 6,
+          "next": 192
+        },
+        {
+          "min": 7,
+          "max": 11,
+          "next": 114
+        }
+      ]
+    }
+  },
+  "24": {
+    "require": {
+      "discipline": "sixth_sense",
+      "if_true": 147,
+      "if_false": 196
+    }
+  },
+  "25": {
+    "next": 69
+  },
+  "26": {
+    "require": {
+      "discipline": "mind_over_matter",
+      "if_true": 48,
+      "if_false": null
+    },
+    "choice": [
+      {
+        "text": "choice_26_break",
+        "next": 127
+      },
+      {
+        "text": "choice_26_leave",
+        "next": 93
+      }
+    ]
+  },
+  "27": {
+    "shop": {
+      "items": [
+        {
+          "id": "larnuma_oil",
+          "cost": 3
+        },
+        {
+          "id": "laumspur",
+          "cost": 5
+        },
+        {
+          "id": "rendalims_elixir",
+          "cost": 7
+        }
+      ]
+    },
+    "next": 160
+  },
+  "28": {
+    "next": 153
+  },
+  "29": {
+    "effect": [
+      {
+        "remove_item": "coil_of_rope"
+      }
+    ],
+    "next": 55
+  },
+  "30": {
+    "require": {
+      "rank_at_least": "guardian",
+      "if_true": 62,
+      "if_false": null
+    },
+    "choice": [
+      {
+        "text": "choice_30_ledge",
+        "next": 152
+      },
+      {
+        "text": "choice_30_attack",
+        "next": 124
+      }
+    ]
+  },
+  "31": {
+    "require": {
+      "any_item": [
+        "kalte_firesphere",
+        "tinderbox"
+      ],
+      "if_true": 143,
+      "if_false": 183
+    }
+  },
+  "32": {
+    "next": 169
+  },
+  "33": {
+    "choice": [
+      {
+        "text": "choice_33_jump",
+        "next": 94
+      },
+      {
+        "text": "choice_33_fight",
+        "next": 185
+      }
+    ]
+  },
+  "34": {
+    "effect": [
+      {
+        "stat": "endurance",
+        "change": -1
+      }
+    ],
+    "choice": [
+      {
+        "text": "choice_34_break",
+        "next": 127
+      },
+      {
+        "text": "choice_34_leave",
+        "next": 93
+      }
+    ]
+  },
+  "35": {
+    "effect": [
+      {
+        "add_item": "jewelled_mace"
+      },
+      {
+        "add_item": "copper_key"
+      }
+    ],
+    "next": 14
+  },
+  "36": {
+    "next": 176
+  },
+  "37": {
+    "next": 149
+  },
+  "38": {
+    "effect": [
+      {
+        "stat": "endurance",
+        "change": -1
+      }
+    ],
+    "next": 87
+  },
+  "39": {
+    "choice": [
+      {
+        "text": "choice_39_question",
+        "next": 9
+      },
+      {
+        "text": "choice_39_kill",
+        "next": 78
+      }
+    ]
+  },
+  "40": {
+    "effect": [
+      {
+        "remove_backpack_items": 1
+      },
+      {
+        "gold": "lose_all"
+      },
+      {
+        "stat": "endurance",
+        "change": -2
+      }
+    ],
+    "next": 17
+  }
+}

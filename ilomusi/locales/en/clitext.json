@@ -1,0 +1,23 @@
+{
+  "sectionHeader": "--- Section {number} --- [Lang: {lang}]",
+  "deathMessage": "\n=================================\n  Your life and mission end here.\n=================================\n",
+  "movingToSection": "\n→ Moving to Section {next}...",
+  "pressEnter": "\nPress Enter to continue...",
+  "pressEnterReturn": "\nPress Enter to return...",
+  "combatHeader": " COMBAT: {enemy}",
+  "combatEnemyStats": " Enemy CS: {enemyCS} | Endurance: {enemyEndurance}",
+  "combatPlayerStats": " Your CS: {playerCS} (Ratio: {ratio})",
+  "combatPrompt": "\nDid you win? (1. Yes / 2. No / 3. Evade): ",
+  "invalidSelection": "Invalid selection.",
+  "rollResult": "\n[ Roll: {base} | Mod: {mod} | Total: {total} ]",
+  "proceedingToSection": "→ Proceeding to Section {next}...",
+  "controlsHeader": "---------------------------------",
+  "controls": "[S] Stats | [SAVE] Save Game | [LOAD] Load Game | [L] Change Language | [Q] Quit",
+  "saveSuccess": "\nGame state saved to save.json!",
+  "loadSuccess": "\nGame loaded successfully!",
+  "loadError": "\nFailed to load save file.",
+  "langPrompt": "Enter language code (e.g., en): ",
+  "langSuccess": "\nLanguage changed to {lang}",
+  "quitMessage": "\nThank you for playing! Farewell.\n",
+  "invalidChoice": "\nInvalid command or choice number."
+}

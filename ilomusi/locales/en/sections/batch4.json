@@ -1,0 +1,296 @@
+{
+  "121": {
+    "choices": {
+      "choice_121_attack_the_warriors": "Make an attack on the men of war",
+      "choice_121_turn_back_and_swim_a": "Turn back and swim across the waste water space"
+    }
+  },
+  "122": {},
+  "123": {},
+  "124": {},
+  "125": {},
+  "126": {
+    "choices": {
+      "choice_126_attempt_to_bribe_the": "Make an attempt to give money to the guards",
+      "choice_126_attack_them": "Make an attack on them"
+    }
+  },
+  "127": {},
+  "128": {
+    "choices": {
+      "choice_128_use_rope_to_swing_ac": "Use Cord to swing across",
+      "choice_128_swim_across_the_vaul": "Swim across the waste water space",
+      "choice_128_turn_around_and_retu": "Turn round and go back to the junction"
+    }
+  },
+  "129": {
+    "choices": {
+      "choice_129_stand_and_fight": "Stand and fight",
+      "choice_129_surrender": "Give yourself up"
+    }
+  },
+  "130": {},
+  "131": {},
+  "132": {
+    "choices": {
+      "choice_132_go_west_towards_the_": "Go west to the noise",
+      "choice_132_keep_moving_north": "Keep going north"
+    }
+  },
+  "133": {
+    "choices": {
+      "choice_133_search_for_a_hidden_": "Look for a secret way out",
+      "choice_133_turn_around_and_retu": "Turn round and go back to the walk"
+    }
+  },
+  "134": {},
+  "135": {},
+  "136": {
+    "choices": {
+      "choice_136_attack_the_guard": "Make an attack on the guard",
+      "choice_136_close_the_door_and_t": "Close the door and take the other way"
+    }
+  },
+  "137": {
+    "choices": {
+      "choice_137_enter_through_the_pa": "Go in through the palace food-rooms",
+      "choice_137_enter_through_the_vi": "Go in through the Pisu-tiya"
+    }
+  },
+  "138": {
+    "choices": {
+      "choice_138_pick_up_the_dropped_": "Take up the blade from the floor",
+      "choice_138_attack_the_second_gu": "Make an attack on the second guard with open hands"
+    }
+  },
+  "139": {},
+  "140": {
+    "choices": {
+      "choice_140_open_the_leather_bou": "Open the black skin-bound book",
+      "choice_140_ignore_the_book_and_": "Take no note of the book and look for tools"
+    }
+  },
+  "141": {
+    "choices": {
+      "choice_141_roll_over_to_the_tra": "Roll over to the floor-door and get away",
+      "choice_141_surrender_to_maouk_a": "Give yourself up to Mawu and his men of war"
+    }
+  },
+  "142": {
+    "choices": {
+      "choice_142_fight_the_creature": "Fight the beast",
+      "choice_142_evade_the_creature": "Keep away from the beast"
+    }
+  },
+  "143": {},
+  "144": {},
+  "145": {
+    "choices": {
+      "choice_145_enter_the_new_tunnel": "Go into the new underground way to the west",
+      "choice_145_continue_northwards": "Go on to the north"
+    }
+  },
+  "146": {},
+  "147": {
+    "choices": {
+      "choice_147_stay_in_his_house": "Keep in his house",
+      "choice_147_escape_by_the_window": "Get away by the window"
+    }
+  },
+  "148": {},
+  "149": {
+    "text": "You come to the door of the Pisu-tiya unseen, but find it is securely closed from inside. You are about to be angry at your bad chance when you see a window in a detailed wood board over the door; its iron cover is open.\nEven with your damaged arm, you successfully climb the nail-covered door and drop through the window into the quiet trophy room. A strange group of filled heads lines the walls of this private room. Most are from reptile desert beasts, memories of the king's hunting trips into the Dry Main. Among the snake-like trophies, and more terrible, are human heads! They are bad battle marks, the heads of enemy leaders killed in fight during the numberless wars of Pasakonia.\nYou hurry out of the Pisu-tiya into a long stone hall where the walls are set with lines of gold and pearls. It leads to a great hall where palace guards and brightly clothed men walk to and fro, but a line of stone statues gives all the cover you have need of to reach a far-off stair unseen. Quietly, you run up the steps to a junction where ways go off to the east and west. At the end of every way is a door with a sign on the wall over it. The sign over the east door shows a plant-crushing bowl and stick; the sign over the west door shows an open book.",
+    "choices": {
+      "choice_149_investigate_the_east": "Look at the east door",
+      "choice_149_investigate_the_west": "Look at the west door"
+    }
+  },
+  "150": {
+    "text": "The long room goes north but soon comes to an end at a junction where another way goes from east to west. With care, you look round the corner, but there are no signs of any guards. At the end of the east way you can see steps going down out of view; to the west, you see a closed door.",
+    "choices": {
+      "choice_150_go_east_towards_the_": "Go east to the steps",
+      "choice_150_go_west_towards_the_": "Go west to the door"
+    }
+  },
+  "151": {
+    "text": "Your sharp eye sees a narrow crack in the underground wall. The open place is near the top of the dirty water and can hardly be seen in the dark. You push inside, keeping strong as the bad water comes up to your chin. The Sanasim go past very close to your hidden place, and you have to fight the desire to throw up as a wave of waste comes to your face. ‘He has taken the south way,’ says an angry voice. ‘Quickly—do not waste time here!’\nIt seems a long time before the Sanasim turn back and go away along the way. With a deep breath of relief, you come out from the crack, but catch your foot on something in the mud of the floor and lose your balance."
+  },
+  "152": {
+    "text": "You push yourself against the old stone and try not to look down at the gardens of the palace, hundreds of feet below. You bite your lip and wait for the guards to go past, but they do not go past. It is near sunset, and they have come to shut the iron window-covers of the palace. You hear the noise of dry joins and clicks—sounds that make you cold with fear. You see that you are now locked outside.\nTo your left, the narrow step goes on outside a round roof; inside this is the food hall. If you can only move with care round the tower, you may find an open window on the other side."
+  },
+  "153": {
+    "text": "Mawu gives orders to his black-clothed men to search the place, saying he will kill them if they let you get away. You bite your lip and wait for a chance to run.\nMoving from one boat to the next, you reach narrow stone steps. At the top of the steps, past a small paved square, is a maze of crooked narrow streets that go into the dark of the Jan Kapusi Kuwata. You are less than twenty feet from safety when a shout comes across the water: ‘There he is!’\nYou run along the empty way and go up steps into an open square. The noise of horses on the stones below pushes you on. There are three possible ways out: a high, nail-covered gate to the left; a narrow street to your right; and a straight paved path to an arch. You must make a fast decision, for Mawu’s men are close behind you.",
+    "choices": {
+      "choice_153_enter_the_gate": "Go into the gate",
+      "choice_153_enter_the_alley": "Go into the narrow street",
+      "choice_153_take_the_straight_pa": "Take the straight path through the arch"
+    }
+  },
+  "154": {
+    "text": "You pull open the hanging ring-curtain over the door and enter the cold room. The light is poor and the room dark, for the windows are covered with masses of plants. You are looking at a strange line of colored bottles when a woman appears. She has sharp green eyes and her red hair is bound with rings of Saten. Quietly, she talks to you.\n‘Welcome, Northlander. I feel you are a man of war—or am I wrong?’ As you wait to answer, she moves her shoulders and searches through a mass of papers on a wine box. She blows away the dust before giving you a yellow paper. It is a list of things for sale, written in Somelen:\n• Drink of Aleta (gives 2 more COMBAT SKILL points for 1 fight)—4 Gold Crowns\n• Drink of Palu-palasi (makes one sleep for 1–2 hours)—2 Gold Crowns\n• Healing Drink of Lonsupa (gives back 4 ENDURANCE points)—5 Gold Crowns\n• Small Bottle of Lanuma Oil (gives back 2 ENDURANCE points)—3 Gold Crowns\n• Drink of Grave-plant (causes illness and loss of 2 ENDURANCE points)—1 Gold Crown\n• Drink of Kalasena (causes terrible dreams for 1–2 hours)—2 Gold Crowns\nYou may buy any of these in any number you desire; all drinks and small bottles are Bag Things. You then leave the shop and go on along the street."
+  },
+  "155": {
+    "text": "From the view, you see that this window is high up in the south wall of the Great Palace. Far below you can see the houses of the chief town in small groups inside the white wall. To the southeast lies Lake Inalimen, a great salt-water plain that is completely dry and broken. To the east, a road goes across to the town of Tula, visible on the line where sky meets earth. To the southwest lie the dry Tali Mountains and the moving sand sea named the Dry Main.\nThe bars of the window are badly damaged by age; it would be easy to take them out. However, the fall of many hundred feet to the town below means there is no hope of escape this way. You climb down from the table and hurry along the room."
+  },
+  "156": {
+    "text": "After giving thought to the lock for minutes, you see that it is joined to a warning noise-maker. If you turn the lock to the wrong number, the noise will sound, giving warning to all the palace guards."
+  },
+  "157": {
+    "text": "The house smells strongly of burned smoke-plants. You enter a narrow hall set with seats and walk slowly along the middle path to a water-fountain between two giant red pillars. A man, clothed from head to foot in black, comes out from behind the left pillar and walks to you.\nSuddenly, you hear Mawu’s men enter the open square and give a troubled look to the open door. The man sees you are nervous and silently points to a cellar door.",
+    "choices": {
+      "choice_157_hide_in_the_cellar": "Keep hidden in the cellar",
+      "choice_157_leave_the_hallway_an": "Leave the hall and go back to the square"
+    }
+  },
+  "158": {
+    "text": "You enter a picture hall with a beautiful picture made of tiny stone bits. Thousands of tiny pieces of pearl and gold shine in the light of the evening sun, sending rainbows of color across the high stone walls. A group of palace men walk through the room, and you are forced to hide behind a giant pillar. You wait till their steps go far off before coming out into the light.\nAll hope of making a peace agreement has long gone, and your only thought now is to get away from the Great Palace and get back to Somelan as fast as possible. Hurrying out of the room, you go after the way to the west and soon come to a junction where the way turns sharply to the north."
+  },
+  "159": {
+    "text": "You hit your way through the door with success, but going fast, you cannot stop and fall head-first down steps on the other side.\nYou come down on the hard stone floor of an outer room (you lose 2 ENDURANCE points), close to an armed soldier guarding the doors to the arms room. He is shocked by your sudden coming but quickly gets back his senses and makes an attack.\nArmoury Guard: COMBAT SKILL 16 ENDURANCE 22\nTake off 2 points from your COMBAT SKILL for the first 3 turns of fight, as you are lying on the floor. You cannot keep away from fight and must fight the guard till he or you is dead."
+  },
+  "160": {
+    "text": "Your desire to leave this dangerous town is overcome by your fear of losing your arm. You must get the Ete plant, even if it means going into the very place you most wish to keep away from—the Great Palace.\nThe narrow street goes in twisting ways through the Mikalun, leading you at last to the ‘Omu-Ta-Lalain’: the Tomb of the Princesses. Past the tomb, the Great Palace goes up like a giant white house of gods.\nYou suddenly keep in mind an old story told by your Kai masters long ago: ‘The Enemy of the Black Sakan’. The Black Sakan was a cruel ruler, the worst of a bad line that ruled the desert land long ago. The bad acts of his time have never been put out of mind in the Lastlands. The Great Palace was made by his army of slaves, prisoners from lands he took in war. The palace became his main thought; he watched all its building and gave pain to the workers himself if there was any waiting. He killed his people without thought and in the most terrible way. His most loved way of killing was cutting the person in two from head to foot till the body fell in two parts. However, it was the killing of all the slaves who made the Great Palace that made him most noted. He killed every slave worker so his enemies could never learn of the secret money-rooms he had made. Among the slaves were his only daughters, Kepila and Susi, who spoke against their father’s cruel ways and tried to stop the killings. In angry madness, he gave orders that they should be the first to die.\nIt would have been better for the Sakan, and for Pasakonia, if he had died that day. He lived for two more years, but his mind was broken by wrongdoing, and he was troubled by self-hate and sad thoughts. In the Great Palace, the quiet of the night was frequently broken by the Sakan’s cries as he walked from room to room looking for his daughters. When he died, he was put beside them here in the Tomb of the Princesses.\nFrom where you stand, you can see two doors into the Great Palace: a spike-topped gate in the north wall, and an arch in the west wall blocked by an iron drop-gate. The palace is generally heavily guarded, but there are very few guards today; most are looking for you in the town.",
+    "choices": {
+      "choice_160_approach_the_north_g": "Go near the north gate",
+      "choice_160_approach_the_west_ar": "Go near the west arch",
+      "choice_160_search_for_some_othe": "Look for another way into the Great Palace"
+    }
+  },
+  "161": {
+    "text": "You are very fortunate that your enemy was only trying to knock you out. Give back half of the ENDURANCE points you lost in fight."
+  },
+  "162": {
+    "text": "You pull yourself into the left smoke-pipe and stop to take breath. The hot steam hurts your lungs, and every movement becomes a great work, for your hands and feet are now swollen and sore. Lose 1 ENDURANCE point before going on with your climb.\nYou put your fingers into a broken crack in the wall of the hot pipe and try to pull yourself up. Suddenly, a wave of fear comes over you—something is crawling on your arm. You have disturbed a group of hated spiders."
+  },
+  "163": {
+    "text": "While you wait for the guard to come back, you are made fun of by the other bad man. He talks with pleasure of all the terrible pain waiting for you, and is greatly unhappy when the other guard comes back with nothing in hand. ‘The Sakan does not want our northern friend damaged. He has something special planned for him this evening,’ he says with an angry face.\nBad looks spread across their faces as they turn to leave the room. Both now have their backs to you.",
+    "choices": {
+      "attack_guards": "If it is your desire to make an attack on the guards",
+      "remain_as_you_are": "If it is your desire to keep as you are"
+    }
+  },
+  "164": {
+    "text": "The water is becoming thicker, and the bad smell of the waste gas is even more ill-making. Suddenly the air becomes full of thousands of tiny flies, and every time you take a deep breath you feel the soft mass of crushed insect bodies in your throat. The black spots build up like paste round your eyes, mouth, and nose, and the sharp taste in your mouth makes you throw up. Lose 1 ENDURANCE point.\nAs if answering your request, an iron ladder appears from the dark. It is fixed to the wall and leads up to a round stone floor-door in the roof.",
+    "choices": {
+      "climb_ladder": "If it is your desire to go up the ladder",
+      "ignore_ladder": "If it is your desire to take no note of the ladder and go on through the insect-filled way"
+    }
+  },
+  "165": {
+    "text": "The guard holds his wounds and falls dead to the floor. You see that the other man is coming back to his senses from your hit and is pulling at the room door to get on his feet.",
+    "choices": {
+      "attack_guard": "If it is your desire to make an attack on this guard",
+      "overpower_guard": "If it is your desire to overcome him and take him living"
+    }
+  },
+  "166": {
+    "text": "You press your unfeeling arm to force life back into it, but it is of no use; the muscles are soft and without power. The only comfort is that it is not your weapon arm, but as long as you have this illness, you cannot use a cover-board of any kind. Take off 3 points from your COMBAT SKILL—the lost points may be got back if you ever get back the use of your arm.\nYou give your thought to the place round you to find a way out of the terrible waste tunnel. The way ahead twists and curves like a giant snake, and the bad air coming to you is hot and wet. You have got away from those coming after you, but you now have the problem of your arm to answer."
+  },
+  "167": {
+    "text": "You go through the door and hurry into the good cold of the room past it. You see a large door-bar on this side and instinctively lock it to delay any who come after you. The room is empty, but for some clothing over the back of an iron seat. From the size and cut of the cloth, the clothes must belong to the iron-worker.\nYou can hear noises coming from a way to the east; the voices of hungry guards and the sound of plates.\nYou go up wide steps and follow a group of ways to the west. They are set with wall-spaces that hold stone heads and beautiful wall-pictures, every one showing a past Sakan or a long-forgotten fight."
+  },
+  "168": {
+    "text": "With a quick jump you are among the shocked guards. The blow-pipe firer lifts his weapon, but a good kick to his head stops his move. He turns over backwards, hitting his head against the wall with a bad noise. A three-pointed spear comes to your side; you step to the side and take the handle with your free hand, pulling the guard off balance. He falls forward on his face. You turn just in time to face the third guard—his three-pointed spear is ready to push into you."
+  },
+  "169": {
+    "text": "You enter a wide street where sellers fight for space for their tables under the overhanging high walks. The market is full of people; every person wears a black cloth band as a mark of respect to their dead Sakan, but here business goes on as general.\nYou pass a table full of black bands, every one costing 2 Gold Crowns. If it is your desire to buy a band, pay the seller and write it on your Action Chart as a Special Thing (which you wear over your coat). You hurry away from the table and go into a narrow way lined with food-houses and small drink-houses, where the smell of food is mixed with the smell of old wine, and the air is full of talk. Your eye is taken by a paper newly fixed to a drink-house wall. The big head-words say:\nTHE SAKAN IS DEAD—LONG LIVE THE SAKAN",
+    "choices": {
+      "read_poster": "If it is your desire to stop to read the paper",
+      "continue_along_passage": "If it is your desire to go on along the way"
+    }
+  },
+  "170": {
+    "text": "The joined power of these Kai Arts makes it possible to slip past the guards unseen. By the time they take back their guard places, you have safely made your way into the palace gardens."
+  },
+  "171": {
+    "text": "A wood board in the wall-space moves to the side to show a secret, dark, and very narrow way. Two feet-marks can clearly be seen in the dust on the floor, going into the dark.",
+    "choices": {
+      "enter_secret_passage": "If it is your desire to go into the secret way",
+      "avoid_passage": "If you decide to keep away from the way, close the wall-board and go on along the long room"
+    }
+  },
+  "172": {
+    "text": "‘Come in, stranger. Welcome to my simple drink-house,’ says the fat landlady of the food-house. ‘We have wine and food and rooms in plenty.’\nAt this second, you hear Mawu’s men enter the open square and give a troubled look to the open door. The landlady sees that you are nervous; she points to the cellar steps and says in a low voice: ‘Do not be troubled—we share your fear of the new Sakan. Quickly, you must hide.’ There is no time to wait. Mawu’s men of war are already coming near the drink-house."
+  },
+  "173": {
+    "text": "From the direction of the slow water flow, the right way seems to go off to the north. The giant mass of waste from the Paka-Talu is sent out to the sea coast till it comes out at Tila, a small place northwest of the chief town. There it makes life hard and unhappy for the poor fish-catchers (most of all in the warm months). If you take the north way, you should at last reach the sea coast.\nThe left way goes south, running under the very middle of the chief town. In the maze of tunnels that feed into the Paka-Talu, you should be able to find at least one way out to the streets above.\nStraight ahead, the way goes off to the west. It is by far the least bad and dirty of the three. During the sea trip, you keep in mind ‘The Stink’ telling you about the Mawani Suli: a great water-way over forty miles long, which brings clean water from the River Ta into the town. Because of this, the people of Palakesi have a great supply of clean water. The west way will lead to that water source.",
+    "choices": {
+      "north_channel": "If it is your desire to take the north way",
+      "south_channel": "If it is your desire to take the south way",
+      "west_channel": "If it is your desire to take the west way"
+    }
+  },
+  "174": {
+    "text": "You jump forward and hit the taller guard, slamming your closed hand into the back of his neck. He makes a low noise and falls to his knees, his blade falling to the floor close to your feet.",
+    "choices": {
+      "pick_up_sword": "If it is your desire to take up the blade",
+      "attack_bare_handed": "If it is your desire to take no note of the blade and make an attack on the second guard with open hands"
+    }
+  },
+  "175": {
+    "text": "Before you find a good hiding place, three Sanasim walk into view. ‘Leave him to me, you foolish men!’ shouts a voice, and the men of war give way to Mawu, who comes out from the shadows—a small needle held high in his hand. He gives a bad curse and throws the weapon at your chest."
+  },
+  "176": {
+    "text": "You are taken of your Bag, your Weapons, your Gold Crowns, and all your Special Things. (Make all necessary changes to your Action Chart, but write your lost things on another paper in case you find them again later.) Your hands are tied behind your back and you are pushed head-first into the waiting horse-carriage. ‘Back to the palace!’ gives order Mawu as he climbs in and slams the door. ‘The Sakan waits for his catch.’\nYou fight to free the cords that hold you, but Mawu is quick to see the danger. He takes your arm and pushes a needle into your skin. As sleep comes over your senses, you hear Mawu’s bad laughter going away into quiet.\nMake necessary changes to your Action Chart, and write all the things taken from you on another piece of paper for reference in case you find them later in your adventure."
+  },
+  "177": {
+    "text": "As you give the Walasi a killing hit, three Sanasim walk out of the dark waste water tunnel. They have taken off their black clothes and are without coat to the waist. Their strong chests are marked with a large blue mark of an eagle’s foot. As they come out of the water, they look at you with bad eyes and take out sharp curved blades.",
+    "choices": {
+      "attack_sharnazim": "If it is your desire to make an attack on the Sanasim",
+      "climb_stairs": "If it is your desire to keep away from them by going up the narrow stone steps"
+    }
+  },
+  "178": {
+    "text": "You are halfway down the steps when the guard sees what you are doing. He jumps to his feet and takes out his blade; you cannot keep away from him now and must fight till one is dead.",
+    "choices": {
+      "search_body": "If you win the fight, you may look through his body",
+      "enter_armoury": "If you would rather take no note of the body and go into the arms room"
+    }
+  },
+  "179": {
+    "text": "All kinds of strange plants, oils, drinks, and medical things fill the shop windows, and the smell of the plant-filled street is strong. There is a sudden movement at the end of the street. The crowd goes away into the shops like air. A man stands before you, his face wet, his blue clothes torn and very dirty. It is Mawu—he has lived through the Paka-Talu.\n‘If it were not for the Sakan, I would kill you here and now,’ says Mawu in a low voice, his face full of hate. ‘But I will not lose my head for a fearful Somelen.’\nHis bad words make you angry, but you keep control of your feelings. You sense he is not alone; eyes are watching you from every window.",
+    "choices": {
+      "attack_maouk": "If it is your desire to make an attack on Mawu",
+      "run_back": "If it is your desire to turn and run back along the street"
+    }
+  },
+  "180": {
+    "text": "As your enemy falls dead at your feet, you see that the other guard has got back his senses from your hit. He pulls a small knife from his boot and pulls back his hand to throw."
+  },
+  "181": {
+    "text": "You search through all the drawers and boxes of the work table, breaking locks when they will not open, only to be disappointed. These drawers and boxes do not hold your missing things.\nAll hope of making a peace agreement with the new Sakan has gone; your only thought now is to find your things, get away from the Great Palace, and get back home to Somelan as fast as possible. You pull to the side a thin wood wall and enter a small outer room. Narrow stone steps lead up to an open door in the north wall, beside which stands a wood box.",
+    "choices": {
+      "climb_steps": "If it is your desire to go up the steps and enter the door",
+      "investigate_chest": "If it is your desire to look at the wood box"
+    }
+  },
+  "182": {
+    "text": "You come to a high-roofed room with a large nail-covered door in the south wall. A frame standing near the door holds a Spear and a Broadsword. You may take one or both of these if you wish. To the north, under a beautiful arch, is another way leading out of the room.",
+    "choices": {
+      "enter_passage": "If it is your desire to go into the way",
+      "listen_at_door": "If it is your desire to listen at the door"
+    }
+  },
+  "183": {
+    "text": "The warrior’s head suddenly comes out of the waste water hole. He hits at your legs, making a bad cut on your leg. You lose 2 ENDURANCE points. In anger and pain, you lift your foot and step on the man’s head with all your strength. He shouts and falls back into the waste water, and you hear a loud water noise. You put back the stone top and pull a heavy barrel across it before making your way through the maze of town streets.\nAll hope of making a peace agreement with the new Sakan has gone; your only thought now is to get away from Palakesi and get back to Somelan as fast as possible. At last you reach a busy market square. Your eye is taken by a sign hanging over the side door of a large building:\nPALAKESI PUBLIC BATHS\nBy this time, the smell of your clothes is making you feel ill. You have no waiting in opening the door and slipping inside."
+  },
+  "184": {
+    "text": "As you look out across the harbour, you see a large white-roofed trade-house near the water’s edge. A high floor on the top floor hangs over a trade ship tied to the land below. On this high floor are many large earth pots: giant spice pots for the trade stores of Palakesi. You give your thought to one of these pots and use all your Kai power to make it move. Water falls from your face from the hard work, but you soon hear a far-off noise that proves your success. The pot has fallen and broken on the floor of the ship."
+  },
+  "185": {
+    "text": "The steps grow louder and then suddenly stop. You hear low voices and Mawu slowly comes out from the shadows, his men behind him. ‘Caught like a wolf in a trap,’ he laughs, a small needle held high in his hand. He gives a bad curse and throws the weapon at your chest."
+  },
+  "186": {
+    "text": "Using your Kai power to change your Somelen voice, you shout to the guard. ‘Quick! We have need of your help—the Northlander is getting away!’\nAt once, the guard jumps to his feet and runs up the steps to the door. You wait till he reaches the top step before you make an attack—one kick to the knee sends him falling backwards into the room, where he falls at the foot of the steps. You enter the room, ready to hit again if the guard gets up and attacks. However, this time your care is not needed; the guard is dead, his neck broken in the fall.",
+    "choices": {
+      "search_body": "If it is your desire to look through his body",
+      "enter_armoury": "If it is your desire to take no note of the body and go into the arms room"
+    }
+  },
+  "187": {
+    "text": "You know the beast; it is a Walasi, a giant crawling reptile. Walasi live in the Maakenmire waste, hundreds of miles to the west of Pasakonia, but they grow well in any hot, wet, and bad place, and you see that the Paka-Talu waste tunnel is a good place for these deadly beasts. The Walasi moves along the roof, holding the stone with its long curved hooks—its round eyes opening wider and wider.\nWalasi are easily moved by mind power. By using your Kai Art of Animal Kinship, you make it feel that you are not good to eat, and it soon loses interest. You watch with fear and wonder as the giant reptile goes away along the tunnel. Suddenly, a terrible shout comes out of the dark; Mawu has lost one of his men. A cold feeling goes through you, but your inner feelings say to go on while you have the good chance."
+  },
+  "188": {
+    "text": "The drink-house is full of people sitting at a long stone table marked with pieces of colored marble. Large earth pots full of spicy food are set into the table, and work-girls are busy caring for the hungry buyers."
+  }
+}

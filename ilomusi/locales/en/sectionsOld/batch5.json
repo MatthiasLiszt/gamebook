@@ -1,0 +1,155 @@
+{
+  "161": {},
+  "162": {},
+  "163": {
+    "choices": {
+      "choice_163_attack_guards": "attack_guards",
+      "choice_163_remain_as_you_are": "remain_as_you_are"
+    }
+  },
+  "164": {
+    "choices": {
+      "choice_164_climb_ladder": "climb_ladder",
+      "choice_164_ignore_ladder": "ignore_ladder"
+    }
+  },
+  "165": {
+    "choices": {
+      "choice_165_attack_guard": "attack_guard",
+      "choice_165_overpower_guard": "overpower_guard"
+    }
+  },
+  "166": {},
+  "167": {},
+  "168": {},
+  "169": {
+    "choices": {
+      "choice_169_read_poster": "read_poster",
+      "choice_169_continue_along_passa": "continue_along_passage"
+    }
+  },
+  "170": {},
+  "171": {
+    "choices": {
+      "choice_171_enter_secret_passage": "enter_secret_passage",
+      "choice_171_avoid_passage": "avoid_passage"
+    }
+  },
+  "172": {},
+  "173": {
+    "choices": {
+      "choice_173_north_channel": "north_channel",
+      "choice_173_south_channel": "south_channel",
+      "choice_173_west_channel": "west_channel"
+    }
+  },
+  "174": {
+    "choices": {
+      "choice_174_pick_up_sword": "pick_up_sword",
+      "choice_174_attack_bare_handed": "attack_bare_handed"
+    }
+  },
+  "175": {},
+  "176": {},
+  "177": {
+    "choices": {
+      "choice_177_attack_sharnazim": "attack_sharnazim",
+      "choice_177_climb_stairs": "climb_stairs"
+    }
+  },
+  "178": {},
+  "179": {
+    "choices": {
+      "choice_179_attack_maouk": "attack_maouk",
+      "choice_179_run_back": "run_back"
+    }
+  },
+  "180": {},
+  "181": {
+    "choices": {
+      "choice_181_climb_steps": "climb_steps",
+      "choice_181_investigate_chest": "investigate_chest"
+    }
+  },
+  "182": {
+    "choices": {
+      "choice_182_enter_passage": "enter_passage",
+      "choice_182_listen_at_door": "listen_at_door"
+    }
+  },
+  "183": {},
+  "184": {},
+  "185": {},
+  "186": {
+    "choices": {
+      "choice_186_search_body": "search_body",
+      "choice_186_enter_armoury": "enter_armoury"
+    }
+  },
+  "187": {},
+  "188": {},
+  "189": {
+    "text": "The courier screams as he falls but is dead before his head hits the cobblestones. You waste little time dragging his body into the shadows. You don his loose robe and raise the hood, concealing your tunic and your face. In the pocket of the robe you find a scroll: the pass needed to enter the Grand Palace.\nThe dead courier’s horse has bolted and fled, but your appearance at the gate on foot does not seem to arouse any suspicion. The guards inspect the scroll with bored indifference and allow you to pass through the gate into the palace gardens beyond."
+  },
+  "190": {
+    "text": "You have barely taken a dozen steps before you are seen. The giant armourer raises a massive hammer and strides forward, a bloodthirsty snarl escaping from between his clenched teeth. You prepare to defend yourself, but you are momentarily stunned when you see that the hammer is part of his right arm: it is, in fact, an enormous steel fist.\nThe armourer bellows a war-cry and you react just in time. The hammer tears a chunk of stone from the wall, less than an inch above your scalp."
+  },
+  "191": {
+    "text": "You manage to inch your way along the row of oars until you reach the ship’s rail, where eager hands catch hold of your cloak and pull you to safety. Maouk’s voice booms out across water. ‘Surrender the Kai Lord to me. The Zakhan commands it. Your lives and the lives of all your kin will be forfeit if you disobey this order!’\nThe crew stare at each other in sorrow and dismay—they know that Maouk’s words are no idle threat. You cannot expect these men to sacrifice their families for you, so you must quickly decide on an alternative plan.",
+    "choices": {
+      "surrender": "If you decide to surrender to Maouk",
+      "dive_overboard": "If you wish to dive overboard and attempt an escape",
+      "choice_191_surrender": "surrender",
+      "choice_191_dive_overboard": "dive_overboard"
+    }
+  },
+  "192": {
+    "text": "The sweltering heat is overwhelming. Three times you nearly slip and fall and are saved only by your quick wits and natural survival instincts from a gruesome end in the tar-sorkh. You manage to climb twenty feet of the chimney, but the price is high. Your fingers and knees are skinned and bleeding, and your legs ache with fatigue. Lose 2 ENDURANCE points."
+  },
+  "193": {
+    "text": "You jump to one side as the dagger whistles towards you, skimming barely an inch from your throat. The guard stares in open-mouthed disbelief. He is now unarmed.",
+    "choices": {
+      "attack_guard": "If you wish to attack the guard",
+      "overpower_guard": "If you wish to overpower him and capture him alive",
+      "choice_193_attack_guard": "attack_guard",
+      "choice_193_overpower_guard": "overpower_guard"
+    }
+  },
+  "194": {
+    "text": "The Yas is a constrictor: it kills its prey by crushing them to death with the coils of its powerful body. Its sleepy eyes have now opened and the red-rimmed slit pupils fix you with a mesmerizing stare. You suddenly realize that the Yas is trying to hypnotize you. Unless you have the Kai Discipline of Mindshield, deduct 3 points from your COMBAT SKILL for the duration of this combat."
+  },
+  "195": {
+    "text": "A forge has been constructed in the centre of a massive circular chamber, its funnel-like chimney stretching up to the roof. The heat had become unbearable long ago, but now you feel as if you have walked straight into a raging furnace.\nTwo men, naked except for small loin-cloths, work the bellows that feed the forge. Sweat pours from their bodies, and they frequently stop to gulp ladlefuls of water from a trough set in the stone floor. An armourer hammers a strip of red-hot iron at an anvil close to the flames. He is massive; his huge, muscled shoulders and powerful chest are as wide as the other two men put together.\nThe bellows men stop work and leave the chamber; one by the door in the north wall, the other by the door in the west wall. The big man continues to hammer at the anvil.",
+    "choices": {
+      "follow_north_door": "If you wish to follow the man who left by the north door",
+      "follow_west_door": "If you wish to follow the man who left by the west door",
+      "attack_armourer": "If you wish to attack the armourer working at the anvil",
+      "retrace_steps": "If you wish to leave the chamber and retrace your steps along the corridor to take the other passage",
+      "choice_195_follow_north_door": "follow_north_door",
+      "choice_195_follow_west_door": "follow_west_door",
+      "choice_195_attack_armourer": "attack_armourer",
+      "choice_195_retrace_steps": "retrace_steps"
+    }
+  },
+  "196": {
+    "text": "You notice that a large table dominates the room; it is set with wine and meat, and freshly-baked loaves of bread.",
+    "choices": {
+      "eat_food": "If you wish to eat some of this mouth-watering food",
+      "leave_by_window": "If you wish to leave the room by the window",
+      "choice_196_eat_food": "eat_food",
+      "choice_196_leave_by_window": "leave_by_window"
+    }
+  },
+  "197": {
+    "text": "Maouk pulls his hand from his robe, a dart held tightly in his sinewy fist. He hisses a curse and flings the missile at your chest. You gasp with shock as the missile strikes home—you are too close to avoid being hit."
+  },
+  "198": {
+    "text": "As the officer’s body slumps lifelessly across the shattered cellar door, the Sharnazim back away and step aside. Maouk himself appears in the doorway, a dart held high in his hand. ‘I have you now!’ he hisses, and flings the missile at your chest."
+  },
+  "199": {
+    "text": "You grasp the frightened guard in a secure head-lock and threaten to break his neck if he does not answer your questions. He immediately promises to tell you everything he knows. He says that the new Zakhan fears that you are an assassin, sent by his enemies in the west. He claims to hate the new Zakhan himself. He is only a simple gaoler, he says, and knows nothing more."
+  },
+  "200": {
+    "text": "Upon a raised platform, carpeted with scarlet fur, sits the Vassagonian Emperor, Zakhan Kimah. He is robed in gold but devoid of all ornamentation. In his hand is an orb of black metal, and in his eye an ice-cold cruelty that chills your spine. The Zakhan is a man of awesome countenance, but he pales in the shadow of his companion.\nBefore him stands the cause of your terror. A helm as black as death itself hides the face, but the stench of decay and a hideous sepulchral voice betray the identity.\n‘Give me Lone Wolf!’\nIt is the fell voice of a mortal enemy—a Darklord of Helgedad. As the Zakhan rises to his feet, you notice a flicker of doubt, or perhaps of fear, dim his cruel gaze, but he is quick to mask it. ‘He will be brought to you at sunset in exchange for the Orb of Death. It is agreed.’\n‘You have the Orb,’ echoes the chilling voice. ‘Give me Lone Wolf!’\nThe Zakhan hides his fear well, but time is not on his side. The game of bluff he is playing is deadly. However, the fact that he has not yet been discovered is evidence of his powerful will, for you sense the Darklord is persistently clawing and probing at his mind.\n‘You will get your Northlander, Lord Haakon,’ says the Zakhan, his voice curt with anger, ‘when you tell me why your servants defile the Tomb of the Majhan. You claim to have no need for gold and jewels—why then do you plunder the graves of our ancestors?’\nA deathly quiet fills the hall; only the unnatural hiss of the Darklord’s breath disturbs the silence. ‘This land, this insignificant speck of sand, harbours two small thorns that prick our skin. We seek to remove them both—forever. The fledgling Kai, Lone Wolf, is the thorn that denies us Sommerlund. The Tomb of the Majhan hides the other thorn that threatens us—the accursed Book of the Magnakai.’\nYour heart pounds as the words echo in your head. The Book of the Magnakai! Suddenly, the reason why you have been enticed into a deadly trap becomes clear, and the sinister truth is revealed.\nThe Book of the Magnakai is one of the oldest legends of Sommerlund. With the wisdom of the Magnakai, Sun Eagle, the first Kai Grand Master, instilled the disciplines into the warriors of the House of Ulnar, the bloodline of your king, that were to save your land from devastation at the hands of the Darklords. The Book of the Magnakai was lost hundreds of years ago, but its wisdom was kept alive, handed down through generations of Sommlending warriors so that they could share the strength to resist their eternal enemies, the Darklords of Helgedad.\nIf the Darklords discover and destroy the Book of the Magnakai, the secrets will be lost forever, and when you die, the Kai will become extinct. However, if you discover the Book of the Magnakai first and deny the Darklords their prize, all the wisdom of the Magnakai will be revealed to you. Through its wisdom you will become strong, strong enough to reach the ultimate achievement for a Sommlending warrior—to become a Kai Grand Master.\nHowever, the peril and the glory of the quest that lies ahead are distracting you from more immediate danger. To discover this danger and to begin the quest for the Book of the Magnakai, turn to Part Two of Shadow on the Sand.\nBegin your adventure at 201."
+  }
+}

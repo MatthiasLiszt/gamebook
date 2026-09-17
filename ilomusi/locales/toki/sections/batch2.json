@@ -1,0 +1,261 @@
+{
+  "41": {
+    "choices": {
+      "choice_41_rub_oil_into_skin": "o kule e telo tawa selo",
+      "choice_41_forget_the_oil_compl": "o weka e telo tan pilin sina kin"
+    }
+  },
+  "42": {
+    "choices": {
+      "choice_42_go_through_the_gate": "o tawa kepeken lupo kiwen",
+      "choice_42_take_the_path": "o kepeken e nasin"
+    }
+  },
+  "43": {
+    "choices": {
+      "choice_43_search_for_a_hidden_": "o alasa e nasin weka pi len sitelen",
+      "choice_43_prepare_yourself_for": "o kama pini pi sina tawa utala"
+    }
+  },
+  "44": {
+    "choices": {
+      "choice_44_examine_the_leather_": "o lukin pona e lipu suli pi selo soweli",
+      "choice_44_ignore_the_book_and_": "o lukin ala e lipu suli, o alasa e ijo ante"
+    }
+  },
+  "45": {
+    "choices": {
+      "choice_45_attack_the_guard": "o utala e jan awen",
+      "choice_45_overpower_and_captur": "o anpa e ona, o jo e ona lon moli ala"
+    }
+  },
+  "46": {},
+  "47": {
+    "choices": {
+      "choice_47_continue_along_the_w": "o awen tawa nasin lupo anpa pi ma pini suno",
+      "choice_47_go_south_along_the_n": "o tawa ma anpa kepeken lupo anpa sin"
+    }
+  },
+  "48": {},
+  "49": {},
+  "50": {},
+  "51": {
+    "choices": {
+      "choice_51_enter_the_left_chann": "o tawa insa nasin telo pi poka pilin",
+      "choice_51_enter_the_right_chan": "o tawa insa nasin telo pi poka ante",
+      "choice_51_enter_the_channel_st": "o tawa insa nasin telo lon sinpin"
+    }
+  },
+  "52": {},
+  "53": {
+    "choices": {
+      "choice_53_enter_the_dwelling": "o tawa insa pi tomo jan",
+      "choice_53_enter_the_tavern_ins": "o tawa insa tomo pi telo moku tan kin"
+    }
+  },
+  "54": {
+    "choices": {
+      "choice_54_if_you_need_the_oede": "sina wile e kasi Ete la",
+      "choice_54_enter_the_shop_even_": "o tawa tomo esun, sina wile ala e kasi kin la",
+      "choice_54_continue_along_the_n": "o awen tawa nasin lili sin tawa tomo suli Sakan"
+    }
+  },
+  "55": {
+    "choices": {
+      "choice_55_climb_the_left_chimn": "o tawa sewi palisa kon pi poka pilin",
+      "choice_55_climb_the_right_chim": "o tawa sewi palisa kon pi poka ante"
+    }
+  },
+  "56": {},
+  "57": {},
+  "58": {
+    "choices": {
+      "choice_58_attempt_to_dial_the_": "o pali e wile pi pana e nanpa Kolasija (nanpa 67)",
+      "choice_58_do_not_attempt_to_op": "o pali ala e wile pi open e lupo"
+    }
+  },
+  "59": {
+    "choices": {
+      "choice_59_pick_up_the_dropped_": "o kama jo e ilo kipisi anpa",
+      "choice_59_attack_the_second_gu": "o utala e jan awen nanpa tu kepeken luka wan"
+    }
+  },
+  "60": {},
+  "61": {},
+  "62": {},
+  "63": {
+    "choices": {
+      "choice_63_search_the_bodies_of": "o lukin insa pi sijelo moli pi jan awen",
+      "choice_63_ignore_the_bodies_an": "o lukin ala e sijelo moli, o weka kepeken tomo suli"
+    }
+  },
+  "64": {},
+  "65": {
+    "choices": {
+      "choice_65_attack_the_guard": "o utala e jan awen",
+      "choice_65_overpower_him_and_ca": "o anpa e ona, o jo e ona lon moli ala"
+    }
+  },
+  "66": {
+    "choices": {
+      "choice_66_jump_back_into_garde": "o tawa monsi tawa ma kasi, o tawa tomo pi pana mani",
+      "choice_66_launch_surprise_atta": "o utala pi tenpo lili e jan awen pi anpa tomo"
+    }
+  },
+  "67": {},
+  "68": {
+    "choices": {
+      "choice_68_examine_the_potions": "o lukin pona e telo moli",
+      "choice_68_ignore_them_and_leav": "o lukin ala e ona, o weka tan tomo esun"
+    }
+  },
+  "69": {
+    "text": "sina lape ala kepeken pilin ike suli; sijelo sina ale li pilin pakala li jo e sitelen. sina open e len lukin pi ko telo, li lukin monsuta e ma ike sina. sina anpa lon kiwen tomo pi tomo pi jan ike. lon sinpin poka, lon anpa lupo lukin pi palisa kiwen la, supa lape pi kasi ike en len jaki li lon. pipi suli, ante pi suli sama soweli lili la, li tawa wawa lon lupo telo jaki pi kon ike pi tawa insa kiwen anpa.\nsina lukin e ni: luka sina li ken tawa, li tawa anpa lili tawa ma pi anpa tomo, li pana e monsi sina tawa lupo tomo. kon lili tan tomo suli li pana e pona WAN taso tan seli suli en kon ike pi tomo. lon ma weka la sina ken kute e noka pi kama poka. pini la, kalama pi ilo len en kalama pi sike lupo li lon. lupo li pini kepeken kalama ike. noka mute kin; ona li kama suli. ona li kama pini lon selo pi lupo tomo, li kalama wawa wawa: 'sina lape lon tenpo pali, jan Sepulu? sina kama lape lon poka ante pi lupo ni la jan lawa li jo e sina!'\nsupa pi anpa jan li tawa lon ma, en kalama pi pilin ike en kalama pi pilin nasa li pana e toki sin: 'pilin ike tawa sina, jan Ati! jan Sakan li jo ala e wile pi jan pi ma open suno tawa tomo Sakan tawa suno pini. sina weka e tenpo lape pi tenpo pi nanpa tu tan mi.'\n'o kalama ala, jan Sepulu,' jan nanpa wan li toki kepeken kalama utala, 'o pana e kute pona. mi kama sin tan tomo pi ilo utala. ijo wile li kama tan jan North-man, pi mani suli kin li toki mi. ni li ijo ike pi pana e ona tawa ala, pona?'\njan awen tu li kalama musi kepeken wile mani li toki suli pi tenpo pona pi ona ken jo lon ma tomo, lon tenpo pi ona li esun e ijo sina.\n'mi lukin e jan pona mi,' jan awen wan li toki. 'mi wile sona e ni: ona li pona lon tomo mi anu ala.'\nlupo lukin lili li tawa open lon sewi lawa sina, sina kute e kon pi pilin nasa. 'ona li weka! ona li weka! kepeken sewi Majan la, mi weka e lawa mi!' sina lukin wawa pi ni: sina ken ala lukin lon poka pi lupo kiwen.\n'o pana e mi tawa lukin,' jan awen ante li toki kepeken kalama anpa, tan wile pi lukin e ijo. sina kute e kalama pi ilo len lon ilo; ni li ken pona tawa weka sina.",
+    "choices": {
+      "choice_69_attack_the_guards_as": "o utala e jan awen lon tenpo lili pi open lupo",
+      "choice_69_stand_in_the_middle_": "o sewi lon leko pi insa tomo"
+    }
+  },
+  "70": {
+    "text": "sina awen tawa lon nanpa wan pi ma tomo ni la sina ken ala tawa kin: leko kiwen suli li len e lupo anpa. sijelo moli majuna pi akesi suli li kama anpa tawa palisa. kiwen pi anpa sijelo li lukin pona lon ma pi selo moli li weka anu li moku. palisa li awen kiwen; ni li ken ala e tawa kin lon nasin ni.\npoka pi akesi moli la, leko kiwen lili li kama tan sinpin. pini pi leko la, sina lukin e lupo anpa pi tawa leko noka, pi tawa sewi tan palisa telo jaki.\nkalama pi jan Mawu li kama kepeken lupo anpa. ona li pana e kulupu Sanasim tawa sina.",
+    "choices": {
+      "choice_70_climb_the_steps": "o tawa sewi leko",
+      "choice_70_wait_here_and_fight_": "o awen lon ni, o utala e jan pi kama monsi"
+    }
+  },
+  "71": {
+    "text": "pini pi telo e jaki ike la, sina kama tan tomo telo li tawa insa tomo lili pi sinpin; tomo li seli li telen ala, en len sina li kama telen ala kin lon tenpo lili. pini pi tomo sinpin la tomo suli ante li lon, tenpo ni la li jo e jan mute, jan ante li anpa, jan ante li sewi, en jan ale li pali e toki. ni li tomo telo pi mani ala pi ma tomo Palakesi, en jan pi ma tomo li pana e pilin pona sewi tawa ona. ona li ijo ike pi ma tomo ante pi telo lili, lon ni telo li jo e mani suli. jan li kepeken tomo telo ni sama tomo kulupu tawa lukin en toki tawa jan pona. mute pi toki sina li toki e jan Sakan sin; jan lili taso li toki e ijo pona pi ona.\nsina pana e len telo suli lon poka sina li tawa insa pi kulupu jan tawa lupo suli."
+  },
+  "72": {
+    "text": "'o weka!' meli suli pi tomo pi telo moku ni li kalama wawa. 'mi jo ala e tomo tawa jan pi pana ala e pona tawa jan Sakan moli mi.'\njan wawa tu pi pana e len kule pimeja lon luka li pana e sina kepeken wawa tan lupo. sina pakala li anpa lon kiwen nasin pi ko jaki, li pakala e luka en noka. o weka e nanpa 1 tan Wawa sina. lon tenpo sina sewi tawa noka sina la, jan Mawu en jan utala ona li tawa wawa insa ma open li sike e sina.",
+    "choices": {
+      "choice_72_fight_them": "o utala e ona",
+      "choice_72_surrender": "o pana e sina tawa ona"
+    }
+  },
+  "73": {
+    "text": "kon jaki pi lupo telo anpa li open weka, en telo li kama jaki lili lon tenpo sina tawa kin lon nasin ni. kalama pi jan pi jan Mawu li weka, lon tenpo ni la kalama telo taso li pana e kalama tawa kute sina. tenpo lili la noka sina li kama jo e ijo, li weka e pona pi tawa sina. lipu ma anpa li jo e len utala kiwen pi ilo pimeja lon insa ko jaki."
+  },
+  "74": {
+    "text": "sina pilin e ni: lupo pi ma pini suno li tawa tomo pi ilo utala Sakan.",
+    "choices": {
+      "choice_74_go_through_the_west_": "o tawa kepeken lupo pi ma pini suno",
+      "choice_74_leave_the_chamber_by": "o weka tan tomo kepeken lupo pi ma open suno"
+    }
+  },
+  "75": {
+    "text": "sina sike e ilo open taso lupo kiwen li len. sina wile sike li tawa wawa lon tenpo lili lupo li open suli: jan li awen lon lupo. 'o tawa wawa, jan North-man. mi len e sina!' jan li tawa monsi tawa pana e sina tawa insa.",
+    "choices": {
+      "choice_75_enter_with_the_man": "o tawa insa poka jan ni",
+      "choice_75_refuse_and_climb_the": "o toki ala, o tawa sewi nasin tawa lupo sewi",
+      "choice_75_enter_the_alley": "o tawa insa nasin lili"
+    }
+  },
+  "76": {
+    "text": "sina tawa e sike nanpa tawa 76 li pana e luka sewi sina tawa lipu kiwen suli, li awen tawa kute lon tenpo ale e kalama pi ilo len. sina pilin e kalama, taso ni li kalama ala pi open lupo—sina kepeken e nanpa pakala."
+  },
+  "77": {
+    "text": "luka pi pilin ala sina li ken ala pana e tawa sewi. kepeken pilin wawa suli sina li utala tawa weka lon palisa kon, taso lon tenpo pi kiwen lili li pakala lon luka sina, sina ken ala awen e sina tan kama anpa tawa telo jaki pi kalama sike.\nmoli sina li kama tan tenpo lili lon tenpo sina kama moku moku lon Ta-Soka pi ma tomo Palakesi."
+  },
+  "78": {
+    "text": "utala sina li wawa li moli. jan awen li ken ala kalama wawa tawa kama jo e pona la, sina pini e kalama ona kepeken utala luka tawa poka pi kute ona.",
+    "choices": {
+      "choice_78_leave_the_bodies_and": "o weka tan sijelo moli, o weka kepeken tomo suli",
+      "choice_78_search_the_bodies": "o lukin insa pi sijelo moli"
+    }
+  },
+  "79": {
+    "text": "nasin pi kasi Toa li pana e ma pimeja pi len e tawa sina pi kalama ala. lupo kiwen li anpa, en jan utala tu taso li awen lon insa la ma ni li jo e jan luka luka lon tenpo pi tenpo ante. lon tenpo lili la kalama kiwen li lon lon tenpo pi lupo li tawa sewi. jan awen li tawa monsi tawa pana e kulupu jan pi soweli tawa tawa weka tan tomo suli. lon tenpo ona li tawa la, soweli tawa li pana e ko ma suli, li len e jan awen ike tan sewi tawa anpa. ona li kalama kon, li tawa poki telo soweli tawa weka e jaki tan uta. lupo li awen open, en lupo sewi li jo ala e jan awen.",
+    "choices": {
+      "choice_79_sneak_past_the_drink": "o tawa kepeken kalama ala poka jan awen pi telo moku",
+      "choice_79_attack_them_while_th": "o utala e ona lon tenpo monsi ona li sike"
+    }
+  },
+  "80": {
+    "text": "lon tenpo lili la, sitelen pi ilo len li kama lon pilin sina. sina kepeken e wawa sina tawa open e ilo len, en kalama suli li toki e ni: pali sina li pona."
+  },
+  "81": {
+    "text": "sina sona e sitelen pi Limb-death. pakala li kama ike kepeken pipi lili mute pi moli, wan pi kulupu pipi moli mute lon Paka-Talu. wawa Kaji sina wan ala li ken awen e luka sina tan weka lon pini. pini WAN taso pi jaki ni li lon—pakala ike o jo e kasi Ete insa tenpo luka luka tu tu. sina alasa ala e kasi Ete lon tenpo suno pini la, luka sina li kama moli li jakipona. pini la sina o pali e wile tan weka luka anu weka moli.\nsona ike ni li pana e wawa sin tawa wile sina pi weka tan ma ike ni, tan ni sina ken sona kin e ijo wan: sina alasa e kasi Ete ala lon Paka-Talu."
+  },
+  "82": {
+    "text": "sina utala kepeken sona suli en pilin wawa, taso jan mute kin li utala e sina. jan utala pi len pimeja li kama poka li anpa e sina, li linja e sina tawa jan Mawu pi pilin pona.\n'sina jan pi pilin wawa, jan Kaji sewi. taso sina wile e ijo ante tan pilin wawa tawa awen pona kin lon tenpo ni!'"
+  },
+  "83": {
+    "text": "ni li lipu suli pi ilo utala. lipu li jo e sitelen luka pi pali ale pi ma ni. palisa kipisi en ilo kipisi pi pali tawa utala ma Kala Kala, en kiwen pi kama tan nena Pakala, en ilo utala pi wile pona, en pali ale pi tenpo suno li sitelen pona.\nsina wile pana anpa e lipu suli lon tenpo sina lukin e lipu sike pi sike lon sinpin lipu. ni li lipu nanpa en tenpo suno pi jo e sitelen sewi wawa: 'lupo Kiwen'. sina lukin e lipu li alasa e nanpa pi tenpo suno ni. nanpa lon poka li '67'. o sitelen e nanpa ni lon lipu Pali sina—ni li ken pona lon tenpo anpa pi tawa sina.\nsina pana sin e lipu suli tawa supa pali li open alasa e ijo sina pi kama weka."
+  },
+  "84": {
+    "text": "sina tawa insa telo jaki, li kama pini e sina tawa tawa telo ike pi sina pali e wile pi kama jo. telo selo jaki li pana e jaki tawa nena en uta sina, li pini e kon sina. sina pali e tawa lon tomo tawa lupo anpa ante, li utala e tawa nasin lili. sina tawa tawa, taso kalama anpa tan tawa telo ala li pana e ni. luka sina li ken ala pali. luka sewi sina, pi pakala lon tenpo kiwen suli li anpa la, li pilin ike, en luka ale lon anpa ona li jo ala e pilin, li kepeken ala. monsuta li kama lon sina lon tenpo sina lukin e ijo pakala."
+  },
+  "85": {
+    "text": "jan awen li open e lupo tomo li tawa wawa insa tomo, luka ona li jo e ilo utala pi kama pini tawa utala. ona li jan ike pi sinpin ike pi utala tenpo pini. pilin nasa pi kama sina li kama utala lon tenpo lili, li pana e sina tawa sinpin tomo weka.\n'lukin mi la mi jo e jan powe, jan Sepulu,' jan awen sewi li toki kepeken kalama anpa. 'jan powe tan ma pi open suno pi weka nasin,' jan ante li toki. ona li kalama musi tawa toki musi ona, lukin ona li jo e pilin ike.\n'o pana e sona tawa jan pona mi,' jan awen nanpa wan li toki, li pana e ilo kipisi tawa kute sina. 'o tawa e ilo pi pakala luka.'"
+  },
+  "86": {
+    "text": "sina tawa wawa kepeken lupo sewi, li lukin e jan awen tu pi telo moku. ko ma li kama anpa, en ona li sike e sinpin la, sina kama lukin kin. lon tenpo tawa wawa sina, sina lukin ala e kiwen lon poka sinpin, li utala e ni kepeken noka sina. awen pi kalama utala la, sina tawa kepeken ike tawa ma kasi pi tomo suli, li len lon anpa kasi Kasulu. sina weka e nanpa 1 pi Wawa sina tan pakala, taso sina kama insa pi tomo suli Sakan kepeken lukin ala."
+  },
+  "87": {
+    "text": "lon poka weka pi tomo sewi lili la, supa leko li tawa lon anpa lupo lukin pi sewi sinpin pi ma open suno. kiwen suli li pakala tan kon telo suli tan telo suli, li pana e lupo open mute pi pali e tawa sewi tawa pona. tawa pilin pona sina la, sina lukin kin e ni: ilo len pi lupo lukin li len ala lon poka ni pi tomo suli.\nsina kama anpa tawa anpa tomo pi tomo suli pi tawa ma pini suno. leko sewi pi ma suli li tawa ma pi nasin mute pi jo e ma tomo lili. ma tomo lili wan kin li jo e sitelen kiwen anu len pi jan Sakan en jan Pasakoni pi tenpo pini lon utala pi tenpo suli."
+  },
+  "88": {
+    "text": "lipu ni li sitelen tan poka pi ma open suno tawa ma pini suno kepeken sitelen Pasakoni. tenpo sina pi kama sona e toki lon tomo tawa telo li kepeken pona, tan sina jo e pini lili lon lukin pi sitelen jan:\njan lawa suli ona, Sakan Mutala sewi, li tawa ma pi sewi Majan. kon ona o moli ala! kepeken pilin pona pi kulupu Kati, en jan Punal pi ma Kala Kala, en jan Susi-kalu pi ma Palakesi la, li toki e ni: jan Kima, jan Emi pi ma Pelupesan, jan Awen pi ma Telen, li kama jo e supa lawa pi ma Pasakonia kepeken nasin pona. kepeken kulupu pi ma tomo luka luka tu, ona li pana e jan ona tawa suli.\nona o lawa lon tenpo suli!\nutala lili li open lon pini pi nasin lon tenpo pi jan Sanasim lili li pali e tawa insa tan kulupu jan. lon ike ni tomo kili li anpa, en jan jo ona li toki ike tawa jan utala pi luka ala kepeken kalama wawa. pini la kalama ala li lon—jan pi pilin ike ni li kama jo e kipisi pi lawa ona tan toki wawa ona.\nsina sike li tawa wawa, kepeken lupo telo jaki lili pi tawa lon suli pi nasin ike."
+  },
+  "89": {
+    "text": "utala kipisi li tawa insa uta anpa sina lon tenpo pi ilo kipisi li alasa e ma ona. lon tenpo lili la, tomo li kama sike pimeja, pi weka pi utala moli.\nsina lape ala li kama insa tomo pi pipi suli pimeja pi sina open weka tan ni. sina kama jo e weka pi ilo luka en ijo ale sina, li ken pali e lili tan kin lon tenpo awen pi kama pi jan Sakan."
+  },
+  "90": {
+    "text": "sina tawa insa tomo suli sinpin pi pali tan kiwen walo en loje. jan pi len walo li anpa poka lupo lon sinpin weka; ona li lukin e lipu sike lon poka sinpin ona. ona li lukin ala e sina lon tenpo kama insa tomo telo, taso ona li sona wawa e poka sina.\n'kepeken sewi Majan!' ona li kalama. 'sina jo e kon jaki mute tawa soweli Pakana!' ona li pana e len telo tawa sina li lukin e lupo. 'o jo e toki mi,' ona li toki kepeken kalama anpa, luka ona li len e nena sinpin. 'o weka ala e len sina—len sina li wile e tomo telo sama sina.'\nsina pakala e kiwen uta lon tenpo awen pi ona lukin e ni: sina jan Pasakoni ala, taso ona li tawa sin e lipu sike, li jo e lipu lon poka pi lukin lili ona. sina pana e uta musi lon tenpo sina lukin e ni: jan li ken ala lukin e sina tawa sona e ni: sina tan ma ante.\npini lupo la tomo suli li lon, li tawa lon tenpo pona tawa tomo lili pi open ma, pi tomo wan kin li jo e tomo telo. telo kon pona li kama lon tomo telo lon tenpo ale li tawa anpa lon poki Paka-Talu. sina pali e wile pi kepeken toki pi jan tomo telo li tawa insa telo lete, li len e len ale sina. sina lukin e poki suli pi poka tomo telo, pi pini tawa sewi kepeken telo kule pimeja."
+  },
+  "91": {
+    "text": "jan awen li utala e lawa sina kepeken ilo utala ona. kepeken pilin Kaji la, sina anpa e lawa, li sike tawa poka lon tenpo ilo li pana e suno seli lon sinpin tomo."
+  },
+  "92": {
+    "text": "sina tawa wawa lon kiwen nasin taso lon tenpo lili la sina o pini. jan lon soweli tawa li kama lon pini nasin; ona li kalama wawa li tawa wawa e soweli tawa sina, jan tu wan poka poka. jan Mawu li pana e toki ike. sina nasa tan poka pi kalama ona, sama ona li lon monsi sina kepeken leko wan taso. sina sike tawa sinpin ona, tawa lukin e ni: ona li awen lon ma pi kama open lukin. palisa kipisi lili li awen lon luka sewi ona; ona li pana e toki ike ante li pana e palisa tawa kon."
+  },
+  "93": {
+    "text": "sina tawa anpa leko li tawa monsi tomo suli pi ma open suno, li pali e tawa pi kalama ala. palisa kiwen lon lupo lukin pi sewi sinpin poka pi luka ante sina li pana e suno en pimeja lon kiwen anpa kin lon sinpin. anpa wan pi lupo lukin ni la supa li lon, lon sewi la poki telo li lon. kute anpa sina li telen ala, li pini tawa moku e telo mute. o pana sin e nanpa 1 pi Wawa sina."
+  },
+  "94": {
+    "text": "sina kama anpa sinpin tawa telo jaki. ko jaki telo li pana e jaki tawa kute en nena sina, li pini e kon sina. sina kama sewi li utala e tawa nasin lili, tawa lukin e ni: luka sina li pali ala kin. luka pakala sina, pi pakala tan kiwen anpa li pilin ike, taso lon tenpo ni luka ale lon anpa li jo ala e pilin en ilo pali. monsuta suli li kama lon sina lon tenpo sina lukin e ijo pakala."
+  },
+  "95": {
+    "text": "sina kama sewi lon poka pi tomo tawa telo lili pi len. kepeken wile pi weka tan jan moku lon telo pi ma tomo Palakesi la, sina linja e sina tawa tomo tawa telo li len lon anpa len kasi pi tomo tawa telo. sina pini e kon tan tawa telo sina, taso sina pana ala e kalama; jan pi jan Mawu li lon ma ale, li tawa wawa lon kiwen pi poka telo suli, lukin ona li lukin lon telo tawa lukin pi sitelen sina. sina wile weka la, sina o pali e ijo tawa weka pi lukin ona."
+  },
+  "96": {
+    "text": "telo li suli kepeken kulupu ike pi ko telo kule en jaki pimeja. ona li kama tawa insa pini sina, en lon tenpo sina pali e tawa kepeken ko suli la, selo sewi li pakala, li pana e kon jaki. sina o len e nena en uta sina kepeken len Kaji sina, tan kon jaki li ike suli. kalama telo pi kama sin li pana e sona pi ni: jan pi jan Mawu li lon poka ala.\nnoka sina li kama jo lon ijo tan ko jaki pi anpa tomo, en lon tenpo lili wan la, sina kama jo e monsuta suli. sina utala tawa weka noka taso sina kama len. lukin ala la, sina pana e ilo kipisi sina lon anpa telo jaki pi noka sina li kama weka. lon tenpo sina kama jo sin e ilo kipisi, sina awen lili tawa alasa e soweli telo monsuta pi pana lon ilo. ante la, sina alasa e kiwen inisa jan. sina tawa wawa kepeken monsuta li pana e kiwen tawa ko jaki ike.\nnasin telo li kama tu lon tenpo lili: lupo anpa sin li tawa ma pini suno en ante li awen tawa ma anpa. kalama telo li kama suli kin—jan pi jan Mawu li kama poka tawa sina."
+  },
+  "97": {
+    "text": "poki li plain tan lipu lili pi kiwen loje lon sewi. ilo len li ala, taso kepeken pilin insa la, sina len e open pi sewi kepeken luka tan ni: ken la ni li ilo pakala. poka la sina lukin e poki telo kasi en ilo moku suli. kepeken ilo moku suli la, sina open e poki li pana e sewi. poki sama li ilo pakala ala, taso lukin pona sina li pona; lon supa pi palisa pi kiwen kule la akesi Yasi li anpa, akesi pi telo moli ala taso suli kin pi ma Pasakonia. linja uta loje tu li kama tan lawa jelo ona lon tenpo ona li kama pini tawa awen e supa mani ona."
+  },
+  "98": {
+    "text": "kalama lili pi noka pi kalama ala li pana e sona pi ni: sina lon ala taso. sina sike wawa li anpa e sina tawa kama pini pi utala; pali ni pi tenpo pini pi monsuta li awen e sina tan palisa lili lape pi kama tan ilo kon. lon tenpo palisa lili li pilin e len sewi pi len sina, sina lukin e jan pana pi pana e luka lon poki len ona tawa palisa ante. lon monsi ona jan utala tu pi jo e palisa kiwen tu wan li lon. jan tu wan ni li len e nasin sina tan tomo sinpin."
+  },
+  "99": {
+    "text": "lon tenpo sina tawa insa suno la, kalama jan li kama sewi tan kalama pi kulupu jan. 'ona li lon!' ni li jan Mawu. ona li lukin e sina en jan Sanasim luka luka tu li weka e ilo kipisi ona. 'o pana e sina, jan Lon Wupu,' ona li toki kalama ike. 'sina ken ala weka.'"
+  },
+  "100": {
+    "text": "lupo kiwen suno walo li open tawa pimeja lili, en kon pi lipu majuna li kama insa kon. nasin pi lipu suli pi selo soweli li awen lon leko kiwen walo, pi lipu wan kin li pona lukin kepeken lipu kiwen jelo. lukin e tenpo en sitelen la, sina sona e ni: lipu ni li jo e sitelen pi ijo mani ale pi tomo suli Sakan, mute li tan tenpo pini suli pi tenpo sike mute kin.\nleko ale pi tomo lipu lili li jo e lipu suli, leko ale taso wan li ala, lon ni la len silika kule pimeja li jo e ilo Kiwen Loje en ilo Kiwen Suno. nasin weka ante li ala tan tomo lipu ni tan lupo kiwen suno walo pi sina kama insa. pini pi pona pi ala e ijo pona pi weka la, sina len e lupo li tawa monsi kepeken tomo suli. lon tenpo sina kama tawa ma tu la, sina lukin e kulupu jan awen pi tomo suli pi tawa sewi leko. lon pini ala pi tenpo lili la, sina tawa wawa tawa lupo pi ma open suno tawa awen ala e lukin."
+  },
+  "101": {
+    "text": "jan li pana e kalama wawa li kama anpa, li sike lon anpa tomo lon tenpo lili tan pini e kon pi tenpo pini. lon tenpo poka la, jan utala ona li sewi e noka, li weka e pilin pi ilo utala ona lon tawa wawa ona tawa weka kepeken nasin. sina tawa monsi ona, li pini taso tawa kama jo e palisa tu wan kiwen anpa; sina sona e ni: sina o pini e ona tan pini pi pana sona tawa jan awen ante. sina tawa monsi e palisa tu wan kiwen li pana e ona. ona li pakala e monsi ona, li pana e ona tawa sinpin lon tenpo pilin. ona li moli lon tenpo pini pi kama anpa lon anpa tomo.\nlukin insa pi sijelo moli li pana e ijo ni:\n• 4 kiwen Mani Jelo\n• 1 ilo kipisi lili\n• 1 ilo kipisi suli\n• 1 telo moku Aleta (li suli e wawa UTALA kepeken nanpa 2 lon tenpo pi utala wan.)\nsina ken kama jo kin e ilo kon en ilo palisa Lape. sina pali e wile pi awen e ona la, o sitelen e ona lon lipu Pali sina sama ijo poki.\nlon len pi jan moli pi ilo kon la sina alasa e lipu lili, lon ni sitelen pi tenpo suno ni en nanpa 67 li lon. uta musi li kama lon sinpin sina lon tenpo sina lukin e ni: ni li nanpa pi open e lupo kiwen.\nsina awen e kon sina li sike e ilo sike!"
+  },
+  "102": {
+    "text": "lukin ale kin kepeken sijelo tu li pana e ijo ni:\n• 1 ilo kipisi suli\n• 1 ilo kipisi lili\n• 1 ilo pakala kiwen\n• 6 kiwen Mani Jelo\n• ilo open pi Jan Awen (ijo Suli)\nsina ken jo e ijo ale lon sewi. o awen sona pi sitelen e ona lon lipu Pali sina. ilo open pi Jan Awen o len poka len noka sina. sina awen e sona pi len e lupo tomo lon tenpo pini pi sina tawa wawa lon tomo suli."
+  },
+  "103": {
+    "text": "sina pilin e ni: wawa sijelo sina li open kama suwi en pona. telo kule li pona e pakala en pilin ike pi len e sijelo sina li pana sin e nanpa 2 pi Wawa sina. o pali e ante wile lon lipu Pali sina."
+  },
+  "104": {
+    "text": "'o jo e ona!' jan Mawu li kalama. 'taso o jo e ona lon moli ala!'\nsina tawa wawa tawa tomo tawa telo pi ma weka. jan telo li awen pi sona ala e ma ike. ona li lukin ala e moli pi jan toki, li awen pi sona ala e monsuta sina. lon tenpo pini pi sina ken pana e kalama pi wile pona la, jan soweli li kipisi e nasin sina, li len e nasin sina tawa tomo tawa telo."
+  },
+  "105": {
+    "text": "lukin sina li kama tawa sitelen kiwen pi lawa jan lon tomo lili, wan pi mute lon poka sinpin pi ma anpa. lukin poka tawa sitelen lawa li pana e ilo sike lon poka pi anpa kute. lawa li tawa monsi tawa lukin e ilo luka lili."
+  },
+  "106": {
+    "text": "sina kama anpa wawa lon jan tawa li weka e ona tan supa, taso sina kama anpa ike li weka e jo sina. jan toki li jan wan pi sewi e noka; ona li weka e ilo kipisi ona li utala lon tenpo pini pi sina jo e tenpo tawa sewi noka."
+  },
+  "107": {
+    "text": "sina pana e wawa ale pi pona sijelo tawa pona e kon jaki pakala sina. lili lili la, pilin ike lon sinpin sina li anpa en pilin seli li pana tan insa sijelo, li tawa luka en noka sina. wawa Kaji sina li pona e pakala, taso sina awen wawa lili tan weka pi telo loje."
+  },
+  "108": {
+    "text": "leko mute lon nasin anpa sin li jo e palisa telo sin, pi poki wan kin li len e lupo kiwen. telo laso li kama insa nasin suli, li pana e kon jaki pi pakala e kute en kon sina. sina tawa poka pi palisa telo, taso sina weka e nanpa 2 pi Wawa sina tan wawa pi kon jaki. o pali e ante wile lon lipu Pali sina."
+  }
+}

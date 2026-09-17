@@ -1,0 +1,484 @@
+{
+  "41": {
+    "effects": [
+      {
+        "text": "Fail to swallow oil; bad taste."
+      }
+    ],
+    "choice": [
+      {
+        "text": "Rub oil into skin",
+        "next": 103
+      },
+      {
+        "text": "Forget the oil completely",
+        "next": 71
+      }
+    ]
+  },
+  "42": {
+    "choice": [
+      {
+        "text": "Go through the gate",
+        "next": 75
+      },
+      {
+        "text": "Take the path",
+        "next": 169
+      }
+    ]
+  },
+  "43": {
+    "choice": [
+      {
+        "text": "Search for a hidden exit",
+        "next": 33
+      },
+      {
+        "text": "Prepare yourself for combat",
+        "next": 185
+      }
+    ]
+  },
+  "44": {
+    "choice": [
+      {
+        "text": "Examine the leather-bound book",
+        "next": 83
+      },
+      {
+        "text": "Ignore the book and search for equipment",
+        "next": 181
+      }
+    ]
+  },
+  "45": {
+    "choice": [
+      {
+        "text": "Attack the guard",
+        "next": 78
+      },
+      {
+        "text": "Overpower and capture him alive",
+        "next": 199
+      }
+    ]
+  },
+  "46": {
+    "combat": {
+      "enemy": "vestibule_guard_2",
+      "on_win": 3,
+      "on_lose": null
+    }
+  },
+  "47": {
+    "choice": [
+      {
+        "text": "Continue along the west tunnel",
+        "next": 73
+      },
+      {
+        "text": "Go south along the new tunnel",
+        "next": 128
+      }
+    ]
+  },
+  "48": {
+    "random_test": {
+      "roll": "random_0_9",
+      "modifiers": [
+        {
+          "require": {
+            "rank_at_least": "guardian"
+          },
+          "add": 3
+        }
+      ],
+      "outcomes": [
+        {
+          "min": 0,
+          "max": 4,
+          "next": 34
+        },
+        {
+          "min": 5,
+          "max": 12,
+          "next": 80
+        }
+      ]
+    }
+  },
+  "49": {
+    "random_test": {
+      "roll": "random_0_9",
+      "modifiers": [
+        {
+          "require": {
+            "discipline": "hunting"
+          },
+          "add": 1
+        },
+        {
+          "require": {
+            "rank_at_least": "savant"
+          },
+          "add": 3
+        }
+      ],
+      "outcomes": [
+        {
+          "min": 0,
+          "max": 5,
+          "next": 106
+        },
+        {
+          "min": 6,
+          "max": 13,
+          "next": 189
+        }
+      ]
+    }
+  },
+  "50": {
+    "effect": [
+      {
+        "stat": "endurance",
+        "change": -2
+      }
+    ],
+    "next": 176
+  },
+  "51": {
+    "effect": [
+      {
+        "stat": "endurance",
+        "change": -1
+      }
+    ],
+    "require": {
+      "if_true": 173,
+      "discipline": "tracking"
+    },
+    "choice": [
+      {
+        "text": "Enter the left channel",
+        "next": 96
+      },
+      {
+        "text": "Enter the right channel",
+        "next": 145
+      },
+      {
+        "text": "Enter the channel straight ahead",
+        "next": 13
+      }
+    ]
+  },
+  "52": {
+    "effect": [
+      {
+        "gold": 4
+      },
+      {
+        "add_item": "gaolers_keys"
+      }
+    ],
+    "next": 140
+  },
+  "53": {
+    "choice": [
+      {
+        "text": "Enter the dwelling",
+        "next": 157
+      },
+      {
+        "text": "Enter the tavern instead",
+        "next": 188
+      }
+    ]
+  },
+  "54": {
+    "choice": [
+      {
+        "text": "If you need the Oede herb",
+        "next": 68
+      },
+      {
+        "text": "Enter the shop even if you do not need the herb",
+        "next": 154
+      },
+      {
+        "text": "Continue along the new alleyway towards the Grand Palace",
+        "next": 179
+      }
+    ]
+  },
+  "55": {
+    "choice": [
+      {
+        "text": "Climb the left chimney",
+        "next": 162
+      },
+      {
+        "text": "Climb the right chimney",
+        "next": 23
+      }
+    ]
+  },
+  "56": {
+    "effect": [
+      {
+        "add_item": "jakan"
+      },
+      {
+        "add_item": "arrow"
+      }
+    ],
+    "random_test": {
+      "roll": "random_0_9",
+      "modifiers": [
+        {
+          "require": {
+            "discipline": "weaponskill"
+          },
+          "add": 2
+        }
+      ],
+      "outcomes": [
+        {
+          "min": 0,
+          "max": 3,
+          "next": 7
+        },
+        {
+          "min": 4,
+          "max": 11,
+          "next": 28
+        }
+      ]
+    }
+  },
+  "57": {
+    "combat": {
+      "enemy": "elix",
+      "on_win": 2,
+      "on_lose": null
+    }
+  },
+  "58": {
+    "choice": [
+      {
+        "text": "Attempt to dial the Cloeasian combination (Number 67)",
+        "next": 67
+      },
+      {
+        "text": "Do not attempt to open the door",
+        "next": 156
+      }
+    ]
+  },
+  "59": {
+    "choice": [
+      {
+        "text": "Pick up the dropped sword",
+        "next": 4
+      },
+      {
+        "text": "Attack the second guard with bare hands",
+        "next": 91
+      }
+    ]
+  },
+  "60": {
+    "next": 25
+  },
+  "61": {
+    "next": 176
+  },
+  "62": {
+    "next": 152
+  },
+  "63": {
+    "choice": [
+      {
+        "text": "Search the bodies of the dead guards",
+        "next": 102
+      },
+      {
+        "text": "Ignore the bodies and escape along the corridor",
+        "next": 150
+      }
+    ]
+  },
+  "64": {
+    "combat": {
+      "enemy": "kwaraz",
+      "on_win": 177,
+      "on_lose": null
+    }
+  },
+  "65": {
+    "choice": [
+      {
+        "text": "Attack the guard",
+        "next": 78
+      },
+      {
+        "text": "Overpower him and capture him alive",
+        "next": 199
+      }
+    ]
+  },
+  "66": {
+    "choice": [
+      {
+        "text": "Jump back into gardens and enter trophy room",
+        "next": 149
+      },
+      {
+        "text": "Launch surprise attack on seated guards",
+        "next": 124
+      }
+    ]
+  },
+  "67": {
+    "next": 200
+  },
+  "68": {
+    "choice": [
+      {
+        "text": "Examine the potions",
+        "next": 27
+      },
+      {
+        "text": "Ignore them and leave the shop",
+        "next": 160
+      }
+    ]
+  },
+  "69": {
+    "effect": [
+      {
+        "confiscate_all": true
+      }
+    ],
+    "choice": [
+      {
+        "text": "Attack the guards as soon as the door opens",
+        "next": 138
+      },
+      {
+        "text": "Stand in the middle of the cell",
+        "next": 85
+      }
+    ]
+  },
+  "70": {
+    "choice": [
+      {
+        "text": "Climb the steps",
+        "next": 43
+      },
+      {
+        "text": "Wait here and fight your pursuers",
+        "next": 60
+      }
+    ]
+  },
+  "71": {
+    "next": 54
+  },
+  "72": {
+    "effect": [
+      {
+        "stat": "endurance",
+        "change": -1
+      }
+    ],
+    "choice": [
+      {
+        "text": "Fight them",
+        "next": 36
+      },
+      {
+        "text": "Surrender",
+        "next": 176
+      }
+    ]
+  },
+  "73": {
+    "next": 94
+  },
+  "74": {
+    "choice": [
+      {
+        "text": "Go through the west door",
+        "next": 44
+      },
+      {
+        "text": "Leave the chamber by the north door",
+        "next": 167
+      }
+    ]
+  },
+  "75": {
+    "choice": [
+      {
+        "text": "Enter with the man",
+        "next": 24
+      },
+      {
+        "text": "Refuse and climb the path towards the archway",
+        "next": 169
+      },
+      {
+        "text": "Enter the alley",
+        "next": 117
+      }
+    ]
+  },
+  "76": {
+    "next": 98
+  },
+  "77": {
+    "death": true
+  },
+  "78": {
+    "choice": [
+      {
+        "text": "Leave the bodies and escape along the corridor",
+        "next": 150
+      },
+      {
+        "text": "Search the bodies",
+        "next": 102
+      }
+    ]
+  },
+  "79": {
+    "require": {
+      "if_true": 170,
+      "all": [
+        {
+          "discipline": "camouflage"
+        },
+        {
+          "discipline": "hunting"
+        }
+      ]
+    },
+    "choice": [
+      {
+        "text": "Sneak past the drinking guards",
+        "next": 86
+      },
+      {
+        "text": "Attack them while their backs are turned",
+        "next": 119
+      }
+    ]
+  },
+  "80": {
+    "next": 136
+  }
+}

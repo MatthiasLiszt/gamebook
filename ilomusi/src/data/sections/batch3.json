@@ -1,0 +1,431 @@
+{
+  "81": {
+    "next": 166
+  },
+  "82": {
+    "next": 176
+  },
+  "83": {
+    "next": 181
+  },
+  "84": {
+    "next": 81
+  },
+  "85": {
+    "choice": [
+      {
+        "text": "choice_85_attack_the_guard_who",
+        "next": 59
+      },
+      {
+        "text": "choice_85_do_not_attack",
+        "next": 163
+      }
+    ]
+  },
+  "86": {
+    "effect": [
+      {
+        "stat": "endurance",
+        "change": -1
+      }
+    ],
+    "next": 137
+  },
+  "87": {
+    "require": {
+      "if_true": 105,
+      "discipline": "sixth_sense"
+    },
+    "next": 158
+  },
+  "88": {
+    "next": 113
+  },
+  "89": {
+    "effect": [
+      {
+        "confiscate_all": true
+      }
+    ],
+    "next": 18
+  },
+  "90": {
+    "require": {
+      "if_true": 6,
+      "discipline": "healing"
+    },
+    "choice": [
+      {
+        "text": "choice_90_swallow_some_of_the_",
+        "next": 41
+      },
+      {
+        "text": "choice_90_rub_some_into_your_s",
+        "next": 103
+      },
+      {
+        "text": "choice_90_ignore_the_oil",
+        "next": 71
+      }
+    ]
+  },
+  "91": {
+    "combat": {
+      "enemy": "palace_gaoler",
+      "player_modifier": -4,
+      "roundOutcomes": [
+        {
+          "maxRounds": 4,
+          "on_win": 65
+        }
+      ],
+      "on_win": 180
+    }
+  },
+  "92": {
+    "next": 25
+  },
+  "93": {
+    "effect": [
+      {
+        "stat": "endurance",
+        "change": 1
+      }
+    ],
+    "choice": [
+      {
+        "text": "choice_93_climb_onto_the_table",
+        "next": 155
+      },
+      {
+        "text": "choice_93_press_on_along_the_c",
+        "next": 182
+      }
+    ]
+  },
+  "94": {
+    "next": 81
+  },
+  "95": {
+    "require": {
+      "if_true": 184,
+      "discipline": "mind_over_matter"
+    },
+    "next": 56
+  },
+  "96": {
+    "choice": [
+      {
+        "text": "choice_96_head_west",
+        "next": 135
+      },
+      {
+        "text": "choice_96_continue_south",
+        "next": 164
+      }
+    ]
+  },
+  "97": {
+    "choice": [
+      {
+        "text": "choice_97_attack_the_yas",
+        "next": 194
+      },
+      {
+        "text": "choice_97_flick_shut_the_lid_a",
+        "next": 14
+      }
+    ]
+  },
+  "98": {
+    "choice": [
+      {
+        "text": "choice_98_attack_them_before_t",
+        "next": 168
+      },
+      {
+        "text": "choice_98_attempt_to_dodge_the",
+        "next": 118
+      }
+    ]
+  },
+  "99": {
+    "choice": [
+      {
+        "text": "choice_99_fight",
+        "next": 36
+      },
+      {
+        "text": "choice_99_surrender",
+        "next": 176
+      }
+    ]
+  },
+  "100": {
+    "effect": [
+      {
+        "add_item": "prism"
+      },
+      {
+        "add_item": "copper_key"
+      }
+    ],
+    "next": 57
+  },
+  "101": {
+    "effect": [
+      {
+        "gold": 4
+      },
+      {
+        "add_item": "dagger"
+      },
+      {
+        "add_item": "sword"
+      },
+      {
+        "add_item": "alether_potion"
+      },
+      {
+        "add_item": "blowpipe"
+      },
+      {
+        "add_item": "sleep_dart"
+      }
+    ],
+    "next": 67
+  },
+  "102": {
+    "effect": [
+      {
+        "add_item": "sword"
+      },
+      {
+        "add_item": "dagger"
+      },
+      {
+        "add_item": "warhammer"
+      },
+      {
+        "gold": 6
+      },
+      {
+        "add_item": "gaolers_keys"
+      }
+    ],
+    "next": 150
+  },
+  "103": {
+    "effect": [
+      {
+        "stat": "endurance",
+        "change": 2
+      }
+    ],
+    "next": 71
+  },
+  "104": {
+    "choice": [
+      {
+        "text": "choice_104_attack_the_horseman",
+        "next": 20
+      },
+      {
+        "text": "choice_104_evade_combat_by_divi",
+        "next": 142
+      },
+      {
+        "text": "choice_104_surrender",
+        "next": 176
+      }
+    ]
+  },
+  "105": {
+    "choice": [
+      {
+        "text": "choice_105_pull_the_lever",
+        "next": 171
+      },
+      {
+        "text": "choice_105_close_the_head_and_c",
+        "next": 158
+      }
+    ]
+  },
+  "106": {
+    "combat": {
+      "enemy": "courier",
+      "player_modifier": -2,
+      "roundOutcomes": [
+        {
+          "maxRounds": 3,
+          "on_win": 189
+        }
+      ],
+      "on_win": 189
+    }
+  },
+  "107": {
+    "choice": [
+      {
+        "text": "choice_107_search_the_guards_bo",
+        "next": 102
+      },
+      {
+        "text": "choice_107_ignore_the_bodies_an",
+        "next": 150
+      }
+    ]
+  },
+  "108": {
+    "effect": [
+      {
+        "stat": "endurance",
+        "change": -2
+      }
+    ],
+    "next": 112
+  },
+  "109": {
+    "choice": [
+      {
+        "text": "choice_109_enter_the_hall",
+        "next": 32
+      },
+      {
+        "text": "choice_109_turn_right_and_head_",
+        "next": 169
+      },
+      {
+        "text": "choice_109_double_back_to_the_h",
+        "next": 129
+      }
+    ]
+  },
+  "110": {
+    "combat": {
+      "enemy": "kwaraz",
+      "mindblast_bonus": 4,
+      "on_win": 40
+    }
+  },
+  "111": {
+    "effect": [
+      {
+        "gold": 3
+      },
+      {
+        "add_item": "copper_key"
+      }
+    ],
+    "require": {
+      "if_true": 74,
+      "discipline": "tracking"
+    },
+    "choice": [
+      {
+        "text": "choice_111_leave_the_forge_room",
+        "next": 167
+      },
+      {
+        "text": "choice_111_leave_by_the_west_do",
+        "next": 44
+      }
+    ]
+  },
+  "112": {
+    "require": {
+      "if_true": 133,
+      "discipline": "animal_kinship"
+    },
+    "choice": [
+      {
+        "text": "choice_112_continue_along_the_w",
+        "next": 64
+      },
+      {
+        "text": "choice_112_climb_a_narrow_stair",
+        "next": 116
+      }
+    ]
+  },
+  "113": {
+    "require": {
+      "if_true": 53,
+      "discipline": "healing"
+    },
+    "choice": [
+      {
+        "text": "choice_113_enter_the_dwelling",
+        "next": 157
+      },
+      {
+        "text": "choice_113_enter_the_tavern",
+        "next": 188
+      }
+    ]
+  },
+  "114": {
+    "next": 90
+  },
+  "115": {
+    "next": 132
+  },
+  "116": {
+    "choice": [
+      {
+        "text": "choice_116_search_for_a_hidden_",
+        "next": 33
+      },
+      {
+        "text": "choice_116_turn_around_and_go_b",
+        "next": 64
+      }
+    ]
+  },
+  "117": {
+    "next": 176
+  },
+  "118": {
+    "random_test": {
+      "roll": "random_0_9",
+      "modifiers": [
+        {
+          "require": {
+            "discipline": "hunting"
+          },
+          "add": 2
+        },
+        {
+          "require": {
+            "rank_at_least": "warmarn"
+          },
+          "add": 1
+        }
+      ],
+      "outcomes": [
+        {
+          "min": 0,
+          "max": 3,
+          "next": 89
+        },
+        {
+          "min": 4,
+          "max": 12,
+          "next": 21
+        }
+      ]
+    }
+  },
+  "119": {
+    "combat": {
+      "enemy": "palace_gate_guardians",
+      "no_player_damage_rounds": 3,
+      "on_win": 137
+    }
+  },
+  "120": {
+    "next": 22
+  }
+}

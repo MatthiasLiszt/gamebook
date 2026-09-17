@@ -1,0 +1,476 @@
+{
+  "161": {
+    "effect": [
+      {
+        "restore_half_lost_endurance": true
+      }
+    ],
+    "next": 69
+  },
+  "162": {
+    "effect": [
+      {
+        "stat": "endurance",
+        "change": -1
+      }
+    ],
+    "combat": {
+      "enemy": "steamspiders",
+      "mindblast_immune": true,
+      "on_win": 114
+    },
+    "random_test": {
+      "roll": "random_0_9",
+      "outcomes": [
+        {
+          "min": 0,
+          "max": 0,
+          "effect": [
+            {
+              "stat": "endurance",
+              "change": -10
+            }
+          ],
+          "next": 114
+        },
+        {
+          "min": 1,
+          "max": 9,
+          "effect": [
+            {
+              "stat": "endurance",
+              "dynamic_change": "roll_value"
+            }
+          ],
+          "next": 114
+        }
+      ]
+    }
+  },
+  "163": {
+    "require": {
+      "if_true": 144,
+      "discipline": "sixth_sense"
+    },
+    "choice": [
+      {
+        "text": "choice_163_attack_guards",
+        "next": 174
+      },
+      {
+        "text": "choice_163_remain_as_you_are",
+        "next": 18
+      }
+    ]
+  },
+  "164": {
+    "effect": [
+      {
+        "stat": "endurance",
+        "change": -1
+      }
+    ],
+    "choice": [
+      {
+        "text": "choice_164_climb_ladder",
+        "next": 31
+      },
+      {
+        "text": "choice_164_ignore_ladder",
+        "next": 139
+      }
+    ]
+  },
+  "165": {
+    "choice": [
+      {
+        "text": "choice_165_attack_guard",
+        "next": 78
+      },
+      {
+        "text": "choice_165_overpower_guard",
+        "next": 199
+      }
+    ]
+  },
+  "166": {
+    "effect": [
+      {
+        "combat_skill_modifier": -3
+      }
+    ],
+    "next": 55
+  },
+  "167": {
+    "require": {
+      "if_true": 105,
+      "discipline": "sixth_sense"
+    },
+    "next": 158
+  },
+  "168": {
+    "combat": {
+      "enemy": "vestibule_guard",
+      "on_lose": null,
+      "roundOutcomes": [
+        {
+          "maxRounds": 3,
+          "on_win": 101
+        },
+        {
+          "minRounds": 4,
+          "on_win": 46
+        }
+      ]
+    }
+  },
+  "169": {
+    "effect": [
+      {
+        "buy_item": "black_sash",
+        "cost": 2
+      }
+    ],
+    "choice": [
+      {
+        "text": "choice_169_read_poster",
+        "next": 88
+      },
+      {
+        "text": "choice_169_continue_along_passa",
+        "next": 113
+      }
+    ]
+  },
+  "170": {
+    "next": 137
+  },
+  "171": {
+    "choice": [
+      {
+        "text": "choice_171_enter_secret_passage",
+        "next": 148
+      },
+      {
+        "text": "choice_171_avoid_passage",
+        "next": 158
+      }
+    ]
+  },
+  "172": {
+    "next": 16
+  },
+  "173": {
+    "choice": [
+      {
+        "text": "choice_173_north_channel",
+        "next": 145
+      },
+      {
+        "text": "choice_173_south_channel",
+        "next": 96
+      },
+      {
+        "text": "choice_173_west_channel",
+        "next": 13
+      }
+    ]
+  },
+  "174": {
+    "choice": [
+      {
+        "text": "choice_174_pick_up_sword",
+        "next": 4
+      },
+      {
+        "text": "choice_174_attack_bare_handed",
+        "next": 91
+      }
+    ]
+  },
+  "175": {
+    "next": 25
+  },
+  "176": {
+    "effect": [
+      {
+        "confiscate_all": true
+      }
+    ],
+    "next": 69
+  },
+  "177": {
+    "choice": [
+      {
+        "text": "choice_177_attack_sharnazim",
+        "next": 60
+      },
+      {
+        "text": "choice_177_climb_stairs",
+        "next": 43
+      }
+    ]
+  },
+  "178": {
+    "combat": {
+      "enemy": "armoury_guard",
+      "on_win_choice": [
+        {
+          "text": "search_body",
+          "next": 52
+        },
+        {
+          "text": "enter_armoury",
+          "next": 140
+        }
+      ]
+    }
+  },
+  "179": {
+    "choice": [
+      {
+        "text": "choice_179_attack_maouk",
+        "next": 197
+      },
+      {
+        "text": "choice_179_run_back",
+        "next": 92
+      }
+    ]
+  },
+  "180": {
+    "require": {
+      "if_true": 45,
+      "discipline": "mindblast"
+    },
+    "random_test": {
+      "roll": "random_0_9",
+      "modifiers": [
+        {
+          "require": {
+            "discipline": "sixth_sense"
+          },
+          "add": 3
+        },
+        {
+          "require": {
+            "discipline": "hunting"
+          },
+          "add": 3
+        }
+      ],
+      "outcomes": [
+        {
+          "min": 0,
+          "max": 5,
+          "next": 120
+        },
+        {
+          "min": 6,
+          "max": 12,
+          "next": 193
+        }
+      ]
+    }
+  },
+  "181": {
+    "choice": [
+      {
+        "text": "choice_181_climb_steps",
+        "next": 14
+      },
+      {
+        "text": "choice_181_investigate_chest",
+        "next": 97
+      }
+    ]
+  },
+  "182": {
+    "effect": [
+      {
+        "add_item": "spear"
+      },
+      {
+        "add_item": "broadsword"
+      }
+    ],
+    "choice": [
+      {
+        "text": "choice_182_enter_passage",
+        "next": 132
+      },
+      {
+        "text": "choice_182_listen_at_door",
+        "next": 115
+      }
+    ]
+  },
+  "183": {
+    "effect": [
+      {
+        "stat": "endurance",
+        "change": -2
+      }
+    ],
+    "next": 90
+  },
+  "184": {
+    "next": 153
+  },
+  "185": {
+    "next": 25
+  },
+  "186": {
+    "choice": [
+      {
+        "text": "choice_186_search_body",
+        "next": 52
+      },
+      {
+        "text": "choice_186_enter_armoury",
+        "next": 140
+      }
+    ]
+  },
+  "187": {
+    "next": 17
+  },
+  "188": {
+    "require": {
+      "if_true": 172,
+      "item": "black_sash"
+    },
+    "next": 72
+  },
+  "189": {
+    "effect": [
+      {
+        "add_item": "pass_scroll"
+      }
+    ],
+    "next": 137
+  },
+  "190": {
+    "combat": {
+      "enemy": "hammerfist",
+      "player_modifier": -2,
+      "on_win": 111,
+      "on_lose": null
+    }
+  },
+  "191": {
+    "choice": [
+      {
+        "text": "choice_191_surrender",
+        "next": 176
+      },
+      {
+        "text": "choice_191_dive_overboard",
+        "next": 142
+      }
+    ]
+  },
+  "192": {
+    "effect": [
+      {
+        "stat": "endurance",
+        "change": -2
+      }
+    ],
+    "next": 114
+  },
+  "193": {
+    "choice": [
+      {
+        "text": "choice_193_attack_guard",
+        "next": 78
+      },
+      {
+        "text": "choice_193_overpower_guard",
+        "next": 199
+      }
+    ]
+  },
+  "194": {
+    "combat": {
+      "enemy": "yas",
+      "player_modifier_without_mindshield": -3,
+      "on_win": 35
+    }
+  },
+  "195": {
+    "choice": [
+      {
+        "text": "choice_195_follow_north_door",
+        "next": 11
+      },
+      {
+        "text": "choice_195_follow_west_door",
+        "next": 146
+      },
+      {
+        "text": "choice_195_attack_armourer",
+        "next": 190
+      },
+      {
+        "text": "choice_195_retrace_steps",
+        "next": 30
+      }
+    ]
+  },
+  "196": {
+    "choice": [
+      {
+        "text": "choice_196_eat_food",
+        "next": 61
+      },
+      {
+        "text": "choice_196_leave_by_window",
+        "next": 109
+      }
+    ]
+  },
+  "197": {
+    "next": 25
+  },
+  "198": {
+    "random_test": {
+      "roll": "random_0_9",
+      "modifiers": [
+        {
+          "require": {
+            "discipline": "hunting"
+          },
+          "add": 3
+        }
+      ],
+      "outcomes": [
+        {
+          "min": 0,
+          "max": 6,
+          "next": 25
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "next": 141
+        }
+      ]
+    }
+  },
+  "199": {
+    "require": {
+      "if_true": 39,
+      "discipline": "sixth_sense"
+    },
+    "next": 9
+  },
+  "200": {
+    "effect": [
+      {
+        "add_item": "quarterstaff"
+      }
+    ],
+    "next": 201
+  }
+}

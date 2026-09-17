@@ -1,6 +1,6 @@
 # gamebook repo - a multilingual text adventure
 
-this is a multilingual text adventure that supports currently English, Russian and Toki Pona (in UCSUR only).
+this is a multilingual text adventure that supports currently English, Russian and Toki Pona.
 support for languages other than English are only partial - unfortunately. 
 
 for the legal stuff and sources etc. please look at source.md 
@@ -15,7 +15,6 @@ This has currently only a cli or command line version.
 ## requirements
 
 You might need Node.js or NVM with the version 23 or higher. 
-For Tokipona you might want an UCSUR font in your terminal. 
 
 # further notes
 

@@ -1,0 +1,544 @@
+{
+  "121": {
+    "choice": [
+      {
+        "text": "choice_121_attack_the_warriors",
+        "next": 60
+      },
+      {
+        "text": "choice_121_turn_back_and_swim_a",
+        "next": 84
+      }
+    ]
+  },
+  "122": {
+    "require": {
+      "if_true": 136,
+      "item": "gaolers_keys"
+    },
+    "next": 26
+  },
+  "123": {
+    "combat": {
+      "enemy": "sharnazim_underlord",
+      "can_evade": true,
+      "evade_next": 51,
+      "on_win": 198
+    }
+  },
+  "124": {
+    "next": 18
+  },
+  "125": {
+    "random_test": {
+      "roll": "random_0_9",
+      "modifiers": [
+        {
+          "require": {
+            "discipline": "hunting"
+          },
+          "add": 2
+        }
+      ],
+      "outcomes": [
+        {
+          "min": 0,
+          "max": 3,
+          "next": 50
+        },
+        {
+          "min": 4,
+          "max": 11,
+          "next": 191
+        }
+      ]
+    }
+  },
+  "126": {
+    "require": {
+      "if_true": 170,
+      "all": [
+        {
+          "discipline": "camouflage"
+        },
+        {
+          "discipline": "hunting"
+        }
+      ]
+    },
+    "choice": [
+      {
+        "text": "choice_126_attempt_to_bribe_the",
+        "next": 19
+      },
+      {
+        "text": "choice_126_attack_them",
+        "next": 119
+      }
+    ]
+  },
+  "127": {
+    "random_test": {
+      "roll": "random_0_9",
+      "add_stat": "combat_skill",
+      "outcomes": [
+        {
+          "condition": "less_or_equal",
+          "next": 159
+        },
+        {
+          "condition": "greater",
+          "effect": [
+            {
+              "stat": "endurance",
+              "change": -1
+            }
+          ],
+          "next": 93
+        }
+      ]
+    }
+  },
+  "128": {
+    "choice": [
+      {
+        "text": "choice_128_use_rope_to_swing_ac",
+        "require": {
+          "item": "rope"
+        },
+        "next": 29
+      },
+      {
+        "text": "choice_128_swim_across_the_vaul",
+        "next": 84
+      },
+      {
+        "text": "choice_128_turn_around_and_retu",
+        "next": 121
+      }
+    ]
+  },
+  "129": {
+    "choice": [
+      {
+        "text": "choice_129_stand_and_fight",
+        "next": 36
+      },
+      {
+        "text": "choice_129_surrender",
+        "next": 176
+      }
+    ]
+  },
+  "130": {
+    "effect": [
+      {
+        "add_item": "herb_pad"
+      },
+      {
+        "stat": "endurance",
+        "change": 1
+      }
+    ],
+    "require": {
+      "if_true": 151,
+      "discipline": "camouflage"
+    },
+    "next": 15
+  },
+  "131": {
+    "effect": [
+      {
+        "add_item": "silver_comb"
+      },
+      {
+        "add_item": "hourglass"
+      },
+      {
+        "add_item": "dagger"
+      },
+      {
+        "add_item": "laumspur_potion"
+      },
+      {
+        "add_item": "prism"
+      },
+      {
+        "add_item": "meal",
+        "quantity": 3
+      }
+    ],
+    "next": 58
+  },
+  "132": {
+    "choice": [
+      {
+        "text": "choice_132_go_west_towards_the_",
+        "next": 195
+      },
+      {
+        "text": "choice_132_keep_moving_north",
+        "next": 30
+      }
+    ]
+  },
+  "133": {
+    "choice": [
+      {
+        "text": "choice_133_search_for_a_hidden_",
+        "next": 33
+      },
+      {
+        "text": "choice_133_turn_around_and_retu",
+        "next": 64
+      }
+    ]
+  },
+  "134": {
+    "next": 95
+  },
+  "135": {
+    "combat": {
+      "enemy": "sharnazim_warrior_tunnel",
+      "player_modifier": -2,
+      "on_win": 130
+    }
+  },
+  "136": {
+    "require": {
+      "if_true": 186,
+      "discipline": "camouflage"
+    },
+    "choice": [
+      {
+        "text": "choice_136_attack_the_guard",
+        "next": 178
+      },
+      {
+        "text": "choice_136_close_the_door_and_t",
+        "next": 93
+      }
+    ]
+  },
+  "137": {
+    "effect": [
+      {
+        "eat_meal_or_lose_endurance": 3
+      }
+    ],
+    "require": {
+      "if_true": 37,
+      "any": [
+        {
+          "discipline": "tracking"
+        },
+        {
+          "discipline": "sixth_sense"
+        }
+      ]
+    },
+    "choice": [
+      {
+        "text": "choice_137_enter_through_the_pa",
+        "next": 66
+      },
+      {
+        "text": "choice_137_enter_through_the_vi",
+        "next": 149
+      }
+    ]
+  },
+  "138": {
+    "choice": [
+      {
+        "text": "choice_138_pick_up_the_dropped_",
+        "next": 4
+      },
+      {
+        "text": "choice_138_attack_the_second_gu",
+        "next": 91
+      }
+    ]
+  },
+  "139": {
+    "next": 94
+  },
+  "140": {
+    "choice": [
+      {
+        "text": "choice_140_open_the_leather_bou",
+        "next": 83
+      },
+      {
+        "text": "choice_140_ignore_the_book_and_",
+        "next": 181
+      }
+    ]
+  },
+  "141": {
+    "choice": [
+      {
+        "text": "choice_141_roll_over_to_the_tra",
+        "next": 51
+      },
+      {
+        "text": "choice_141_surrender_to_maouk_a",
+        "next": 10
+      }
+    ]
+  },
+  "142": {
+    "require": {
+      "if_true": 134,
+      "discipline": "animal_kinship"
+    },
+    "choice": [
+      {
+        "text": "choice_142_fight_the_creature",
+        "next": 12
+      },
+      {
+        "text": "choice_142_evade_the_creature",
+        "next": 95
+      }
+    ]
+  },
+  "143": {
+    "next": 90
+  },
+  "144": {
+    "next": 174
+  },
+  "145": {
+    "choice": [
+      {
+        "text": "choice_145_enter_the_new_tunnel",
+        "next": 108
+      },
+      {
+        "text": "choice_145_continue_northwards",
+        "next": 70
+      }
+    ]
+  },
+  "146": {
+    "random_test": {
+      "roll": "random_0_9",
+      "modifiers": [
+        {
+          "require": {
+            "any": [
+              {
+                "discipline": "camouflage"
+              },
+              {
+                "discipline": "hunting"
+              }
+            ]
+          },
+          "add": -2
+        }
+      ],
+      "outcomes": [
+        {
+          "min": -2,
+          "max": 2,
+          "next": 44
+        },
+        {
+          "min": 3,
+          "max": 9,
+          "next": 190
+        }
+      ]
+    }
+  },
+  "147": {
+    "choice": [
+      {
+        "text": "choice_147_stay_in_his_house",
+        "next": 61
+      },
+      {
+        "text": "choice_147_escape_by_the_window",
+        "next": 109
+      }
+    ]
+  },
+  "148": {
+    "next": 14
+  },
+  "149": {
+    "choice": [
+      {
+        "text": "choice_149_investigate_the_east",
+        "next": 57
+      },
+      {
+        "text": "choice_149_investigate_the_west",
+        "next": 100
+      }
+    ]
+  },
+  "150": {
+    "choice": [
+      {
+        "text": "choice_150_go_east_towards_the_",
+        "next": 93
+      },
+      {
+        "text": "choice_150_go_west_towards_the_",
+        "next": 122
+      }
+    ]
+  },
+  "151": {
+    "next": 94
+  },
+  "152": {
+    "random_test": {
+      "roll": "random_0_9",
+      "modifiers": [
+        {
+          "require": {
+            "discipline": "hunting"
+          },
+          "add": 2
+        },
+        {
+          "require": {
+            "rank_at_least": "savant"
+          },
+          "add": 2
+        }
+      ],
+      "outcomes": [
+        {
+          "min": 0,
+          "max": 2,
+          "next": 5
+        },
+        {
+          "min": 3,
+          "max": 8,
+          "next": 38
+        },
+        {
+          "min": 9,
+          "max": 13,
+          "next": 87
+        }
+      ]
+    }
+  },
+  "153": {
+    "require": {
+      "if_true": 42,
+      "discipline": "tracking"
+    },
+    "choice": [
+      {
+        "text": "choice_153_enter_the_gate",
+        "next": 75
+      },
+      {
+        "text": "choice_153_enter_the_alley",
+        "next": 117
+      },
+      {
+        "text": "choice_153_take_the_straight_pa",
+        "next": 169
+      }
+    ]
+  },
+  "154": {
+    "shop": [
+      {
+        "item": "alether_potion",
+        "cost": 4
+      },
+      {
+        "item": "gallowbrush_potion",
+        "cost": 2
+      },
+      {
+        "item": "laumspur_potion",
+        "cost": 5
+      },
+      {
+        "item": "larnuma_oil",
+        "cost": 3
+      },
+      {
+        "item": "graveweed_tincture",
+        "cost": 1
+      },
+      {
+        "item": "calacena_tincture",
+        "cost": 2
+      }
+    ],
+    "next": 179
+  },
+  "155": {
+    "next": 182
+  },
+  "156": {
+    "require": {
+      "if_true": 8,
+      "all": [
+        {
+          "discipline": "mind_over_matter"
+        },
+        {
+          "discipline": "sixth_sense"
+        }
+      ]
+    },
+    "next": 98
+  },
+  "157": {
+    "choice": [
+      {
+        "text": "choice_157_hide_in_the_cellar",
+        "next": 16
+      },
+      {
+        "text": "choice_157_leave_the_hallway_an",
+        "next": 99
+      }
+    ]
+  },
+  "158": {
+    "next": 58
+  },
+  "159": {
+    "combat": {
+      "enemy": "armoury_guard",
+      "player_modifier": -2,
+      "roundOutcomes": [
+        {
+          "maxRounds": 3,
+          "on_win": 52
+        }
+      ],
+      "on_win": 52
+    }
+  },
+  "160": {
+    "choice": [
+      {
+        "text": "choice_160_approach_the_north_g",
+        "next": 126
+      },
+      {
+        "text": "choice_160_approach_the_west_ar",
+        "next": 79
+      },
+      {
+        "text": "choice_160_search_for_some_othe",
+        "next": 49
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "sectionHeader": "--- Раздел {number} --- [Язык: {lang}]",
+  "deathMessage": "\n=================================\n  Ваша жизнь и миссия завершены.\n=================================\n",
+  "movingToSection": "\n→ Переход к Разделу {next}...",
+  "pressEnter": "\nНажмите Enter, чтобы продолжить...",
+  "pressEnterReturn": "\nНажмите Enter, чтобы вернуться...",
+  "combatHeader": " БОЙ: {enemy}",
+  "combatEnemyStats": " БС Врага: {enemyCS} | Выносливость: {enemyEndurance}",
+  "combatPlayerStats": " Ваше БС: {playerCS} (Соотношение: {ratio})",
+  "combatPrompt": "\nВы победили? (1. Да / 2. Нет / 3. Уклониться): ",
+  "invalidSelection": "Неверный выбор.",
+  "rollResult": "\n[ Бросок: {base} | Мод: {mod} | Всего: {total} ]",
+  "proceedingToSection": "→ Переход к Разделу {next}...",
+  "controlsHeader": "---------------------------------",
+  "controls": "[S] Статистика | [SAVE] Сохранить | [LOAD] Загрузить | [L] Сменить язык | [Q] Выйти",
+  "saveSuccess": "\nИгра успешно сохранена в save.json!",
+  "loadSuccess": "\nИгра успешно загружена!",
+  "loadError": "\nНе удалось загрузить файл сохранения.",
+  "langPrompt": "Введите код языка (например, ru): ",
+  "langSuccess": "\nЯзык изменен на {lang}",
+  "quitMessage": "\nСпасибо за игру! Прощайте.\n",
+  "invalidChoice": "\nНеверная команда или номер выбора."
+}

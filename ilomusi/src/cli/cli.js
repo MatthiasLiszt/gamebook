@@ -2,92 +2,75 @@ import readline from "node:readline/promises";
 import { stdin as input, stdout as output } from "node:process";
 import { readFile, writeFile } from "node:fs/promises";
 import { Game } from "../engine/game.js";
+import { loadGameData, loadLocalesData } from "./loader.js";
 
-const loadJson = async (relPath) => {
-    const url = new URL(relPath, import.meta.url);
-    return JSON.parse(await readFile(url, "utf8"));
-};
-
-const gameData = {
-    sections: await loadJson("../data/sections.json"),
-    items: await loadJson("../data/items.json"),
-    disciplines: await loadJson("../data/disciplines.json"),
-    enemies: await loadJson("../data/enemies.json")
-};
-
-// Load locales map (add additional languages as you add folders)
-const localesData = {
-    en: {
-        sections: await loadJson("../../locales/en/sections.json"),
-        ui: await loadJson("../../locales/en/ui.json")
-    },
-    ru: {
-        sections: await loadJson("../../locales/ru/sections.json"),
-        ui: await loadJson("../../locales/ru/ui.json")
-    },
-    toki: {
-        sections: await loadJson("../../locales/toki/sections.json"),
-        ui: await loadJson("../../locales/toki/ui.json")
-    }
-};
+const gameData = loadGameData(new URL("../data", import.meta.url).pathname);
+const localesData = loadLocalesData(new URL("../../locales", import.meta.url).pathname);
 
 const game = new Game(gameData, localesData, "en");
 const rl = readline.createInterface({ input, output });
+
+// String Interpolation Helper
+const t = (key, vars = {}) => {
+    let str = game.locale?.cliText?.[key] ?? localesData["en"]?.cliText?.[key] ?? key;
+    for (const [k, v] of Object.entries(vars)) {
+        str = str.replace(new RegExp(`\\{${k}\\}`, "g"), v);
+    }
+    return str;
+};
 
 game.start();
 
 while (true) {
     console.clear();
-    const sectionData = game.getCurrentSectionData();
-    const { number, text, interpreted, choices } = sectionData;
+    const sectionData = game.getCurrentSectionData(); //[cite: 4]
+    const { number, text, interpreted, choices } = sectionData; //[cite: 4]
 
-    console.log(`\n--- Section ${number} --- [Lang: ${game.currentLang.toUpperCase()}]\n`);
-    if (text) console.log(text);
+    console.log(`\n${t("sectionHeader", { number, lang: game.currentLang.toUpperCase() })}\n`); //[cite: 4]
+    if (text) console.log(text); //[cite: 4]
 
     if (interpreted.type === "death") {
-        console.log("\n=================================");
-        console.log("  Your life and mission end here.");
-        console.log("=================================\n");
+        console.log(t("deathMessage"));
         break;
     }
 
     if (interpreted.type === "goto") {
-        console.log(`\n→ Moving to Section ${interpreted.next}...`);
-        await rl.question("\nPress Enter to continue...");
-        game.state.currentSection = interpreted.next;
+        console.log(t("movingToSection", { next: interpreted.next }));
+        await rl.question(t("pressEnter"));
+        game.state.currentSection = interpreted.next; //[cite: 4]
         continue;
     }
 
     if (interpreted.type === "combat") {
-        const { combat } = interpreted;
+        const { combat } = interpreted; //[cite: 4]
         console.log("\n=================================");
-        console.log(` COMBAT: ${combat.enemy.toUpperCase()}`);
-        console.log(` Enemy CS: ${combat.enemyCombatSkill} | Endurance: ${combat.enemyEndurance}`);
-        console.log(` Your CS: ${combat.playerCombatSkill} (Ratio: ${combat.combatRatio})`);
+        console.log(t("combatHeader", { enemy: combat.enemy.toUpperCase() }));
+        console.log(t("combatEnemyStats", { enemyCS: combat.enemyCombatSkill, enemyEndurance: combat.enemyEndurance }));
+        console.log(t("combatPlayerStats", { playerCS: combat.playerCombatSkill, ratio: combat.combatRatio }));
         console.log("=================================");
 
-        const combatAnswer = await rl.question("\nDid you win? (1. Yes / 2. No / 3. Evade): ");
+        const combatAnswer = await rl.question(t("combatPrompt"));
         const resultsMap = { "1": "win", "2": "lose", "3": "evade" };
         const result = resultsMap[combatAnswer.trim()];
 
         if (!result) {
-            console.log("Invalid selection.");
-            await rl.question("Press Enter to continue...");
+            console.log(t("invalidSelection"));
+            await rl.question(t("pressEnter"));
             continue;
         }
 
         const resolved = gameData.sections[number].combat;
         const next = result === "win" ? resolved.on_win : (result === "evade" ? resolved.on_evade : resolved.on_lose);
-        game.state.currentSection = next;
+        game.state.currentSection = next; //[cite: 4]
         continue;
     }
 
     if (interpreted.type === "random_test") {
-        const { result } = interpreted;
-        console.log(`\n[ Roll: ${result.baseRoll} | Mod: ${result.modifier} | Total: ${result.result} ]`);
-        console.log(`→ Proceeding to Section ${result.outcome.next}...`);
-        await rl.question("\nPress Enter to continue...");
-        game.state.currentSection = result.outcome.next;
+        const { result } = interpreted; //[cite: 4]
+        console.log(t("rollResult", { base: result.baseRoll, mod: result.modifier, total: result.result }));
+        console.log(t("proceedingToSection", { next: result.outcome.next }));
+        await rl.question(t("pressEnter"));
+        game.state.currentSection = result.outcome.next; //[cite: 4]
         continue;
     }
 
@@ -98,69 +81,68 @@ while (true) {
     });
 
     // Display System Controls
-    console.log("\n---------------------------------");
-    console.log("[S] Stats | [SAVE] Save Game | [LOAD] Load Game | [L] Change Language | [Q] Quit");
-    console.log("---------------------------------");
+    console.log(`\n${t("controlsHeader")}`);
+    console.log(t("controls"));
+    console.log(t("controlsHeader"));
 
     const inputCmd = (await rl.question("> ")).trim().toLowerCase();
 
     // Command Handlers
     if (inputCmd === "s") {
-        console.log(`\n${game.getStats()}`);
-        await rl.question("\nPress Enter to return...");
+        console.log(`\n${game.getStats()}`); //[cite: 4]
+        await rl.question(t("pressEnterReturn"));
         continue;
     }
 
     if (inputCmd === "save") {
-        await writeFile(new URL("../save.json", import.meta.url), game.saveState(), "utf8");
-        console.log("\nGame state saved to save.json!");
-        await rl.question("Press Enter to continue...");
+        await writeFile(new URL("../save.json", import.meta.url), game.saveState(), "utf8"); //[cite: 4]
+        console.log(t("saveSuccess"));
+        await rl.question(t("pressEnter"));
         continue;
     }
 
     if (inputCmd === "load") {
         try {
             const fileData = await readFile(new URL("../save.json", import.meta.url), "utf8");
-            game.loadState(fileData);
-            console.log("\nGame loaded successfully!");
+            game.loadState(fileData); //[cite: 4]
+            console.log(t("loadSuccess"));
         } catch {
-            console.log("\nFailed to load save file.");
+            console.log(t("loadError"));
         }
-        await rl.question("Press Enter to continue...");
+        await rl.question(t("pressEnter"));
         continue;
     }
 
     if (inputCmd === "l") {
-        const targetLang = await rl.question("Enter language code (e.g., en): ");
+        const targetLang = await rl.question(t("langPrompt"));
         try {
-            game.setLanguage(targetLang.trim().toLowerCase());
-            console.log(`\nLanguage changed to ${targetLang.toUpperCase()}`);
+            game.setLanguage(targetLang.trim().toLowerCase()); //[cite: 4]
+            console.log(t("langSuccess", { lang: targetLang.toUpperCase() }));
         } catch (err) {
             console.log(`\n${err.message}`);
         }
-        await rl.question("Press Enter to continue...");
+        await rl.question(t("pressEnter"));
         continue;
     }
 
-    // Quit Command Handler
     if (inputCmd === "q") {
-        console.log("\nThank you for playing! Farewell.\n");
-        break; // Breaks the while(true) loop to exit cleanly
+        console.log(t("quitMessage"));
+        break;
     }
 
     // Choice Processing
     const choiceIndex = Number(inputCmd) - 1;
     if (!Number.isInteger(choiceIndex) || choiceIndex < 0 || choiceIndex >= choices.length) {
-        console.log("\nInvalid command or choice number.");
-        await rl.question("Press Enter to continue...");
+        console.log(t("invalidChoice"));
+        await rl.question(t("pressEnter"));
         continue;
     }
 
     try {
-        game.choose(choiceIndex);
+        game.choose(choiceIndex); //[cite: 4]
     } catch (error) {
         console.log(`\n${error.message}`);
-        await rl.question("Press Enter to continue...");
+        await rl.question(t("pressEnter"));
     }
 }
 

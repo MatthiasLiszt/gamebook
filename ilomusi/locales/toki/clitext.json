@@ -1,0 +1,23 @@
+{
+  "sectionHeader": "--- kipisi {number} --- [Lang: {lang}]",
+  "deathMessage": "\n=================================\n  lon sina li pini \n=================================\n",
+  "movingToSection": "\n→ o tawa kipisi {next}...",
+  "pressEnter": "\no palisa Enter tawa tawa...",
+  "pressEnterReturn": "\no palisa Enter tawa kama sin ...",
+  "combatHeader": " utala : {enemy}",
+  "combatEnemyStats": " jan ike CS: {enemyCS} | pilin sijelo : {enemyEndurance}",
+  "combatPlayerStats": " CS sina : {playerCS} (Ratio: {ratio})",
+  "combatPrompt": "\nsina kama nanpa wan Y? (1. lon / 2. ala / 3. tawa weka): ",
+  "invalidSelection": "o weka e ijo powe",
+  "rollResult": "\n[ Roll: {base} | Mod: {mod} | Total: {total} ]",
+  "proceedingToSection": "→ o tawa kipisi {next}...",
+  "controlsHeader": "---------------------------------",
+  "controls": "[S] pilin | [SAVE] pana tawa lawa | [LOAD] weka tan lawa | [L] ante toki | [Q] o tawa weka",
+  "saveSuccess": "\nmusi sina lon save.json!",
+  "loadSuccess": "\nmusi majuna sina li lon sin!",
+  "loadError": "\nmi ken ala weka e musi majuna sina tan lawa",
+  "langPrompt": "o pana e sitelen pi toki wile sina (en = English, toki = toki pona, ru = toki Losi",
+  "langSuccess": "\nmi ante e toki tawa toki {lang}",
+  "quitMessage": "\npona tawa sina tan musi ! o lukin sin e mi tu !\n",
+  "invalidChoice": "\nsina toki e ijo powe. mi ken pali ala e ni."
+}

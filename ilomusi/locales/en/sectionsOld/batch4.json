@@ -1,0 +1,296 @@
+{
+  "121": {
+    "choices": {
+      "choice_121_attack_the_warriors": "Attack the warriors",
+      "choice_121_turn_back_and_swim_a": "Turn back and swim across the sewer vault"
+    }
+  },
+  "122": {},
+  "123": {},
+  "124": {},
+  "125": {},
+  "126": {
+    "choices": {
+      "choice_126_attempt_to_bribe_the": "Attempt to bribe the guards",
+      "choice_126_attack_them": "Attack them"
+    }
+  },
+  "127": {},
+  "128": {
+    "choices": {
+      "choice_128_use_rope_to_swing_ac": "Use Rope to swing across",
+      "choice_128_swim_across_the_vaul": "Swim across the vault",
+      "choice_128_turn_around_and_retu": "Turn around and return to junction"
+    }
+  },
+  "129": {
+    "choices": {
+      "choice_129_stand_and_fight": "Stand and fight",
+      "choice_129_surrender": "Surrender"
+    }
+  },
+  "130": {},
+  "131": {},
+  "132": {
+    "choices": {
+      "choice_132_go_west_towards_the_": "Go west towards the noise",
+      "choice_132_keep_moving_north": "Keep moving north"
+    }
+  },
+  "133": {
+    "choices": {
+      "choice_133_search_for_a_hidden_": "Search for a hidden exit",
+      "choice_133_turn_around_and_retu": "Turn around and return to walkway"
+    }
+  },
+  "134": {},
+  "135": {},
+  "136": {
+    "choices": {
+      "choice_136_attack_the_guard": "Attack the guard",
+      "choice_136_close_the_door_and_t": "Close the door and take the other passage"
+    }
+  },
+  "137": {
+    "choices": {
+      "choice_137_enter_through_the_pa": "Enter through the palace kitchens",
+      "choice_137_enter_through_the_vi": "Enter through the Vizu-diar"
+    }
+  },
+  "138": {
+    "choices": {
+      "choice_138_pick_up_the_dropped_": "Pick up the dropped sword",
+      "choice_138_attack_the_second_gu": "Attack the second guard with bare hands"
+    }
+  },
+  "139": {},
+  "140": {
+    "choices": {
+      "choice_140_open_the_leather_bou": "Open the leather-bound book",
+      "choice_140_ignore_the_book_and_": "Ignore the book and search for equipment"
+    }
+  },
+  "141": {
+    "choices": {
+      "choice_141_roll_over_to_the_tra": "Roll over to the trapdoor and escape",
+      "choice_141_surrender_to_maouk_a": "Surrender to Maouk and his warriors"
+    }
+  },
+  "142": {
+    "choices": {
+      "choice_142_fight_the_creature": "Fight the creature",
+      "choice_142_evade_the_creature": "Evade the creature"
+    }
+  },
+  "143": {},
+  "144": {},
+  "145": {
+    "choices": {
+      "choice_145_enter_the_new_tunnel": "Enter the new tunnel to the west",
+      "choice_145_continue_northwards": "Continue northwards"
+    }
+  },
+  "146": {},
+  "147": {
+    "choices": {
+      "choice_147_stay_in_his_house": "Stay in his house",
+      "choice_147_escape_by_the_window": "Escape by the window"
+    }
+  },
+  "148": {},
+  "149": {
+    "text": "You reach the door to the Vizu-diar without being seen, only to find that it is securely bolted from the inside. You are about to curse your bad luck when you notice a window set into an elaborately carved panel above the door; its iron shutter is open.\nIn spite of your injured arm, you successfully climb the nail-studded door and drop through the window into the silence of the trophy room. An eerie collection of stuffed heads lines the walls of this private chamber. Most are those of reptilian desert creatures, souvenirs of imperial hunting expeditions into the Dry Main. Among the snake-like trophies, and more gruesome, are human heads! They are ghoulish battle honours, the heads of enemy commanders slain in battle during the countless wars waged by Vassagonia.\nYou hurry out of the Vizu-diar and into a long marble corridor, where the walls are inlaid with veins of gold and pearls. It leads to a large hall where palace guards and brightly robed courtiers are walking to and fro, but a colonnade of statues provides all the cover you need to reach a distant staircase unseen. Stealthily, you sprint up the staircase to arrive at a junction where passages head off to the east and west. At the end of each is a door with a symbol engraved into the wall above. The symbol above the east door depicts a mortar and pestle; the symbol above the west door, an open book.",
+    "choices": {
+      "choice_149_investigate_the_east": "Investigate the east door",
+      "choice_149_investigate_the_west": "Investigate the west door"
+    }
+  },
+  "150": {
+    "text": "The corridor heads north but soon ends at a junction where another passage runs across from east to west. Cautiously, you peer around the corner, but there are no signs of any guards. At the end of the east passage you can see a flight of steps descending out of view; to the west, you see a closed door.",
+    "choices": {
+      "choice_150_go_east_towards_the_": "Go east, towards the stairs",
+      "choice_150_go_west_towards_the_": "Go west, towards the door"
+    }
+  },
+  "151": {
+    "text": "Your keen eye falls upon a narrow fissure in the tunnel wall. The gap is near to the level of the scum and can barely be seen in the darkness. You squeeze inside, steeling yourself as the foul water rises up to your chin. The Sharnazim pass within inches of your hiding place, and you have to fight the urge to vomit as a wave of sewage laps your face. ‘He has taken the south tunnel,’ echoes an angry voice. ‘Quickly—don’t waste your time here!’\nIt seems an eternity before the Sharnazim retrace their steps and disappear back along the tunnel. With a sigh of relief, you emerge from the fissure, but catch your foot in something embedded in the silt of the tunnel floor and lose your balance."
+  },
+  "152": {
+    "text": "You press yourself against the weathered stone and try to avoid looking down at the courtyards and gardens of the palace, hundreds of feet below. You bite your lip and wait for the guards to pass, but they do not pass. It is nearly sunset, and they have come to shut the iron grilles of the palace windows. You hear the creak of dry hinges and the click of bolts—sounds that send a shiver down your spine. You realize that you are now locked out.\nTo your left, the ledge continues around outside of a dome; inside this is the mess hall. If you can only inch your way around the tower, you may be able to find an open window on the other side."
+  },
+  "153": {
+    "text": "Maouk orders his black-clad troops to search the area, threatening them with death if they allow you to escape. You bite your lip and wait for a chance to run.\nCreeping from one boat to the next, you reach a narrow flight of stone steps. At the top of the steps, beyond a small paved square, lies a maze of crooked alleyways that disappear into the shadows of the Thieves’ Quarter. You are less than twenty feet from safety when a cry echoes across the water: ‘There he is!’\nYou sprint along the deserted passage and climb a stairway into an open courtyard. The sound of hooves clattering on the cobblestones below urges you onwards. There are three possible exits from the courtyard: a high, nail-studded gate to the left; an alley to your right; and a straight, paved pathway that leads to an arch. You must make a quick decision for Maouk’s men are close at your heels.",
+    "choices": {
+      "choice_153_enter_the_gate": "Enter the gate",
+      "choice_153_enter_the_alley": "Enter the alley",
+      "choice_153_take_the_straight_pa": "Take the straight pathway through the arch"
+    }
+  },
+  "154": {
+    "text": "You part the bead curtain that hangs across the doorway and enter the cool interior. The light is poor and the room gloomy, for the windows are obscured by sheaves of herbs and plants. You are studying a curious row of coloured bottles when a woman appears. She has piercing green eyes and her red hair is raised, bound with rings of jadin. Softly, she speaks to you.\n‘Welcome, Northlander. I sense you are a warrior—or am I mistaken?’ As you hesitate to answer, she shrugs her shoulders and searches through a pile of parchments stacked on top of a wine casket. She blows away the dust before handing you a yellowed sheet. It is a list of merchandise, written in Sommlending:\n• Potion of Alether (increases COMBAT SKILL by 2 for the duration of 1 combat)—4 Gold Crowns\n• Potion of Gallowbrush (induces sleep for 1–2 hours per dose)—2 Gold Crowns\n• Potion of Laumspur (restores 4 ENDURANCE points per dose)—5 Gold Crowns\n• Vial of Larnuma Oil (restores 2 ENDURANCE points per dose)—3 Gold Crowns\n• Tincture of Graveweed (causes sickness and loss of 2 ENDURANCE points per dose)—1 Gold Crown\n• Tincture of Calacena (causes terrifying hallucinations for 1–2 hours per dose)—2 Gold Crowns\nYou may purchase any of the above and in any quantity you desire; all potions, vials, and tinctures are Backpack Items. You then leave the shop and continue along the street."
+  },
+  "155": {
+    "text": "From the view, you judge that this window is set high up in the south wall of the Grand Palace. Far below you can see the buildings of the capital, in miniature clusters inside the white city wall. To the southeast lies Lake Inrahim, an immense salt-water plain that is completely dry and cracked. To the east, a road stretches across the causeway to the town of Chula, just visible on the horizon. To the southwest lie the barren, sun-scorched Dahir Mountains and the shifting ocean of sand known as the Dry Main.\nThe bars of the window are badly corroded; it would be easy to dislodge them. However, the drop of several hundred feet to the city below means that there is no hope of escape this way. You climb down from the table and hurry along the corridor."
+  },
+  "156": {
+    "text": "After concentrating on the lock for several minutes, you realize that it is connected to an alarm. If you turn the lock to the wrong number, the alarm will be triggered, alerting the entire palace guard."
+  },
+  "157": {
+    "text": "The house smells strongly of burnt incense. You enter a narrow hallway lined with chairs and walk slowly along the central aisle towards a fountain, flanked by a pair of massive orange-red pillars. A man, dressed from head to toe in black, appears from behind the left-hand pillar and walks towards you.\nSuddenly, you hear Maouk’s men enter the plaza, and cast an anxious glance towards the open door. The man sees you are nervous and silently points to a cellar door.",
+    "choices": {
+      "choice_157_hide_in_the_cellar": "Hide in the cellar",
+      "choice_157_leave_the_hallway_an": "Leave the hallway and return to the plaza"
+    }
+  },
+  "158": {
+    "text": "You enter a gallery, which houses a beautiful mosaic. Thousands of tiny fragments of pearl and gold shimmer in the light of the evening sun, glancing rainbows of colour across the high marble walls. A group of palace courtiers ambles through the gallery, and you are forced to hide behind a huge pillar. You wait until their footsteps have faded into the distance before emerging into light.\nAll hope of signing a peace treaty has long vanished, and your only concern now is to escape from the Grand Palace and, somehow, return home to Sommerlund as quickly as possible. Hurrying out of the gallery, you follow the passage westwards and soon reach a junction where the passage turns abruptly to the north."
+  },
+  "159": {
+    "text": "You batter your way through the door successfully, but having gathered momentum, you cannot stop, and fall headlong down a flight of stairs on the other side.\nYou landed in a heap on the hard marble floor of an antechamber, (you lose 2 ENDURANCE points) barely a few feet away from an armed soldier, who is guarding the doors to the palace armoury. He is startled by your dramatic entrance but quickly regains his senses and attacks.\nArmoury Guard: COMBAT SKILL 16 ENDURANCE 22\nDeduct 2 from your COMBAT SKILL for the first 3 rounds of combat, as you are lying on the ground. You cannot evade combat and must fight the guard to the death."
+  },
+  "160": {
+    "text": "Your desire to leave this treacherous city is overcome by your fear of losing your arm. You must get the Oede herb, even though it means you will have to enter the very place you are most anxious to avoid—the Grand Palace.\nThe alley follows a tortuous route through the Mikarum, finally leading you to the ‘Horm-tas-Lallaim’: the Tomb of the Princesses. Beyond the tomb, the Grand Palace rises like a massive white pantheon.\nYou suddenly recall a legend told to you by your Kai masters long ago: ‘The Nemesis of the Black Zakhan’. The Black Zakhan was a brutal tyrant, the cruellest of an evil lineage that ruled over the desert empire long ago. The barbaric excesses of his reign have never been forgotten in the Lastlands. The Grand Palace was built by his army of slaves, prisoners from countries he had conquered in war. The palace became his obsession; he personally oversaw its entire construction and punished the workers personally if there was the slightest delay. He butchered his subjects indiscriminately and in the most terrible fashion. His favourite form of execution was for the victim to be sawn in half from head to foot until the body fell in two pieces. However, it was the mass execution of the slaves who built the Grand Palace that made him infamous. He slaughtered every slave worker so that his enemies could never learn of the secret treasure chambers he had had constructed. Among the slaves were his only daughters, Kebilla and Sousse, who openly opposed their father’s cruelty and tried to prevent the executions. In a blind rage, he ordered that they should be the first to die.\nIt would have been better for the Zakhan, and for Vassagonia, if he himself had died that day. He lived for another two years, but his mind was unhinged by guilt, and he was tortured by self-loathing and despair. In the Grand Palace, the silence of the night was frequently broken by the Zakhan’s moans and cries, as he wandered from room to room looking for his daughters. When he died, he was laid beside them, here, in the Tomb of the Princesses.\nFrom where you stand, you can see two entrances to the Grand Palace; a spike-topped gate in the north wall, and an arch in the west wall, blocked by an iron portcullis. The palace is usually heavily guarded, but there are very few guards today; most are searching for you in the city.",
+    "choices": {
+      "choice_160_approach_the_north_g": "Approach the north gate",
+      "choice_160_approach_the_west_ar": "Approach the west arch",
+      "choice_160_search_for_some_othe": "Search for some other way of entering the Grand Palace"
+    }
+  },
+  "161": {
+    "text": "You are very lucky that your enemy was only trying to knock you unconscious. Restore half the ENDURANCE points you lost in combat."
+  },
+  "162": {
+    "text": "You pull yourself into the left chimney and pause to catch your breath. The scalding steam hurts your lungs, and every move becomes a tremendous strain, for your hands and feet are now swollen and sore. Lose 1 ENDURANCE point before continuing your climb.\nYou hook your fingers into a jagged crack in the wall of the sweltering chimney and try to draw yourself upwards. Suddenly, a wave of fear engulfs you—something is crawling up your forearm. You have disturbed a nest of loathsome arachnids."
+  },
+  "163": {
+    "text": "While you wait for the return of the guard, you are taunted and ridiculed by the other bully. He describes with relish all the horrible tortures that await you and is greatly disappointed when the other guard returns empty-handed. ‘The Zakhan doesn’t want our northern friend damaged. He’s got something special planned for him this evening,’ he snarls.\nWicked grimaces spread across their faces as they turn to leave the cell. Both now have their backs towards you.",
+    "choices": {
+      "attack_guards": "If you wish to attack the guards",
+      "remain_as_you_are": "If you wish to remain as you are"
+    }
+  },
+  "164": {
+    "text": "The water is becoming thicker, and the stench of the sewer gas increasingly more vile and nauseating. Suddenly the air becomes choked with thousands of tiny flies, and every time you gasp for breath you feel the thick fur of pulped bodies in your throat. The black specks build up like paste around your eyes, mouth, and nostrils, and the sharp tangy taste in your mouth makes you retch. Lose 1 ENDURANCE point.\nAs if in answer to your prayers, an iron ladder appears from out of the gloom. It is fixed to the tunnel wall and leads up to a circular stone trapdoor in the ceiling.",
+    "choices": {
+      "climb_ladder": "If you wish to climb the ladder",
+      "ignore_ladder": "If you wish to ignore the ladder and press on along in the insect-choked tunnel"
+    }
+  },
+  "165": {
+    "text": "The guard clutches at his wounds and drops lifeless to the ground. You see that the other man is recovering from your blow and is clawing at the cell door to try to pull himself to his feet.",
+    "choices": {
+      "attack_guard": "If you wish to attack this guard",
+      "overpower_guard": "If you wish to overpower him and capture him alive"
+    }
+  },
+  "166": {
+    "text": "You knead your numb arm in an effort to massage some life back into it, but it is useless; the muscles are limp and nerveless. The only consolation is that it is not your weapon arm, but as long as you are suffering from this disease, you cannot use a shield of any sort. Deduct 3 points from your COMBAT SKILL—the lost points may be recovered if ever you should regain the use of your arm.\nYou turn your attention to your surroundings in an effort to find some way of escape from the nightmarish sewer. The passage ahead winds and curves like a giant snake, and the foul air that drifts towards you is hot and humid. You have shaken off your pursuers, but you now have the problem of your arm to solve."
+  },
+  "167": {
+    "text": "You pass through the door and hurry into the welcoming cool of the room beyond. You notice a large drawbar on this side of the door and instinctively lock it to delay any would-be pursuers. The room is empty, save for some clothing draped over the back of a wrought-iron chair. Judging by the size and cut of the material, the clothes must belong to the armourer.\nYou can hear noises echoing from a passage to the east; the voices of hungry guards and the distinctive clatter of plates.\nYou climb a wide stairway and follow a network of passages towards the west. They are lined with alcoves that contain marble busts and beautiful tapestries, each depicting a past Zakhan or a long-forgotten battle."
+  },
+  "168": {
+    "text": "With a tiger-like bound you are among the startled guards. The blowpipe firer raises his weapon, but a well-aimed kick to the forehead counters his move. He somersaults backwards, cracking his head against the wall with a sickening thud. A trident flashes towards your ribs; you sidestep and grab the haft with your free hand, pulling the guard off balance. He stumbles forward and falls flat on his face. You turn just in time to face the third guard—his trident is poised to stab you."
+  },
+  "169": {
+    "text": "You enter a wide street where vendors compete for space for their stalls beneath the overhanging balconies. The market is crowded with people; they each wear a black sash as a mark of respect to their dead Zakhan, but here, unlike in most of Barrakeesh, business continues as normal.\nYou pass a stall festooned with black sashes, each costing 2 Gold Crowns. If you wish to buy a sash, pay the vendor and mark it on your Action Chart as a Special Item (which you wear over your tunic). You hurry away from the stall and dodge into a narrow passage lined with eating houses and small taverns, where the smell of food is mingled with the odour of stale wine, and the air is alive with chatter and gossip. Your attention is drawn to a notice freshly pasted to a tavern wall. The bold headline reads:\nTHE ZAKHAN IS DEAD—LONG LIVE THE ZAKHAN",
+    "choices": {
+      "read_poster": "If you wish to stop to read the poster",
+      "continue_along_passage": "If you wish to continue along the passage"
+    }
+  },
+  "170": {
+    "text": "The combined mastery of these Kai Disciplines enables you to slip past the guards undetected. By the time they resume their correct guard positions, you have safely made your way into the palace gardens."
+  },
+  "171": {
+    "text": "A panel in the alcove slides aside to reveal a secret, dark, and very narrow passage. A pair of footprints can clearly be seen in the dust-covered floor, leading into the darkness.",
+    "choices": {
+      "enter_secret_passage": "If you wish to enter the secret passage",
+      "avoid_passage": "If you decide to avoid the passage, close the secret panel and continue along the corridor"
+    }
+  },
+  "172": {
+    "text": "‘Come in, stranger. Welcome to my humble tavern,’ says the plump landlady of the eating house. ‘We have wine and food and rooms a-plenty.’\nAt this moment, you hear Maouk’s men enter the plaza and cast an anxious glance towards the open door. The landlady sees that you are nervous; she points to the cellar stairs and says in a hushed voice: ‘Do not worry—we share your fear of the new Zakhan. Quickly, you must hide.’ There is no time to hesitate. Maouk’s warriors are already approaching the tavern."
+  },
+  "173": {
+    "text": "Judging by the direction of the sluggish flow, the right channel appears to head off to the north. The vast tide of sewage and garbage from the Baga-darooz is swept out towards the coast, until it emerges at Chiras, a village northwest of the capital. There it makes life both difficult and unpleasant for the poor local fishermen (especially during the summer months). If you take the north channel, you should eventually reach the coast.\nThe left channel heads south, running below the very heart of the capital. In the maze of tunnels that feed into the Baga-darooz, you should be able to find at least one exit to the streets above.\nStraight ahead, the channel leads off to the west. It is by far the least fetid and contaminated of the three. During the voyage, you remember ‘The Stink’ telling you about the Grand Madani: a great aqueduct over forty miles long, which channels freshwater from the River Da into the city. As a result, the citizens of Barrakeesh, unlike the inhabitants of other Vassagonian cities, enjoy a lavish supply of fresh water. The west channel will lead to that water source.",
+    "choices": {
+      "north_channel": "If you wish to take the north channel",
+      "south_channel": "If you wish to take the south channel",
+      "west_channel": "If you wish to take the west channel"
+    }
+  },
+  "174": {
+    "text": "You spring forward and strike the taller of the guards, slamming your clenched fist into the nape of his neck. He groans and sinks to his knees, his sword clattering to the ground close by your feet.",
+    "choices": {
+      "pick_up_sword": "If you wish to pick up the sword",
+      "attack_bare_handed": "If you wish to ignore the sword and attack the second guard with your bare hands"
+    }
+  },
+  "175": {
+    "text": "Before you find a suitable hiding place, three Sharnazim wade into view. ‘Leave him to me, you fools!’ booms a voice, and the warriors make way for Maouk, who appears from the shadows—a dart held high in his hand. He hisses a curse and flings the missile at your chest."
+  },
+  "176": {
+    "text": "You are stripped of your Backpack, your Weapons, your Gold Crowns, and all of your Special Items. (Make all the necessary adjustments to your Action Chart, but note your lost possessions elsewhere in case you find them again later.) Your hands are tied behind your back and you are pushed head-first into the waiting carriage. ‘Back to the palace!’ commands Maouk as he climbs aboard and slams the door. ‘The Zakhan awaits his prize.’\nYou fight to free the cords that bind you, but Maouk is quick to see the danger. He grabs your arm and forces a dart into your skin. As sleep engulfs your senses, you hear Maouk’s wicked laughter fading into the silence.\nMake a necessary adjustments to your Action Chart, and list all the items that you have had confiscated on a separate piece of paper, for reference in case you should discover them later in your adventure."
+  },
+  "177": {
+    "text": "As you strike the Kwaraz a killing blow, three Sharnazim wade out of the dark sewer. They have discarded their black robes and they are naked to the waist. Their muscular chests are decorated with a large, blue tattoo of an eagle’s claw. As they struggle out of the water, they fix you with a malicious stare and unsheathe razor-sharp scimitars.",
+    "choices": {
+      "attack_sharnazim": "If you wish to attack the Sharnazim",
+      "climb_stairs": "If you wish to evade them by climbing the narrow stone stairs"
+    }
+  },
+  "178": {
+    "text": "You are halfway down the stairs when the guard realizes what you are doing. He leaps to his feet and unsheathes his sword; you cannot evade him now and you must fight to the death.",
+    "choices": {
+      "search_body": "If you win the combat, you may search his body",
+      "enter_armoury": "If you would rather ignore the body and enter the armoury"
+    }
+  },
+  "179": {
+    "text": "All manner of strange and exotic plants, oils, potions, and medicaments fill the shop windows, and the smell of the herb-filled street is intoxicating. There is a sudden bustle of activity at the end of the street. The crowd disperses, melting into the shops as if into thin air. A man stands before you, his face is streaked with sweat, his turquoise robes torn and heavily stained. It is Maouk—he has survived the Baga-darooz.\n‘Were it not for the Zakhan, I would kill you here and now,’ hisses Maouk, his face a mask of hate. ‘But I will not lose my head for a cowardly Sommlending.’\nHis insult enrages you, but you control your anger. You sense he is not alone; eyes are watching you at every window.",
+    "choices": {
+      "attack_maouk": "If you wish to attack Maouk",
+      "run_back": "If you wish to turn and run back along the street"
+    }
+  },
+  "180": {
+    "text": "As your enemy collapses at your feet, you notice that the other guard has recovered from your punch. He pulls a dagger from his boot and draws back his hand to throw."
+  },
+  "181": {
+    "text": "You root through all the drawers and cupboards of the workbench, smashing locks when they refuse to open, only to be disappointed. These drawers and cupboards do not contain your missing equipment.\nAll hope of signing a peace treaty with the new Zakhan has vanished; your only concern now is to find your equipment, escape from the Grand Palace, and somehow return home to Sommerlund as quickly as possible. You pull aside a latticed partition and enter a small antechamber. Narrow stones steps lead up to an open door in the north wall, beside which stands a wooden chest.",
+    "choices": {
+      "climb_steps": "If you wish to climb the steps and enter the door",
+      "investigate_chest": "If you wish to investigate the wooden chest"
+    }
+  },
+  "182": {
+    "text": "You arrive at a high-vaulted chamber with a large, nail-studded door set into the south wall. A rack standing near to the door holds a Spear and a Broadsword. You may take either or both of these if you wish. To the north, beneath a beautifully decorated horseshoe arch, is another passage that leads out of the chamber.",
+    "choices": {
+      "enter_passage": "If you wish to enter the passage",
+      "listen_at_door": "If you wish to listen at the door"
+    }
+  },
+  "183": {
+    "text": "The warrior’s head suddenly emerges from the sewer hole. He lashes at your legs, tearing a nasty gash in your calf. You lose 2 ENDURANCE points. In anger and pain, you raise your foot and stamp on the man’s head with all your strength. He screams and falls back into the sewer, and you hear a loud, resounding splash. You replace the stone lid and drag a heavy barrel across it before making your way through the maze of city streets.\nAll hope of signing a peace treaty with the new Zakhan has vanished; your only concern now is to escape from Barrakeesh and, somehow, return to Sommerlund as quickly as possible. Eventually you reach a busy market square. Your eye is caught by a sign hanging above the side entrance to large building:\nBARRAKEESH PUBLIC BATHS\nBy this time, the smell of your clothes is making you feel quite ill. You have no hesitation in opening the door and slipping inside."
+  },
+  "184": {
+    "text": "As you stare out across the harbour, you notice a large, white-domed warehouse near to the water’s edge. A platform on the upper floor overhangs a merchant dhow moored at the quay below. On this platform are several earthenware tuns: huge spice containers destined for the trading emporia of Ragadorn. You focus your attention on one of these tuns and concentrate all your Kai skill into making it move. Sweat pours down your face from the strain, but you soon hear a distant crash that confirms your success. The tun has fallen and shattered on the deck of the dhow."
+  },
+  "185": {
+    "text": "The footsteps grow louder and then suddenly stop. You hear whispering and Maouk slowly appears from the shadows, his henchmen at his heels. ‘Caught like a wolf in the trap,’ he sniggers, a dart held high in his sinewy fist. He hisses a curse and flings the missile at your chest."
+  },
+  "186": {
+    "text": "Using your Kai skill to disguise your Sommlending accent, you call out to the guard. ‘Quick! We need your help—the Northlander is escaping!’\nImmediately, the guard leaps to his feet and charges up the stairs towards the door. You wait until he reaches the top step before you attack—one kick to the knee sends him tumbling backwards into the chamber, where he falls in a heap at the foot of the stairs. You enter the chamber, poised to strike again should the guard recover and attack. However, this time your caution is unnecessary; the guard is dead, his neck was broken in the fall.",
+    "choices": {
+      "search_body": "If you wish to search his body",
+      "enter_armoury": "If you wish to ignore the body and enter the armoury"
+    }
+  },
+  "187": {
+    "text": "You recognize the creature; it is a Kwaraz, a giant, creeping reptile. Kwaraz are native to the Maakenmire swamp, hundreds of miles to the west of Vassagonia, but they thrive in any hot, damp, and fetid environment, and it strikes you that the Baga-darooz sewer is an ideal breeding ground for these deadly beasts. The Kwaraz moves along the ceiling, gripping the stone with its long, curved claws—its oval eyes opening wider and wider.\nKwaraz are very susceptible to psychic power. By using your Kai Discipline of Animal Kinship, you persuade it that you are not at all appetizing, and it soon loses interest. You watch with a mixture of fear and fascination as the huge reptile disappears along the tunnel. Suddenly, a fearful scream bursts out of the darkness; Maouk has lost one of his men. A shiver runs down your spine, but your instincts tell you to press on while you have the advantage."
+  },
+  "188": {
+    "text": "The tavern is crowded with people who are seated at a long, stone counter decorated with fragments of coloured marble. Large earthenware jars, full of spicy foods, are set into the counter, and serving girls are busy attending to the hungry customers."
+  }
+}
