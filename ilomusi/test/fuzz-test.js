@@ -1,19 +1,16 @@
-import { readFileSync } from "fs";
+import { fileURLToPath } from "node:url";
+import path from "node:path";
 import { Game } from "../src/engine/game.js";
 import { resolveCombat } from "../src/engine/combat.js";
+import { loadGameData, loadLocalesData } from "../src/cli/loader.js";
 
-const gameSections = JSON.parse(readFileSync(new URL("../src/data/sections.json", import.meta.url)));
-const enemyDefs = JSON.parse(readFileSync(new URL("../src/data/enemies.json", import.meta.url)));
+// Resolve paths dynamically using the loader utility
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const dataDir = path.resolve(__dirname, "../src/data");
+const localesDir = path.resolve(__dirname, "../locales");
 
-const mockGameData = {
-    sections: gameSections,
-    enemies: enemyDefs,
-    items: {}
-};
-
-const mockLocaleData = {
-    sections: {}
-};
+const mockGameData = loadGameData(dataDir);
+const mockLocaleData = loadLocalesData(localesDir);
 
 function runFuzzTest(runsCount = 1000) {
     const totalRuns = runsCount;
