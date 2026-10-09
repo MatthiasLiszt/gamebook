@@ -1,0 +1,345 @@
+---
+char_maouk: jan Mawa
+char_envoy: jan pana
+char_lone_wolf: jan Lansi Opa
+char_zakhan: jan Saman Kima
+sec_0036_img_desc: Dark fighters of jan Sanasin stand around you with sharp knives.
+  jan Mawa calls out. You kill six men, but then many men take hold of you.
+sec_0036_maouk_command: Take him! But take him living!
+sec_0036_maouk_mock: You have strong heart, jan Lansi Opa, but strong heart will not
+  save you now.
+sec_0036_choice_continue: Go forward to section 176
+sec_0104_img_desc: You run to the ship far away. The men on the ship do not know the
+  danger. Before you can make a shout, a man on a horse stops your path.
+sec_0104_maouk_command: Take him! But take him living!
+sec_0104_choice_attack: Attack the man on the horse
+sec_0104_choice_jump_sea: Jump into the sea to get away
+sec_0104_choice_surrender: Give up to the men
+sec_0176_img_desc: Bad men take your bag, your arms, your yellow money, and all special
+  things. Your hands are tied behind you. They put you in a wheel box. jan Mawa puts
+  a small sleep pin into your arm. You fall into deep sleep.
+sec_0176_maouk_command: Go back to the great house! The big ruler jan Saman Kima waits
+  for his prize!
+sec_0176_choice_continue: Lose all your items and go to section 69
+char_sefrou: Sefrou
+char_hadj: Hadj
+char_bloodlug: Bloodlug
+char_sharnazim: Sharnazim
+char_guard: Guard
+char_zakhan_kimah: Zakhan Kimah
+
+---
+sec_0117_dialogue_maouk_1: "Give up, jan Lansi Opa! Or my men will shoot you to the wall!"
+sec_0117_dialogue_maouk_2: "You have bravery, Kai master. But bravery alone will not save you now!"
+sec_0117_choice_continue: "Go on."
+---
+sec_0120_img_desc: "A person pulling a knife from their chest as a guard attacks."
+sec_0120_choice_continue: "Go to 22"
+---
+sec_0125_img_desc: The horse and dead rider fall into the sea water. The men pull
+  up the walking wood, so you must jump. You fall on the wet wooden oars on the side
+  of the ship and try hard not to fall.
+sec_0125_choice_check_low: If your total number is 0 to 3
+sec_0125_choice_check_high: If your total number is 4 or more
+char_lone_wolf: Lone Wolf
+char_sefrou: Sefrou
+char_hadj: Hadj
+char_zakhan: Zakhan
+char_bloodlug: Bloodlug
+char_sharnazim: Sharnazim
+char_guard: Guard
+char_maouk: Maouk
+char_zakhan_kimah: Zakhan Kimah
+
+---
+char_bloodlug: akesi Palala
+sec_0012_img_desc: You fight under salt water with a deadly sea beast, akesi Palala.
+  Take away 2 points from your attack power because it moves fast. Mind magic does
+  not work on this beast.
+sec_0012_choice_win: If you win the fight against akesi Palala
+char_lone_wolf: Lone Wolf
+char_sefrou: Sefrou
+char_hadj: Hadj
+char_zakhan: Zakhan
+char_sharnazim: Sharnazim
+char_guard: Guard
+char_maouk: Maouk
+char_zakhan_kimah: Zakhan Kimah
+
+---
+char_bloodlug: akesi Palala
+sec_0134_img_desc: You use your special power to push the sea beast away. The beast
+  akesi Palala turns and eats a small sea animal inside a big metal pot. You swim
+  away, but you keep your eyes on it.
+sec_0134_choice_continue: Go to section 95
+char_lone_wolf: Lone Wolf
+char_sefrou: Sefrou
+char_hadj: Hadj
+char_zakhan: Zakhan
+char_sharnazim: Sharnazim
+char_guard: Guard
+char_maouk: Maouk
+char_zakhan_kimah: Zakhan Kimah
+
+---
+sec_0138_img_desc: The men open the door and you move fast. Your hand hits the first
+  man hard under his beard. He goes up in the air. His sword falls to the floor near
+  your feet.
+sec_0138_choice_take_sword: Take the sword from the floor
+sec_0138_choice_bare_hands: Do not take the sword and hit the second man with empty
+  hands
+char_lone_wolf: Lone Wolf
+char_sefrou: Sefrou
+char_hadj: Hadj
+char_zakhan: Zakhan
+char_bloodlug: Bloodlug
+char_sharnazim: Sharnazim
+char_guard: Guard
+char_maouk: Maouk
+char_zakhan_kimah: Zakhan Kimah
+
+---
+char_lansi_opa: jan Lansi Opa
+char_sanasin: jan Sanasin
+monster_bloodlug: pipi Pulala
+sec_0142_img_desc: You go down into the sea water to get away from jan Sanasin. Under
+  the clear blue water, you see old trash and an iron anchor. A bad sea monster pipi
+  Pulala shoots through the water to eat your skin.
+sec_0142_choice_discipline: Use your mind power to talk to animals
+sec_0142_choice_fight: Fight against pipi Pulala
+sec_0142_choice_evade: Swim fast to get away from pipi Pulala
+char_lone_wolf: Lone Wolf
+char_sefrou: Sefrou
+char_hadj: Hadj
+char_zakhan: Zakhan
+char_bloodlug: Bloodlug
+char_sharnazim: Sharnazim
+char_guard: Guard
+char_maouk: Maouk
+char_zakhan_kimah: Zakhan Kimah
+
+---
+section_144_narrative: "A great fear fills your mind. Your Kai power warns you that a terrible end waits if you stay in this room. You follow your feeling and attack."
+section_144_choice_174: "Turn to 174."
+---
+sec_0153_img_desc: "A man runs into an open courtyard with three paths while pursued by guards."
+sec_0153_choice_tracking: "Use your skill of Tracking."
+sec_0153_choice_gate: "Go through the nail-studded gate to the left."
+sec_0153_choice_alley: "Go into the alley to the right."
+sec_0153_choice_arch: "Go down the straight pathway through the arch."
+---
+sec_0161_img_desc: You have good luck. The bad man only wanted to make you sleep.
+  You get back half of your lost power points.
+sec_0161_choice_continue: Go to section 69
+char_lone_wolf: Lone Wolf
+char_sefrou: Sefrou
+char_hadj: Hadj
+char_zakhan: Zakhan
+char_bloodlug: Bloodlug
+char_sharnazim: Sharnazim
+char_guard: Guard
+char_maouk: Maouk
+char_zakhan_kimah: Zakhan Kimah
+
+---
+# Basic English Narrative & Dialogue
+sec_0163_img_desc: "You wait in the prison room. One bad jan utala says bad words to make you sad. The other jan utala comes back with nothing. Both men turn their backs to leave the room with bad smiles."
+
+sec_0163_guard_taunt: "jan Saman does not want our north friend broken. He has a special bad thing for him this night."
+
+# Simplified Choices
+sec_0163_choice_sixth_sense: "If you have Sixth Sense power"
+sec_0163_choice_attack: "Attack the jan utala"
+sec_0163_choice_wait: "Do not move and stay as you are"
+---
+sec_0165_choice_attack: "If you want to fight and kill this man, go to 78."
+sec_0165_choice_subdue: "If you want to take him alive without killing, go to 199."
+---
+sec_0169_choice_buy_sash_read: "Pay 2 Gold Crowns for a black sash to wear, then stop to read the poster on the wall."
+sec_0169_choice_buy_sash_continue: "Pay 2 Gold Crowns for a black sash to wear, then go on down the passage."
+sec_0169_choice_read: "Stop to read the poster on the wall about jan Saman."
+sec_0169_choice_continue: "Go on down the passage."
+---
+section_174:
+  description: >-
+    You hit the tall watch man on the back of his neck.
+    He falls on his knees and his long knife drops near your feet.
+
+  choices:
+    choice_174_take_sword: "If you want to take the long knife, go to 4."
+    choice_174_unarmed_attack: "If you want to fight the second watch man with open hands, go to 91."
+---
+sec_0180_img_desc: "A guard with a knife ready to throw."
+sec_0180_choice_mindblast: "Use Mindblast skill"
+sec_0180_choice_random_table: "Pick a random number"
+---
+# Basic English Narrative & Dialogue
+sec_0184_img_desc: "You look across the water at a white dome house. On a high platform over a ship sit big clay pots going to ma Lakatong. You use your mind power to push one pot. You sweat much, but the big pot falls down and breaks on the ship."
+
+# Simplified Choices
+sec_0184_choice_continue: "Go forward"
+---
+section_018_narrative: "The cell door opens after sunset. You prepare to see the Zakhan, but he is not alone. Darklord Haakon is with him. You have no arms and cannot fight. You must kneel before the Darklord. Haakon chokes the life from your body with his hands. Your life ends here."
+---
+# Basic English Narrative & Dialogue
+sec_0191_img_desc: "You move along the oars to the ship edge. Hands take your coat and help you onto the ship. Across the water, jan Mawa talks loud and makes a bad threat to kill all family of the ship men."
+
+sec_0191_maouk_demand: "Give the jan Lansi Opa to me. jan Saman commands it. All your family will die if you do not do this!"
+
+# Simplified Choices
+sec_0191_choice_surrender: "Give up to jan Mawa"
+sec_0191_choice_dive_water: "Jump into the water to run away"
+---
+sec_0193_img_desc: "A knife flies past a person as an unarmed guard looks on."
+sec_0193_choice_attack: "Attack the guard"
+sec_0193_choice_capture: "Overpower and capture the guard alive"
+---
+sec_0199_img_desc: "Action fantasy digital illustration, dark dungeon corridor, a frightened gaoler held in a firm head-lock by a warrior, talking in fear."
+sec_0199_choice_sixth_sense: "You have the Sixth Sense skill."
+sec_0199_choice_no_sixth_sense: "You do not have the Sixth Sense skill."
+---
+char_maouk: jan Mawa
+char_envoy: jan pana
+sec_0001_img_desc: You come to the sea town of Palaki. Flags are black. jan Mawa gives
+  greetings, but he kills jan pana with a small knife. Many black soldiers of jan
+  Sanasin stand around you in a bad trap.
+sec_0001_maouk_greeting: A thousand greetings, jan Lansi Opa. I am jan Mawa. I say
+  welcome to our town for my ruler, the great jan Saman Kima.
+sec_0001_envoy_warning: This is a bad trap! You must...
+sec_0001_choice_fight: Fight against these many men
+sec_0001_choice_surrender: Give up to jan Mawa and his men
+sec_0001_choice_flee: Run back to the ship
+char_lone_wolf: Lone Wolf
+char_sefrou: Sefrou
+char_hadj: Hadj
+char_zakhan: Zakhan
+char_bloodlug: Bloodlug
+char_sharnazim: Sharnazim
+char_guard: Guard
+char_zakhan_kimah: Zakhan Kimah
+
+---
+sec_0028_img_desc: "An arrow hits a glass bottle on a shop balcony, causing it to break and make a loud noise in the square."
+sec_0028_choice_continue: "Go to section 153."
+---
+sec_0042_choice_gate: "Go through the gate on your left."
+sec_0042_choice_path: "Take the path straight ahead."
+---
+# Basic English Narrative & Dialogue
+sec_0004_img_desc: "You bend down to take the sword, but as your hand touches it, the second jan utala tomo attacks you."
+
+sec_0004_special_rule: "Ignore all points lost by the enemy in round 1, because you can only stop his hit."
+
+# Simplified Choices
+sec_0004_choice_win_fast: "If you win the fight in 4 rounds or less"
+sec_0004_choice_win_slow: "If you win the fight in more than 4 rounds"
+---
+# Basic English Narrative & Dialogue
+sec_0050_img_desc: "Your boots slip on wet wood. You fall, hit your head, and lose 2 ENDURANCE points. The jan Sanasin pull you out of the water by your coat and drag you across the stones to jan Mawa."
+
+sec_0050_maouk_taunt: "You have much heart, jan Lansi Opa. But heart will not keep you safe now."
+
+# Simplified Choices
+sec_0050_choice_continue: "Go forward"
+---
+# Basic English Narrative & Dialogue
+sec_0056_img_desc: "Inside a small boat, you find a leather box with a bow named Jakan and one arrow. Far across the square, near jan Mawa, you see green glass bottles on a white house balcony. You take aim with the bow."
+
+# Simplified Choices
+sec_0056_choice_low_score: "If your total score is 0 to 3"
+sec_0056_choice_high_score: "If your total score is 4 to 11"
+---
+# Basic English Narrative & Dialogue
+sec_0059_img_desc: "You jump forward and hit the jan utala in the face with your hand. He falls down with blood on his nose. His sword falls on the floor near your feet."
+
+# Simplified Choices
+sec_0059_choice_take_sword: "Take the sword from the floor"
+sec_0059_choice_attack_bare_hands: "Do not take the sword and hit the second jan utala with your hands"
+---
+sec_0065_narrative: "The guard falls to the floor with a broken neck from your blow. As you turn, you see the other man is up and crawling on the floor, reaching out his hand to get his sword."
+sec_0065_img_desc: "A guard lies motionless while another crawls toward his weapon."
+sec_0065_choice_attack: "If you wish to attack the guard, turn to 78."
+sec_0065_choice_capture: "If you wish simply to overpower him and capture him alive, turn to 199."
+---
+char_sefrou: jan Sepu
+char_hadj: jan Sasi
+sec_0069_img_desc: You wake up in a bad, dark room made of stone. All your things
+  and weapons are gone. Two guard men talk outside the door. They think you are gone
+  because you sit near the door where they cannot see you. They open the lock.
+sec_0069_hadj_shout: Are you sleeping on work time, jan Sepu? The big man will make
+  you bad if he sees this!
+sec_0069_sefrou_reply: Curse you, jan Sasi! The ruler jan Saman does not want jan
+  Lansi Opa taken to the big house till the sun goes down. You took two hours of my
+  sleep.
+sec_0069_hadj_greedy: Be quiet, jan Sepu, and give ear! I came from the place of arms.
+  The man has good things worth much gold money. It is sad to let them go to loss,
+  yes?
+sec_0069_sefrou_shock: He is gone! He is gone! By the high ruler, we will lose our
+  heads!
+sec_0069_hadj_open: Let me see!
+sec_0069_choice_attack: Hit the guards as soon as the door opens
+sec_0069_choice_stand: Move away from the door and stand in the middle of the room
+char_lone_wolf: Lone Wolf
+char_zakhan: Zakhan
+char_bloodlug: Bloodlug
+char_sharnazim: Sharnazim
+char_guard: Guard
+char_maouk: Maouk
+char_zakhan_kimah: Zakhan Kimah
+
+---
+sec_0075_dialogue_man: "Quickly, person from the North. I will hide you!"
+sec_0075_choice_enter: "Go inside through the open gate."
+sec_0075_choice_arch: "Say no and go up the path to the archway."
+sec_0075_choice_alley: "Go into the alley."
+---
+sec_0078_img_desc: "Action fantasy digital illustration, dungeon corridor, a defeated guard lying dead on the stone floor after an open-handed chop to the neck."
+sec_0078_choice_leave: "Leave the dead bodies and run away down the hall."
+sec_0078_choice_search: "Search the dead bodies."
+---
+sec_0007_img_desc: "Black-clad guards drag a captured archer along a stone harbour wall near a small boat."
+sec_0007_choice_continue: "Go to section 176."
+---
+char_sefrou: jan Sepulu
+char_guard_tall: jan utala suli
+sec_0085_img_desc: Two bad men open the room door and run in with weapons. They have
+  bad mark faces. They push you to the far wall. One holds a sword at your throat.
+sec_0085_guard_tall_line: We have a trick man here, jan Sepulu.
+sec_0085_sefrou_line: He is a magic man from the north who is lost.
+sec_0085_guard_tall_threat: Let us teach him a bad lesson. Go get the finger crushers.
+sec_0085_choice_attack: Attack the guard who holds the sword
+sec_0085_choice_wait: Do not attack the guard
+char_lone_wolf: Lone Wolf
+char_hadj: Hadj
+char_zakhan: Zakhan
+char_bloodlug: Bloodlug
+char_sharnazim: Sharnazim
+char_guard: Guard
+char_maouk: Maouk
+char_zakhan_kimah: Zakhan Kimah
+
+---
+# Basic English Narrative & Dialogue
+sec_0091_img_desc: "The jan utala tomo swings his big hammer at your head. Quickly, you bend down and move to the side as the weapon hits the wall with sparks of fire."
+
+sec_0091_special_rule: "Take away 4 points from your COMBAT SKILL for this fight, because you have no weapon."
+
+# Simplified Choices
+sec_0091_choice_win_fast: "If you win the fight in 4 rounds or less"
+sec_0091_choice_win_slow: "If you win the fight in more than 4 rounds"
+---
+sec_0095_img_desc: You come up from the water near a small boat. You climb in and
+  hide under the cover. You breathe hard, but you must keep quiet. The soldiers of
+  jan Mawa look for you everywhere.
+sec_0095_choice_mind_over_matter: If you have the Mind Over Matter skill
+sec_0095_choice_no_mind_over_matter: If you do not have this skill
+char_lone_wolf: Lone Wolf
+char_sefrou: Sefrou
+char_hadj: Hadj
+char_zakhan: Zakhan
+char_bloodlug: Bloodlug
+char_sharnazim: Sharnazim
+char_guard: Guard
+char_maouk: Maouk
+char_zakhan_kimah: Zakhan Kimah
+

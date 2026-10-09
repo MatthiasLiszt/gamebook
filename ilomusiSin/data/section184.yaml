@@ -1,0 +1,26 @@
+section_id: 184
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: "section_184.png"
+  reconstructed_image_prompt: "Action fantasy digital illustration, POV from far away looking across a desert harbour at a white dome house with a high platform over a ship, a large clay spice pot falling and breaking on the wooden ship floor"
+  image_caption_key: "sec_0184_img_desc"
+
+scene:
+  location_key: null
+  current_event: "Using mind power to break a spice container"
+  characters_present:
+    - name_key: "char_lone_wolf"
+  dialogue: []
+
+choices:
+  - id: 1
+    text_key: "sec_0184_choice_continue"
+    target_section: 153
+    logic:
+      action: "CONTINUE"
+      intent: "go_to_next_section"
+      keywords: ["continue", "turn to 153", "next"]

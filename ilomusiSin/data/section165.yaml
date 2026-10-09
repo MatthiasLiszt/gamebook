@@ -1,0 +1,35 @@
+section_id: 165
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: "scene69.gif"
+  reconstructed_image_prompt: "Action fantasy digital illustration, dungeon corridor, one guard lying motionless on the stone floor, a second guard struggling to pull himself up by holding onto a cell door"
+  image_caption_key: "sec_0165_img_desc"
+
+scene:
+  location_key: null
+  current_event: "One guard is dead, second guard recovering"
+  characters_present:
+    - name_key: "char_lone_wolf"
+    - name_key: "char_palace_gaoler"
+  dialogue: []
+
+choices:
+  - id: 1
+    text_key: "sec_0165_choice_attack"
+    target_section: 78
+    logic:
+      action: "PLAYER_CHOICE"
+      intent: "attack_guard"
+      keywords: ["attack", "fight", "strike", "kill"]
+
+  - id: 2
+    text_key: "sec_0165_choice_subdue"
+    target_section: 199
+    logic:
+      action: "PLAYER_CHOICE"
+      intent: "capture_guard_alive"
+      keywords: ["overpower", "capture", "subdue", "take alive"]

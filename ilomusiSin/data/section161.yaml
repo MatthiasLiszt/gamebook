@@ -1,0 +1,31 @@
+section_id: 161
+language_standard:
+  vocabulary: Ogden_Basic_English
+  naming_convention: Strict_Tokiponized
+graphics:
+  image_file: scene69.gif
+  reconstructed_image_prompt: Dark fantasy digital illustration, hero slowly waking
+    up on the floor from being knocked unconscious, breathing and recovering strength,
+    shadowy figures standing nearby in dim light
+  image_caption_key: sec_0161_img_desc
+scene:
+  location: Dungeon Cell / Hallway
+  current_event: Hero recovers consciousness after non-lethal defeat
+  characters_present:
+  - name_key: char_lone_wolf
+  dialogue: []
+effects:
+- type: RESTORE_ENDURANCE
+  value: HALF_LOST_COMBAT
+choices:
+- id: 1
+  text_key: sec_0161_choice_continue
+  target_section: 69
+  logic:
+    action: CONTINUE
+    intent: continue_story
+    keywords:
+    - continue
+    - go on
+    - wake up
+    - turn to 69

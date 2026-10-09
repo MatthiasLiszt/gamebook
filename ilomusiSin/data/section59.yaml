@@ -1,0 +1,35 @@
+section_id: 59
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: section69.gif
+  reconstructed_image_prompt: "Action fantasy digital illustration, POV looking down as a warrior hits a soldier in the face, soldier falls with red blood from nose, steel sword lies on the floor near feet, another soldier stands nearby"
+  image_caption_key: "sec_0059_img_desc"
+
+scene:
+  location_key: null
+  current_event: "Combat with guards"
+  characters_present:
+    - name_key: "char_lone_wolf"
+    - name_key: "char_guard"
+  dialogue: []
+
+choices:
+  - id: 1
+    text_key: "sec_0059_choice_take_sword"
+    target_section: 4
+    logic:
+      action: "TAKE_ITEM"
+      intent: "pick_up_weapon"
+      keywords: ["take sword", "get sword", "pick up sword", "sword"]
+
+  - id: 2
+    text_key: "sec_0059_choice_attack_bare_hands"
+    target_section: 91
+    logic:
+      action: "COMBAT"
+      intent: "attack_guard"
+      keywords: ["attack second guard", "use hands", "hit guard", "no sword"]

@@ -1,0 +1,8 @@
+# Basic English Narrative & Dialogue
+sec_0004_img_desc: "You bend down to take the sword, but as your hand touches it, the second jan utala tomo attacks you."
+
+sec_0004_special_rule: "Ignore all points lost by the enemy in round 1, because you can only stop his hit."
+
+# Simplified Choices
+sec_0004_choice_win_fast: "If you win the fight in 4 rounds or less"
+sec_0004_choice_win_slow: "If you win the fight in more than 4 rounds"

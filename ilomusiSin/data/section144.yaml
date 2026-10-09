@@ -1,0 +1,25 @@
+section: 144
+
+scene:
+  location: ma_ragadorn
+  characters_present:
+    - char_lone_wolf
+
+  summary: "A feeling of dread fills your mind as your Kai discipline warns you of a terrible fate if you stay in the cell. You trust your instincts and strike."
+
+  image_prompt: "A warrior inside a dimly lit dungeon cell reacting with sudden alert, glowing psychic or instinctual aura, preparing to attack, dramatic dark fantasy style"
+
+text:
+  narrative_key: "section_144_narrative"
+
+choices:
+  - id: "attack_and_turn_to_174"
+    target: 174
+    intent: "follow_instincts_and_attack"
+    keywords:
+      - "attack"
+      - "instinct"
+      - "turn"
+      - "174"
+      - "strike"
+    text_key: "section_144_choice_174"

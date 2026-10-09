@@ -1,0 +1,25 @@
+char_sefrou: jan Sepu
+char_hadj: jan Sasi
+sec_0069_img_desc: You wake up in a bad, dark room made of stone. All your things
+  and weapons are gone. Two guard men talk outside the door. They think you are gone
+  because you sit near the door where they cannot see you. They open the lock.
+sec_0069_hadj_shout: Are you sleeping on work time, jan Sepu? The big man will make
+  you bad if he sees this!
+sec_0069_sefrou_reply: Curse you, jan Sasi! The ruler jan Saman does not want jan
+  Lansi Opa taken to the big house till the sun goes down. You took two hours of my
+  sleep.
+sec_0069_hadj_greedy: Be quiet, jan Sepu, and give ear! I came from the place of arms.
+  The man has good things worth much gold money. It is sad to let them go to loss,
+  yes?
+sec_0069_sefrou_shock: He is gone! He is gone! By the high ruler, we will lose our
+  heads!
+sec_0069_hadj_open: Let me see!
+sec_0069_choice_attack: Hit the guards as soon as the door opens
+sec_0069_choice_stand: Move away from the door and stand in the middle of the room
+char_lone_wolf: Lone Wolf
+char_zakhan: Zakhan
+char_bloodlug: Bloodlug
+char_sharnazim: Sharnazim
+char_guard: Guard
+char_maouk: Maouk
+char_zakhan_kimah: Zakhan Kimah

@@ -1,0 +1,125 @@
+Here is a summary of our design decisions and formatting rules, formatted so you can paste it directly into another chat to process future sections.
+
+---
+
+# Gamebook Modernization Pipeline: Rules & Specification
+
+### 1. Architectural Strategy
+
+* **Data Format:** YAML structure (`section_XXX.yaml`) combined with externalized localization dictionaries (`/locales/en_basic.yaml`).
+* **Design Philosophy:** Minimalist, data-driven, and human-readable. All background narrative text/lore is stripped out, leaving only actionable scene data, character lines, image reconstruction prompts, and machine-executable choices.
+* **Dual Execution Model:**
+1. *Deterministic Engine:* Routes standard choices directly to target section numbers.
+2. *Minimal LLM Hook:* Uses choice intent tags and keywords to parse freeform player inputs and map them to the correct outcome.
+
+
+
+---
+
+### 2. Language & Naming Standards
+
+#### A. Ogden’s Basic English
+
+All player-facing descriptions, character dialogue, and choices must be written using simplified Basic English (~850-word vocabulary).
+
+#### B. Strict Tokiponization
+
+All proper names (characters, places, groups) must be phoneticized using **strictly valid Toki Pona syllables**:
+
+* **Allowed Syllables:** `a`, `e`, `i`, `o`, `u`, `pa`, `pe`, `pi`, `po`, `pu`, `ka`, `ke`, `ki`, `ko`, `ku`, `ta`, `te`, `to`, `tu`, `la`, `le`, `li`, `lo`, `lu`, `ma`, `me`, `mi`, `mo`, `mu`, `na`, `ne`, `ni`, `no`, `nu`, `sa`, `se`, `si`, `so`, `su`, `ja`, `je`, `jo`, `ju`, `wa`, `we`, `wi`, plus final nasal `n`.
+* **Forbidden Combinations:** `ji`, `ti`, `wo`, `wu`.
+* **Standard Prefixes:** Add Toki Pona category words before proper names where appropriate (e.g., `jan` for persons, `ma` for places).
+
+**Reference Transformations:**
+
+* *Lone Wolf* $\rightarrow$ **jan Lansi Opa**
+* *Barrakeesh* $\rightarrow$ **ma Palaki**
+* *Maouk* $\rightarrow$ **jan Mawa**
+* *Zakhan Kimah* $\rightarrow$ **jan Saman Kima**
+* *Sharnazim* $\rightarrow$ **jan Sanasin**
+
+---
+
+### 3. Output Schemas & Examples
+
+When processing a new section, generate two files:
+
+#### File 1: Section Data (`section_001.yaml`)
+
+```yaml
+section_id: 1
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: "palaki_utala.png"
+  reconstructed_image_prompt: "Dark fantasy digital illustration, POV from ship deck looking at a desert port city, a bad man Mawa in blue clothes holding a knife with red blood, a friend falling down, black clad warriors with swords surrounding, sunlit domes and black flags"
+  image_caption_key: "sec_0001_img_desc"
+
+scene:
+  location: "Harbor of Palaki"
+  current_event: "Bad trap at port"
+  characters_present:
+    - original_name: "Lone Wolf"
+      tokipona_name: "jan Lansi Opa"
+    - original_name: "Maouk"
+      tokipona_name: "jan Mawa"
+    - original_name: "Zakhan Kimah"
+      tokipona_name: "jan Saman Kima"
+    - original_name: "Sharnazim"
+      tokipona_name: "jan Sanasin"
+  dialogue:
+    - speaker_key: "char_maouk"
+      line_key: "sec_0001_maouk_greeting"
+    - speaker_key: "char_envoy"
+      line_key: "sec_0001_envoy_warning"
+
+choices:
+  - id: 1
+    text_key: "sec_0001_choice_fight"
+    target_section: 36
+    logic:
+      action: "COMBAT"
+      intent: "attack_guards"
+      keywords: ["fight", "fight warriors", "use sword", "kill"]
+
+  - id: 2
+    text_key: "sec_0001_choice_surrender"
+    target_section: 176
+    logic:
+      action: "SURRENDER"
+      intent: "give_up"
+      keywords: ["stop fight", "give up", "put down sword"]
+
+  - id: 3
+    text_key: "sec_0001_choice_flee"
+    target_section: 104
+    logic:
+      action: "ESCAPE"
+      intent: "run_away"
+      keywords: ["run", "run to ship", "go back", "water"]
+
+```
+
+#### File 2: Localization (`en_basic.yaml`)
+
+```yaml
+# Tokiponized Character Names
+char_maouk: "jan Mawa"
+char_envoy: "jan pana"
+
+# Basic English Narrative & Dialogue
+sec_0001_img_desc: "You come to the sea town of Palaki. Flags are black. jan Mawa gives greetings, but he kills jan pana with a small knife. Many black soldiers of jan Sanasin stand around you in a bad trap."
+
+sec_0001_maouk_greeting: "A thousand greetings, jan Lansi Opa. I am jan Mawa. I say welcome to our town for my ruler, the great jan Saman Kima."
+
+sec_0001_envoy_warning: "This is a bad trap! You must..."
+
+# Simplified Choices
+sec_0001_choice_fight: "Fight against these many men"
+sec_0001_choice_surrender: "Give up to jan Mawa and his men"
+sec_0001_choice_flee: "Run back to the ship"
+
+```

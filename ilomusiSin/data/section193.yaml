@@ -1,0 +1,37 @@
+section_id: 193
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: "scene69.gif"
+  reconstructed_image_prompt: "Action fantasy digital illustration, POV dodging to the side as a dagger flies past, medium shot of an unarmed guard watching in open-mouthed disbelief"
+  image_caption_key: "sec_0193_img_desc"
+
+scene:
+  location_key: null
+  current_event: "You dodge the thrown dagger and face the now unarmed guard"
+  characters_present:
+    - name_key: "char_lone_wolf"
+    - name_key: "char_guard"
+  dialogue: []
+
+combat: null
+
+choices:
+  - id: 1
+    text_key: "sec_0193_choice_attack"
+    target_section: 78
+    logic:
+      action: "CHOICE"
+      intent: "attack_guard"
+      keywords: ["attack", "fight", "kill guard"]
+
+  - id: 2
+    text_key: "sec_0193_choice_capture"
+    target_section: 199
+    logic:
+      action: "CHOICE"
+      intent: "capture_guard"
+      keywords: ["overpower", "capture alive", "take prisoner"]

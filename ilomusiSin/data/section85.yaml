@@ -1,0 +1,49 @@
+section_id: 85
+language_standard:
+  vocabulary: Ogden_Basic_English
+  naming_convention: Strict_Tokiponized
+graphics:
+  image_file: scene69.gif
+  reconstructed_image_prompt: Dark fantasy digital illustration, POV inside a dark
+    stone dungeon cell, two brutish angry guards with war scars rushing in, holding
+    swords, one pointing a blade at viewer throat, malevolent expressions
+  image_caption_key: sec_0085_img_desc
+scene:
+  location: Dungeon Cell
+  current_event: Guards rush into cell
+  characters_present:
+  - name_key: char_lone_wolf
+  - name_key: char_sefrou
+  - name_key: char_guard
+  dialogue:
+  - speaker_key: char_guard_tall
+    line_key: sec_0085_guard_tall_line
+  - speaker_key: char_sefrou
+    line_key: sec_0085_sefrou_line
+  - speaker_key: char_guard_tall
+    line_key: sec_0085_guard_tall_threat
+choices:
+- id: 1
+  text_key: sec_0085_choice_attack
+  target_section: 59
+  logic:
+    action: COMBAT
+    intent: attack_guard
+    keywords:
+    - attack
+    - fight guard
+    - hit guard
+    - use sword
+    - strike
+- id: 2
+  text_key: sec_0085_choice_wait
+  target_section: 163
+  logic:
+    action: WAIT
+    intent: do_not_attack
+    keywords:
+    - do not attack
+    - wait
+    - stay still
+    - do nothing
+    - surrender

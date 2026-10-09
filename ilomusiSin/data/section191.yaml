@@ -1,0 +1,38 @@
+section_id: 191
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: "section_191.png"
+  reconstructed_image_prompt: "Action fantasy digital illustration, POV on a wooden ship deck as sailors pull a wet traveler over the rail, bad man Maouk shouting angrily from across the harbour water"
+  image_caption_key: "sec_0191_img_desc"
+
+scene:
+  location_key: null
+  current_event: "Rescued by ship crew under threat from Maouk"
+  characters_present:
+    - name_key: "char_lone_wolf"
+    - name_key: "char_maouk"
+    - name_key: "char_zakhan"
+  dialogue:
+    - speaker_key: "char_maouk"
+      line_key: "sec_0191_maouk_demand"
+
+choices:
+  - id: 1
+    text_key: "sec_0191_choice_surrender"
+    target_section: 176
+    logic:
+      action: "SURRENDER"
+      intent: "surrender_to_maouk"
+      keywords: ["surrender", "give up", "go to maouk"]
+
+  - id: 2
+    text_key: "sec_0191_choice_dive_water"
+    target_section: 142
+    logic:
+      action: "ESCAPE"
+      intent: "jump_into_water"
+      keywords: ["dive", "jump water", "swim away", "escape"]

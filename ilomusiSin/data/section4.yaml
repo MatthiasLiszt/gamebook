@@ -1,0 +1,43 @@
+section_id: 4
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: "scene69.gif"
+  reconstructed_image_prompt: "Action fantasy digital illustration, POV bending down to grab a dropped sword by the hilt, a dangerous prison guard leaping forward to strike with a weapon"
+  image_caption_key: "sec_0004_img_desc"
+
+scene:
+  location_key: null
+  current_event: "Ambush while picking up weapon"
+  characters_present:
+    - name_key: "char_lone_wolf"
+    - name_key: "char_palace_gaoler"
+  dialogue: []
+
+combat:
+  enemy_key: "char_palace_gaoler"
+  combat_skill: 14
+  endurance: 21
+  special_rules:
+    - type: "IGNORE_ENEMY_DAMAGE_ROUND_1"
+      description_key: "sec_0004_special_rule"
+
+choices:
+  - id: 1
+    text_key: "sec_0004_choice_win_fast"
+    target_section: 165
+    logic:
+      action: "COMBAT_OUTCOME"
+      intent: "win_in_4_rounds_or_less"
+      keywords: ["win fast", "4 rounds or less", "quick win"]
+
+  - id: 2
+    text_key: "sec_0004_choice_win_slow"
+    target_section: 180
+    logic:
+      action: "COMBAT_OUTCOME"
+      intent: "win_in_more_than_4_rounds"
+      keywords: ["win slow", "more than 4 rounds", "long fight"]

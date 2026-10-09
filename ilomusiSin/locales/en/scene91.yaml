@@ -1,0 +1,8 @@
+# Basic English Narrative & Dialogue
+sec_0091_img_desc: "The jan utala tomo swings his big hammer at your head. Quickly, you bend down and move to the side as the weapon hits the wall with sparks of fire."
+
+sec_0091_special_rule: "Take away 4 points from your COMBAT SKILL for this fight, because you have no weapon."
+
+# Simplified Choices
+sec_0091_choice_win_fast: "If you win the fight in 4 rounds or less"
+sec_0091_choice_win_slow: "If you win the fight in more than 4 rounds"

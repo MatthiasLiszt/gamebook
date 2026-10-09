@@ -1,0 +1,35 @@
+section_id: 78
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: "scene69.gif"
+  reconstructed_image_prompt: "Action fantasy digital illustration, dungeon corridor, a defeated guard lying dead on the stone floor after an open-handed chop to the neck."
+  image_caption_key: "sec_0078_img_desc"
+
+scene:
+  location_key: null
+  current_event: "Guard killed silently, bodies lying in the corridor"
+  characters_present:
+    - name_key: "char_lone_wolf"
+    - name_key: "char_guard"
+  dialogue: []
+
+choices:
+  - id: 1
+    text_key: "sec_0078_choice_leave"
+    target_section: 150
+    logic:
+      action: "PLAYER_CHOICE"
+      intent: "escape_corridor"
+      keywords: ["leave", "escape", "run", "corridor", "hall", "ignore"]
+
+  - id: 2
+    text_key: "sec_0078_choice_search"
+    target_section: 102
+    logic:
+      action: "PLAYER_CHOICE"
+      intent: "search_bodies"
+      keywords: ["search", "check", "loot", "bodies", "guard"]

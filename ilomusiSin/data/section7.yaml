@@ -1,0 +1,30 @@
+section_id: 7
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: "scene95.gif"
+  reconstructed_image_prompt: "Action fantasy digital illustration, dark mood. Black-clad Sharnazim soldiers drag Lone Wolf along a stone harbour wall next to a small boat surrounded on the water near cobblestones."
+  image_caption_key: "sec_0007_img_desc"
+
+scene:
+  location_key: null
+  current_event: "The arrow misses, alerting the enemy; Lone Wolf is surrounded and captured."
+  characters_present:
+    - name_key: "char_lone_wolf"
+    - name_key: "char_maouk"
+    - name_key: "char_sharnazim"
+  dialogue: []
+
+items_gained: []
+
+choices:
+  - id: 1
+    text_key: "sec_0007_choice_continue"
+    target_section: 176
+    logic:
+      action: "GOTO"
+      intent: "continue"
+      keywords: ["continue", "turn to 176", "surrender", "captured"]

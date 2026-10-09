@@ -1,0 +1,29 @@
+section_id: 120
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: "scene69.gif"
+  reconstructed_image_prompt: "Action fantasy digital illustration, close-up POV pulling a short dagger out of chest armor, while an ugly guard leaps forward in the background"
+  image_caption_key: "sec_0120_img_desc"
+
+scene:
+  location_key: null
+  current_event: "The guard throws a dagger into your chest, but you pull it out and strike him down as he charges"
+  characters_present:
+    - name_key: "char_lone_wolf"
+    - name_key: "char_guard"
+  dialogue: []
+
+combat: null
+
+choices:
+  - id: 1
+    text_key: "sec_0120_choice_continue"
+    target_section: 22
+    logic:
+      action: "DIRECT_TRANSITION"
+      intent: "continue_journey"
+      keywords: ["continue", "go to 22", "turn to 22"]

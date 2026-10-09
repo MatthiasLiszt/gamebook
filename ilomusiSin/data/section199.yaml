@@ -1,0 +1,36 @@
+section_id: 199
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: "scene69.gif"
+  reconstructed_image_prompt: "Action fantasy digital illustration, dark dungeon corridor, a frightened gaoler held in a firm head-lock by a warrior, talking in fear."
+  image_caption_key: "sec_0199_img_desc"
+
+scene:
+  location_key: null
+  current_event: "Guard is questioned under threat and claims the new leader fears an assassin"
+  characters_present:
+    - name_key: "char_lone_wolf"
+    - name_key: "char_guard"
+  dialogue: []
+
+choices:
+  - id: 1
+    text_key: "sec_0199_choice_sixth_sense"
+    target_section: 39
+    logic:
+      action: "SKILL_CHECK"
+      required_skill: "Sixth Sense"
+      intent: "use_sixth_sense"
+      keywords: ["sixth sense", "sense", "skill", "ability"]
+
+  - id: 2
+    text_key: "sec_0199_choice_no_sixth_sense"
+    target_section: 9
+    logic:
+      action: "PLAYER_CHOICE"
+      intent: "no_sixth_sense"
+      keywords: ["no skill", "no sense", "do not have", "lack"]

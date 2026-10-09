@@ -1,0 +1,28 @@
+char_maouk: jan Mawa
+char_envoy: jan pana
+char_lone_wolf: jan Lansi Opa
+char_zakhan: jan Saman Kima
+sec_0036_img_desc: Dark fighters of jan Sanasin stand around you with sharp knives.
+  jan Mawa calls out. You kill six men, but then many men take hold of you.
+sec_0036_maouk_command: Take him! But take him living!
+sec_0036_maouk_mock: You have strong heart, jan Lansi Opa, but strong heart will not
+  save you now.
+sec_0036_choice_continue: Go forward to section 176
+sec_0104_img_desc: You run to the ship far away. The men on the ship do not know the
+  danger. Before you can make a shout, a man on a horse stops your path.
+sec_0104_maouk_command: Take him! But take him living!
+sec_0104_choice_attack: Attack the man on the horse
+sec_0104_choice_jump_sea: Jump into the sea to get away
+sec_0104_choice_surrender: Give up to the men
+sec_0176_img_desc: Bad men take your bag, your arms, your yellow money, and all special
+  things. Your hands are tied behind you. They put you in a wheel box. jan Mawa puts
+  a small sleep pin into your arm. You fall into deep sleep.
+sec_0176_maouk_command: Go back to the great house! The big ruler jan Saman Kima waits
+  for his prize!
+sec_0176_choice_continue: Lose all your items and go to section 69
+char_sefrou: Sefrou
+char_hadj: Hadj
+char_bloodlug: Bloodlug
+char_sharnazim: Sharnazim
+char_guard: Guard
+char_zakhan_kimah: Zakhan Kimah

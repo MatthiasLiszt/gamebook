@@ -1,0 +1,52 @@
+section_id: 125
+language_standard:
+  vocabulary: Ogden_Basic_English
+  naming_convention: Strict_Tokiponized
+graphics:
+  image_file: scene142.gif
+  reconstructed_image_prompt: Dark fantasy digital illustration, POV action shot falling
+    onto wet wooden oars jutting out from a wooden galley ship at harbor, splashing
+    sea water below, a dead horse and rider falling into the sea in background, hero
+    struggling to balance on slippery wet wood
+  image_caption_key: sec_0125_img_desc
+scene:
+  location: Harbor of Palaki
+  current_event: Hero jumps onto slippery oars of galley ship
+  characters_present:
+  - name_key: char_lone_wolf
+  dialogue: []
+choices:
+- id: 1
+  text_key: sec_0125_choice_check_low
+  target_section: 50
+  logic:
+    action: RANDOM_CHECK
+    intent: balance_check_fail
+    keywords:
+    - fall
+    - slip
+    - fail balance
+    - low number
+    modifier:
+      discipline: Hunting
+      bonus: 2
+    range:
+    - 0
+    - 3
+- id: 2
+  text_key: sec_0125_choice_check_high
+  target_section: 191
+  logic:
+    action: RANDOM_CHECK
+    intent: balance_check_pass
+    keywords:
+    - keep balance
+    - stand
+    - pass balance
+    - high number
+    modifier:
+      discipline: Hunting
+      bonus: 2
+    range:
+    - 4
+    - 11

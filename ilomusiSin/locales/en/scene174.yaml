@@ -1,0 +1,8 @@
+section_174:
+  description: >-
+    You hit the tall watch man on the back of his neck.
+    He falls on his knees and his long knife drops near your feet.
+
+  choices:
+    choice_174_take_sword: "If you want to take the long knife, go to 4."
+    choice_174_unarmed_attack: "If you want to fight the second watch man with open hands, go to 91."

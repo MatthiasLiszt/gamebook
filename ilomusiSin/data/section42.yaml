@@ -1,0 +1,36 @@
+section_id: 42
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: "scene153.gif"
+  reconstructed_image_prompt: ""
+  image_caption_key: ""
+
+scene:
+  location_key: "ma_thieves_quarter"
+  current_event: "Using Kai skill to realize the alley is a dead end, leaving two paths remaining"
+  characters_present:
+    - name_key: "char_lone_wolf"
+  dialogue: []
+
+items_gained: []
+
+choices:
+  - id: 1
+    text_key: "sec_0042_choice_gate"
+    target_section: 75
+    logic:
+      action: "GOTO"
+      intent: "enter_gate"
+      keywords: ["gate", "nail-studded gate", "left", "go through gate"]
+
+  - id: 2
+    text_key: "sec_0042_choice_path"
+    target_section: 169
+    logic:
+      action: "GOTO"
+      intent: "take_path"
+      keywords: ["path", "straight ahead", "take path", "forward"]

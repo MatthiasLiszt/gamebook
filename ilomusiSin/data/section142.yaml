@@ -1,0 +1,57 @@
+section_id: 142
+language_standard:
+  vocabulary: Ogden_Basic_English
+  naming_convention: Strict_Tokiponized
+graphics:
+  image_file: scene142.gif
+  reconstructed_image_prompt: Underwater POV shot, clear blue harbor water littered
+    with old trash and a sunken iron anchor, a red jelly-like sea monster with short
+    breathing tubes and a sharp hook scoop swimming directly toward the player, bright
+    sunlight filtering through the water surface above
+  image_caption_key: sec_0142_img_desc
+scene:
+  location: Harbor water near boats
+  current_event: Attack by sea creature
+  characters_present:
+  - name_key: char_lone_wolf
+  - name_key: char_sharnazim
+  - name_key: char_bloodlug
+  dialogue: []
+choices:
+- id: 1
+  text_key: sec_0142_choice_discipline
+  target_section: 134
+  logic:
+    action: USE_ABILITY
+    intent: use_animal_kinship
+    keywords:
+    - animal discipline
+    - animal kinship
+    - mind control
+    - talk to beast
+    - talk to animal
+    condition: has_kai_discipline_animal_kinship
+- id: 2
+  text_key: sec_0142_choice_fight
+  target_section: 12
+  logic:
+    action: COMBAT
+    intent: fight_creature
+    keywords:
+    - fight
+    - kill
+    - attack monster
+    - use weapon
+    - fight blob
+- id: 3
+  text_key: sec_0142_choice_evade
+  target_section: 95
+  logic:
+    action: ESCAPE
+    intent: swim_away
+    keywords:
+    - swim away
+    - evade
+    - flee
+    - avoid
+    - run away

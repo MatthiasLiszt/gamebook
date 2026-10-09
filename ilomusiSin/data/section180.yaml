@@ -1,0 +1,62 @@
+section_id: 180
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: "scene69.gif"
+  reconstructed_image_prompt: "Action fantasy digital illustration, medium shot of a wounded guard standing up, pulling a small dagger from his boot and preparing to throw it towards camera"
+  image_caption_key: "sec_0180_img_desc"
+
+scene:
+  location_key: null
+  current_event: "The second guard gets up and gets ready to throw a knife"
+  characters_present:
+    - name_key: "char_lone_wolf"
+    - name_key: "char_guard"
+  dialogue: []
+
+combat: null
+
+choices:
+  - id: 1
+    text_key: "sec_0180_choice_mindblast"
+    target_section: 45
+    logic:
+      action: "REQUIRE_DISCIPLINE"
+      discipline: "Mindblast"
+      intent: "use_mindblast"
+      keywords: ["mindblast", "kai discipline", "mind attack"]
+
+  - id: 2
+    text_key: "sec_0180_choice_random_table"
+    target_section: 120
+    logic:
+      action: "RANDOM_TABLE"
+      intent: "pick_random_number lower than 6"
+      keywords: ["random number", "pick number", "no skill"]
+      modifiers:
+        - condition: "HAS_DISCIPLINE_SIXTH_SENSE_OR_HUNTING"
+          value: 3
+      outcomes:
+        - range: [0, 5]
+          target_section: 120
+        - range: [6, 12]
+          target_section: 193
+
+  - id: 3
+    text_key: "sec_0180_choice_random_table"
+    target_section: 193
+    logic:
+      action: "RANDOM_TABLE"
+      intent: "pick_random_number greater 5"
+      keywords: ["random number", "pick number", "no skill"]
+      modifiers:
+        - condition: "HAS_DISCIPLINE_SIXTH_SENSE_OR_HUNTING"
+          value: 3
+      outcomes:
+        - range: [0, 5]
+          target_section: 120
+        - range: [6, 12]
+          target_section: 193

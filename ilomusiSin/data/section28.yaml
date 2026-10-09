@@ -1,0 +1,29 @@
+# File 3: section_28.yaml
+section_id: 28
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: "scene95.gif"
+  reconstructed_image_prompt: "Action fantasy digital illustration, POV shooting a bow in a harbour square. An arrow hits a green glass bottle on a merchant's shop balcony, shattering it into pieces and attracting attention."
+  image_caption_key: "sec_0028_img_desc"
+
+scene:
+  location_key: null
+  current_event: "The arrow strikes the target glass bottle, creating a distraction in the square."
+  characters_present:
+    - name_key: "char_lone_wolf"
+  dialogue: []
+
+items_gained: []
+
+choices:
+  - id: 1
+    text_key: "sec_0028_choice_continue"
+    target_section: 153
+    logic:
+      action: "GOTO"
+      intent: "continue"
+      keywords: ["continue", "turn to 153", "distraction", "shatter glass"]

@@ -1,0 +1,43 @@
+section_id: 138
+language_standard:
+  vocabulary: Ogden_Basic_English
+  naming_convention: Strict_Tokiponized
+graphics:
+  image_file: scene69.gif
+  reconstructed_image_prompt: Dark fantasy digital illustration, action shot in a
+    stone dungeon cell, main hero punching a bearded guard hard under the jaw, lifting
+    him off the ground, sword dropping to the stone floor near hero's feet, second
+    guard rushing behind
+  image_caption_key: sec_0138_img_desc
+scene:
+  location: Dungeon Cell
+  current_event: Hero punches first guard as door opens
+  characters_present:
+  - name_key: char_lone_wolf
+  - name_key: char_guard
+  dialogue: []
+choices:
+- id: 1
+  text_key: sec_0138_choice_take_sword
+  target_section: 4
+  logic:
+    action: EQUIP
+    intent: pick_up_sword
+    keywords:
+    - take sword
+    - pick up sword
+    - get sword
+    - grab sword
+    - sword
+- id: 2
+  text_key: sec_0138_choice_bare_hands
+  target_section: 91
+  logic:
+    action: COMBAT
+    intent: attack_bare_hands
+    keywords:
+    - ignore sword
+    - bare hands
+    - use hands
+    - punch second guard
+    - no weapon

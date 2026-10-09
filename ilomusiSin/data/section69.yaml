@@ -1,0 +1,55 @@
+section_id: 69
+language_standard:
+  vocabulary: Ogden_Basic_English
+  naming_convention: Strict_Tokiponized
+graphics:
+  image_file: scene69.gif
+  reconstructed_image_prompt: Dark fantasy digital illustration, POV inside a small
+    dark prison cell with stone walls and an iron-barred window, a wooden bed with
+    dirty clothes, large bugs on the floor, iron door opening slightly with guards
+    looking in from a lit hallway
+  image_caption_key: sec_0069_img_desc
+scene:
+  location: Prison cell in ma Palaki
+  current_event: Escape from dark prison cell
+  characters_present:
+  - name_key: char_lone_wolf
+  - name_key: char_sefrou
+  - name_key: char_hadj
+  - name_key: char_zakhan
+  dialogue:
+  - speaker_key: char_hadj
+    line_key: sec_0069_hadj_shout
+  - speaker_key: char_sefrou
+    line_key: sec_0069_sefrou_reply
+  - speaker_key: char_hadj
+    line_key: sec_0069_hadj_greedy
+  - speaker_key: char_sefrou
+    line_key: sec_0069_sefrou_shock
+  - speaker_key: char_hadj
+    line_key: sec_0069_hadj_open
+choices:
+- id: 1
+  text_key: sec_0069_choice_attack
+  target_section: 138
+  logic:
+    action: ATTACK
+    intent: attack_guards
+    keywords:
+    - attack
+    - fight guards
+    - hit
+    - strike
+    - jump on guards
+- id: 2
+  text_key: sec_0069_choice_stand
+  target_section: 85
+  logic:
+    action: MOVE
+    intent: stand_in_middle
+    keywords:
+    - move away
+    - stand up
+    - middle of cell
+    - step back
+    - wait

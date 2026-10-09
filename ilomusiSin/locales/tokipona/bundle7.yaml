@@ -1,0 +1,310 @@
+---
+char_maouk: "jan Mawa"
+char_envoy: "jan pana"
+char_lone_wolf: "jan Lansi Opa"
+char_zakhan: "jan Saman Kima"
+sec_0036_img_desc: "jan utala pimeja pi jan Sanasin li lon poka sina li jo e ilo kipisi kiwen. jan Mawa li mu. sina moli e jan luka wan, taso jan mute li kalama mute li jo e sina."
+sec_0036_maouk_command: "o lanpan e ona! taso o pana e te e ona jan lon!"
+sec_0036_maouk_mock: "pilin sina li wawa, jan Lansi Opa, taso pilin wawa li ken ala awen e sina tenpo ni."
+sec_0036_choice_continue: "o tawa nanpa 176"
+sec_0104_img_desc: "sina tawa tawa tomo tawa telo pi weka suli. jan pi tomo tawa telo li sona ala e ike. sina ken ala mu, taso jan lon soweli li pini e tawa sina."
+sec_0104_maouk_command: "o lanpan e ona! taso o pana e te e ona jan lon!"
+sec_0104_choice_attack: "o utala e jan lon soweli"
+sec_0104_choice_jump_sea: "o tawa pi anpa telo lon telo suli tawa weka"
+sec_0104_choice_surrender: "o pana e sina tawa jan"
+sec_0176_img_desc: "jan ike li lanpan e poki sina, e ilo utala sina, e mani jelo sina, e ijo sewi sina ali. luka sina li linja tawa monsi sina. ona li pana e sina lon poki pi sike tawa. jan Mawa li pana e ilo pi lape lili lon luka sina. sina lape suli."
+sec_0176_maouk_command: "o tawa sin tawa tomo suli! jan lawa suli jan Saman Kima li awen e ijo pona ona!"
+sec_0176_choice_continue: "o weka e ijo sina ali o tawa nanpa 69"
+char_sefrou: "jan Sepu"
+char_hadj: "jan Sasi"
+char_bloodlug: "akesi Palala"
+char_sharnazim: "jan Sanasin"
+char_guard: "jan utala"
+char_zakhan_kimah: "jan Saman Kima"
+
+---
+sec_0117_dialogue_maouk_1: "o pana e sina, jan Lansi Opa! o ala la jan utala mi li pana e palisa sike pi ilo utala tawa sinpin!"
+sec_0117_dialogue_maouk_2: "sina jo e wawa pilin, jan lawa pi nasin Kai. taso wawa pilin taso li ken ala awen e sina tenpo ni!"
+sec_0117_choice_continue: "o tawa sin."
+---
+sec_0120_img_desc: "jan li kama jo e ilo kipisi tan sinpin poka ona lon tenpo pi utala tan jan utala."
+sec_0120_choice_continue: "o tawa nanpa 22"
+---
+sec_0125_img_desc: "soweli e jan moli li anpa lon telo suli. jan utala li pana e palisa kule, la sina o tawa anpa. sina anpa lon palisa tawa pi telo kiwen pi tomo tawa telo, la sina lukin e ni: sina anpa ala tawa telo."
+sec_0125_choice_check_low: "nanpa sina li jo e nanpa 0 tawa 3 la"
+sec_0125_choice_check_high: "nanpa sina li jo e nanpa 4 anu suli la"
+char_lone_wolf: "jan Lansi Opa"
+char_sefrou: "jan Sepu"
+char_hadj: "jan Sasi"
+char_zakhan: "jan Saman"
+char_bloodlug: "akesi Palala"
+char_sharnazim: "jan Sanasin"
+char_guard: "jan utala"
+char_maouk: "jan Mawa"
+char_zakhan_kimah: "jan Saman Kima"
+
+---
+char_bloodlug: "akesi Palala"
+sec_0012_img_desc: "sina utala lon anpa telo namako poka akesi telo pi moli ike, ni li akesi Palala. o weka e nanpa 2 tan wawa utala sina tan ni: ona li tawa walo wawa. ken pi kon lawa li pali ala lon akesi ni."
+sec_0012_choice_win: "sina anpa e akesi Palala lon utala la"
+char_lone_wolf: "jan Lansi Opa"
+char_sefrou: "jan Sepu"
+char_hadj: "jan Sasi"
+char_zakhan: "jan Saman"
+char_sharnazim: "jan Sanasin"
+char_guard: "jan utala"
+char_maouk: "jan Mawa"
+char_zakhan_kimah: "jan Saman Kima"
+
+---
+char_bloodlug: "akesi Palala"
+sec_0134_img_desc: "sina kepeken wawa sewi sina tawa walo e akesi telo. akesi Palala li tawa li moku e akesi telo lili lon poki kiwen suli. sina telo weka, taso lukin sina li awen lon ona."
+sec_0134_choice_continue: "o tawa nanpa 95"
+char_lone_wolf: "jan Lansi Opa"
+char_sefrou: "jan Sepu"
+char_hadj: "jan Sasi"
+char_zakhan: "jan Saman"
+char_sharnazim: "jan Sanasin"
+char_guard: "jan utala"
+char_maouk: "jan Mawa"
+char_zakhan_kimah: "jan Saman Kima"
+
+---
+sec_0138_img_desc: "jan li open e lupo tomo, la sina tawa wawa. luka sina li utala wawa e jan nanpa wan lon anpa linja sinpin. ona li tawa kon. ilo utala kipisi suli ona li anpa tawa supa lon poka noka sina."
+sec_0138_choice_take_sword: "o lanpan e ilo utala kipisi suli tan supa"
+sec_0138_choice_bare_hands: "o lanpan ala e ilo utala kipisi, o utala e jan nanpa tu kepeken luka ala"
+char_lone_wolf: "jan Lansi Opa"
+char_sefrou: "jan Sepu"
+char_hadj: "jan Sasi"
+char_zakhan: "jan Saman"
+char_bloodlug: "akesi Palala"
+char_sharnazim: "jan Sanasin"
+char_guard: "jan utala"
+char_maouk: "jan Mawa"
+char_zakhan_kimah: "jan Saman Kima"
+
+---
+char_lansi_opa: "jan Lansi Opa"
+char_sanasin: "jan Sanasin"
+monster_bloodlug: "akesi Palala"
+sec_0142_img_desc: "sina tawa anpa telo suli tawa weka tan jan Sanasin. lon anpa telo laso pona, sina lukin e ijo pimeja majuna e ilo kiwen pi tomo tawa telo. akesi telo ike akesi Palala li tawa wawa lon telo tawa moku e selo sina."
+sec_0142_choice_discipline: "o kepeken wawa pi kon lawa sina tawa toki tawa akesi"
+sec_0142_choice_fight: "o utala e akesi Palala"
+sec_0142_choice_evade: "o telo wawa tawa weka tan akesi Palala"
+char_lone_wolf: "jan Lansi Opa"
+char_sefrou: "jan Sepu"
+char_hadj: "jan Sasi"
+char_zakhan: "jan Saman"
+char_bloodlug: "akesi Palala"
+char_sharnazim: "jan Sanasin"
+char_guard: "jan utala"
+char_maouk: "jan Mawa"
+char_zakhan_kimah: "jan Saman Kima"
+
+---
+section_144_narrative: "pilin monsuta suli li pana lon kon lawa sina. wawa Kai sina li pana e pilin sina pi pini ike la sina awen lon tomo ni. sina pini e pilin sina li utala."
+section_144_choice_174: "o tawa nanpa 174."
+---
+sec_0153_img_desc: "jan li tawa wawa tawa sinpin pi tomo kon jo e nasin tu wan, lon tenpo ni la jan utala li alasa e ona."
+sec_0153_choice_tracking: "o kepeken ken sina pi alasa nasin."
+sec_0153_choice_gate: "o tawa pi lupo kiwen suli lon poka pilin."
+sec_0153_choice_alley: "o tawa nasin lili lon poka pona."
+sec_0153_choice_arch: "o tawa nasin kiwen palisa tan palisa suli kiwen."
+---
+sec_0161_img_desc: "sina jo e pona pi tenpo ni. jan ike li wile taso pana e lape tawa sina. sina kama jo sin e nanpa pi wawa pini lon kipisi wan pi nanpa tu."
+sec_0161_choice_continue: "o tawa nanpa 69"
+char_lone_wolf: "jan Lansi Opa"
+char_sefrou: "jan Sepu"
+char_hadj: "jan Sasi"
+char_zakhan: "jan Saman"
+char_bloodlug: "akesi Palala"
+char_sharnazim: "jan Sanasin"
+char_guard: "jan utala"
+char_maouk: "jan Mawa"
+char_zakhan_kimah: "jan Saman Kima"
+
+---
+# Basic English Narrative & Dialogue
+sec_0163_img_desc: "sina awen lon tomo awen ike. jan utala tomo wan li toki e nimi ike tawa ni: sina pilin ike. jan utala tomo ante li kama sin, taso ona li jo e ala. jan tu ali li awe e monsi ona tawa weka tan tomo kepeken uta monsuta."
+
+sec_0163_guard_taunt: "jan Saman li wile ala e ni: jan pona pi ma lete li pakala. ona li jo e ijo ike namako tawa ona lon tenpo pimeja ni."
+
+# Simplified Choices
+sec_0163_choice_sixth_sense: "sina jo e ken pi kon lukin nanpa luka wan la"
+sec_0163_choice_attack: "o utala e jan utala tomo"
+sec_0163_choice_wait: "o tawa ala o awen lon nasin sina"
+---
+sec_0165_choice_attack: "sina wile utala e jan ni o moli e ona la, o tawa nanpa 78."
+sec_0165_choice_subdue: "sina wile lanpan e ona jan lon la, o tawa nanpa 199."
+---
+sec_0169_choice_buy_sash_read: "o pana e mani jelo 2 tawa len pimeja tawa len, la o awen tawa lukin e lipu sinpin lon sinpin."
+sec_0169_choice_buy_sash_continue: "o pana e mani jelo 2 tawa len pimeja tawa len, la o tawa sin lon nasin."
+sec_0169_choice_read: "o awen tawa lukin e lipu sinpin pi jan Saman lon sinpin."
+sec_0169_choice_continue: "o tawa sin lon nasin."
+---
+section_174:
+  description: "sina utala e jan awen suli lon monsi pi linja uta ona. ona li anpa lon noka lili, ilo kipisi suli ona li anpa lon poka noka sina."
+
+  choices:
+    choice_174_take_sword: "sina wile lanpan e ilo kipisi suli la, o tawa nanpa 4."
+    choice_174_unarmed_attack: "sina wile utala e jan awen nanpa tu kepeken luka ala la, o tawa nanpa 91."
+---
+sec_0180_img_desc: "jan utala li jo e ilo kipisi lon luka, li ken pana e ona."
+sec_0180_choice_mindblast: "o kepeken ken pi wawa pakala pi kon lawa"
+sec_0180_choice_random_table: "o kama jo e nanpa tan nasin ala"
+---
+# Basic English Narrative & Dialogue
+sec_0184_img_desc: "sina lukin lon telo suli tawa tomo sike walo. lon supa sewi pi tomo tawa telo la, poki kiwen suli li lon tawa ma Lakatong. sina kepeken wawa pi kon lawa sina tawa tawa e poki wan. telo li kama tan selo sina, taso poki suli li anpa li pakala lon tomo tawa telo."
+
+# Simplified Choices
+sec_0184_choice_continue: "o tawa sin"
+---
+section_018_narrative: "lupo pi tomo awen li open tan anpa pi suno anpa. sina tawa tawa lukin e jan Saman, taso ona taso li lon ala. jan lawa pimeja Haakon li lon poka ona. sina jo ala e ilo utala, li ken ala utala. sina o anpa noka lon sinpin pi jan lawa pimeja. jan Haakon li pakala e kon pi uta sina kepeken luka ona. kon pona sina li pini lon ni."
+---
+# Basic English Narrative & Dialogue
+sec_0191_img_desc: "sina tawa poka pi palisa tawa telo tawa selo pi tomo tawa telo. luka li lanpan e len sina li pana e sina lon tomo tawa telo. lon ante pi telo suli la, jan Mawa li toki wawa li pana e toki ike tawa moli e kulupu jan ali pi jan pi tomo tawa telo."
+
+sec_0191_maouk_demand: "o pana e jan Lansi Opa tawa mi. jan Saman li wile e ni. kulupu jan sina ali li moli la sina pali ala e ni!"
+
+# Simplified Choices
+sec_0191_choice_surrender: "o pana e sina tawa jan Mawa"
+sec_0191_choice_dive_water: "o tawa anpa telo tawa weka"
+---
+sec_0193_img_desc: "ilo kipisi li tawa poka jan, lon tenpo ni la jan utala tomo li jo e ilo ala li lukin."
+sec_0193_choice_attack: "o utala e jan utala tomo"
+sec_0193_choice_capture: "o wawa e jan utala tomo o lanpan e ona pi lon lon"
+---
+sec_0199_img_desc: "sitelen pi pali mute pi musi lape, nasin pi tomo awen pimeja, jan awen pi tomo awen pi pilin monsuta li jo e lawa ona kepeken luka pi jan utala, li toki lon pilin monsuta."
+sec_0199_choice_sixth_sense: "sina jo e ken pi kon lukin nanpa luka wan."
+sec_0199_choice_no_sixth_sense: "sina jo ala e ken pi kon lukin nanpa luka wan."
+---
+char_maouk: "jan Mawa"
+char_envoy: "jan pana"
+sec_0001_img_desc: "sina kama tawa ma tomo telo pi ma telo Palaki. len kule li pimeja. jan Mawa li pana e toki pona, taso ona li moli e jan pana kepeken ilo kipisi lili. jan utala pimeja mute pi jan Sanasin li lon poka sina lon nasin ike."
+sec_0001_maouk_greeting: "toki pona ale, jan Lansi Opa. mi jan Mawa. mi pana e pona tawa ma tomo mi tawa jan lawa mi, jan lawa suli jan Saman Kima."
+sec_0001_envoy_warning: "ni li nasin ike! sina o..."
+sec_0001_choice_fight: "o utala e jan mute ni"
+sec_0001_choice_surrender: "o pana e sina tawa jan Mawa e jan utala ona"
+sec_0001_choice_flee: "o tawa sin tawa tomo tawa telo"
+char_lone_wolf: "jan Lansi Opa"
+char_sefrou: "jan Sepu"
+char_hadj: "jan Sasi"
+char_zakhan: "jan Saman"
+char_bloodlug: "akesi Palala"
+char_sharnazim: "jan Sanasin"
+char_guard: "jan utala"
+char_zakhan_kimah: "jan Saman Kima"
+
+---
+sec_0028_img_desc: "palisa pi ilo alasa li utala e poki hiwa lon tomo lili, la ni li pakala e ona li pana e kalama wawa lon tomo lipu."
+sec_0028_choice_continue: "o tawa nanpa 153."
+---
+sec_0042_choice_gate: "o tawa pi lupo kiwen lon poka pilin sina."
+sec_0042_choice_path: "o tawa nasin lon sinpin."
+---
+# Basic English Narrative & Dialogue
+sec_0004_img_desc: "sina anpa noka tawa lanpan e ilo utala kipisi, taso luka sina li pilin e ona la, jan utala tomo nanpa tu li utala e sina."
+
+sec_0004_special_rule: "o kepeken ala e nanpa ali pi wawa jan ike lon utala nanpa wan, tan ni: sina ken taso pini e utala ona."
+
+# Simplified Choices
+sec_0004_choice_win_fast: "sina anpa e ona lon utala 4 anu lili la"
+sec_0004_choice_win_slow: "sina anpa e ona lon utala suli tan nanpa 4 la"
+---
+# Basic English Narrative & Dialogue
+sec_0050_img_desc: "len noka sina li tawa pi pona ala lon kaso kiwen telo. sina anpa, li utala e lawa sina, li weka e nanpa 2 pi wawa awen. jan Sanasin li pana e sina tan telo kepeken len sina, li tawa e sina lon kiwen tawa jan Mawa."
+
+sec_0050_maouk_taunt: "sina jo e pilin suli, jan Lansi Opa. taso pilin li ken ala awen e sina lon tenpo ni."
+
+# Simplified Choices
+sec_0050_choice_continue: "o tawa sin"
+---
+# Basic English Narrative & Dialogue
+sec_0056_img_desc: "lon insa pi tomo tawa telo lili, sina lukin e poki len jo e ilo alasa tan jan Jakan e palisa nanpa wan. lon weka suli lon sinpin tomo, lon poka pi jan Mawa, sina lukin e poki hiwa laso lon supa pi tomo walo. sina o lukin alasa kepeken ilo alasa."
+
+# Simplified Choices
+sec_0056_choice_low_score: "nanpa sina ali li jo e nanpa 0 tawa 3 la"
+sec_0056_choice_high_score: "nanpa sina ali li jo e nanpa 4 tawa 11 la"
+---
+# Basic English Narrative & Dialogue
+sec_0059_img_desc: "sina tawa sinpin li utala e jan utala tomo lon sinpin kepeken luka sina. ona li anpa li jo e telo loje lon nena kon ona. ilo utala kipisi suli ona li anpa lon supa lon poka noka sina."
+
+# Simplified Choices
+sec_0059_choice_take_sword: "o lanpan e ilo utala kipisi tan supa"
+sec_0059_choice_attack_bare_hands: "o lanpan ala e ilo utala kipisi, o utala e jan utala tomo nanpa tu kepeken luka"
+---
+sec_0065_narrative: "jan utala li anpa lon supa jo e linja uta pakala tan utala sina. sina kama sike la, sina lukin e ni: jan ante li sewi li tawa anpa lon supa tawa kama jo e ilo kipisi ona."
+sec_0065_img_desc: "jan utala wan li anpa pona, jan ante li tawa anpa tawa ilo utala ona."
+sec_0065_choice_attack: "sina wile utala e jan utala la, o tawa nanpa 78."
+sec_0065_choice_capture: "sina wile taso wawa e ona o lanpan e ona pi lon lon la, o tawa nanpa 199."
+---
+char_sefrou: "jan Sepu"
+char_hadj: "jan Sasi"
+sec_0069_img_desc: "sina lape ala lon tomo kiwen pimeja ike. ijo sina e ilo utala sina ali li weka. jan awen tu li toki lon selo pi lupo tomo. ona li pilin e ni: sina weka, tan ni: sina anpa lon poka lupo tomo ni la ona li ken ala lukin e sina. ona li open e kiwen lupo."
+sec_0069_hadj_shout: "sina lape ala lape lon tenpo pali, jan Sepu? jan suli li lukin e ni la ona li pana e ike tawa sina!"
+sec_0069_sefrou_reply: "ike tawa sina, jan Sasi! jan lawa jan Saman li wile ala e ni: jan Lansi Opa li tawa tomo suli tenpo ni, ona li awen tawa suno anpa. sina weka e tenpo lape mi nanpa tu!"
+sec_0069_hadj_greedy: "o kalama ala, jan Sepu, o kute! mi kama tan tomo pi ilo utala. jan ni li jo e ijo pona pi mani jelo mute. ni li ike la ona li tawa pakala, toko?"
+sec_0069_sefrou_shock: "ona li weka! ona li weka! jan lawa sewi o, mi li weka e lawa mi!"
+sec_0069_hadj_open: "o pana e ni tawa lukin mi!"
+sec_0069_choice_attack: "o utala e jan utala lon tenpo pi open lupoomo"
+sec_0069_choice_stand: "o weka tan lupo tomo o awen lon insa tomo"
+char_lone_wolf: "jan Lansi Opa"
+char_zakhan: "jan Saman"
+char_bloodlug: "akesi Palala"
+char_sharnazim: "jan Sanasin"
+char_guard: "jan utala"
+char_maouk: "jan Mawa"
+char_zakhan_kimah: "jan Saman Kima"
+
+---
+sec_0075_dialogue_man: "o tawa wawa, jan tan ma lete. mi li len e sina!"
+sec_0075_choice_enter: "o tawa insa tan lupo tomo open."
+sec_0075_choice_arch: "o toki e ala o tawa sewi nasin tawa lupo kiwen suli."
+sec_0075_choice_alley: "o tawa nasin lili."
+---
+sec_0078_img_desc: "sitelen pi pali mute pi musi lape, nasin tomo awen, jan utala tan moli li anpa lon supa kiwen lon monsi pi utala luka tawa linja uta."
+sec_0078_choice_leave: "o weka e sijelo moli o tawa wawa lon tomo suli."
+sec_0078_choice_search: "o alasa lon sijelo moli."
+---
+sec_0007_img_desc: "jan utala pi len pimeja li tawa e jan alasa moli lon sinpin kiwen pi tomo tawa telo lon poka tomo tawa telo lili."
+sec_0007_choice_continue: "o tawa nanpa 176."
+---
+char_sefrou: "jan Sepu"
+char_guard_tall: "jan utala suli"
+sec_0085_img_desc: "jan ike tu li open e lupo tomo li tawa wawa kepeken ilo utala. ona li jo e sinpin ike. ona li tawa e sina tawa sinpin weka. wan li jo e ilo utala kipisi lon linja uta sina."
+sec_0085_guard_tall_line: "mi jo e jan pi nasin ike lon ni, jan Sepu."
+sec_0085_sefrou_line: "ona li jan pi wawa sewi tan ma lete ni li weka."
+sec_0085_guard_tall_threat: "o pana e pana ike tawa ona. o kama jo e ilo pi pakala luka."
+sec_0085_choice_attack: "o utala e jan utala pi ilo utala kipisi"
+sec_0085_choice_wait: "o utala ala e jan utala"
+char_lone_wolf: "jan Lansi Opa"
+char_hadj: "jan Sasi"
+char_zakhan: "jan Saman"
+char_bloodlug: "akesi Palala"
+char_sharnazim: "jan Sanasin"
+char_guard: "jan utala"
+char_maouk: "jan Mawa"
+char_zakhan_kimah: "jan Saman Kima"
+
+---
+# Basic English Narrative & Dialogue
+sec_0091_img_desc: "jan utala tomo li pana e ilo utala suli pi pakala kiwen tawa lawa sina. sina anpa noka tawa wawa tawa poka lon tenpo pi ilo utala li utala e sinpin kepeken seli lili."
+
+sec_0091_special_rule: "o weka e nanpa 4 tan WAWA UTALA sina tawa utala ni, tan ni: sina jo ala e ilo utala."
+
+# Simplified Choices
+sec_0091_choice_win_fast: "sina anpa e ona lon utala 4 anu lili la"
+sec_0091_choice_win_slow: "sina anpa e ona lon utala suli tan nanpa 4 la"
+---
+sec_0095_img_desc: "sina kama tan telo lon poka pi tomo tawa telo lili. sina tawa insa li len lon len. sina kon wawa, taso sina o kalama ala. jan utala pi jan Mawa li alasa e sina lon ale."
+sec_0095_choice_mind_over_matter: "sina jo e ken pi wawa pi kon lawa la"
+sec_0095_choice_no_mind_over_matter: "sina jo ala e ken ni la"
+char_lone_wolf: "jan Lansi Opa"
+char_sefrou: "jan Sepu"
+char_hadj: "jan Sasi"
+char_zakhan: "jan Saman"
+char_bloodlug: "akesi Palala"
+char_sharnazim: "jan Sanasin"
+char_guard: "jan utala"
+char_maouk: "jan Mawa"
+char_zakhan_kimah: "jan Saman Kima"

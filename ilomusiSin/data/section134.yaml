@@ -1,0 +1,30 @@
+section_id: 134
+language_standard:
+  vocabulary: Ogden_Basic_English
+  naming_convention: Strict_Tokiponized
+graphics:
+  image_file: scene142.gif
+  reconstructed_image_prompt: Dark fantasy digital illustration, underwater scene,
+    a dangerous sea creature Bloodlug turning away from hero towards a squid hiding
+    in a large antique copper urn, hero swimming away in background while watching
+    cautiously
+  image_caption_key: sec_0134_img_desc
+scene:
+  location: Under Salt Water
+  current_event: Hero uses Kai power to push sea creature away
+  characters_present:
+  - name_key: char_lone_wolf
+  - name_key: char_bloodlug
+  dialogue: []
+choices:
+- id: 1
+  text_key: sec_0134_choice_continue
+  target_section: 95
+  logic:
+    action: CONTINUE
+    intent: continue_swimming
+    keywords:
+    - continue
+    - swim away
+    - go to 95
+    - turn to 95

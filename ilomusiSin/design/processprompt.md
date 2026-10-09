@@ -1,0 +1,72 @@
+Here is a summary of our design decisions and formatting rules, formatted so you can paste it directly into another chat to process future sections.
+
+---
+
+# Gamebook Modernization Pipeline: Rules & Specification
+
+### 1. Architectural Strategy
+
+* **Data Format:** YAML structure (`section_XXX.yaml`), centralized name registry (`/data/names.yaml`), and externalized localization dictionaries (`/locales/en_basic.yaml`).
+* **Design Philosophy:** Minimalist, data-driven, and human-readable. All background narrative text/lore is stripped out, leaving only actionable scene data, character lines, image reconstruction prompts, and machine-executable choices.
+* **Dual Execution Model:**
+  1. *Deterministic Engine:* Routes standard choices directly to target section numbers.
+  2. *Minimal LLM Hook:* Uses choice intent tags and keywords to parse freeform player inputs and map them to the correct outcome.
+
+---
+
+### 2. Language & Naming Standards
+
+#### A. Ogden’s Basic English
+
+All player-facing descriptions, character dialogue, and choices must be written using simplified Basic English (~850-word vocabulary).
+
+#### B. Centralized Tokiponization & Name Registry
+
+All proper names (characters, places, groups) must be phoneticized using **strictly valid Toki Pona syllables** and registered in the central `names.yaml` registry.
+
+* **Allowed Syllables:** `a`, `e`, `i`, `o`, `u`, `pa`, `pe`, `pi`, `po`, `pu`, `ka`, `ke`, `ki`, `ko`, `ku`, `ta`, `te`, `to`, `tu`, `la`, `le`, `li`, `lo`, `lu`, `ma`, `me`, `mi`, `mo`, `mu`, `na`, `ne`, `ni`, `no`, `nu`, `sa`, `se`, `si`, `so`, `su`, `ja`, `je`, `jo`, `ju`, `wa`, `we`, `wi`, plus final nasal `n`.
+* **Forbidden Combinations:** `ji`, `ti`, `wo`, `wu`.
+* **Standard Prefixes:** Add Toki Pona category words before proper names where appropriate (e.g., `jan` for persons, `ma` for places).
+
+**Central Registry Requirement:**
+* Every section MUST reference characters and locations by their `name_key` (e.g., `char_lone_wolf`, `ma_palaki`) under `scene.characters_present` and `scene.location`.
+* Section files must **never** hardcode inline `tokipona_name` or `original_name` fields.
+* Every newly encountered character or proper entity must be added to `/data/names.yaml` using its generated `name_key`.
+
+**Reference Transformations:**
+* *Lone Wolf* -> **char_lone_wolf** (`original_name: "Lone Wolf"`, `tokipona_name: "jan Lansi Opa"`)
+* *Barrakeesh* -> **ma_palaki** (`original_name: "Barrakeesh"`, `tokipona_name: "ma Palaki"`)
+* *Maouk* -> **char_maouk** (`original_name: "Maouk"`, `tokipona_name: "jan Mawa"`)
+* *Zakhan Kimah* -> **char_zakhan_kimah** (`original_name: "Zakhan Kimah"`, `tokipona_name: "jan Saman Kima"`)
+* *Sharnazim* -> **char_sharnazim** (`original_name: "Sharnazim"`, `tokipona_name: "jan Sanasin"`)
+
+---
+
+### 3. Output Schemas & Examples
+
+When processing a new section, generate or update the following three files:
+
+#### File 1: Centralized Names Registry (`data/names.yaml`)
+
+Add any newly discovered characters, places, or entities to this central file:
+
+```yaml
+names:
+  char_lone_wolf:
+    original_name: "Lone Wolf"
+    tokipona_name: "jan Lansi Opa"
+  ma_palaki:
+    original_name: "Barrakeesh"
+    tokipona_name: "ma Palaki"
+  char_maouk:
+    original_name: "Maouk"
+    tokipona_name: "jan Mawa"
+  char_zakhan_kimah:
+    original_name: "Zakhan Kimah"
+    tokipona_name: "jan Saman Kima"
+  char_sharnazim:
+    original_name: "Sharnazim"
+    tokipona_name: "jan Sanasin"
+  char_envoy:
+    original_name: "Envoy"
+    tokipona_name: "jan pana"

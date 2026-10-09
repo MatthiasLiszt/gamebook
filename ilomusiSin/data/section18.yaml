@@ -1,0 +1,18 @@
+section: 18
+
+scene:
+  location: ma_dahir
+  characters_present:
+    - char_lone_wolf
+    - char_zakhan
+    - char_haakon
+
+  summary: "At sunset, you are taken to the Grand Hall to meet the Zakhan and his guest, Darklord Haakon. Unarmed and helpless, you are forced to kneel, and Haakon strangles you to death. Your quest ends here."
+
+  image_prompt: "A dark fantasy grand hall at sunset, an unarmed warrior kneeling in chains before a sinister dark lord, cinematic lighting, dramatic fatal scene"
+
+text:
+  narrative_key: "section_018_narrative"
+
+choices: []
+is_death_state: true

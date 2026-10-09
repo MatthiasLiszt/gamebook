@@ -1,0 +1,122 @@
+section_id: 36
+language_standard:
+  vocabulary: Ogden_Basic_English
+  naming_convention: Strict_Tokiponized
+graphics:
+  image_file: scene1.gif
+  reconstructed_image_prompt: Dark fantasy digital illustration, dark clad Sanasin
+    warriors with curved scimitars surrounding a hero in bright afternoon sun, men
+    falling defeated, evil leader jan Mawa mocking with sharp smile, hero being overpowered
+    and grabbed
+  image_caption_key: sec_0036_img_desc
+scene:
+  location: Harbor of Palaki
+  current_event: Hero overpowered by guards
+  characters_present:
+  - name_key: char_lone_wolf
+  - name_key: char_maouk
+  - name_key: char_sharnazim
+  dialogue:
+  - speaker_key: char_maouk
+    line_key: sec_0036_maouk_command
+  - speaker_key: char_maouk
+    line_key: sec_0036_maouk_mock
+choices:
+- id: 1
+  text_key: sec_0036_choice_continue
+  target_section: 176
+  logic:
+    action: AUTO_TRANSITION
+    intent: be_captured
+    keywords:
+    - continue
+    - turn page
+    - captured
+    - surrender
+---
+section_id: 104
+language_standard:
+  vocabulary: Ogden_Basic_English
+  naming_convention: Strict_Tokiponized
+graphics:
+  image_file: scene1.gif
+  reconstructed_image_prompt: Dark fantasy digital illustration, Lone Wolf running
+    toward a ship in a desert port, a horseman with weapon cutting across the path
+    to block access, blue sea in background
+  image_caption_key: sec_0104_img_desc
+scene:
+  location: Harbor of Palaki
+  current_event: Fleeing toward the ship
+  characters_present:
+  - name_key: char_lone_wolf
+  - name_key: char_maouk
+  dialogue:
+  - speaker_key: char_maouk
+    line_key: sec_0104_maouk_command
+choices:
+- id: 1
+  text_key: sec_0104_choice_attack
+  target_section: 20
+  logic:
+    action: COMBAT
+    intent: attack_horseman
+    keywords:
+    - attack horseman
+    - fight man on horse
+    - hit rider
+    - sword attack
+- id: 2
+  text_key: sec_0104_choice_jump_sea
+  target_section: 142
+  logic:
+    action: ESCAPE
+    intent: dive_into_water
+    keywords:
+    - jump in water
+    - dive in sea
+    - swim away
+    - water
+- id: 3
+  text_key: sec_0104_choice_surrender
+  target_section: 176
+  logic:
+    action: SURRENDER
+    intent: give_up
+    keywords:
+    - stop
+    - surrender
+    - give up
+    - let them take me
+---
+section_id: 176
+language_standard:
+  vocabulary: Ogden_Basic_English
+  naming_convention: Strict_Tokiponized
+graphics:
+  image_file: scene176.gif
+  reconstructed_image_prompt: Dark fantasy digital illustration, hero tied up and
+    thrown inside a dark wooden carriage, sinister man jan Mawa pushing a small sleeping
+    dart into hero's arm, evil laughing face fading as eyes close
+  image_caption_key: sec_0176_img_desc
+scene:
+  location: Carriage near Palace of Palaki
+  current_event: Hero disarmed and drugged in carriage
+  characters_present:
+  - name_key: char_lone_wolf
+  - name_key: char_maouk
+  - name_key: char_zakhan_kimah
+  dialogue:
+  - speaker_key: char_maouk
+    line_key: sec_0176_maouk_command
+choices:
+- id: 1
+  text_key: sec_0176_choice_continue
+  target_section: 69
+  logic:
+    action: AUTO_TRANSITION
+    intent: fall_asleep
+    keywords:
+    - sleep
+    - continue
+    - turn page
+    - pass out

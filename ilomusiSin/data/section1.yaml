@@ -1,0 +1,43 @@
+section_id: 1
+
+# Graphical Assets & Reconstruction Prompt
+graphics:
+  image_file: "scene1.gif"
+  reconstructed_image_prompt: "Dark fantasy digital illustration, POV from ship deck looking at a desert port city, a sinister ambassador in turquoise robes holding a dripping bloody dagger, an envoy falling over, scores of elite black-clad guards with scimitars ambushing, sunlit golden domes and black flags in the background, tense dramatic lighting"
+  image_caption_key: "sec_0001_img_desc"
+
+# Core Scene State & Narrative Highlights (Only what happens RIGHT NOW)
+scene:
+  location: "Barrakeesh Harbour Deck"
+  current_event: "Ambush upon arrival"
+  dialogue:
+    - speaker_key: "char_maouk"
+      line_key: "sec_0001_maouk_greeting"
+    - speaker_key: "char_envoy"
+      line_key: "sec_0001_envoy_warning"
+
+# Choices (Both Human-Readable & Machine-Executable Logic)
+choices:
+  - id: 1
+    text_key: "sec_0001_choice_fight"
+    target_section: 36
+    logic:
+      action: "COMBAT"
+      intent: "attack_guards"
+      keywords: ["fight", "attack", "draw sword", "draw weapon", "kill"]
+
+  - id: 2
+    text_key: "sec_0001_choice_surrender"
+    target_section: 176
+    logic:
+      action: "SURRENDER"
+      intent: "give_up"
+      keywords: ["surrender", "yield", "hands up", "stop", "submit"]
+
+  - id: 3
+    text_key: "sec_0001_choice_flee"
+    target_section: 104
+    logic:
+      action: "ESCAPE"
+      intent: "run_away"
+      keywords: ["run", "flee", "retreat", "jump in water", "ship", "galley"]

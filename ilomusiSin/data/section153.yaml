@@ -1,0 +1,53 @@
+section_id: 153
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: "scene153.gif"
+  reconstructed_image_prompt: "Action fantasy digital illustration, fast-paced chase scene. Lone Wolf sprints into an open courtyard surrounded by stone buildings in a shadowy city quarter. Three distinct paths lie ahead: a heavy wooden gate with metal nails on the left, a narrow dark alley on the right, and a straight stone path leading to a grand archway in the center."
+  image_caption_key: "sec_0153_img_desc"
+
+scene:
+  location_key: "ma_thieves_quarter"
+  current_event: "Escaping enemy pursuers into an open courtyard with three exit choices"
+  characters_present:
+    - name_key: "char_lone_wolf"
+    - name_key: "char_maouk"
+  dialogue: []
+
+items_gained: []
+
+choices:
+  - id: 1
+    text_key: "sec_0153_choice_tracking"
+    target_section: 42
+    logic:
+      action: "CHECK_DISCIPLINE"
+      intent: "has_discipline_tracking"
+      keywords: ["tracking", "discipline of tracking", "find path"]
+
+  - id: 2
+    text_key: "sec_0153_choice_gate"
+    target_section: 75
+    logic:
+      action: "GOTO"
+      intent: "enter_gate"
+      keywords: ["gate", "nail-studded gate", "left", "enter gate"]
+
+  - id: 3
+    text_key: "sec_0153_choice_alley"
+    target_section: 117
+    logic:
+      action: "GOTO"
+      intent: "enter_alley"
+      keywords: ["alley", "right", "enter alley"]
+
+  - id: 4
+    text_key: "sec_0153_choice_arch"
+    target_section: 169
+    logic:
+      action: "GOTO"
+      intent: "take_pathway_arch"
+      keywords: ["arch", "straight path", "pathway", "archway"]

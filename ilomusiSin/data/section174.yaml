@@ -1,0 +1,31 @@
+section: 174
+scene:
+  location: ma_vassagonia
+  characters_present:
+    - char_lone_wolf
+    - char_guard
+  visual_prompt: >-
+    Action scene in a stone hall. A warrior hits a tall guard on the back of the neck.
+    The tall guard falls to his knees, dropping his sword onto the floor.
+    A second guard stands nearby.
+
+choices:
+  - id: choice_174_take_sword
+    target_section: 4
+    intent_tag: TAKE_SWORD
+    keywords:
+      - sword
+      - weapon
+      - pick up
+      - take
+      - grab
+
+  - id: choice_174_unarmed_attack
+    target_section: 91
+    intent_tag: ATTACK_UNARMED
+    keywords:
+      - attack
+      - punch
+      - bare hands
+      - second guard
+      - ignore sword

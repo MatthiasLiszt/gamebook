@@ -1,0 +1,37 @@
+section_id: 12
+language_standard:
+  vocabulary: Ogden_Basic_English
+  naming_convention: Strict_Tokiponized
+graphics:
+  image_file: scene142.gif
+  reconstructed_image_prompt: Dark fantasy digital illustration, underwater combat
+    scene, hero fighting a terrifying predatory saltwater creature Bloodlug with razor-sharp
+    teeth and aggressive tentacles in murky sea water, bubbles and blood in the water
+  image_caption_key: section69.gif
+scene:
+  location: Under Salt Water
+  current_event: Underwater fight against a sea beast
+  characters_present:
+  - name_key: char_lone_wolf
+  - name_key: char_bloodlug
+  dialogue: []
+combat:
+  enemy_name_key: char_bloodlug
+  combat_skill: 17
+  endurance: 11
+  combat_modifiers:
+    hero_combat_skill_penalty: 2
+    mindblast_immune: true
+choices:
+- id: 1
+  text_key: sec_0012_choice_win
+  target_section: 95
+  logic:
+    action: COMBAT
+    intent: win_fight
+    keywords:
+    - fight
+    - kill beast
+    - win fight
+    - attack
+    - use weapon

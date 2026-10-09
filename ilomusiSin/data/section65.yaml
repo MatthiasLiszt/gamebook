@@ -1,0 +1,36 @@
+section_id: 65
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: "scene69.gif"
+  reconstructed_image_prompt: "Action fantasy digital illustration, POV looking down at a defeated guard lying still on the stone floor while a second wounded guard crawls toward his dropped sword"
+  image_caption_key: "sec_0065_img_desc"
+
+scene:
+  location_key: null
+  current_event: "Post-combat decision"
+  characters_present:
+    - name_key: "char_lone_wolf"
+    - name_key: "char_palace_gaoler"
+    - name_key: "char_gaoler_crawling"
+  dialogue: []
+
+choices:
+  - id: 1
+    text_key: "sec_0065_choice_attack"
+    target_section: 78
+    logic:
+      action: "DIRECT_CHOICE"
+      intent: "attack_guard"
+      keywords: ["attack", "kill", "strike", "fight", "sword", "78"]
+
+  - id: 2
+    text_key: "sec_0065_choice_capture"
+    target_section: 199
+    logic:
+      action: "DIRECT_CHOICE"
+      intent: "capture_guard"
+      keywords: ["overpower", "capture", "alive", "take", "hold", "199"]

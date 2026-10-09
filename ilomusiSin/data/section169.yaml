@@ -1,0 +1,52 @@
+section_id: 169
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: "scene169.gif"
+  reconstructed_image_prompt: ""
+  image_caption_key: ""
+
+scene:
+  location_key: "ma_palaki"
+  current_event: "Walking through a crowded market street and narrow tavern passage where black sashes are sold and a poster is displayed"
+  characters_present:
+    - name_key: "char_lone_wolf"
+  dialogue: []
+
+items_gained: []
+
+choices:
+  - id: 1
+    text_key: "sec_0169_choice_buy_sash_read"
+    target_section: 88
+    logic:
+      action: "BUY_ITEM_AND_GOTO"
+      intent: "buy_sash_and_read_poster"
+      keywords: ["buy sash", "pay 2 gold crowns", "black sash", "read poster", "poster", "notice"]
+
+  - id: 2
+    text_key: "sec_0169_choice_buy_sash_continue"
+    target_section: 113
+    logic:
+      action: "BUY_ITEM_AND_GOTO"
+      intent: "buy_sash_and_continue"
+      keywords: ["buy sash", "pay 2 gold crowns", "black sash", "continue passage", "walk past"]
+
+  - id: 3
+    text_key: "sec_0169_choice_read"
+    target_section: 88
+    logic:
+      action: "GOTO"
+      intent: "read_poster"
+      keywords: ["read poster", "read notice", "stop to read", "poster", "wall"]
+
+  - id: 4
+    text_key: "sec_0169_choice_continue"
+    target_section: 113
+    logic:
+      action: "GOTO"
+      intent: "continue_passage"
+      keywords: ["continue", "keep going", "walk on", "passage"]

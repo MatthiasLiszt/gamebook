@@ -1,0 +1,41 @@
+section_id: 95
+language_standard:
+  vocabulary: Ogden_Basic_English
+  naming_convention: Strict_Tokiponized
+graphics:
+  image_file: scene95.gif
+  reconstructed_image_prompt: Dark fantasy digital illustration, POV looking out from
+    underneath a small wooden skiff's woven rush canopy, hero hiding wet and breathless,
+    sea water dripping, harbour of Barrakeesh in background with bad soldiers searching
+    along harbour walls with torches and weapons
+  image_caption_key: sec_0095_img_desc
+scene:
+  location: Harbor of Palaki
+  current_event: Hero hides under a boat canopy to avoid pursuers
+  characters_present:
+  - name_key: char_lone_wolf
+  - name_key: char_maouk
+  dialogue: []
+choices:
+- id: 1
+  text_key: sec_0095_choice_mind_over_matter
+  target_section: 184
+  logic:
+    action: USE_DISCIPLINE
+    intent: use_mind_over_matter
+    keywords:
+    - mind over matter
+    - magic skill
+    - use mind discipline
+    - mind power
+    required_discipline: Mind Over Matter
+- id: 2
+  text_key: sec_0095_choice_no_mind_over_matter
+  target_section: 56
+  logic:
+    action: CONTINUE
+    intent: no_mind_over_matter
+    keywords:
+    - no skill
+    - no mind over matter
+    - do not have skill

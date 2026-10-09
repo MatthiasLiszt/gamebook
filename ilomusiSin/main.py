@@ -1,0 +1,491 @@
+import asyncio
+import json
+import os
+import re
+import sys
+import textwrap
+import pygame
+import yaml
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+WIDTH, HEIGHT = 800, 600
+FPS = 60
+MAX_CHAR_PER_LINE = 40
+
+COLOR_BG = (15, 15, 20)
+COLOR_TEXT = (220, 220, 220)
+COLOR_HIGHLIGHT = (255, 200, 80)
+COLOR_UI = (120, 180, 255)
+
+# Load UCSUR mapping
+UCSUR_MAP_PATH = os.path.join(BASE_DIR, "ucsur.json")
+UCSUR_MAP = {}
+if os.path.exists(UCSUR_MAP_PATH):
+    try:
+        with open(UCSUR_MAP_PATH, "r", encoding="utf-8") as f:
+            UCSUR_MAP = json.load(f)
+    except Exception as e:
+        print(f"[Error] Failed loading ucsur.json: {e}")
+
+SYLLABLE_PATTERN = re.compile(
+    r"(a|e|i|o|u|ka|ke|ki|ko|ku|sa|se|si|so|su|ta|te|to|tu|na|ne|ni|no|nu|pa|pe|pi|po|pu|ma|me|mi|mo|mu|ja|je|jo|ju|la|le|li|lo|lu|wa|wi|wu|wo|n)",
+    re.IGNORECASE,
+)
+
+
+def toki_pona_to_ucsur(text: str) -> str:
+    """Converts Latin Toki Pona string into UCSUR Unicode glyphs."""
+    tokens = re.findall(r"\w+|[^\w\s]|\s+", text)
+    result = []
+
+    for token in tokens:
+        clean = token.lower()
+
+        # Handle Proper Names (Cartouches)
+        if token.istitle() and not token.islower():
+            syllables = SYLLABLE_PATTERN.findall(clean)
+            cartouche_content = [
+                UCSUR_MAP.get(s[0], s) for s in syllables
+            ]
+            dot = UCSUR_MAP.get("middle_dot", "·")
+            start = UCSUR_MAP.get("cartouche_start", "󱥔")
+            end = UCSUR_MAP.get("cartouche_end", "󱥕")
+            result.append(f"{start}{dot.join(cartouche_content)}{end}")
+
+        # Standard Words
+        elif clean in UCSUR_MAP:
+            result.append(UCSUR_MAP[clean])
+        elif token == ":":
+            result.append(UCSUR_MAP.get("colon", ":"))
+        else:
+            result.append(token)
+
+    return "".join(result)
+
+
+def deep_update(d, u):
+    """Recursively merge dictionary u into d while flattening nested section blocks."""
+    if not isinstance(u, dict):
+        return
+
+    for k, v in u.items():
+        # Handle nested section blocks like section_174 or section_018_narrative
+        if k.startswith("section_") or k.startswith("sec_"):
+            parts = k.split("_")
+            num_str = next((p for p in parts if p.isdigit()), "")
+            if num_str:
+                formatted_num = num_str.zfill(4)
+                if isinstance(v, dict):
+                    if "description" in v:
+                        d[f"sec_{formatted_num}_img_desc"] = v["description"]
+                        d[f"sec_{formatted_num}_narrative"] = v["description"]
+                    if "choices" in v and isinstance(v["choices"], dict):
+                        for ck, cv in v["choices"].items():
+                            d[ck] = cv
+                            d[f"sec_{formatted_num}_{ck}"] = cv
+                    continue
+                elif isinstance(v, str) and "narrative" in k:
+                    d[f"sec_{formatted_num}_img_desc"] = v
+                    d[f"sec_{formatted_num}_narrative"] = v
+
+        if isinstance(v, dict):
+            if k in d and isinstance(d[k], dict):
+                deep_update(d[k], v)
+            else:
+                d[k] = v
+        else:
+            d[k] = str(v) if v is not None else ""
+
+
+class RetroTextAdventure:
+    def __init__(self):
+        pygame.init()
+        self.flags = pygame.RESIZABLE
+        self.screen = pygame.display.set_mode((WIDTH, HEIGHT), self.flags)
+        self.is_fullscreen = False
+        pygame.display.set_caption("Augmented Gamebook")
+        self.clock = pygame.time.Clock()
+
+        # Language configuration
+        self.current_lang = "ogden"
+        self.current_script = ""
+
+        self.state = "SHOW_IMAGE"
+        self.current_section_id = 1
+
+        self.all_sections = {}
+        self.all_locales = {}
+
+        self.current_image = None
+        self.active_font = None
+        self.choice_rects = []
+
+        self.load_all_data()
+
+    def load_all_data(self):
+        """Recursively loads all YAML files in the 'data' directory."""
+        data_dir = os.path.join(BASE_DIR, "data")
+        self.all_sections.clear()
+
+        if os.path.exists(data_dir):
+            loaded_files = 0
+            for root, _, files in os.walk(data_dir):
+                for file in files:
+                    if file.endswith((".yaml", ".yml")):
+                        file_path = os.path.join(root, file)
+                        try:
+                            with open(file_path, "r", encoding="utf-8") as f:
+                                for doc in yaml.safe_load_all(f):
+                                    if not doc or not isinstance(doc, dict):
+                                        continue
+                                    if "section_id" in doc:
+                                        self.all_sections[doc["section_id"]] = doc
+                                    elif "sections" in doc and isinstance(doc["sections"], list):
+                                        for sec in doc["sections"]:
+                                            if isinstance(sec, dict) and "section_id" in sec:
+                                                self.all_sections[sec["section_id"]] = sec
+                            loaded_files += 1
+                        except Exception as e:
+                            print(f"[Error] Failed to load {file_path}: {e}")
+
+            print(f"[Init] Loaded {len(self.all_sections)} sections from {loaded_files} file(s) in data/")
+        else:
+            print(f"[Error] Missing directory: {data_dir}")
+
+        self.load_locale_data()
+
+    def load_locale_data(self):
+        """Recursively loads locale YAML files and merges translation strings."""
+        self.all_locales.clear()
+
+        # 1. Load central names first as base keys
+        names_path = os.path.join(BASE_DIR, "data", "names.yaml")
+        if os.path.exists(names_path):
+            try:
+                with open(names_path, "r", encoding="utf-8") as f:
+                    names_data = yaml.safe_load(f) or {}
+                    for key, val in names_data.get("names", {}).items():
+                        if self.current_lang == "tokipona":
+                            self.all_locales[key] = val.get("tokipona_name", "")
+                        else:
+                            self.all_locales[key] = val.get("original_name", "")
+            except Exception as e:
+                print(f"[Error] Failed loading names.yaml: {e}")
+
+        # 2. Recursively load all scene YAML files inside locales/<current_lang>
+        locale_dir = os.path.join(BASE_DIR, "locales", self.current_lang)
+
+        if os.path.exists(locale_dir):
+            loaded_files = 0
+            for root, _, files in os.walk(locale_dir):
+                if self.current_script != "ucsur" and os.path.basename(root) == "ucsur":
+                    continue
+
+                for file in sorted(files):
+                    if file.endswith((".yaml", ".yml")):
+                        file_path = os.path.join(root, file)
+                        try:
+                            with open(file_path, "r", encoding="utf-8") as f:
+                                for doc in yaml.safe_load_all(f):
+                                    if doc and isinstance(doc, dict):
+                                        deep_update(self.all_locales, doc)
+                            loaded_files += 1
+                        except Exception as e:
+                            print(f"[Error] Failed to load locale file {file_path}: {e}")
+
+            print(f"[Init] Loaded locale strings from {loaded_files} file(s) in {locale_dir}")
+
+        # 3. Load UCSUR specific overrides if active
+        if self.current_script == "ucsur":
+            ucsur_dir = os.path.join(locale_dir, "ucsur")
+            if os.path.exists(ucsur_dir):
+                for root, _, files in os.walk(ucsur_dir):
+                    for file in sorted(files):
+                        if file.endswith((".yaml", ".yml")):
+                            file_path = os.path.join(root, file)
+                            try:
+                                with open(file_path, "r", encoding="utf-8") as f:
+                                    for doc in yaml.safe_load_all(f):
+                                        if doc and isinstance(doc, dict):
+                                            deep_update(self.all_locales, doc)
+                            except Exception as e:
+                                print(f"[Error] Failed to load UCSUR locale file {file_path}: {e}")
+
+        # Font configuration
+        if self.current_script == "ucsur":
+            font_name = self.all_locales.get("font", "nasin-nanpa.ttf")
+            is_custom = True
+            font_size = 28
+        else:
+            font_name = self.all_locales.get("font", "Courier")
+            is_custom = self.all_locales.get("is_custom_font", False)
+            font_size = 20
+
+        self.active_font = self.load_font(font_name, is_custom, size=font_size)
+
+    def cycle_language(self):
+        """Toggles between available languages."""
+        if self.current_lang == "ogden":
+            self.current_lang = "tokipona"
+        else:
+            self.current_lang = "ogden"
+            self.current_script = ""
+        self.load_locale_data()
+        print(f"[Language] Changed to: {self.current_lang.upper()}")
+
+    def cycle_script(self):
+        """Toggles script mode between Latin and UCSUR (only in Toki Pona mode)."""
+        if self.current_lang == "tokipona":
+            if self.current_script == "ucsur":
+                self.current_script = ""
+            else:
+                self.current_script = "ucsur"
+            self.load_locale_data()
+            print(f"[Script] Changed to: {self.current_script.upper() or 'LATIN'}")
+
+    def save_game(self, filename="savegame.json"):
+        save_path = os.path.join(BASE_DIR, filename)
+        save_data = {
+            "current_section_id": self.current_section_id,
+            "state": self.state,
+            "current_lang": self.current_lang,
+            "current_script": self.current_script,
+        }
+        try:
+            with open(save_path, "w", encoding="utf-8") as f:
+                json.dump(save_data, f, indent=4)
+            print(f"[Save] Game saved successfully to {filename}")
+            return True
+        except Exception as e:
+            print(f"[Error] Failed to save game: {e}")
+            return False
+
+    def load_game(self, filename="savegame.json"):
+        save_path = os.path.join(BASE_DIR, filename)
+        if not os.path.exists(save_path):
+            print(f"[Error] Save file '{filename}' does not exist.")
+            return False
+
+        try:
+            with open(save_path, "r", encoding="utf-8") as f:
+                save_data = json.load(f)
+
+            self.current_lang = save_data.get("current_lang", self.current_lang)
+            self.current_script = save_data.get("current_script", self.current_script)
+            self.load_locale_data()
+
+            section_id = save_data.get("current_section_id", 1)
+            self.load_section(section_id)
+            self.state = save_data.get("state", "SHOW_IMAGE")
+
+            print(f"[Load] Game loaded successfully from {filename}")
+            return True
+        except Exception as e:
+            print(f"[Error] Failed to load game: {e}")
+            return False
+
+    def toggle_fullscreen(self):
+        self.is_fullscreen = not self.is_fullscreen
+        if self.is_fullscreen:
+            self.screen = pygame.display.set_mode((WIDTH, HEIGHT), pygame.FULLSCREEN)
+        else:
+            self.screen = pygame.display.set_mode((WIDTH, HEIGHT), self.flags)
+
+    def load_font(self, font_name, is_custom=False, size=20):
+        try:
+            if is_custom:
+                font_path = os.path.join(BASE_DIR, "fonts", font_name)
+                return pygame.font.Font(font_path, size)
+            else:
+                return pygame.font.SysFont(font_name, size, bold=True)
+        except Exception as e:
+            print(f"[Warning] Custom font load failed for '{font_name}': {e}")
+            return pygame.font.SysFont("Courier", size, bold=True)
+
+    def load_section(self, section_id):
+        if section_id not in self.all_sections:
+            print(f"[Error] Section {section_id} not found in loaded sections!")
+            return False
+
+        self.current_section_id = section_id
+        section_data = self.all_sections[section_id]
+
+        img_filename = section_data.get("graphics", {}).get("image_file", "")
+        img_path = os.path.join(BASE_DIR, "pictures", img_filename)
+
+        if os.path.exists(img_path):
+            raw_img = pygame.image.load(img_path).convert()
+            self.current_image = pygame.transform.scale(raw_img, (600, 280))
+        else:
+            self.current_image = None
+
+        self.state = "SHOW_IMAGE"
+        print(f"[Game] Switched to Section {section_id}")
+        return True
+
+    def trigger_choice(self, index):
+        section_data = self.all_sections.get(self.current_section_id, {})
+        choices = section_data.get("choices", [])
+        if index < len(choices):
+            target = choices[index]["target_section"]
+            print(f"[Action] Choice {index + 1} selected -> Target Section {target}")
+            self.load_section(target)
+
+    def format_text(self, text):
+        if self.current_script == "ucsur" and text:
+            return toki_pona_to_ucsur(text)
+        return str(text) if text else ""
+
+    def render_wrapped_text(self, text, start_y, color=COLOR_TEXT):
+        text = self.format_text(text)
+        if not text:
+            return start_y
+        wrap_width = 30 if self.current_script == "ucsur" else MAX_CHAR_PER_LINE
+        lines = textwrap.wrap(text, width=wrap_width)
+        y_offset = start_y
+
+        for line in lines:
+            text_surface = self.active_font.render(line, False, color)
+            self.screen.blit(text_surface, (50, y_offset))
+            y_offset += self.active_font.get_height() + 4
+
+        return y_offset
+
+    def get_locale_string(self, primary_key, sec_id=None, fallback_suffix=None):
+        """Helper to resolve translation strings with multiple key fallback strategies."""
+        if primary_key and primary_key in self.all_locales:
+            val = self.all_locales[primary_key]
+            if isinstance(val, str) and val.strip():
+                return val
+
+        if sec_id is not None:
+            formatted_sec = str(sec_id).zfill(4)
+            candidates = [
+                f"sec_{formatted_sec}_{fallback_suffix}",
+                f"section_{formatted_sec}_{fallback_suffix}",
+                f"section_{sec_id}_{fallback_suffix}",
+            ]
+            for cand in candidates:
+                if cand in self.all_locales and isinstance(self.all_locales[cand], str):
+                    return self.all_locales[cand]
+
+        return ""
+
+    def draw(self):
+        self.screen.fill(COLOR_BG)
+        self.choice_rects.clear()
+
+        # Top HUD
+        ui_font = pygame.font.SysFont("Courier", 13)
+        script_display = self.current_script.upper() if self.current_script else "LATIN"
+        status_str = f"[ESC/Q] Quit | [S] Save | [L] Load | [C] Lang: {self.current_lang.upper()} | [V] Script: {script_display}"
+        ui_surface = ui_font.render(status_str, True, COLOR_UI)
+        self.screen.blit(ui_surface, (10, 10))
+
+        # Section Image
+        if self.current_image:
+            self.screen.blit(self.current_image, (100, 35))
+
+        section_data = self.all_sections.get(self.current_section_id, {})
+
+        # Main Content
+        if self.state in ["SHOW_TEXT", "WAITING_FOR_INPUT"]:
+            cursor_y = 330
+
+            # Narrative Description
+            desc_key = section_data.get("graphics", {}).get("image_caption_key", "")
+            desc_text = self.get_locale_string(desc_key, self.current_section_id, "img_desc") or \
+                        self.get_locale_string(None, self.current_section_id, "narrative")
+
+            if desc_text:
+                cursor_y = self.render_wrapped_text(desc_text, cursor_y) + 8
+
+            # Dialogue Lines
+            for dialogue in section_data.get("scene", {}).get("dialogue", []):
+                line_key = dialogue.get("line_key", "")
+                speaker_key = dialogue.get("speaker_key", "")
+
+                speaker_name = self.get_locale_string(speaker_key)
+                line_text = self.get_locale_string(line_key)
+
+                if line_text:
+                    formatted_dlg = f'{speaker_name}: "{line_text}"' if speaker_name else f'"{line_text}"'
+                    cursor_y = self.render_wrapped_text(formatted_dlg, cursor_y, COLOR_HIGHLIGHT)
+
+            cursor_y += 8
+
+            # Choices
+            for idx, choice in enumerate(section_data.get("choices", [])):
+                key = choice.get("text_key", "")
+                c_text = self.get_locale_string(key)
+                display_line = f"[{idx + 1}] {c_text}" if c_text else f"[{idx + 1}] (Select)"
+
+                start_y = cursor_y
+                cursor_y = self.render_wrapped_text(display_line, cursor_y)
+
+                rect = pygame.Rect(50, start_y, 700, max(24, cursor_y - start_y))
+                self.choice_rects.append((rect, idx))
+
+        elif self.state == "SHOW_IMAGE":
+            prompt_text = "Press SPACE / Click to show text..."
+            if self.current_script == "ucsur":
+                prompt_text = toki_pona_to_ucsur("o kepeken e leko sike ni tan lukin e sitelen")
+            prompt = self.active_font.render(prompt_text, False, COLOR_HIGHLIGHT)
+            self.screen.blit(prompt, (50, 340))
+
+        pygame.display.flip()
+
+    async def run(self):
+        self.load_section(self.current_section_id)
+        running = True
+
+        while running:
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    running = False
+
+                elif event.type == pygame.KEYDOWN:
+                    if event.key in (pygame.K_ESCAPE, pygame.K_q):
+                        running = False
+                    elif event.key == pygame.K_F11:
+                        self.toggle_fullscreen()
+                    elif event.key == pygame.K_c:
+                        self.cycle_language()
+                    elif event.key == pygame.K_v:
+                        self.cycle_script()
+                    elif event.key == pygame.K_s:
+                        self.save_game()
+                    elif event.key == pygame.K_l:
+                        self.load_game()
+
+                    if self.state == "SHOW_IMAGE":
+                        if event.key in (pygame.K_SPACE, pygame.K_RETURN):
+                            self.state = "SHOW_TEXT"
+
+                    elif self.state in ["SHOW_TEXT", "WAITING_FOR_INPUT"]:
+                        if pygame.K_1 <= event.key <= pygame.K_9:
+                            self.trigger_choice(event.key - pygame.K_1)
+                        elif pygame.K_KP1 <= event.key <= pygame.K_KP9:
+                            self.trigger_choice(event.key - pygame.K_KP1)
+
+                elif event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+                    if self.state == "SHOW_IMAGE":
+                        self.state = "SHOW_TEXT"
+                    elif self.state in ["SHOW_TEXT", "WAITING_FOR_INPUT"]:
+                        for rect, idx in self.choice_rects:
+                            if rect.collidepoint(event.pos):
+                                self.trigger_choice(idx)
+                                break
+
+            self.draw()
+            self.clock.tick(FPS)
+            await asyncio.sleep(0)
+
+        pygame.quit()
+        sys.exit()
+
+
+if __name__ == "__main__":
+    game = RetroTextAdventure()
+    asyncio.run(game.run())

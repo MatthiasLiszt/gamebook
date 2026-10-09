@@ -1,0 +1,34 @@
+section_id: 117
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: null
+  reconstructed_image_prompt: ""
+  image_caption_key: ""
+
+scene:
+  location_key: "ma_thieves_quarter"
+  current_event: "Cornered on a wooden trellis in a small garden square by Maouk and his armed men, forcing a surrender"
+  characters_present:
+    - name_key: "char_lone_wolf"
+    - name_key: "char_maouk"
+    - name_key: "char_sharnazim"
+  dialogue:
+    - speaker_key: "char_maouk"
+      text_key: "sec_0117_dialogue_maouk_1"
+    - speaker_key: "char_maouk"
+      text_key: "sec_0117_dialogue_maouk_2"
+
+items_gained: []
+
+choices:
+  - id: 1
+    text_key: "sec_0117_choice_continue"
+    target_section: 176
+    logic:
+      action: "GOTO"
+      intent: "continue_story"
+      keywords: ["continue", "surrender", "jump down", "next"]

@@ -1,0 +1,33 @@
+section_id: 50
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: "section_050.png"
+  reconstructed_image_prompt: "Dark fantasy illustration, POV looking down as black clad Sharnazim warriors drag a wet traveler by his cloak across sunny harbour stones to the feet of a smiling bad man Maouk"
+  image_caption_key: "sec_0050_img_desc"
+
+scene:
+  location_key: "ma_palaki"
+  current_event: "Captured after slipping into water"
+  characters_present:
+    - name_key: "char_lone_wolf"
+    - name_key: "char_sharnazim"
+    - name_key: "char_maouk"
+  dialogue:
+    - speaker_key: "char_maouk"
+      line_key: "sec_0050_maouk_taunt"
+
+stat_changes:
+  endurance: -2
+
+choices:
+  - id: 1
+    text_key: "sec_0050_choice_continue"
+    target_section: 176
+    logic:
+      action: "CONTINUE"
+      intent: "go_to_next_section"
+      keywords: ["continue", "turn to 176", "next"]

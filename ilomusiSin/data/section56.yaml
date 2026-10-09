@@ -1,0 +1,47 @@
+section_id: 56
+
+language_standard:
+  vocabulary: "Ogden_Basic_English"
+  naming_convention: "Strict_Tokiponized"
+
+graphics:
+  image_file: "scene95.gif"
+  reconstructed_image_prompt: "Action fantasy digital illustration, POV holding a newly found wooden hunting bow Jakan, taking aim across a desert town harbour square toward green glass bottles on a white shop balcony"
+  image_caption_key: "sec_0056_img_desc"
+
+scene:
+  location_key: null
+  current_event: "Taking aim with a newly found bow"
+  characters_present:
+    - name_key: "char_lone_wolf"
+    - name_key: "char_maouk"
+  dialogue: []
+
+items_gained:
+  - item_name: "Jakan Bow"
+    type: "WEAPON"
+  - item_name: "Arrow"
+    type: "SPECIAL_ITEM"
+    quantity: 1
+
+random_number_check:
+  modifiers:
+    - discipline: "Weaponskill"
+      bonus: 2
+
+choices:
+  - id: 1
+    text_key: "sec_0056_choice_low_score"
+    target_section: 7
+    logic:
+      action: "RANDOM_OUTCOME"
+      intent: "total_0_to_3"
+      keywords: ["0-3", "miss", "low score"]
+
+  - id: 2
+    text_key: "sec_0056_choice_high_score"
+    target_section: 28
+    logic:
+      action: "RANDOM_OUTCOME"
+      intent: "total_4_to_11"
+      keywords: ["4-11", "hit", "high score"]
